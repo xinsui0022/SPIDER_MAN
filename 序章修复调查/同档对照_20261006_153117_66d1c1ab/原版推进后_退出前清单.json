@@ -1,0 +1,26 @@
+{
+  "utc": "2026-10-06T07:40:52.927355+00:00",
+  "manifest": {
+    "files": {
+      "-userprefs.save": {
+        "size": 1464,
+        "sha256": "5c15a4e00548917d18d6de5daf24040ad96af16c7915d6bebe5c99842cd3883e"
+      },
+      "slot0-s.save": {
+        "size": 94782,
+        "sha256": "0b8dcafbd883ad6f4dd98789078e344e967929d4cac3c16239b694e231ab374e"
+      },
+      "slot3-s.save": {
+        "size": 143694,
+        "sha256": "a8364131cb6cc9d8aa35301e043431aefc160f688c883b721d9bfe842edd64c3"
+      },
+      "steam_autocloud.vdf": {
+        "size": 53,
+        "sha256": "3e1bbbba9e4c92f2392e6c5e97d12b73002f8ede29289d13d06f65f2e9714a6d"
+      }
+    },
+    "directories": []
+  },
+  "runtime_stage": "GP_A1_FISK_ATRIUM state=1; user already passed SECOND_STOP_FINISH",
+  "source_game_pid": 9360
+}

@@ -1,0 +1,783 @@
+{
+  "utc": "2026-10-07T02:05:04.138744+00:00",
+  "mode": "Read-only process/module/registry/save audit. Writes diagnostic JSON only.",
+  "process": {
+    "PID": 16324,
+    "Name": "Spider-Man.exe",
+    "ExecutablePath": "D:\\steam__\\steamapps\\common\\Marvel's Spider-Man Remastered\\Spider-Man.exe",
+    "CommandLine": "\"D:\\steam__\\steamapps\\common\\Marvel's Spider-Man Remastered\\Spider-Man.exe\" -nolauncher"
+  },
+  "modules": [
+    {
+      "ModuleName": "Spider-Man.exe",
+      "FileName": "D:\\steam__\\steamapps\\common\\Marvel's Spider-Man Remastered\\Spider-Man.exe"
+    },
+    {
+      "ModuleName": "ntdll.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\ntdll.dll"
+    },
+    {
+      "ModuleName": "KERNEL32.DLL",
+      "FileName": "C:\\WINDOWS\\System32\\KERNEL32.DLL"
+    },
+    {
+      "ModuleName": "KERNELBASE.dll",
+      "FileName": "C:\\WINDOWS\\System32\\KERNELBASE.dll"
+    },
+    {
+      "ModuleName": "SETUPAPI.dll",
+      "FileName": "C:\\WINDOWS\\System32\\SETUPAPI.dll"
+    },
+    {
+      "ModuleName": "msvcrt.dll",
+      "FileName": "C:\\WINDOWS\\System32\\msvcrt.dll"
+    },
+    {
+      "ModuleName": "WS2_32.dll",
+      "FileName": "C:\\WINDOWS\\System32\\WS2_32.dll"
+    },
+    {
+      "ModuleName": "WINHTTP.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\WINHTTP.dll"
+    },
+    {
+      "ModuleName": "RPCRT4.dll",
+      "FileName": "C:\\WINDOWS\\System32\\RPCRT4.dll"
+    },
+    {
+      "ModuleName": "ucrtbase.dll",
+      "FileName": "C:\\WINDOWS\\System32\\ucrtbase.dll"
+    },
+    {
+      "ModuleName": "USER32.dll",
+      "FileName": "C:\\WINDOWS\\System32\\USER32.dll"
+    },
+    {
+      "ModuleName": "sechost.dll",
+      "FileName": "C:\\WINDOWS\\System32\\sechost.dll"
+    },
+    {
+      "ModuleName": "win32u.dll",
+      "FileName": "C:\\WINDOWS\\System32\\win32u.dll"
+    },
+    {
+      "ModuleName": "GDI32.dll",
+      "FileName": "C:\\WINDOWS\\System32\\GDI32.dll"
+    },
+    {
+      "ModuleName": "steam_api64.dll",
+      "FileName": "D:\\steam__\\steamapps\\common\\Marvel's Spider-Man Remastered\\steam_api64.dll"
+    },
+    {
+      "ModuleName": "amd_ags_x64.dll",
+      "FileName": "D:\\steam__\\steamapps\\common\\Marvel's Spider-Man Remastered\\amd_ags_x64.dll"
+    },
+    {
+      "ModuleName": "gdi32full.dll",
+      "FileName": "C:\\WINDOWS\\System32\\gdi32full.dll"
+    },
+    {
+      "ModuleName": "msvcp_win.dll",
+      "FileName": "C:\\WINDOWS\\System32\\msvcp_win.dll"
+    },
+    {
+      "ModuleName": "ADVAPI32.dll",
+      "FileName": "C:\\WINDOWS\\System32\\ADVAPI32.dll"
+    },
+    {
+      "ModuleName": "crs-client.dll",
+      "FileName": "D:\\steam__\\steamapps\\common\\Marvel's Spider-Man Remastered\\crs-client.dll"
+    },
+    {
+      "ModuleName": "OLEAUT32.dll",
+      "FileName": "C:\\WINDOWS\\System32\\OLEAUT32.dll"
+    },
+    {
+      "ModuleName": "SHELL32.dll",
+      "FileName": "C:\\WINDOWS\\System32\\SHELL32.dll"
+    },
+    {
+      "ModuleName": "combase.dll",
+      "FileName": "C:\\WINDOWS\\System32\\combase.dll"
+    },
+    {
+      "ModuleName": "wintypes.dll",
+      "FileName": "C:\\WINDOWS\\System32\\wintypes.dll"
+    },
+    {
+      "ModuleName": "ole32.dll",
+      "FileName": "C:\\WINDOWS\\System32\\ole32.dll"
+    },
+    {
+      "ModuleName": "GFSDK_SSAO_D3D11.win64.dll",
+      "FileName": "D:\\steam__\\steamapps\\common\\Marvel's Spider-Man Remastered\\GFSDK_SSAO_D3D11.win64.dll"
+    },
+    {
+      "ModuleName": "dbghelp.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll"
+    },
+    {
+      "ModuleName": "faultrep.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\faultrep.dll"
+    },
+    {
+      "ModuleName": "IPHLPAPI.DLL",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL"
+    },
+    {
+      "ModuleName": "WINMM.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\WINMM.dll"
+    },
+    {
+      "ModuleName": "pdh.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\pdh.dll"
+    },
+    {
+      "ModuleName": "MFPlat.DLL",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\MFPlat.DLL"
+    },
+    {
+      "ModuleName": "bcrypt.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\bcrypt.dll"
+    },
+    {
+      "ModuleName": "MFReadWrite.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\MFReadWrite.dll"
+    },
+    {
+      "ModuleName": "HID.DLL",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\HID.DLL"
+    },
+    {
+      "ModuleName": "dxgi.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\dxgi.dll"
+    },
+    {
+      "ModuleName": "shcore.dll",
+      "FileName": "C:\\WINDOWS\\System32\\shcore.dll"
+    },
+    {
+      "ModuleName": "UxTheme.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\UxTheme.dll"
+    },
+    {
+      "ModuleName": "cfgmgr32.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\cfgmgr32.dll"
+    },
+    {
+      "ModuleName": "CRYPTBASE.DLL",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL"
+    },
+    {
+      "ModuleName": "dbgcore.DLL",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\dbgcore.DLL"
+    },
+    {
+      "ModuleName": "RTWorkQ.DLL",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\RTWorkQ.DLL"
+    },
+    {
+      "ModuleName": "IMM32.DLL",
+      "FileName": "C:\\WINDOWS\\System32\\IMM32.DLL"
+    },
+    {
+      "ModuleName": "directxdatabasehelper.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\directxdatabasehelper.dll"
+    },
+    {
+      "ModuleName": "kernel.appcore.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\kernel.appcore.dll"
+    },
+    {
+      "ModuleName": "bcryptPrimitives.dll",
+      "FileName": "C:\\WINDOWS\\System32\\bcryptPrimitives.dll"
+    },
+    {
+      "ModuleName": "gameoverlayrenderer64.dll",
+      "FileName": "D:\\steam__\\gameoverlayrenderer64.dll"
+    },
+    {
+      "ModuleName": "PSAPI.DLL",
+      "FileName": "C:\\WINDOWS\\System32\\PSAPI.DLL"
+    },
+    {
+      "ModuleName": "gattaca.dll",
+      "FileName": "D:\\steam__\\steamapps\\common\\Marvel's Spider-Man Remastered\\gattaca.dll"
+    },
+    {
+      "ModuleName": "VCRUNTIME140.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\VCRUNTIME140.dll"
+    },
+    {
+      "ModuleName": "windows.storage.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\windows.storage.dll"
+    },
+    {
+      "ModuleName": "shlwapi.dll",
+      "FileName": "C:\\WINDOWS\\System32\\shlwapi.dll"
+    },
+    {
+      "ModuleName": "SspiCli.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\SspiCli.dll"
+    },
+    {
+      "ModuleName": "steamclient64.dll",
+      "FileName": "D:\\steam__\\steamclient64.dll"
+    },
+    {
+      "ModuleName": "CRYPT32.dll",
+      "FileName": "C:\\WINDOWS\\System32\\CRYPT32.dll"
+    },
+    {
+      "ModuleName": "imagehlp.dll",
+      "FileName": "C:\\WINDOWS\\System32\\imagehlp.dll"
+    },
+    {
+      "ModuleName": "vstdlib_s64.dll",
+      "FileName": "D:\\steam__\\vstdlib_s64.dll"
+    },
+    {
+      "ModuleName": "tier0_s64.dll",
+      "FileName": "D:\\steam__\\tier0_s64.dll"
+    },
+    {
+      "ModuleName": "VERSION.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\VERSION.dll"
+    },
+    {
+      "ModuleName": "MSWSOCK.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\MSWSOCK.dll"
+    },
+    {
+      "ModuleName": "Secur32.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\Secur32.dll"
+    },
+    {
+      "ModuleName": "ntmarta.dll",
+      "FileName": "C:\\WINDOWS\\system32\\ntmarta.dll"
+    },
+    {
+      "ModuleName": "dxcore.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\dxcore.dll"
+    },
+    {
+      "ModuleName": "wintrust.dll",
+      "FileName": "C:\\WINDOWS\\System32\\wintrust.dll"
+    },
+    {
+      "ModuleName": "MSASN1.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\MSASN1.dll"
+    },
+    {
+      "ModuleName": "CRYPTSP.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\CRYPTSP.dll"
+    },
+    {
+      "ModuleName": "rsaenh.dll",
+      "FileName": "C:\\WINDOWS\\system32\\rsaenh.dll"
+    },
+    {
+      "ModuleName": "gpapi.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\gpapi.dll"
+    },
+    {
+      "ModuleName": "sl.interposer.dll",
+      "FileName": "D:\\steam__\\steamapps\\common\\Marvel's Spider-Man Remastered\\sl.interposer.dll"
+    },
+    {
+      "ModuleName": "MSVCP140.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\MSVCP140.dll"
+    },
+    {
+      "ModuleName": "VCRUNTIME140_1.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\VCRUNTIME140_1.dll"
+    },
+    {
+      "ModuleName": "profapi.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\profapi.dll"
+    },
+    {
+      "ModuleName": "cryptnet.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\cryptnet.dll"
+    },
+    {
+      "ModuleName": "drvstore.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\drvstore.dll"
+    },
+    {
+      "ModuleName": "devobj.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\devobj.dll"
+    },
+    {
+      "ModuleName": "wldp.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\wldp.dll"
+    },
+    {
+      "ModuleName": "nvapi64.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\nvapi64.dll"
+    },
+    {
+      "ModuleName": "nvapi64_impl.dll",
+      "FileName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\nvcvi.inf_amd64_de1e40aabfb30afd\\nvapi64_impl.dll"
+    },
+    {
+      "ModuleName": "sl.common.dll",
+      "FileName": "D:\\steam__\\steamapps\\common\\Marvel's Spider-Man Remastered\\sl.common.dll"
+    },
+    {
+      "ModuleName": "d3d12.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\d3d12.dll"
+    },
+    {
+      "ModuleName": "sl.dlss.dll",
+      "FileName": "D:\\steam__\\steamapps\\common\\Marvel's Spider-Man Remastered\\sl.dlss.dll"
+    },
+    {
+      "ModuleName": "_nvngx.dll",
+      "FileName": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\nvcvi.inf_amd64_de1e40aabfb30afd\\_nvngx.dll"
+    },
+    {
+      "ModuleName": "160_E658700.bin",
+      "FileName": "C:\\ProgramData\\NVIDIA\\NGX\\models\\dlss\\versions\\20318464\\files\\160_E658700.bin"
+    },
+    {
+      "ModuleName": "nvcuda.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\nvcuda.dll"
+    },
+    {
+      "ModuleName": "vulkan-1.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\vulkan-1.dll"
+    },
+    {
+      "ModuleName": "nvngx_dlssg.dll",
+      "FileName": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\nvcvi.inf_amd64_de1e40aabfb30afd\\nvngx_dlssg.dll"
+    },
+    {
+      "ModuleName": "sl.dlss_g.dll",
+      "FileName": "D:\\steam__\\steamapps\\common\\Marvel's Spider-Man Remastered\\sl.dlss_g.dll"
+    },
+    {
+      "ModuleName": "sl.pcl.dll",
+      "FileName": "D:\\steam__\\steamapps\\common\\Marvel's Spider-Man Remastered\\sl.pcl.dll"
+    },
+    {
+      "ModuleName": "sl.reflex.dll",
+      "FileName": "D:\\steam__\\steamapps\\common\\Marvel's Spider-Man Remastered\\sl.reflex.dll"
+    },
+    {
+      "ModuleName": "D3D12Core.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\D3D12Core.dll"
+    },
+    {
+      "ModuleName": "nvspcap64.dll",
+      "FileName": "C:\\WINDOWS\\system32\\nvspcap64.dll"
+    },
+    {
+      "ModuleName": "nvppex.dll",
+      "FileName": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\nvcvi.inf_amd64_de1e40aabfb30afd\\nvppex.dll"
+    },
+    {
+      "ModuleName": "D3DSCache.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\D3DSCache.dll"
+    },
+    {
+      "ModuleName": "USERENV.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\USERENV.dll"
+    },
+    {
+      "ModuleName": "twinapi.appcore.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\twinapi.appcore.dll"
+    },
+    {
+      "ModuleName": "D3DCompiler_47.dll",
+      "FileName": "D:\\steam__\\steamapps\\common\\Marvel's Spider-Man Remastered\\D3DCompiler_47.dll"
+    },
+    {
+      "ModuleName": "nvldumdx.dll",
+      "FileName": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\nvcvi.inf_amd64_de1e40aabfb30afd\\nvldumdx.dll"
+    },
+    {
+      "ModuleName": "nvgpucomp64.dll",
+      "FileName": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\nvcvi.inf_amd64_de1e40aabfb30afd\\nvgpucomp64.dll"
+    },
+    {
+      "ModuleName": "NvMessageBus.dll",
+      "FileName": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\nvcvi.inf_amd64_de1e40aabfb30afd\\Display.NvContainer\\NvMessageBus.dll"
+    },
+    {
+      "ModuleName": "NvMemMapStoragex.dll",
+      "FileName": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\nvcvi.inf_amd64_de1e40aabfb30afd\\NvMemMapStoragex.dll"
+    },
+    {
+      "ModuleName": "POWRPROF.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\POWRPROF.dll"
+    },
+    {
+      "ModuleName": "UMPDC.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\UMPDC.dll"
+    },
+    {
+      "ModuleName": "nvwgf2umx.dll",
+      "FileName": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\nvcvi.inf_amd64_de1e40aabfb30afd\\nvwgf2umx.dll"
+    },
+    {
+      "ModuleName": "NvTelemetryAPI64.dll",
+      "FileName": "C:\\Program Files\\NVIDIA Corporation\\NvTelemetry\\NvTelemetryAPI64.dll"
+    },
+    {
+      "ModuleName": "nvcuda64.dll",
+      "FileName": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\nvcvi.inf_amd64_de1e40aabfb30afd\\nvcuda64.dll"
+    },
+    {
+      "ModuleName": "nvdxgdmal64.dll",
+      "FileName": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\nvcvi.inf_amd64_de1e40aabfb30afd\\nvdxgdmal64.dll"
+    },
+    {
+      "ModuleName": "nvdiagclt64.dll",
+      "FileName": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\nvcvi.inf_amd64_de1e40aabfb30afd\\nvdiagclt64.dll"
+    },
+    {
+      "ModuleName": "nvobjectloader64.dll",
+      "FileName": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\nvcvi.inf_amd64_de1e40aabfb30afd\\nvobjectloader64.dll"
+    },
+    {
+      "ModuleName": "NvTelemetryBridge64.dll",
+      "FileName": "C:\\Program Files\\NVIDIA Corporation\\NvTelemetry\\NvTelemetryBridge64.dll"
+    },
+    {
+      "ModuleName": "libxess.dll",
+      "FileName": "D:\\steam__\\steamapps\\common\\Marvel's Spider-Man Remastered\\libxess.dll"
+    },
+    {
+      "ModuleName": "amd_fidelityfx_dx12.dll",
+      "FileName": "D:\\steam__\\steamapps\\common\\Marvel's Spider-Man Remastered\\amd_fidelityfx_dx12.dll"
+    },
+    {
+      "ModuleName": "MSCTF.dll",
+      "FileName": "C:\\WINDOWS\\System32\\MSCTF.dll"
+    },
+    {
+      "ModuleName": "textinputframework.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\textinputframework.dll"
+    },
+    {
+      "ModuleName": "CoreMessaging.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\CoreMessaging.dll"
+    },
+    {
+      "ModuleName": "CoreUIComponents.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\CoreUIComponents.dll"
+    },
+    {
+      "ModuleName": "Oleacc.dll",
+      "FileName": "C:\\WINDOWS\\system32\\Oleacc.dll"
+    },
+    {
+      "ModuleName": "clbcatq.dll",
+      "FileName": "C:\\WINDOWS\\System32\\clbcatq.dll"
+    },
+    {
+      "ModuleName": "Windows.Gaming.Input.dll",
+      "FileName": "C:\\Windows\\System32\\Windows.Gaming.Input.dll"
+    },
+    {
+      "ModuleName": "inputhost.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\inputhost.dll"
+    },
+    {
+      "ModuleName": "xinput9_1_0.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\xinput9_1_0.dll"
+    },
+    {
+      "ModuleName": "XInput1_4.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\XInput1_4.dll"
+    },
+    {
+      "ModuleName": "UIAutomationCore.DLL",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\UIAutomationCore.DLL"
+    },
+    {
+      "ModuleName": "d3d11.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\d3d11.dll"
+    },
+    {
+      "ModuleName": "igd10iumd64.dll",
+      "FileName": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_58f71ae65c958b28\\igd10iumd64.dll"
+    },
+    {
+      "ModuleName": "apphelp.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\apphelp.dll"
+    },
+    {
+      "ModuleName": "igd10um64xe.DLL",
+      "FileName": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_58f71ae65c958b28\\igd10um64xe.DLL"
+    },
+    {
+      "ModuleName": "IntelControlLib.dll",
+      "FileName": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_58f71ae65c958b28\\IntelControlLib.dll"
+    },
+    {
+      "ModuleName": "threadpoolwinrt.dll",
+      "FileName": "C:\\Windows\\System32\\threadpoolwinrt.dll"
+    },
+    {
+      "ModuleName": "igdgmm64.dll",
+      "FileName": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_58f71ae65c958b28\\igdgmm64.dll"
+    },
+    {
+      "ModuleName": "igc64.dll",
+      "FileName": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_58f71ae65c958b28\\igc64.dll"
+    },
+    {
+      "ModuleName": "dcomp.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\dcomp.dll"
+    },
+    {
+      "ModuleName": "Microsoft.Internal.WarpPal.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\Microsoft.Internal.WarpPal.dll"
+    },
+    {
+      "ModuleName": "dwmapi.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\dwmapi.dll"
+    },
+    {
+      "ModuleName": "napinsp.dll",
+      "FileName": "C:\\WINDOWS\\system32\\napinsp.dll"
+    },
+    {
+      "ModuleName": "DNSAPI.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll"
+    },
+    {
+      "ModuleName": "NSI.dll",
+      "FileName": "C:\\WINDOWS\\System32\\NSI.dll"
+    },
+    {
+      "ModuleName": "winrnr.dll",
+      "FileName": "C:\\WINDOWS\\System32\\winrnr.dll"
+    },
+    {
+      "ModuleName": "nlansp_c.dll",
+      "FileName": "C:\\WINDOWS\\system32\\nlansp_c.dll"
+    },
+    {
+      "ModuleName": "wshbth.dll",
+      "FileName": "C:\\WINDOWS\\system32\\wshbth.dll"
+    },
+    {
+      "ModuleName": "fwpuclnt.dll",
+      "FileName": "C:\\WINDOWS\\System32\\fwpuclnt.dll"
+    },
+    {
+      "ModuleName": "rasadhlp.dll",
+      "FileName": "C:\\Windows\\System32\\rasadhlp.dll"
+    },
+    {
+      "ModuleName": "bink2w64.dll",
+      "FileName": "D:\\steam__\\steamapps\\common\\Marvel's Spider-Man Remastered\\bink2w64.dll"
+    },
+    {
+      "ModuleName": "3dm64.dll",
+      "FileName": "D:\\steam__\\steamapps\\common\\Marvel's Spider-Man Remastered\\3dm64.dll"
+    },
+    {
+      "ModuleName": "MMDevApi.dll",
+      "FileName": "C:\\WINDOWS\\System32\\MMDevApi.dll"
+    },
+    {
+      "ModuleName": "XAudio2_7.DLL",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\XAudio2_7.DLL"
+    },
+    {
+      "ModuleName": "dinput8.dll",
+      "FileName": "C:\\Windows\\System32\\dinput8.dll"
+    },
+    {
+      "ModuleName": "resourcepolicyclient.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\resourcepolicyclient.dll"
+    },
+    {
+      "ModuleName": "AUDIOSES.DLL",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\AUDIOSES.DLL"
+    },
+    {
+      "ModuleName": "wbemprox.dll",
+      "FileName": "C:\\WINDOWS\\system32\\wbem\\wbemprox.dll"
+    },
+    {
+      "ModuleName": "wbemcomn.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\wbemcomn.dll"
+    },
+    {
+      "ModuleName": "wbemsvc.dll",
+      "FileName": "C:\\WINDOWS\\system32\\wbem\\wbemsvc.dll"
+    },
+    {
+      "ModuleName": "fastprox.dll",
+      "FileName": "C:\\WINDOWS\\system32\\wbem\\fastprox.dll"
+    },
+    {
+      "ModuleName": "amsi.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\amsi.dll"
+    },
+    {
+      "ModuleName": "Windows.UI.dll",
+      "FileName": "C:\\Windows\\System32\\Windows.UI.dll"
+    },
+    {
+      "ModuleName": "avrt.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\avrt.dll"
+    },
+    {
+      "ModuleName": "xaudio2_8.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\xaudio2_8.dll"
+    },
+    {
+      "ModuleName": "xaudio2_9.DLL",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\xaudio2_9.DLL"
+    },
+    {
+      "ModuleName": "webio.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\webio.dll"
+    },
+    {
+      "ModuleName": "WINNSI.DLL",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\WINNSI.DLL"
+    },
+    {
+      "ModuleName": "schannel.DLL",
+      "FileName": "C:\\WINDOWS\\system32\\schannel.DLL"
+    },
+    {
+      "ModuleName": "nvofapi64.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\nvofapi64.dll"
+    },
+    {
+      "ModuleName": "ncrypt.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\ncrypt.dll"
+    },
+    {
+      "ModuleName": "NTASN1.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\NTASN1.dll"
+    },
+    {
+      "ModuleName": "ncryptsslp.dll",
+      "FileName": "C:\\WINDOWS\\system32\\ncryptsslp.dll"
+    },
+    {
+      "ModuleName": "DPAPI.DLL",
+      "FileName": "C:\\WINDOWS\\System32\\DPAPI.DLL"
+    },
+    {
+      "ModuleName": "Windows.System.UserDeviceAssociation.dll",
+      "FileName": "C:\\Windows\\System32\\Windows.System.UserDeviceAssociation.dll"
+    },
+    {
+      "ModuleName": "usermgrproxy.dll",
+      "FileName": "C:\\Windows\\System32\\usermgrproxy.dll"
+    },
+    {
+      "ModuleName": "comctl32.dll",
+      "FileName": "C:\\WINDOWS\\WinSxS\\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.4768_none_3e0c112ce331287c\\comctl32.dll"
+    }
+  ],
+  "winmm_modules": [
+    {
+      "ModuleName": "WINMM.dll",
+      "FileName": "C:\\WINDOWS\\SYSTEM32\\WINMM.dll"
+    }
+  ],
+  "no_SMT_or_DoorStep_loaded": true,
+  "system32_winmm_only": true,
+  "ActiveProcess": {
+    "ActiveUser32": 1231105309,
+    "SteamID64": "76561199191371037"
+  },
+  "active_account_matches_prepared_1037": true,
+  "native_slot3_snapshot": {
+    "path": "C:\\Users\\xinsui\\Documents\\Marvel's Spider-Man Remastered\\76561199191371037\\slot3-s.save",
+    "size": 142286,
+    "sha256": "7c69f619ae0271012c287ccee5a76703fc2cd22e5731bdd98f891b35bcdde475",
+    "mtime_utc": "2026-10-06T18:44:37.170702+00:00",
+    "DAT1_version": 8,
+    "DAT1_sections": 28,
+    "matching_objects": [
+      {
+        "section_tag": "0xd436a987",
+        "file_offset": "0xa4d4",
+        "fields": {
+          "CurrentLightingMode": "kBlackout",
+          "CurrentCheckpointId": 10863563502179515499,
+          "CurrentCheckpoint": 1230831290,
+          "PlaythroughSegmentId": 3198264795,
+          "CurrentLightingModeValid": true,
+          "CurrentLevel": 0
+        }
+      },
+      {
+        "section_tag": "0xd436a987",
+        "file_offset": "0xa55c",
+        "fields": {
+          "LastPosition": {
+            "X": 1107.189697265625,
+            "Y": 45.762451171875,
+            "Z": 1288.1719970703125
+          },
+          "PerchForward": {
+            "X": 0,
+            "Y": 0,
+            "Z": 1
+          },
+          "PerchPosition": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "GamePercent": 0.010526316240429878,
+          "ActiveMissionHash": 3546700964,
+          "LocationHash": 1725685535,
+          "LastSaveTime": 2125084844,
+          "PerchUID": 0,
+          "SlotDifficulty": 3,
+          "LowestDifficultyEverSet": 3,
+          "PlayerLevel": 50,
+          "NewGamePlusUnlocked": false,
+          "NewGamePlus": true,
+          "NewGamePlusNewGame": false,
+          "TotalPlayTime": 0
+        }
+      },
+      {
+        "section_tag": "0xd436a987",
+        "file_offset": "0xc250",
+        "fields": {
+          "CurrentLightingMode": "kBlackout",
+          "CurrentCheckpointId": 10863563502179515499,
+          "CurrentCheckpoint": 1230831290,
+          "PlaythroughSegmentId": 3198264795,
+          "CurrentLightingModeValid": true,
+          "CurrentLevel": 0
+        }
+      }
+    ],
+    "unparsed_marker_candidates": 0
+  },
+  "frozen_input_slot3": {
+    "size": 142286,
+    "sha256": "7c69f619ae0271012c287ccee5a76703fc2cd22e5731bdd98f891b35bcdde475"
+  },
+  "slot3_matches_frozen_input": true,
+  "GUI_confirmation": {
+    "source": "Parent Sky live observation",
+    "slot4_visible": true,
+    "slot4_display": "NG+, level 50, 1%",
+    "other_visible_profiles": [
+      "slot1 84%",
+      "slot2 0%"
+    ]
+  },
+  "gameplay_confirmation": {
+    "status": "Awaiting user actual profile4 load/control/quest-trigger result; menu visibility is not recovery success"
+  },
+  "observer_log": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\记录\\20261007T020410_417622Z.jsonl"
+}

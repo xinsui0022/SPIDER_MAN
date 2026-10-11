@@ -1,0 +1,9 @@
+{
+    "Connections": [
+        {
+            "ip": "192.168.0.55",
+            "name": "EEEEE"
+        }
+    ],
+    "ShowIp": true
+}

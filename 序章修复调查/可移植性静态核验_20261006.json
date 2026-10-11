@@ -1,0 +1,1339 @@
+{
+  "files": [
+    {
+      "relative_path": "winmm.dll",
+      "bytes": 76288,
+      "sha256": "ec59e8537eb9c6ec144897f64ccd8a79618309dd1bb3a62b65ad70b308bcab85",
+      "package_same": true
+    },
+    {
+      "relative_path": "miniupnpc.dll",
+      "bytes": 49152,
+      "sha256": "0c4f7ad428304a936299756483c5fdcdd0ab3200eca2d3e32ff6de4a2783d18d",
+      "package_same": true
+    },
+    {
+      "relative_path": "discord-rpc.dll",
+      "bytes": 399880,
+      "sha256": "5cc2e504800cf4ed2f4781364f661ea22349658ddc391b5d54195e573109d87b",
+      "package_same": true
+    },
+    {
+      "relative_path": "cache",
+      "bytes": 6833,
+      "sha256": "7191b93ada9ee9b24ab12e13fac82aa8e6a2ca87af2d013a21a79c8fbc9101bf",
+      "package_same": true
+    },
+    {
+      "relative_path": "SMT-Launcher.exe",
+      "bytes": 189349837,
+      "sha256": "73b1f3c4af0fcb310ee53c3f94863918c4878a2654240238851cb1665190e0fe",
+      "package_same": true
+    },
+    {
+      "relative_path": "SMT/Scripts/smt.dll",
+      "bytes": 799232,
+      "sha256": "b7ab575100f2346af25180d74bf9641e24ce09bf549ce47446be09c3462606c7",
+      "package_same": true
+    },
+    {
+      "relative_path": "SMT/Assets/UI",
+      "bytes": 544896,
+      "sha256": "39bf1803c230b6c52430eb4a85e1f2681d181af47e3100cc8d47c83c844d977d",
+      "package_same": true
+    },
+    {
+      "relative_path": "SMT/UI/Title.gfx",
+      "bytes": 678196,
+      "sha256": "7673bf71afc7aa095b7719f4a36a588eb1edb5d1b1ce75853786ec45527e2a08",
+      "package_same": true
+    },
+    {
+      "relative_path": "SMT/UI/SystemOverlay_UIv2.gfx",
+      "bytes": 624916,
+      "sha256": "f145698f9e9e751cc980f02f1abb13ab28c2b7cf96383e8db5167f1e4ec86b74",
+      "package_same": true
+    },
+    {
+      "relative_path": "SMT/UI/POIs.gfx",
+      "bytes": 224897,
+      "sha256": "0f0d8435c0f6de0c3c25683a15a7213048018e13e91638633241b2888092d063",
+      "package_same": true
+    },
+    {
+      "relative_path": "SMT/UI/Overlay.gfx",
+      "bytes": 454966,
+      "sha256": "b17125c3612a8e20a8a5cd4db1309df2bcb7bfb1999c172f8692035353735eaf",
+      "package_same": true
+    },
+    {
+      "relative_path": "SMT/UI/HUD.gfx",
+      "bytes": 83813,
+      "sha256": "de6ce2cb1d343685c20560fa67640a35cc5373d5dea1d683ca3b15c58b9f59a9",
+      "package_same": true
+    }
+  ],
+  "configs": {
+    "Connections.json": {
+      "deployed": {
+        "Connections": {
+          "type": "array",
+          "length": 1,
+          "item_shapes": [
+            {
+              "ip": {
+                "type": "string",
+                "length": 12,
+                "value": "<not emitted>"
+              },
+              "name": {
+                "type": "string",
+                "length": 5,
+                "value": "<not emitted>"
+              }
+            }
+          ]
+        },
+        "ShowIp": true
+      },
+      "package": {
+        "Connections": {
+          "type": "array",
+          "length": 1,
+          "item_shapes": [
+            {
+              "ip": {
+                "type": "string",
+                "length": 12,
+                "value": "<not emitted>"
+              },
+              "name": {
+                "type": "string",
+                "length": 5,
+                "value": "<not emitted>"
+              }
+            }
+          ]
+        },
+        "ShowIp": true
+      }
+    },
+    "Preferences.json": {
+      "deployed": {
+        "EnableAskToJoinRPC": true,
+        "EnableDiscordRPC": true,
+        "ShowConsole": true,
+        "ShowImGui": true
+      },
+      "package": {
+        "EnableAskToJoinRPC": true,
+        "EnableDiscordRPC": true,
+        "ShowConsole": true,
+        "ShowImGui": true
+      }
+    },
+    "Multiplayer.json": {
+      "deployed": {
+        "Appearance": {
+          "PlayerScale": 1.0
+        },
+        "Crimes": {
+          "AssaultEnabled": true,
+          "BreakinEnabled": true,
+          "DrugDealEnabled": true,
+          "RobberyEnabled": true,
+          "ShootoutEnabled": true
+        },
+        "Difficulty": {
+          "EnemyHealthMultiplier": 0.0,
+          "EnemySpawnMultiplier": 0.0,
+          "IncreasedAggro": false
+        },
+        "Traversal": {
+          "AutoDetach": false,
+          "FloorPushback": 0.11111115664243698
+        },
+        "Visibility": {
+          "ChatVisibility": 1,
+          "NametagVisibility": 2,
+          "Outline": {
+            "a": 1.0,
+            "b": 0.0,
+            "display_opt": 2,
+            "g": 1.0,
+            "r": 1.0,
+            "scale": 1.0
+          },
+          "ShowDistance": true
+        }
+      },
+      "package": {
+        "Appearance": {
+          "PlayerScale": 1.0
+        },
+        "Crimes": {
+          "AssaultEnabled": true,
+          "BreakinEnabled": true,
+          "DrugDealEnabled": true,
+          "RobberyEnabled": true,
+          "ShootoutEnabled": true
+        },
+        "Difficulty": {
+          "EnemyHealthMultiplier": 0.0,
+          "EnemySpawnMultiplier": 0.0,
+          "IncreasedAggro": false
+        },
+        "Traversal": {
+          "AutoDetach": false,
+          "FloorPushback": 0.11111115664243698
+        },
+        "Visibility": {
+          "ChatVisibility": 1,
+          "NametagVisibility": 2,
+          "Outline": {
+            "a": 1.0,
+            "b": 0.0,
+            "display_opt": 2,
+            "g": 1.0,
+            "r": 1.0,
+            "scale": 1.0
+          },
+          "ShowDistance": true
+        }
+      }
+    }
+  },
+  "imports": {
+    "winmm.dll": [
+      {
+        "dll": "MSVCP140.dll",
+        "functions": [
+          "?_Winerror_map@std@@YAHH@Z",
+          "?_Syserror_map@std@@YAPEBDH@Z",
+          "?_Xout_of_range@std@@YAXPEBD@Z",
+          "?_Xlength_error@std@@YAXPEBD@Z"
+        ]
+      },
+      {
+        "dll": "SHELL32.dll",
+        "functions": [
+          "CommandLineToArgvW"
+        ]
+      },
+      {
+        "dll": "KERNEL32.dll",
+        "functions": [
+          "GetCurrentProcessId",
+          "QueryPerformanceCounter",
+          "IsProcessorFeaturePresent",
+          "SetUnhandledExceptionFilter",
+          "UnhandledExceptionFilter",
+          "IsDebuggerPresent",
+          "RtlVirtualUnwind",
+          "RtlLookupFunctionEntry",
+          "RtlCaptureContext",
+          "SleepConditionVariableSRW",
+          "WakeAllConditionVariable",
+          "AcquireSRWLockExclusive",
+          "ReleaseSRWLockExclusive",
+          "WideCharToMultiByte",
+          "MultiByteToWideChar",
+          "GetFileInformationByHandleEx",
+          "GetLastError",
+          "AreFileApisANSI",
+          "InitializeSListHead",
+          "GetSystemTimeAsFileTime",
+          "GetCommandLineW",
+          "GetCurrentProcess",
+          "GetWindowsDirectoryA",
+          "FreeLibrary",
+          "GetProcAddress",
+          "LoadLibraryA",
+          "SetDllDirectoryA",
+          "GetDllDirectoryA",
+          "GetModuleHandleA",
+          "K32GetModuleInformation",
+          "CloseHandle",
+          "TerminateProcess",
+          "GetModuleFileNameA",
+          "FreeConsole",
+          "LocalFree",
+          "FormatMessageA",
+          "GetLocaleInfoEx",
+          "CreateFileW",
+          "FindClose",
+          "FindFirstFileW",
+          "FindFirstFileExW",
+          "FindNextFileW",
+          "GetFileAttributesExW",
+          "GetCurrentThreadId"
+        ]
+      },
+      {
+        "dll": "VCRUNTIME140.dll",
+        "functions": [
+          "__std_terminate",
+          "__std_exception_copy",
+          "__std_exception_destroy",
+          "_CxxThrowException",
+          "__std_type_info_destroy_list",
+          "memcpy",
+          "memmove",
+          "memset",
+          "__C_specific_handler"
+        ]
+      },
+      {
+        "dll": "VCRUNTIME140_1.dll",
+        "functions": [
+          "__CxxFrameHandler4"
+        ]
+      },
+      {
+        "dll": "api-ms-win-crt-runtime-l1-1-0.dll",
+        "functions": [
+          "_register_onexit_function",
+          "_initterm",
+          "_cexit",
+          "_crt_atexit",
+          "abort",
+          "_invoke_watson",
+          "_execute_onexit_table",
+          "_seh_filter_dll",
+          "_configure_narrow_argv",
+          "_initialize_narrow_environment",
+          "_initialize_onexit_table",
+          "_initterm_e"
+        ]
+      },
+      {
+        "dll": "api-ms-win-crt-string-l1-1-0.dll",
+        "functions": [
+          "strcat_s",
+          "wcslen",
+          "strlen",
+          "strcmp"
+        ]
+      },
+      {
+        "dll": "api-ms-win-crt-heap-l1-1-0.dll",
+        "functions": [
+          "_callnewh",
+          "malloc",
+          "free"
+        ]
+      },
+      {
+        "dll": "api-ms-win-crt-convert-l1-1-0.dll",
+        "functions": [
+          "wcstombs_s",
+          "strtol"
+        ]
+      },
+      {
+        "dll": "api-ms-win-crt-stdio-l1-1-0.dll",
+        "functions": [
+          "fclose",
+          "__acrt_iob_func"
+        ]
+      },
+      {
+        "dll": "api-ms-win-crt-locale-l1-1-0.dll",
+        "functions": [
+          "___lc_codepage_func"
+        ]
+      }
+    ],
+    "SMT/Scripts/smt.dll": [
+      {
+        "dll": "WS2_32.dll",
+        "functions": [
+          "WSACleanup",
+          "htons",
+          "inet_addr",
+          "inet_ntoa",
+          "WSAStartup"
+        ]
+      },
+      {
+        "dll": "IPHLPAPI.DLL",
+        "functions": [
+          "GetAdaptersAddresses"
+        ]
+      },
+      {
+        "dll": "steam_api64.dll",
+        "functions": [
+          "SteamInternal_CreateInterface",
+          "SteamAPI_RestartAppIfNecessary",
+          "SteamAPI_RegisterCallback",
+          "SteamInternal_ContextInit",
+          "SteamAPI_GetHSteamUser",
+          "SteamAPI_IsSteamRunning",
+          "SteamAPI_UnregisterCallback",
+          "SteamInternal_FindOrCreateUserInterface"
+        ]
+      },
+      {
+        "dll": "miniupnpc.dll",
+        "functions": [
+          "UPNP_GetValidIGD",
+          "upnpDiscover",
+          "freeUPNPDevlist",
+          "UPNP_DeletePortMapping",
+          "UPNP_AddPortMapping"
+        ]
+      },
+      {
+        "dll": "KERNEL32.dll",
+        "functions": [
+          "UnhandledExceptionFilter",
+          "IsDebuggerPresent",
+          "IsProcessorFeaturePresent",
+          "QueryPerformanceCounter",
+          "GetSystemTimeAsFileTime",
+          "InitializeSListHead",
+          "WakeAllConditionVariable",
+          "SleepConditionVariableSRW",
+          "AcquireSRWLockExclusive",
+          "ReleaseSRWLockExclusive",
+          "WideCharToMultiByte",
+          "MultiByteToWideChar",
+          "GetFileInformationByHandleEx",
+          "CreateFileA",
+          "WriteFile",
+          "CloseHandle",
+          "SetUnhandledExceptionFilter",
+          "GetLastError",
+          "SetEvent",
+          "WaitForSingleObject",
+          "CreateEventA",
+          "Sleep",
+          "GetCurrentProcess",
+          "GetCurrentProcessId",
+          "TerminateProcess",
+          "GetCurrentThread",
+          "GetCurrentThreadId",
+          "GetModuleFileNameA",
+          "GetModuleHandleA",
+          "K32GetModuleInformation",
+          "GetCommandLineW",
+          "VirtualProtect",
+          "FreeLibrary",
+          "GetProcAddress",
+          "LoadLibraryA",
+          "GlobalUnlock",
+          "GlobalLock",
+          "HeapCreate",
+          "HeapFree",
+          "Thread32Next",
+          "Thread32First",
+          "SuspendThread",
+          "ResumeThread",
+          "CreateToolhelp32Snapshot",
+          "HeapReAlloc",
+          "HeapAlloc",
+          "GetThreadContext",
+          "FlushInstructionCache",
+          "SetThreadContext",
+          "OpenThread",
+          "VirtualFree",
+          "VirtualAlloc",
+          "GetSystemInfo",
+          "VirtualQuery",
+          "FormatMessageA",
+          "MoveFileExW",
+          "AreFileApisANSI",
+          "SetFileInformationByHandle",
+          "GetLocaleInfoEx",
+          "InitOnceBeginInitialize",
+          "InitOnceComplete",
+          "CreateDirectoryW",
+          "CreateFileW",
+          "FindClose",
+          "FindFirstFileW",
+          "FindFirstFileExW",
+          "FindNextFileW",
+          "GetFileAttributesExW",
+          "LocalFree"
+        ]
+      },
+      {
+        "dll": "USER32.dll",
+        "functions": [
+          "MessageBoxA",
+          "GetAsyncKeyState",
+          "OpenClipboard",
+          "CloseClipboard",
+          "GetKeyState",
+          "GetClipboardData"
+        ]
+      },
+      {
+        "dll": "SHELL32.dll",
+        "functions": [
+          "CommandLineToArgvW"
+        ]
+      },
+      {
+        "dll": "MSVCP140.dll",
+        "functions": [
+          "??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ",
+          "?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z",
+          "?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z",
+          "?eback@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ",
+          "?gptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ",
+          "?pbase@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ",
+          "?pptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ",
+          "?egptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ",
+          "?gbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXH@Z",
+          "?getloc@ios_base@std@@QEBA?AVlocale@2@XZ",
+          "?epptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ",
+          "?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD0@Z",
+          "?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD00@Z",
+          "?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ",
+          "??1?$basic_ios@DU?$char_traits@D@std@@@std@@UEAA@XZ",
+          "?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z",
+          "?tie@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_ostream@DU?$char_traits@D@std@@@2@XZ",
+          "?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ",
+          "?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADXZ",
+          "?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z",
+          "??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ",
+          "?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ",
+          "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z",
+          "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z",
+          "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z",
+          "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@K@Z",
+          "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_K@Z",
+          "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@PEBX@Z",
+          "?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z",
+          "?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ",
+          "??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z",
+          "??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UEAA@XZ",
+          "?put@?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@QEBA?AV?$ostreambuf_iterator@DU?$char_traits@D@std@@@2@V32@AEAVios_base@2@DPEBUtm@@PEBD3@Z",
+          "?_Getcat@?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z",
+          "?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z",
+          "?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ",
+          "?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z",
+          "?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z",
+          "?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z",
+          "?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ",
+          "?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ",
+          "?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ",
+          "?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ",
+          "?_Id_cnt@id@locale@std@@0HA",
+          "?id@?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@2V0locale@2@A",
+          "?_Xbad_function_call@std@@YAXXZ",
+          "_Mtx_init_in_situ",
+          "_Mtx_lock",
+          "_Mtx_unlock",
+          "?_Throw_Cpp_error@std@@YAXH@Z",
+          "?_Xinvalid_argument@std@@YAXPEBD@Z",
+          "?_Xout_of_range@std@@YAXPEBD@Z",
+          "?always_noconv@codecvt_base@std@@QEBA_NXZ",
+          "?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z",
+          "?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z",
+          "?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z",
+          "?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z",
+          "??7ios_base@std@@QEBA_NXZ",
+          "?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ",
+          "?_Gndec@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ",
+          "?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ",
+          "?_Gnavail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBA_JXZ",
+          "?pbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXH@Z",
+          "?_Pnavail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBA_JXZ",
+          "?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXXZ",
+          "?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAPEAD0PEAH001@Z",
+          "?_Fiopen@std@@YAPEAU_iobuf@@PEBDHH@Z",
+          "??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z",
+          "??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ",
+          "?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEBD_J@Z",
+          "??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z",
+          "??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ",
+          "?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z",
+          "?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A",
+          "?rdstate@ios_base@std@@QEBAHXZ",
+          "?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ",
+          "?clear@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z",
+          "??0_Locinfo@std@@QEAA@PEBD@Z",
+          "??1_Locinfo@std@@QEAA@XZ",
+          "?_Getfalse@_Locinfo@std@@QEBAPEBDXZ",
+          "?_Gettrue@_Locinfo@std@@QEBAPEBDXZ",
+          "?c_str@?$_Yarn@D@std@@QEBAPEBDXZ",
+          "??0facet@locale@std@@IEAA@_K@Z",
+          "??1facet@locale@std@@MEAA@XZ",
+          "?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z",
+          "?_Incref@facet@locale@std@@UEAAXXZ",
+          "?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ",
+          "?id@?$numpunct@D@std@@2V0locale@2@A",
+          "?width@ios_base@std@@QEAA_J_J@Z",
+          "?width@ios_base@std@@QEBA_JXZ",
+          "?setf@ios_base@std@@QEAAHHH@Z",
+          "?flags@ios_base@std@@QEBAHXZ",
+          "?good@ios_base@std@@QEBA_NXZ",
+          "?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ",
+          "?_Getcvt@_Locinfo@std@@QEBA?AU_Cvtvec@@XZ",
+          "?_Winerror_map@std@@YAHH@Z",
+          "?_Syserror_map@std@@YAPEBDH@Z",
+          "_Xtime_get_ticks",
+          "?uncaught_exceptions@std@@YAHXZ",
+          "?_Xlength_error@std@@YAXPEBD@Z",
+          "?_Xbad_alloc@std@@YAXXZ",
+          "??1_Lockit@std@@QEAA@XZ",
+          "??0_Lockit@std@@QEAA@H@Z",
+          "??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ",
+          "?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD00@Z"
+        ]
+      },
+      {
+        "dll": "dbghelp.dll",
+        "functions": [
+          "SymCleanup",
+          "SymFunctionTableAccess64",
+          "SymGetModuleBase64",
+          "SymGetOptions",
+          "SymInitialize",
+          "SymGetSymFromAddr64",
+          "MiniDumpWriteDump",
+          "StackWalk64",
+          "SymGetLineFromAddr64",
+          "SymSetOptions"
+        ]
+      },
+      {
+        "dll": "ntdll.dll",
+        "functions": [
+          "RtlLookupFunctionEntry",
+          "RtlCaptureContext",
+          "RtlVirtualUnwind"
+        ]
+      },
+      {
+        "dll": "VCRUNTIME140_1.dll",
+        "functions": [
+          "__CxxFrameHandler4"
+        ]
+      },
+      {
+        "dll": "VCRUNTIME140.dll",
+        "functions": [
+          "__C_specific_handler",
+          "_purecall",
+          "__current_exception_context",
+          "__std_type_info_destroy_list",
+          "memset",
+          "__std_terminate",
+          "memcmp",
+          "memmove",
+          "strstr",
+          "memcpy",
+          "_CxxThrowException",
+          "__std_exception_destroy",
+          "__std_exception_copy",
+          "__current_exception",
+          "strrchr"
+        ]
+      },
+      {
+        "dll": "api-ms-win-crt-runtime-l1-1-0.dll",
+        "functions": [
+          "_errno",
+          "_initterm",
+          "terminate",
+          "_beginthreadex",
+          "abort",
+          "exit",
+          "_invoke_watson",
+          "_initterm_e",
+          "_cexit",
+          "_seh_filter_dll",
+          "_configure_narrow_argv",
+          "_initialize_narrow_environment",
+          "_initialize_onexit_table",
+          "_register_onexit_function",
+          "_execute_onexit_table",
+          "_crt_atexit"
+        ]
+      },
+      {
+        "dll": "api-ms-win-crt-heap-l1-1-0.dll",
+        "functions": [
+          "malloc",
+          "free",
+          "calloc",
+          "_callnewh"
+        ]
+      },
+      {
+        "dll": "api-ms-win-crt-string-l1-1-0.dll",
+        "functions": [
+          "strcmp",
+          "strlen",
+          "wcslen",
+          "_stricmp",
+          "strcpy_s",
+          "strncpy",
+          "tolower"
+        ]
+      },
+      {
+        "dll": "api-ms-win-crt-time-l1-1-0.dll",
+        "functions": [
+          "_localtime64",
+          "_time64"
+        ]
+      },
+      {
+        "dll": "api-ms-win-crt-stdio-l1-1-0.dll",
+        "functions": [
+          "fopen",
+          "ungetc",
+          "setvbuf",
+          "__stdio_common_vfprintf",
+          "fwrite",
+          "_get_stream_buffer_pointers",
+          "_fseeki64",
+          "fsetpos",
+          "fread",
+          "fputc",
+          "fgetpos",
+          "fgetc",
+          "fflush",
+          "fclose",
+          "__stdio_common_vsscanf",
+          "__stdio_common_vsprintf"
+        ]
+      },
+      {
+        "dll": "api-ms-win-crt-convert-l1-1-0.dll",
+        "functions": [
+          "strtoul",
+          "strtoull",
+          "strtoll",
+          "wcstombs_s",
+          "strtod",
+          "strtol",
+          "wcstombs"
+        ]
+      },
+      {
+        "dll": "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "functions": [
+          "_unlock_file",
+          "_lock_file"
+        ]
+      },
+      {
+        "dll": "api-ms-win-crt-math-l1-1-0.dll",
+        "functions": [
+          "_dsign",
+          "_fdsign",
+          "_dclass",
+          "_ldclass",
+          "ceilf",
+          "_fdclass",
+          "roundf",
+          "_ldsign",
+          "sqrtf"
+        ]
+      },
+      {
+        "dll": "api-ms-win-crt-locale-l1-1-0.dll",
+        "functions": [
+          "localeconv",
+          "___lc_codepage_func"
+        ]
+      }
+    ],
+    "miniupnpc.dll": [
+      {
+        "dll": "WS2_32.dll",
+        "functions": [
+          "select",
+          "recv",
+          "connect",
+          "getnameinfo",
+          "getsockname",
+          "freeaddrinfo",
+          "getaddrinfo",
+          "socket",
+          "closesocket",
+          "setsockopt",
+          "sendto",
+          "inet_addr",
+          "htons",
+          "bind",
+          "WSAGetLastError",
+          "send",
+          "ntohl"
+        ]
+      },
+      {
+        "dll": "IPHLPAPI.DLL",
+        "functions": [
+          "GetBestInterface",
+          "GetAdaptersAddresses"
+        ]
+      },
+      {
+        "dll": "KERNEL32.dll",
+        "functions": [
+          "UnhandledExceptionFilter",
+          "SetUnhandledExceptionFilter",
+          "GetCurrentProcess",
+          "TerminateProcess",
+          "IsProcessorFeaturePresent",
+          "QueryPerformanceCounter",
+          "GetCurrentProcessId",
+          "RtlVirtualUnwind",
+          "GetSystemTimeAsFileTime",
+          "DisableThreadLibraryCalls",
+          "InitializeSListHead",
+          "IsDebuggerPresent",
+          "RtlCaptureContext",
+          "GetTickCount",
+          "RtlLookupFunctionEntry",
+          "GetCurrentThreadId",
+          "HeapAlloc",
+          "HeapFree",
+          "GetProcessHeap"
+        ]
+      },
+      {
+        "dll": "VCRUNTIME140.dll",
+        "functions": [
+          "memcmp",
+          "memcpy",
+          "strchr",
+          "memmove",
+          "memset",
+          "strstr",
+          "__C_specific_handler",
+          "__std_type_info_destroy_list"
+        ]
+      },
+      {
+        "dll": "api-ms-win-crt-string-l1-1-0.dll",
+        "functions": [
+          "_memicmp",
+          "isxdigit",
+          "strncmp",
+          "strcmp",
+          "strncpy",
+          "_strdup"
+        ]
+      },
+      {
+        "dll": "api-ms-win-crt-heap-l1-1-0.dll",
+        "functions": [
+          "calloc",
+          "free",
+          "realloc",
+          "malloc"
+        ]
+      },
+      {
+        "dll": "api-ms-win-crt-stdio-l1-1-0.dll",
+        "functions": [
+          "__stdio_common_vsscanf",
+          "__stdio_common_vfprintf",
+          "__acrt_iob_func",
+          "__stdio_common_vsprintf"
+        ]
+      },
+      {
+        "dll": "api-ms-win-crt-runtime-l1-1-0.dll",
+        "functions": [
+          "_cexit",
+          "_initialize_onexit_table",
+          "_execute_onexit_table",
+          "_initialize_narrow_environment",
+          "perror",
+          "_configure_narrow_argv",
+          "_seh_filter_dll",
+          "_initterm_e",
+          "_initterm"
+        ]
+      },
+      {
+        "dll": "api-ms-win-crt-convert-l1-1-0.dll",
+        "functions": [
+          "atoi",
+          "strtoul"
+        ]
+      }
+    ],
+    "discord-rpc.dll": [
+      {
+        "dll": "ADVAPI32.dll",
+        "functions": [
+          "RegCreateKeyExW",
+          "RegOpenKeyExW",
+          "RegQueryValueExW",
+          "RegSetValueExW",
+          "RegCloseKey"
+        ]
+      },
+      {
+        "dll": "KERNEL32.dll",
+        "functions": [
+          "CreateFileW",
+          "ReadFile",
+          "WriteFile",
+          "CloseHandle",
+          "GetLastError",
+          "PeekNamedPipe",
+          "WaitNamedPipeW",
+          "GetCurrentProcessId",
+          "GetModuleFileNameW",
+          "lstrlenW",
+          "MultiByteToWideChar",
+          "DuplicateHandle",
+          "WaitForSingleObjectEx",
+          "Sleep",
+          "GetCurrentProcess",
+          "GetCurrentThread",
+          "GetCurrentThreadId",
+          "GetExitCodeThread",
+          "QueryPerformanceCounter",
+          "EnterCriticalSection",
+          "LeaveCriticalSection",
+          "TryEnterCriticalSection",
+          "DeleteCriticalSection",
+          "SetLastError",
+          "InitializeCriticalSectionAndSpinCount",
+          "CreateEventW",
+          "TlsAlloc",
+          "TlsGetValue",
+          "TlsSetValue",
+          "TlsFree",
+          "GetSystemTimeAsFileTime",
+          "GetTickCount",
+          "GetModuleHandleW",
+          "GetProcAddress",
+          "WideCharToMultiByte",
+          "SetEvent",
+          "RtlCaptureContext",
+          "RtlLookupFunctionEntry",
+          "RtlVirtualUnwind",
+          "IsDebuggerPresent",
+          "UnhandledExceptionFilter",
+          "SetUnhandledExceptionFilter",
+          "GetStartupInfoW",
+          "IsProcessorFeaturePresent",
+          "TerminateProcess",
+          "InitializeSListHead",
+          "CreateTimerQueue",
+          "SignalObjectAndWait",
+          "SwitchToThread",
+          "CreateThread",
+          "SetThreadPriority",
+          "GetThreadPriority",
+          "GetLogicalProcessorInformation",
+          "CreateTimerQueueTimer",
+          "ChangeTimerQueueTimer",
+          "DeleteTimerQueueTimer",
+          "GetNumaHighestNodeNumber",
+          "GetProcessAffinityMask",
+          "SetThreadAffinityMask",
+          "RegisterWaitForSingleObject",
+          "UnregisterWait",
+          "EncodePointer",
+          "GetThreadTimes",
+          "FreeLibrary",
+          "FreeLibraryAndExitThread",
+          "GetModuleHandleA",
+          "LoadLibraryExW",
+          "GetVersionExW",
+          "VirtualAlloc",
+          "VirtualFree",
+          "VirtualProtect",
+          "ReleaseSemaphore",
+          "InterlockedPopEntrySList",
+          "InterlockedPushEntrySList",
+          "InterlockedFlushSList",
+          "QueryDepthSList",
+          "UnregisterWaitEx",
+          "LoadLibraryW",
+          "RtlPcToFileHeader",
+          "RaiseException",
+          "RtlUnwindEx",
+          "ExitThread",
+          "GetModuleHandleExW",
+          "HeapAlloc",
+          "HeapFree",
+          "ExitProcess",
+          "GetModuleFileNameA",
+          "LCMapStringW",
+          "GetStdHandle",
+          "GetFileType",
+          "GetACP",
+          "GetProcessHeap",
+          "FindClose",
+          "FindFirstFileExA",
+          "FindNextFileA",
+          "IsValidCodePage",
+          "GetOEMCP",
+          "GetCPInfo",
+          "GetCommandLineA",
+          "GetCommandLineW",
+          "GetEnvironmentStringsW",
+          "FreeEnvironmentStringsW",
+          "FlushFileBuffers",
+          "GetConsoleCP",
+          "GetConsoleMode",
+          "GetStringTypeW",
+          "SetStdHandle",
+          "SetFilePointerEx",
+          "HeapSize",
+          "HeapReAlloc",
+          "WriteConsoleW",
+          "DecodePointer"
+        ]
+      }
+    ],
+    "steam_api64.dll": [
+      {
+        "dll": "KERNEL32.dll",
+        "functions": [
+          "TlsGetValue",
+          "TlsSetValue",
+          "TlsFree",
+          "FreeLibrary",
+          "LoadLibraryExW",
+          "GetCommandLineW",
+          "GetEnvironmentVariableA",
+          "SetEnvironmentVariableA",
+          "GetCurrentDirectoryW",
+          "GetFileAttributesW",
+          "GetFileAttributesExW",
+          "OutputDebugStringA",
+          "TlsAlloc",
+          "InitializeCriticalSection",
+          "EnterCriticalSection",
+          "LeaveCriticalSection",
+          "DeleteCriticalSection",
+          "GetExitCodeProcess",
+          "OpenProcess",
+          "GetModuleFileNameW",
+          "GetModuleHandleA",
+          "GetModuleHandleExW",
+          "LoadLibraryExA",
+          "MultiByteToWideChar",
+          "WideCharToMultiByte",
+          "WriteConsoleW",
+          "InitializeCriticalSectionAndSpinCount",
+          "GetLastError",
+          "CloseHandle",
+          "GetProcAddress",
+          "SetEndOfFile",
+          "SetEvent",
+          "ResetEvent",
+          "WaitForSingleObjectEx",
+          "CreateEventW",
+          "GetModuleHandleW",
+          "RtlCaptureContext",
+          "RtlLookupFunctionEntry",
+          "RtlVirtualUnwind",
+          "IsDebuggerPresent",
+          "UnhandledExceptionFilter",
+          "SetUnhandledExceptionFilter",
+          "GetStartupInfoW",
+          "IsProcessorFeaturePresent",
+          "QueryPerformanceCounter",
+          "GetCurrentProcessId",
+          "GetCurrentThreadId",
+          "GetSystemTimeAsFileTime",
+          "InitializeSListHead",
+          "RtlPcToFileHeader",
+          "RaiseException",
+          "RtlUnwindEx",
+          "InterlockedFlushSList",
+          "SetLastError",
+          "EncodePointer",
+          "GetCurrentProcess",
+          "TerminateProcess",
+          "ExitProcess",
+          "HeapFree",
+          "HeapAlloc",
+          "GetStdHandle",
+          "GetFileType",
+          "LCMapStringW",
+          "ReadFile",
+          "GetConsoleMode",
+          "ReadConsoleW",
+          "FindClose",
+          "FindFirstFileExW",
+          "FindNextFileW",
+          "IsValidCodePage",
+          "GetACP",
+          "GetOEMCP",
+          "GetCPInfo",
+          "GetCommandLineA",
+          "GetEnvironmentStringsW",
+          "FreeEnvironmentStringsW",
+          "GetProcessHeap",
+          "GetFileSizeEx",
+          "SetFilePointerEx",
+          "GetStringTypeW",
+          "SetStdHandle",
+          "FlushFileBuffers",
+          "WriteFile",
+          "GetConsoleOutputCP",
+          "CreateFileW",
+          "HeapSize",
+          "HeapReAlloc"
+        ]
+      },
+      {
+        "dll": "ADVAPI32.dll",
+        "functions": [
+          "RegOpenKeyExW",
+          "RegCloseKey",
+          "RegQueryValueExW"
+        ]
+      },
+      {
+        "dll": "SHELL32.dll",
+        "functions": [
+          "ShellExecuteW"
+        ]
+      }
+    ]
+  },
+  "runtime_path_strings": {
+    "winmm.dll": [
+      "\\System32\\winmm.dll",
+      "./SMT/Scripts"
+    ],
+    "SMT/Scripts/smt.dll": [
+      "cache",
+      "SMT/Save/",
+      "SMT/Scripts",
+      "SMT/UI/Title.gfx",
+      "SMT/UI/HUD.gfx",
+      "SMT/UI/POIs.gfx",
+      "SMT/UI/Overlay.gfx",
+      "SMT/UI/SystemOverlay_UIv2.gfx",
+      "SMT/UI/Race.gfx",
+      "SMT/Assets",
+      "SMT/Assets/MP_Logo.texture",
+      "configs/missionorderconfig/missionorderconfig_goldenpathlinear.config"
+    ],
+    "miniupnpc.dll": [],
+    "discord-rpc.dll": [],
+    "steam_api64.dll": []
+  },
+  "absolute_string_counts": {
+    "winmm.dll": {
+      "absolute_drive_paths": 1,
+      "pdb_strings": 1
+    },
+    "SMT/Scripts/smt.dll": {
+      "absolute_drive_paths": 1,
+      "pdb_strings": 0
+    },
+    "miniupnpc.dll": {
+      "absolute_drive_paths": 0,
+      "pdb_strings": 0
+    },
+    "discord-rpc.dll": {
+      "absolute_drive_paths": 0,
+      "pdb_strings": 0
+    },
+    "steam_api64.dll": {
+      "absolute_drive_paths": 1,
+      "pdb_strings": 1
+    }
+  },
+  "zip_entries": [
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/",
+      "bytes": 0
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/cache",
+      "bytes": 6833
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/discord-rpc.dll",
+      "bytes": 399880
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/miniupnpc.dll",
+      "bytes": 49152
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/",
+      "bytes": 0
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Assets/",
+      "bytes": 0
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Assets/UI",
+      "bytes": 544896
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Connections.json",
+      "bytes": 140
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Multiplayer.json",
+      "bytes": 766
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Preferences.json",
+      "bytes": 117
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Save/",
+      "bytes": 0
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Save/slot0-s.save",
+      "bytes": 156942
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Save/slot0-s.save.backup01",
+      "bytes": 150766
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Save/slot0-s.save.backup02",
+      "bytes": 150126
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Save/slot0-s.save.backup03",
+      "bytes": 150126
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Save/slot0-s.save.backup04",
+      "bytes": 150126
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Save/slot0-s.save.backup05",
+      "bytes": 150366
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Save/slot0-s.save.backup06",
+      "bytes": 149182
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Save/slot0-s-manual-0.save",
+      "bytes": 138686
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Save/slot0-s-manual-1.save",
+      "bytes": 136606
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Save/slot0-s-manual-2.save",
+      "bytes": 146702
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Save/slot0-s-manual-3.save",
+      "bytes": 146702
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Save/slot0-s-manual-4.save",
+      "bytes": 150846
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Save/slot1-s.save",
+      "bytes": 94048
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Save/slot1-s-manual-0.save",
+      "bytes": 93566
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Save/slot1-s-manual-1.save",
+      "bytes": 93198
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Save/slot2-s.save",
+      "bytes": 67008
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Save/slot3-s.save",
+      "bytes": 66992
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Save/slot4-s.save",
+      "bytes": 93918
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Save/slot5-s.save",
+      "bytes": 66992
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Save/SMT_SAVE_BACKUP (2).save",
+      "bytes": 138254
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Save/SMT_SAVE_BACKUP (3).save",
+      "bytes": 142830
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Save/-userprefs.save",
+      "bytes": 1476
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Save/SMT_SAVE_BACKUP.save",
+      "bytes": 138654
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Scripts/",
+      "bytes": 0
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/Scripts/smt.dll",
+      "bytes": 799232
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/UI/",
+      "bytes": 0
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/UI/HUD.gfx",
+      "bytes": 83813
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/UI/Overlay.gfx",
+      "bytes": 454966
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/UI/POIs.gfx",
+      "bytes": 224897
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/UI/SystemOverlay_UIv2.gfx",
+      "bytes": 624916
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/UI/Title.gfx",
+      "bytes": 678196
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT/闲鱼黑黑购买，请勿倒卖/",
+      "bytes": 0
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/SMT-Launcher.exe",
+      "bytes": 189349837
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/winmm.dll",
+      "bytes": 76288
+    },
+    {
+      "name": "HeiheiSMT0.5.1/HeiheiSMT/闲鱼黑黑购买，请勿倒卖/",
+      "bytes": 0
+    },
+    {
+      "name": "HeiheiSMT0.5.1/",
+      "bytes": 0
+    }
+  ]
+}

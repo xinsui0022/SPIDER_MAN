@@ -1,0 +1,68 @@
+{
+  "candidate": "DoorStep 0.1 v2 + vertical",
+  "offline_checks": 37,
+  "failures": 0,
+  "installed_dll_sha256": "a56d509629c5e895cb52112d7af33340b03bb37fc72f8901b743e84afb7e7e68",
+  "candidate_dll_sha256": "a56d509629c5e895cb52112d7af33340b03bb37fc72f8901b743e84afb7e7e68",
+  "installed_ini": "[DoorStep]\nStepMeters=2.5\nVerticalMeters=1.0\n",
+  "original_binaries": {
+    "game": {
+      "path": "D:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\Spider-Man.exe",
+      "sha256": "e297d4d94f1ffe4febf289745e79e7b6fa233a788e7a00f480fc77c55db81ad1",
+      "expected": "e297d4d94f1ffe4febf289745e79e7b6fa233a788e7a00f480fc77c55db81ad1",
+      "matches": true,
+      "file_version": "4.630.0.0"
+    },
+    "mod": {
+      "path": "D:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\SMT\\Scripts\\smt.dll",
+      "sha256": "b7ab575100f2346af25180d74bf9641e24ce09bf549ce47446be09c3462606c7",
+      "expected": "b7ab575100f2346af25180d74bf9641e24ce09bf549ce47446be09c3462606c7",
+      "matches": true
+    },
+    "winmm": {
+      "path": "D:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\winmm.dll",
+      "sha256": "ec59e8537eb9c6ec144897f64ccd8a79618309dd1bb3a62b65ad70b308bcab85",
+      "expected": "ec59e8537eb9c6ec144897f64ccd8a79618309dd1bb3a62b65ad70b308bcab85",
+      "matches": true
+    }
+  },
+  "preinstall_backup": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\穿门安装前备份_20261007_020010_6b9342aa",
+  "save_files_changed_during_menu_load_check": [
+    "slot3-s.save"
+  ],
+  "native_warp_executed": true,
+  "runtime_test_status": "v2 loaded READY; host forward and return confirmed by user and log; host upward confirmed by user and log; user reports return after upward; downward, door bypass, and client behavior still untested",
+  "runtime_checks": {
+    "host_load_ready": {
+      "log_confirmed": true,
+      "time_local": "2026-10-07 02:12:17"
+    },
+    "host_horizontal_forward": {
+      "user_confirmed": true,
+      "log_confirmed": true,
+      "time_local": "2026-10-07 02:13:49"
+    },
+    "host_horizontal_return": {
+      "user_confirmed": true,
+      "log_confirmed": true,
+      "time_local": "2026-10-07 02:13:51"
+    },
+    "host_upward": {
+      "user_confirmed": true,
+      "log_confirmed": true,
+      "time_local": "2026-10-07 02:16:35"
+    },
+    "host_return_after_upward": {
+      "user_confirmed": true,
+      "separate_return_log_observed": false
+    },
+    "host_downward": "not tested in game",
+    "door_crossing": "not tested",
+    "client_movement": "not tested",
+    "story_progression_after_bypass": "not tested",
+    "combat_replication": "not tested"
+  },
+  "delivered_zip": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\穿门助手候选_20261007_v2.zip",
+  "delivered_zip_sha256": "d3458bc3f3e27912d3cca1a330b8b5230e2dac66214fb984530c0f4ec72e8b01",
+  "package_entries_verified": 9
+}

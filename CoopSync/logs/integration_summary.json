@@ -1,0 +1,55 @@
+{
+  "scope": "coordinator and real local TCP with simulated game adapters",
+  "game_integration_verified": false,
+  "results": [
+    {
+      "scenario": "natural",
+      "passed": true,
+      "host_exit": 0,
+      "guest_exit": 0,
+      "host_log": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\CoopSync\\logs\\natural_host.jsonl",
+      "guest_log": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\CoopSync\\logs\\natural_guest.jsonl",
+      "game_operations": false
+    },
+    {
+      "scenario": "host-skip",
+      "passed": true,
+      "host_exit": 0,
+      "guest_exit": 0,
+      "host_log": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\CoopSync\\logs\\host-skip_host.jsonl",
+      "guest_log": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\CoopSync\\logs\\host-skip_guest.jsonl",
+      "game_operations": false
+    },
+    {
+      "scenario": "guest-skip",
+      "passed": true,
+      "host_exit": 0,
+      "guest_exit": 0,
+      "host_log": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\CoopSync\\logs\\guest-skip_host.jsonl",
+      "guest_log": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\CoopSync\\logs\\guest-skip_guest.jsonl",
+      "game_operations": false
+    },
+    {
+      "scenario": "mismatch-end",
+      "passed": true,
+      "host_exit": 2,
+      "guest_exit": 2,
+      "host_log": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\CoopSync\\logs\\mismatch-end_host.jsonl",
+      "guest_log": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\CoopSync\\logs\\mismatch-end_guest.jsonl",
+      "game_operations": false
+    },
+    {
+      "scenario": "disconnect",
+      "passed": true,
+      "host_exit": 2,
+      "guest_exit": 2,
+      "host_log": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\CoopSync\\logs\\disconnect_host.jsonl",
+      "guest_log": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\CoopSync\\logs\\disconnect_guest.jsonl",
+      "game_operations": false
+    },
+    {
+      "scenario": "refuse_unimplemented_game_adapter",
+      "passed": true
+    }
+  ]
+}

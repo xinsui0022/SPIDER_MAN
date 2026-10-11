@@ -1,0 +1,21 @@
+{"time_utc": "2026-10-06T07:31:17.075290+00:00", "event": "freeze_intent", "source_kind": "native", "source_path": "C:\\Users\\xinsui\\Documents\\Marvel's Spider-Man Remastered\\76561199372553531"}
+{"time_utc": "2026-10-06T07:31:17.102806+00:00", "event": "freeze_verified"}
+{"time_utc": "2026-10-06T07:31:17.125886+00:00", "event": "native_backup_intent"}
+{"time_utc": "2026-10-06T07:31:17.133820+00:00", "event": "native_backed_up"}
+{"time_utc": "2026-10-06T07:31:17.136805+00:00", "event": "native_copy_intent"}
+{"time_utc": "2026-10-06T07:31:17.160805+00:00", "event": "native_copy_verified"}
+{"time_utc": "2026-10-06T07:31:17.174827+00:00", "event": "winmm_disable_intent"}
+{"time_utc": "2026-10-06T07:31:17.183337+00:00", "event": "winmm_disabled"}
+{"time_utc": "2026-10-06T07:31:17.192335+00:00", "event": "prepared"}
+{"time_utc": "2026-10-06T07:31:17.319133+00:00", "event": "native_ng_reference_copy_intent", "source": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\同档对照_20261006_153117_66d1c1ab\\用于对照_原版NG初始档.save", "target": "C:\\Users\\xinsui\\Documents\\Marvel's Spider-Man Remastered\\76561199372553531\\slot3-s.save", "source_sha256": "ae64678c0e02ccba5b2721770af3d08cdbc0810866421232349e09e97835e7d5"}
+{"time_utc": "2026-10-06T07:31:17.360909+00:00", "event": "native_ng_reference_verified", "sha256": "ae64678c0e02ccba5b2721770af3d08cdbc0810866421232349e09e97835e7d5"}
+{"time_utc": "2026-10-06T07:40:52.935360+00:00", "event": "native_progress_before_exit_preserved", "destination": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\同档对照_20261006_153117_66d1c1ab\\原版推进后_退出前", "file_count": 4}
+{"time_utc": "2026-10-06T07:43:05.883618+00:00", "event": "native_progress_after_close_preserved", "destination": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\同档对照_20261006_153117_66d1c1ab\\原版推进后_正常关闭", "slot3": {"size": 143694, "sha256": "a8364131cb6cc9d8aa35301e043431aefc160f688c883b721d9bfe842edd64c3"}}
+{"time_utc": "2026-10-06T07:51:16.972424+00:00", "event": "native_fisk_reload_preserved", "user_report": "任务提示出现，仍在菲斯克大楼", "destination": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\同档对照_20261006_153117_66d1c1ab\\原版重进后_退出前", "slot3": {"size": 143694, "sha256": "a8364131cb6cc9d8aa35301e043431aefc160f688c883b721d9bfe842edd64c3"}}
+{"time_utc": "2026-10-06T07:53:05.778335+00:00", "event": "preserve_test_intent", "destination": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\同档对照_20261006_153117_66d1c1ab\\native_test_save"}
+{"time_utc": "2026-10-06T07:53:05.786010+00:00", "event": "test_preserved", "destination": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\同档对照_20261006_153117_66d1c1ab\\native_test_save"}
+{"time_utc": "2026-10-06T07:53:05.790006+00:00", "event": "native_restore_intent"}
+{"time_utc": "2026-10-06T07:53:05.795673+00:00", "event": "native_restored"}
+{"time_utc": "2026-10-06T07:53:05.798925+00:00", "event": "winmm_restore_intent"}
+{"time_utc": "2026-10-06T07:53:05.805638+00:00", "event": "winmm_restored"}
+{"time_utc": "2026-10-06T07:53:05.809640+00:00", "event": "restored"}

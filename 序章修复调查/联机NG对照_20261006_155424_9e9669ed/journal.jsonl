@@ -1,0 +1,13 @@
+{"time_utc": "2026-10-06T07:54:24.286425+00:00", "event": "freeze_source_intent"}
+{"time_utc": "2026-10-06T07:54:24.297459+00:00", "event": "source_frozen_verified"}
+{"time_utc": "2026-10-06T07:54:24.336831+00:00", "event": "mod_backup_intent"}
+{"time_utc": "2026-10-06T07:54:24.341831+00:00", "event": "mod_backed_up"}
+{"time_utc": "2026-10-06T07:54:24.426990+00:00", "event": "mod_copy_verified"}
+{"time_utc": "2026-10-06T07:54:24.471504+00:00", "event": "slot3_import_intent", "sha256": "a8364131cb6cc9d8aa35301e043431aefc160f688c883b721d9bfe842edd64c3"}
+{"time_utc": "2026-10-06T07:54:24.505509+00:00", "event": "prepared"}
+{"time_utc": "2026-10-06T08:08:51.628928+00:00", "event": "steam_prelaunch_ordinary_saves_preserved", "account_count": 2, "launch_options_observed": "nolauncher -mp"}
+{"time_utc": "2026-10-06T08:16:52.187916+00:00", "event": "steam_route_mod_ui_verified", "pid": 42276, "launch_options": "nolauncher -mp", "ordinary_accounts_changed": {"76561199191371037": false, "76561199372553531": false}}
+{"time_utc": "2026-10-06T08:18:34.174758+00:00", "event": "mod_first_load_user_reported_success", "destination": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\联机NG对照_20261006_155424_9e9669ed\\MOD首次载入后_推进前", "slot3": {"size": 142974, "sha256": "e80e50fd9758604584be33fd22c7c08e1eff82e9b9ae4f84c3f26aab8f8eee3d"}}
+{"time_utc": "2026-10-06T08:19:49.152776+00:00", "event": "mod_progress_before_exit_preserved", "destination": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\联机NG对照_20261006_155424_9e9669ed\\MOD推进后_退出前", "slot3": {"size": 142974, "sha256": "e80e50fd9758604584be33fd22c7c08e1eff82e9b9ae4f84c3f26aab8f8eee3d"}}
+{"time_utc": "2026-10-06T08:21:09.954585+00:00", "event": "mod_progress_after_close_preserved", "destination": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\联机NG对照_20261006_155424_9e9669ed\\MOD推进后_正常关闭", "slot3": {"size": 142974, "sha256": "e80e50fd9758604584be33fd22c7c08e1eff82e9b9ae4f84c3f26aab8f8eee3d"}}
+{"time_utc": "2026-10-06T08:31:48.421381+00:00", "event": "second_mod_reload_user_confirmed", "pid": 15448, "report": "任务提示正常，并保留门厅战斗后的目标", "snapshot": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\联机NG对照_20261006_155424_9e9669ed\\MOD二次载入后_已暂停", "slot3": {"size": 142974, "sha256": "e80e50fd9758604584be33fd22c7c08e1eff82e9b9ae4f84c3f26aab8f8eee3d"}}

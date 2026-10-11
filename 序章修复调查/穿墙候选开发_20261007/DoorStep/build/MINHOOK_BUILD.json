@@ -1,0 +1,42 @@
+{
+  "source_repository": "https://github.com/TsudaKageyu/minhook",
+  "source_commit": "c3fcafdc10146beb5919319d0683e44e3c30d537",
+  "source_release": "v1.3.4",
+  "sources_unchanged": true,
+  "compiler": "MSVC 14.44.35207 (VS2022), vcvars64.bat",
+  "architecture": "x64; all 4 archive object members confirmed machine 0x8664 using dumpbin /headers",
+  "runtime": "/MT; dumpbin /directives: DEFAULTLIB:LIBCMT and DEFAULTLIB:OLDNAMES",
+  "command_from_project_root": "cmd /d /c build\\build_minhook.cmd",
+  "build_script": "build/build_minhook.cmd",
+  "build_script_sha256": "3e07fd07c5964cef53f40578b786e6dc36ada5997a6acbc36e547b7d0b200527",
+  "library": "build/minhook.x64.lib",
+  "library_bytes": 45178,
+  "library_sha256": "5d7d0ce7647eb17a38ed99f3ebcf40cf0a83b6091cde21384bfe7f4124827a0c",
+  "translation_units": [
+    "vendor/minhook/src/buffer.c",
+    "vendor/minhook/src/hook.c",
+    "vendor/minhook/src/trampoline.c",
+    "vendor/minhook/src/hde/hde64.c"
+  ],
+  "build_exit_code": 0,
+  "warnings": [
+    "C4201 (anonymous structure/union)",
+    "C4310 (constant truncation)",
+    "C4244 (bounded field conversions)",
+    "C4701 (hde64.c local c possible uninitialized, source retained unchanged)"
+  ],
+  "exports_in_archive": [
+    "MH_Initialize",
+    "MH_Uninitialize",
+    "MH_CreateHook",
+    "MH_CreateHookApi",
+    "MH_CreateHookApiEx",
+    "MH_EnableHook",
+    "MH_DisableHook",
+    "MH_RemoveHook",
+    "MH_ApplyQueued",
+    "MH_StatusToString"
+  ],
+  "dependencies": "Windows SDK headers/libraries, kernel32 Win32 APIs and static MSVC C runtime; no external MinHook DLL; final DoorStep caller should use /MT consistently.",
+  "validation_scope": "Sources reviewed, pinned source hash revalidation, successful static compilation, x64/archive directives/symbol inspection. No game process access or runtime hooks performed."
+}

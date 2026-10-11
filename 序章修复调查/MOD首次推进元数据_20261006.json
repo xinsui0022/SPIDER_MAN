@@ -1,0 +1,73 @@
+{
+  "snapshot_utc": "2026-10-06T08:19:49.680914+00:00",
+  "files": [
+    {
+      "path": "联机NG对照_20261006_155424_9e9669ed\\MOD推进后_退出前\\slot3-s.save",
+      "size": 142974,
+      "sha256": "e80e50fd9758604584be33fd22c7c08e1eff82e9b9ae4f84c3f26aab8f8eee3d",
+      "mtime_utc": "2026-10-06T08:17:59.983254+00:00",
+      "DAT1_version": 8,
+      "DAT1_sections": 28,
+      "matching_objects": [
+        {
+          "section_tag": "0xd436a987",
+          "file_offset": "0xa4d4",
+          "fields": {
+            "CurrentLightingMode": "kBlackout",
+            "CurrentCheckpointId": 10863563502179515499,
+            "CurrentCheckpoint": 1230831290,
+            "PlaythroughSegmentId": 3198264795,
+            "CurrentLightingModeValid": true,
+            "CurrentLevel": 0
+          }
+        },
+        {
+          "section_tag": "0xd436a987",
+          "file_offset": "0xa55c",
+          "fields": {
+            "LastPosition": {
+              "X": 1107.189697265625,
+              "Y": 45.762451171875,
+              "Z": 1288.1719970703125
+            },
+            "PerchForward": {
+              "X": 0,
+              "Y": 0,
+              "Z": 1
+            },
+            "PerchPosition": {
+              "X": 0,
+              "Y": 0,
+              "Z": 0
+            },
+            "GamePercent": 0.010526316240429878,
+            "ActiveMissionHash": 3546700964,
+            "LocationHash": 1725685535,
+            "LastSaveTime": 2125083665,
+            "PerchUID": 0,
+            "SlotDifficulty": 3,
+            "LowestDifficultyEverSet": 3,
+            "PlayerLevel": 50,
+            "NewGamePlusUnlocked": false,
+            "NewGamePlus": true,
+            "NewGamePlusNewGame": false,
+            "TotalPlayTime": 0
+          }
+        },
+        {
+          "section_tag": "0xd436a987",
+          "file_offset": "0xc250",
+          "fields": {
+            "CurrentLightingMode": "kBlackout",
+            "CurrentCheckpointId": 10863563502179515499,
+            "CurrentCheckpoint": 1230831290,
+            "PlaythroughSegmentId": 3198264795,
+            "CurrentLightingModeValid": true,
+            "CurrentLevel": 0
+          }
+        }
+      ],
+      "unparsed_marker_candidates": 0
+    }
+  ]
+}

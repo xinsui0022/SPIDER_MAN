@@ -1,0 +1,267 @@
+{
+  "utc": "2026-10-06T17:33:39.854377+00:00",
+  "scope": "Offline file reads only. No game process, UI, save, config, install or original package mutations; only this audit's own report files are written.",
+  "core_sha256": "b7ab575100f2346af25180d74bf9641e24ce09bf549ce47446be09c3462606c7",
+  "core_size": 799232,
+  "preferences": {
+    "EnableAskToJoinRPC": true,
+    "EnableDiscordRPC": true,
+    "ShowConsole": true,
+    "ShowImGui": true
+  },
+  "multiplayer": {
+    "Appearance": {
+      "PlayerScale": 1.0
+    },
+    "Crimes": {
+      "AssaultEnabled": true,
+      "BreakinEnabled": true,
+      "DrugDealEnabled": true,
+      "RobberyEnabled": true,
+      "ShootoutEnabled": true
+    },
+    "Difficulty": {
+      "EnemyHealthMultiplier": 0.0,
+      "EnemySpawnMultiplier": 0.0,
+      "IncreasedAggro": false
+    },
+    "Traversal": {
+      "AutoDetach": false,
+      "FloorPushback": 0.11111115664243698
+    },
+    "Visibility": {
+      "ChatVisibility": 1,
+      "NametagVisibility": 2,
+      "Outline": {
+        "a": 1.0,
+        "b": 0.0,
+        "display_opt": 2,
+        "g": 1.0,
+        "r": 1.0,
+        "scale": 1.0
+      },
+      "ShowDistance": true
+    }
+  },
+  "core_string_matches": [
+    {
+      "fo": "0x7d3e0",
+      "rva": "0x7e3e0",
+      "value": "Teleport to a player."
+    },
+    {
+      "fo": "0x7d410",
+      "rva": "0x7e410",
+      "value": "Teleport to specific coordinates."
+    },
+    {
+      "fo": "0x7d450",
+      "rva": "0x7e450",
+      "value": "Teleport a player to you. (HOST ONLY)"
+    },
+    {
+      "fo": "0x7d6e0",
+      "rva": "0x7e6e0",
+      "value": "Teleported to "
+    },
+    {
+      "fo": "0x7d900",
+      "rva": "0x7e900",
+      "value": "Teleported to {:g}, {:g}, {:g}"
+    },
+    {
+      "fo": "0x7d938",
+      "rva": "0x7e938",
+      "value": "Teleported {} to you"
+    },
+    {
+      "fo": "0x7e380",
+      "rva": "0x7f380",
+      "value": "TELEPORT"
+    },
+    {
+      "fo": "0x7e390",
+      "rva": "0x7f390",
+      "value": "SMT_TeleportToPlayer"
+    },
+    {
+      "fo": "0x7e3b0",
+      "rva": "0x7f3b0",
+      "value": "TELEPORT TO ME"
+    },
+    {
+      "fo": "0x7e3c0",
+      "rva": "0x7f3c0",
+      "value": "SMT_TeleportPlayerToMe"
+    },
+    {
+      "fo": "0x7ff18",
+      "rva": "0x80f18",
+      "value": "PhysicsComponent"
+    },
+    {
+      "fo": "0x80250",
+      "rva": "0x81250",
+      "value": "HeroTraversalTargeting"
+    },
+    {
+      "fo": "0x835f8",
+      "rva": "0x845f8",
+      "value": "TRAVERSAL"
+    },
+    {
+      "fo": "0x83608",
+      "rva": "0x84608",
+      "value": "AutoDetach"
+    },
+    {
+      "fo": "0x83618",
+      "rva": "0x84618",
+      "value": "Traversal"
+    },
+    {
+      "fo": "0x83628",
+      "rva": "0x84628",
+      "value": "FloorPushback"
+    },
+    {
+      "fo": "0x836c0",
+      "rva": "0x846c0",
+      "value": "SMT_ToggleAutoDetach"
+    },
+    {
+      "fo": "0x836d8",
+      "rva": "0x846d8",
+      "value": "SMT_SetFloorPushback"
+    },
+    {
+      "fo": "0xb9a80",
+      "rva": "0xbb480",
+      "value": ".?AV<lambda_2>@?1??OnInit@TraversalSettings@UI2@SMT@@UEAAXXZ@"
+    },
+    {
+      "fo": "0xb9ad0",
+      "rva": "0xbb4d0",
+      "value": ".?AV<lambda_1>@?1??OnInit@TraversalSettings@UI2@SMT@@UEAAXXZ@"
+    },
+    {
+      "fo": "0xbbd70",
+      "rva": "0xbd770",
+      "value": ".?AVTraversalSettings@UI2@SMT@@"
+    },
+    {
+      "fo": "0xbbda0",
+      "rva": "0xbd7a0",
+      "value": ".?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??OnInit@TraversalSettings@UI2@SMT@@UEAAXXZ@_NPEAVValue@@I@std@@"
+    },
+    {
+      "fo": "0xbbe20",
+      "rva": "0xbd820",
+      "value": ".?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??OnInit@TraversalSettings@UI2@SMT@@UEAAXXZ@_NPEAVValue@@I@std@@"
+    }
+  ],
+  "ui": {
+    "HUD.gfx": {
+      "sha256": "de6ce2cb1d343685c20560fa67640a35cc5373d5dea1d683ca3b15c58b9f59a9",
+      "constant_pool_string_count": 1482,
+      "traversal_matches": [
+        "SUBTYPE_TRAVERSAL_STRIKE"
+      ]
+    },
+    "Overlay.gfx": {
+      "sha256": "b17125c3612a8e20a8a5cd4db1309df2bcb7bfb1999c172f8692035353735eaf",
+      "constant_pool_string_count": 2890,
+      "traversal_matches": [
+        "ColorTransform",
+        "interpolateTransform",
+        "flash.geom:ColorTransform",
+        "transform",
+        "colorTransform"
+      ]
+    },
+    "POIs.gfx": {
+      "sha256": "0f0d8435c0f6de0c3c25683a15a7213048018e13e91638633241b2888092d063",
+      "constant_pool_string_count": 1781,
+      "traversal_matches": [
+        "_colorTransform",
+        "ColorTransform",
+        "SUBTYPE_TRAVERSAL_STRIKE",
+        "traversal_ring",
+        "TYPE_TRAVERSAL_CHALLENGE",
+        "transform",
+        "colorTransform",
+        "map_traversal_challenge_simple"
+      ]
+    },
+    "SystemOverlay_UIv2.gfx": {
+      "sha256": "f145698f9e9e751cc980f02f1abb13ab28c2b7cf96383e8db5167f1e4ec86b74",
+      "constant_pool_string_count": 3449,
+      "traversal_matches": [
+        "ColorTransform",
+        "_colorTransform",
+        "interpolateTransform",
+        "flash.geom:ColorTransform",
+        "transform",
+        "colorTransform",
+        "TELEPORT",
+        "TELEPORT TO ME",
+        "TRAVERSAL"
+      ]
+    },
+    "Title.gfx": {
+      "sha256": "7673bf71afc7aa095b7719f4a36a588eb1edb5d1b1ce75853786ec45527e2a08",
+      "constant_pool_string_count": 3720,
+      "traversal_matches": [
+        "ColorTransform",
+        "interpolateTransform",
+        "flash.geom:ColorTransform",
+        "transform",
+        "colorTransform"
+      ]
+    }
+  },
+  "fixed_strings": {
+    "0x77730": "E8 ** ** ** ** 84 DB 0F 84 ?? ?? ?? ?? 40 84 F6",
+    "0x7a0b8": "48 89 05 ** ** ** ** 48 89 35",
+    "0x7e3f8": "/tp <username>",
+    "0x7e408": "tp",
+    "0x7e438": "/tpc <x> <y> <z>",
+    "0x7e44c": "tpc",
+    "0x7e8d8": "%f %f %f",
+    "0x80f18": "PhysicsComponent",
+    "0x80f30": "MoverStandard"
+  },
+  "coordinate_vtable": {
+    "0x7ea60": "0x43cc0",
+    "0x7ea68": "0x43cc0",
+    "0x7ea70": "0x43f40",
+    "0x7ea78": "0x447a0",
+    "0x7ea80": "0x7d00",
+    "0x7ea88": "0x7cf0",
+    "0x7ea90": "0xa6a38"
+  },
+  "confirmed_coordinate_chain": [
+    "/tpc <x> <y> <z> is registered at SMT RVA 0x35ebe-0x35eeb, name tpc, callback vtable 0x7ea60, invoke slot +0x10 = 0x43f40.",
+    "Invoke 0x43f40 passes format %f %f %f to 0x46360 and requires return value 3 at 0x43f97.",
+    "Read storage = *(uint64_t*)(smt_base+0xbecf0); local_descriptor = *(uint64_t*)(storage+0x158); entity_wrapper = resolver(local_descriptor+4).",
+    "Resolver thunk 0x25c80 tail-jumps to *(uint64_t*)(smt_base+0xbedf0). Entity = *(uint64_t*)entity_wrapper.",
+    "0x44025-0x44034 writes the three parsed float values to entity+0x30, +0x34, +0x38.",
+    "PLAYERS TELEPORT invoke 0x67ec0 uses the same local resolver and writes the same three fields from target entity coordinates."
+  ],
+  "collision_conclusion": "No confirmed noclip/fly/collision toggle in inspected configs, native string references or all five UI ABC constant pools. PhysicsComponent reference 0x57497 is only a candidate component path; its two indirect calls have not been proved collision-enable/disable operations.",
+  "limits": [
+    "Native string absence and UI constant-pool absence are evidence limits, not proof no hidden feature exists.",
+    "No runtime movement, axis orientation, gravity suppression, collision bypass, story trigger, scene streaming or object lifetime behavior was tested.",
+    "The existing coordinate writes support a bounded teleport implementation; repeating those writes alone does not prove a continuous collision-disabled noclip implementation.",
+    "All RVAs and byte identities apply only to the pinned SMT binary hash; addresses must be computed from the loaded SMT module base."
+  ],
+  "disassembly": {
+    "coordinate_registration": "\nD:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\SMT\\Scripts\\smt.dll:     file format pei-x86-64\n\n\nDisassembly of section .text:\n\n0000000180035dc0 <.text+0x34dc0>:\n   180035dc0:\t48 89 5c 24 10       \tmov    QWORD PTR [rsp+0x10],rbx\n   180035dc5:\t55                   \tpush   rbp\n   180035dc6:\t48 8d 6c 24 a9       \tlea    rbp,[rsp-0x57]\n   180035dcb:\t48 81 ec 90 00 00 00 \tsub    rsp,0x90\n   180035dd2:\t48 8b 05 17 98 08 00 \tmov    rax,QWORD PTR [rip+0x89817]        # 0x1800bf5f0\n   180035dd9:\t48 8b d9             \tmov    rbx,rcx\n   180035ddc:\t48 89 41 20          \tmov    QWORD PTR [rcx+0x20],rax\n   180035de0:\tc7 41 1c 00 00 00 00 \tmov    DWORD PTR [rcx+0x1c],0x0\n   180035de7:\te8 94 3d ff ff       \tcall   0x180029b80\n   180035dec:\t48 8b 50 18          \tmov    rdx,QWORD PTR [rax+0x18]\n   180035df0:\t48 8d 05 29 c1 00 00 \tlea    rax,[rip+0xc129]        # 0x180041f20\n   180035df7:\t48 89 82 98 00 00 00 \tmov    QWORD PTR [rdx+0x98],rax\n   180035dfe:\te8 7d 3d ff ff       \tcall   0x180029b80\n   180035e03:\t48 8b 50 18          \tmov    rdx,QWORD PTR [rax+0x18]\n   180035e07:\t48 8d 05 62 c3 00 00 \tlea    rax,[rip+0xc362]        # 0x180042170\n   180035e0e:\t48 89 82 b0 00 00 00 \tmov    QWORD PTR [rdx+0xb0],rax\n   180035e15:\te8 26 a6 ff ff       \tcall   0x180030440\n   180035e1a:\t48 83 c0 08          \tadd    rax,0x8\n   180035e1e:\tc7 45 0b 8a c7 f8 cb \tmov    DWORD PTR [rbp+0xb],0xcbf8c78a\n   180035e25:\tf2 0f 10 4d 07       \tmovsd  xmm1,QWORD PTR [rbp+0x7]\n   180035e2a:\t33 d2                \txor    edx,edx\n   180035e2c:\t48 89 45 f7          \tmov    QWORD PTR [rbp-0x9],rax\n   180035e30:\t48 8b cb             \tmov    rcx,rbx\n   180035e33:\t0f 10 45 f7          \tmovups xmm0,XMMWORD PTR [rbp-0x9]\n   180035e37:\t0f 11 43 28          \tmovups XMMWORD PTR [rbx+0x28],xmm0\n   180035e3b:\tf2 0f 11 4b 38       \tmovsd  QWORD PTR [rbx+0x38],xmm1\n   180035e40:\te8 9b dc 00 00       \tcall   0x180043ae0\n   180035e45:\t48 8d 05 a4 8b 04 00 \tlea    rax,[rip+0x48ba4]        # 0x18007e9f0\n   180035e4c:\t48 89 5d 17          \tmov    QWORD PTR [rbp+0x17],rbx\n   180035e50:\t48 89 45 0f          \tmov    QWORD PTR [rbp+0xf],rax\n   180035e54:\t48 8d 55 0f          \tlea    rdx,[rbp+0xf]\n   180035e58:\t48 8d 45 0f          \tlea    rax,[rbp+0xf]\n   180035e5c:\t48 8d 0d 6d 85 04 00 \tlea    rcx,[rip+0x4856d]        # 0x18007e3d0\n   180035e63:\t48 89 45 47          \tmov    QWORD PTR [rbp+0x47],rax\n   180035e67:\te8 e4 a3 01 00       \tcall   0x180050250\n   180035e6c:\t48 8d 05 b5 8b 04 00 \tlea    rax,[rip+0x48bb5]        # 0x18007ea28\n   180035e73:\tc6 44 24 28 00       \tmov    BYTE PTR [rsp+0x28],0x0\n   180035e78:\t48 89 45 0f          \tmov    QWORD PTR [rbp+0xf],rax\n   180035e7c:\t4c 8d 0d 5d 85 04 00 \tlea    r9,[rip+0x4855d]        # 0x18007e3e0\n   180035e83:\t48 8d 45 0f          \tlea    rax,[rbp+0xf]\n   180035e87:\t48 89 5d 17          \tmov    QWORD PTR [rbp+0x17],rbx\n   180035e8b:\t48 89 45 47          \tmov    QWORD PTR [rbp+0x47],rax\n   180035e8f:\t4c 8d 05 62 85 04 00 \tlea    r8,[rip+0x48562]        # 0x18007e3f8\n   180035e96:\t48 8d 45 0f          \tlea    rax,[rbp+0xf]\n   180035e9a:\t48 8b cb             \tmov    rcx,rbx\n   180035e9d:\t48 8d 15 64 85 04 00 \tlea    rdx,[rip+0x48564]        # 0x18007e408\n   180035ea4:\t48 89 44 24 20       \tmov    QWORD PTR [rsp+0x20],rax\n   180035ea9:\te8 d2 bc 00 00       \tcall   0x180041b80\n   180035eae:\t48 8d 05 ab 8b 04 00 \tlea    rax,[rip+0x48bab]        # 0x18007ea60\n   180035eb5:\tc6 44 24 28 00       \tmov    BYTE PTR [rsp+0x28],0x0\n   180035eba:\t48 89 45 0f          \tmov    QWORD PTR [rbp+0xf],rax\n   180035ebe:\t4c 8d 0d 4b 85 04 00 \tlea    r9,[rip+0x4854b]        # 0x18007e410\n   180035ec5:\t48 8d 45 0f          \tlea    rax,[rbp+0xf]\n   180035ec9:\t48 89 5d 17          \tmov    QWORD PTR [rbp+0x17],rbx\n   180035ecd:\t48 89 45 47          \tmov    QWORD PTR [rbp+0x47],rax\n   180035ed1:\t4c 8d 05 60 85 04 00 \tlea    r8,[rip+0x48560]        # 0x18007e438\n   180035ed8:\t48 8d 45 0f          \tlea    rax,[rbp+0xf]\n   180035edc:\t48 8b cb             \tmov    rcx,rbx\n   180035edf:\t48 8d 15 66 85 04 00 \tlea    rdx,[rip+0x48566]        # 0x18007e44c\n   180035ee6:\t48 89 44 24 20       \tmov    QWORD PTR [rsp+0x20],rax\n   180035eeb:\te8 90 bc 00 00       \tcall   0x180041b80\n   180035ef0:\t48 8d 05 a1 8b 04 00 \tlea    rax,[rip+0x48ba1]        # 0x18007ea98\n   180035ef7:\tc6 44 24 28 01       \tmov    BYTE PTR [rsp+0x28],0x1\n   180035efc:\t48 89 45 0f          \tmov    QWORD PTR [rbp+0xf],rax\n   180035f00:\t4c 8d 0d 49 85 04 00 \tlea    r9,[rip+0x48549]        # 0x18007e450\n   180035f07:\t48 8d 45 0f          \tlea    rax,[rbp+0xf]\n   180035f0b:\t48 89 5d 17          \tmov    QWORD PTR [rbp+0x17],rbx\n   180035f0f:\t48 89 45 47          \tmov    QWORD PTR [rbp+0x47],rax\n   180035f13:\t4c 8d 05 5e 85 04 00 \tlea    r8,[rip+0x4855e]        # 0x18007e478\n   180035f1a:\t48 8d 45 0f          \tlea    rax,[rbp+0xf]\n   180035f1e:\t48 8b cb             \tmov    rcx,rbx\n   180035f21:\t48 8d 15 60 85 04 00 \tlea    rdx,[rip+0x48560]        # 0x18007e488\n   180035f28:\t48 89 44 24 20       \tmov    QWORD PTR [rsp+0x20],rax\n   180035f2d:\te8 4e bc 00 00       \tcall   0x180041b80\n",
+    "coordinate_invoke": "\nD:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\SMT\\Scripts\\smt.dll:     file format pei-x86-64\n\n\nDisassembly of section .text:\n\n0000000180043f40 <.text+0x42f40>:\n   180043f40:\t48 89 5c 24 18       \tmov    QWORD PTR [rsp+0x18],rbx\n   180043f45:\t48 89 7c 24 20       \tmov    QWORD PTR [rsp+0x20],rdi\n   180043f4a:\t55                   \tpush   rbp\n   180043f4b:\t48 8d 6c 24 a9       \tlea    rbp,[rsp-0x57]\n   180043f50:\t48 81 ec c0 00 00 00 \tsub    rsp,0xc0\n   180043f57:\t48 8b 05 22 64 07 00 \tmov    rax,QWORD PTR [rip+0x76422]        # 0x1800ba380\n   180043f5e:\t48 33 c4             \txor    rax,rsp\n   180043f61:\t48 89 45 4f          \tmov    QWORD PTR [rbp+0x4f],rax\n   180043f65:\t33 ff                \txor    edi,edi\n   180043f67:\t48 8b 02             \tmov    rax,QWORD PTR [rdx]\n   180043f6a:\t48 8b 59 08          \tmov    rbx,QWORD PTR [rcx+0x8]\n   180043f6e:\t48 85 c0             \ttest   rax,rax\n   180043f71:\t0f 84 4d 01 00 00    \tje     0x1800440c4\n   180043f77:\t48 8d 4d cb          \tlea    rcx,[rbp-0x35]\n   180043f7b:\t48 89 4c 24 20       \tmov    QWORD PTR [rsp+0x20],rcx\n   180043f80:\t4c 8d 4d cf          \tlea    r9,[rbp-0x31]\n   180043f84:\t4c 8d 45 c7          \tlea    r8,[rbp-0x39]\n   180043f88:\t48 8d 15 49 a9 03 00 \tlea    rdx,[rip+0x3a949]        # 0x18007e8d8\n   180043f8f:\t48 8b c8             \tmov    rcx,rax\n   180043f92:\te8 c9 23 00 00       \tcall   0x180046360\n   180043f97:\t83 f8 03             \tcmp    eax,0x3\n   180043f9a:\t0f 85 24 01 00 00    \tjne    0x1800440c4\n   180043fa0:\t48 8b 05 49 ad 07 00 \tmov    rax,QWORD PTR [rip+0x7ad49]        # 0x1800becf0\n   180043fa7:\t48 8b 88 58 01 00 00 \tmov    rcx,QWORD PTR [rax+0x158]\n   180043fae:\t48 85 c9             \ttest   rcx,rcx\n   180043fb1:\t74 0b                \tje     0x180043fbe\n   180043fb3:\t48 83 c1 04          \tadd    rcx,0x4\n   180043fb7:\te8 c4 1c fe ff       \tcall   0x180025c80\n   180043fbc:\teb 03                \tjmp    0x180043fc1\n   180043fbe:\t48 8b c7             \tmov    rax,rdi\n   180043fc1:\t48 85 c0             \ttest   rax,rax\n   180043fc4:\t75 4d                \tjne    0x180044013\n   180043fc6:\t0f 57 c0             \txorps  xmm0,xmm0\n   180043fc9:\t0f 11 45 d7          \tmovups XMMWORD PTR [rbp-0x29],xmm0\n   180043fcd:\t48 89 7d e7          \tmov    QWORD PTR [rbp-0x19],rdi\n   180043fd1:\t48 89 7d ef          \tmov    QWORD PTR [rbp-0x11],rdi\n   180043fd5:\tb9 20 00 00 00       \tmov    ecx,0x20\n   180043fda:\te8 f1 45 fc ff       \tcall   0x1800085d0\n   180043fdf:\t48 89 45 d7          \tmov    QWORD PTR [rbp-0x29],rax\n   180043fe3:\t48 c7 45 e7 18 00 00 \tmov    QWORD PTR [rbp-0x19],0x18\n   180043fea:\t00 \n   180043feb:\t48 c7 45 ef 1f 00 00 \tmov    QWORD PTR [rbp-0x11],0x1f\n   180043ff2:\t00 \n   180043ff3:\t0f 10 05 9e a6 03 00 \tmovups xmm0,XMMWORD PTR [rip+0x3a69e]        # 0x18007e698\n   180043ffa:\t0f 11 00             \tmovups XMMWORD PTR [rax],xmm0\n   180043ffd:\tf2 0f 10 05 a3 a6 03 \tmovsd  xmm0,QWORD PTR [rip+0x3a6a3]        # 0x18007e6a8\n   180044004:\t00 \n   180044005:\tf2 0f 11 40 10       \tmovsd  QWORD PTR [rax+0x10],xmm0\n   18004400a:\t40 88 78 18          \tmov    BYTE PTR [rax+0x18],dil\n   18004400e:\te9 0d 01 00 00       \tjmp    0x180044120\n   180044013:\tf3 0f 10 4d cf       \tmovss  xmm1,DWORD PTR [rbp-0x31]\n   180044018:\tf3 0f 10 55 cb       \tmovss  xmm2,DWORD PTR [rbp-0x35]\n   18004401d:\t48 8b 00             \tmov    rax,QWORD PTR [rax]\n   180044020:\t48 85 c0             \ttest   rax,rax\n   180044023:\t74 1e                \tje     0x180044043\n   180044025:\tf3 0f 10 45 c7       \tmovss  xmm0,DWORD PTR [rbp-0x39]\n   18004402a:\tf3 0f 11 40 30       \tmovss  DWORD PTR [rax+0x30],xmm0\n   18004402f:\tf3 0f 11 48 34       \tmovss  DWORD PTR [rax+0x34],xmm1\n   180044034:\tf3 0f 11 50 38       \tmovss  DWORD PTR [rax+0x38],xmm2\n   180044039:\tf3 0f 10 55 cb       \tmovss  xmm2,DWORD PTR [rbp-0x35]\n   18004403e:\tf3 0f 10 4d cf       \tmovss  xmm1,DWORD PTR [rbp-0x31]\n   180044043:\tf3 0f 10 45 c7       \tmovss  xmm0,DWORD PTR [rbp-0x39]\n   180044048:\tf3 0f 11 45 3f       \tmovss  DWORD PTR [rbp+0x3f],xmm0\n   18004404d:\t48 b8 00 00 00 00 00 \tmovabs rax,0x7000000000000000\n   180044054:\t00 00 70 \n   180044057:\t48 89 45 27          \tmov    QWORD PTR [rbp+0x27],rax\n   18004405b:\tf3 0f 11 4d 43       \tmovss  DWORD PTR [rbp+0x43],xmm1\n   180044060:\t48 b8 04 00 00 00 00 \tmovabs rax,0x7000000000000004\n   180044067:\t00 00 70 \n   18004406a:\t48 89 45 2f          \tmov    QWORD PTR [rbp+0x2f],rax\n   18004406e:\tf3 0f 11 55 47       \tmovss  DWORD PTR [rbp+0x47],xmm2\n   180044073:\t48 b8 08 00 00 00 00 \tmovabs rax,0x7000000000000008\n   18004407a:\t00 00 70 \n   18004407d:\t48 89 45 37          \tmov    QWORD PTR [rbp+0x37],rax\n   180044081:\t48 8d 05 78 a8 03 00 \tlea    rax,[rip+0x3a878]        # 0x18007e900\n   180044088:\t48 89 45 f7          \tmov    QWORD PTR [rbp-0x9],rax\n   18004408c:\t48 c7 45 ff 1e 00 00 \tmov    QWORD PTR [rbp-0x1],0x1e\n   180044093:\t00 \n   180044094:\t48 c7 45 d7 03 00 00 \tmov    QWORD PTR [rbp-0x29],0x3\n   18004409b:\t00 \n   18004409c:\t48 8d 45 27          \tlea    rax,[rbp+0x27]\n   1800440a0:\t48 89 45 df          \tmov    QWORD PTR [rbp-0x21],rax\n   1800440a4:\t0f 28 45 f7          \tmovaps xmm0,XMMWORD PTR [rbp-0x9]\n   1800440a8:\t66 0f 7f 45 f7       \tmovdqa XMMWORD PTR [rbp-0x9],xmm0\n   1800440ad:\t4c 8d 45 d7          \tlea    r8,[rbp-0x29]\n   1800440b1:\t48 8d 55 f7          \tlea    rdx,[rbp-0x9]\n   1800440b5:\t48 8d 4d 07          \tlea    rcx,[rbp+0x7]\n   1800440b9:\te8 d2 c2 ff ff       \tcall   0x180040390\n   1800440be:\t48 8d 55 07          \tlea    rdx,[rbp+0x7]\n   1800440c2:\teb 60                \tjmp    0x180044124\n   1800440c4:\t0f 57 c0             \txorps  xmm0,xmm0\n   1800440c7:\t0f 11 45 d7          \tmovups XMMWORD PTR [rbp-0x29],xmm0\n   1800440cb:\t48 89 7d e7          \tmov    QWORD PTR [rbp-0x19],rdi\n   1800440cf:\t48 89 7d ef          \tmov    QWORD PTR [rbp-0x11],rdi\n   1800440d3:\tb9 20 00 00 00       \tmov    ecx,0x20\n   1800440d8:\te8 f3 44 fc ff       \tcall   0x1800085d0\n   1800440dd:\t48 8b d0             \tmov    rdx,rax\n   1800440e0:\t48 89 45 d7          \tmov    QWORD PTR [rbp-0x29],rax\n   1800440e4:\t48 c7 45 e7 17 00 00 \tmov    QWORD PTR [rbp-0x19],0x17\n   1800440eb:\t00 \n   1800440ec:\t48 c7 45 ef 1f 00 00 \tmov    QWORD PTR [rbp-0x11],0x1f\n   1800440f3:\t00 \n   1800440f4:\t0f 10 05 ed a7 03 00 \tmovups xmm0,XMMWORD PTR [rip+0x3a7ed]        # 0x18007e8e8\n   1800440fb:\t0f 11 00             \tmovups XMMWORD PTR [rax],xmm0\n   1800440fe:\t8b 0d f4 a7 03 00    \tmov    ecx,DWORD PTR [rip+0x3a7f4]        # 0x18007e8f8\n   180044104:\t89 48 10             \tmov    DWORD PTR [rax+0x10],ecx\n   180044107:\t0f b7 0d ee a7 03 00 \tmovzx  ecx,WORD PTR [rip+0x3a7ee]        # 0x18007e8fc\n   18004410e:\t66 89 48 14          \tmov    WORD PTR [rax+0x14],cx\n   180044112:\t0f b6 05 e5 a7 03 00 \tmovzx  eax,BYTE PTR [rip+0x3a7e5]        # 0x18007e8fe\n   180044119:\t88 42 16             \tmov    BYTE PTR [rdx+0x16],al\n   18004411c:\t40 88 7a 17          \tmov    BYTE PTR [rdx+0x17],dil\n   180044120:\t48 8d 55 d7          \tlea    rdx,[rbp-0x29]\n   180044124:\t48 8b cb             \tmov    rcx,rbx\n   180044127:\te8 b4 db ff ff       \tcall   0x180041ce0\n   18004412c:\t48 8b 4d 4f          \tmov    rcx,QWORD PTR [rbp+0x4f]\n   180044130:\t48 33 cc             \txor    rcx,rsp\n   180044133:\te8 88 66 02 00       \tcall   0x18006a7c0\n   180044138:\t4c 8d 9c 24 c0 00 00 \tlea    r11,[rsp+0xc0]\n   18004413f:\t00 \n",
+    "local_entity_resolver": "\nD:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\SMT\\Scripts\\smt.dll:     file format pei-x86-64\n\n\nDisassembly of section .text:\n\n0000000180025c80 <.text+0x24c80>:\n   180025c80:\t48 8b 05 69 91 09 00 \tmov    rax,QWORD PTR [rip+0x99169]        # 0x1800bedf0\n   180025c87:\t48 ff e0             \trex.W jmp rax\n   180025c8a:\tcc                   \tint3   \n   180025c8b:\tcc                   \tint3   \n   180025c8c:\tcc                   \tint3   \n   180025c8d:\tcc                   \tint3   \n   180025c8e:\tcc                   \tint3   \n   180025c8f:\tcc                   \tint3   \n   180025c90:\t40 53                \trex push rbx\n   180025c92:\t48 81 ec c0 00 00 00 \tsub    rsp,0xc0\n   180025c99:\t48 8b 05 e0 46 09 00 \tmov    rax,QWORD PTR [rip+0x946e0]        # 0x1800ba380\n   180025ca0:\t48 33 c4             \txor    rax,rsp\n   180025ca3:\t48 89 84 24 b0 00 00 \tmov    QWORD PTR [rsp+0xb0],rax\n   180025caa:\t00 \n   180025cab:\tb2 01                \tmov    dl,0x1\n   180025cad:\t48 8d 8c 24 90 00 00 \tlea    rcx,[rsp+0x90]\n   180025cb4:\t00 \n   180025cb5:\te8 56 25 04 00       \tcall   0x180068210\n   180025cba:\t48 8b d8             \tmov    rbx,rax\n   180025cbd:\t48 83 78 18 0f       \tcmp    QWORD PTR [rax+0x18],0xf\n   180025cc2:\t76 03                \tjbe    0x180025cc7\n   180025cc4:\t48 8b 18             \tmov    rbx,QWORD PTR [rax]\n   180025cc7:\t48 8d 15 62 1a 05 00 \tlea    rdx,[rip+0x51a62]        # 0x180077730\n   180025cce:\t48 8d 4c 24 58       \tlea    rcx,[rsp+0x58]\n   180025cd3:\te8 28 86 fe ff       \tcall   0x18000e300\n   180025cd8:\t4c 8b c0             \tmov    r8,rax\n   180025cdb:\t48 8b d3             \tmov    rdx,rbx\n   180025cde:\t48 8d 4c 24 40       \tlea    rcx,[rsp+0x40]\n   180025ce3:\te8 78 8e fe ff       \tcall   0x18000eb60\n   180025ce8:\t0f 10 08             \tmovups xmm1,XMMWORD PTR [rax]\n   180025ceb:\t0f 11 4c 24 30       \tmovups XMMWORD PTR [rsp+0x30],xmm1\n   180025cf0:\tf2 0f 10 40 10       \tmovsd  xmm0,QWORD PTR [rax+0x10]\n   180025cf5:\tf2 0f 11 44 24 50    \tmovsd  QWORD PTR [rsp+0x50],xmm0\n   180025cfb:\t48 8b 94 24 a8 00 00 \tmov    rdx,QWORD PTR [rsp+0xa8]\n   180025d02:\t00 \n   180025d03:\t48 83 fa 0f          \tcmp    rdx,0xf\n   180025d07:\t76 50                \tjbe    0x180025d59\n   180025d09:\t48 ff c2             \tinc    rdx\n   180025d0c:\t48 8b 8c 24 90 00 00 \tmov    rcx,QWORD PTR [rsp+0x90]\n   180025d13:\t00 \n   180025d14:\t48 8b c1             \tmov    rax,rcx\n   180025d17:\t48 81 fa 00 10 00 00 \tcmp    rdx,0x1000\n   180025d1e:\t72 2f                \tjb     0x180025d4f\n   180025d20:\t48 83 c2 27          \tadd    rdx,0x27\n   180025d24:\t48 8b 49 f8          \tmov    rcx,QWORD PTR [rcx-0x8]\n   180025d28:\t48 2b c1             \tsub    rax,rcx\n   180025d2b:\t48 83 e8 08          \tsub    rax,0x8\n   180025d2f:\t48 83 f8 1f          \tcmp    rax,0x1f\n   180025d33:\t76 1a                \tjbe    0x180025d4f\n   180025d35:\t48 c7 44 24 20 00 00 \tmov    QWORD PTR [rsp+0x20],0x0\n   180025d3c:\t00 00 \n   180025d3e:\t45 33 c9             \txor    r9d,r9d\n   180025d41:\t45 33 c0             \txor    r8d,r8d\n   180025d44:\t33 d2                \txor    edx,edx\n   180025d46:\t33 c9                \txor    ecx,ecx\n   180025d48:\tff 15 62 da 04 00    \tcall   QWORD PTR [rip+0x4da62]        # 0x1800737b0\n   180025d4e:\tcc                   \tint3   \n   180025d4f:\te8 58 46 04 00       \tcall   0x18006a3ac\n   180025d54:\t0f 10 4c 24 30       \tmovups xmm1,XMMWORD PTR [rsp+0x30]\n   180025d59:\t66 0f 7e c8          \tmovd   eax,xmm1\n   180025d5d:\t84 c0                \ttest   al,al\n   180025d5f:\t74 1d                \tje     0x180025d7e\n   180025d61:\t48 63 4c 24 50       \tmovsxd rcx,DWORD PTR [rsp+0x50]\n   180025d66:\t66 0f 73 d9 08       \tpsrldq xmm1,0x8\n   180025d6b:\t66 48 0f 7e c8       \tmovq   rax,xmm1\n   180025d70:\t48 83 c1 05          \tadd    rcx,0x5\n   180025d74:\t48 03 c8             \tadd    rcx,rax\n   180025d77:\t48 89 0d 72 90 09 00 \tmov    QWORD PTR [rip+0x99072],rcx        # 0x1800bedf0\n   180025d7e:\t48 8b 8c 24 b0 00 00 \tmov    rcx,QWORD PTR [rsp+0xb0]\n   180025d85:\t00 \n   180025d86:\t48 33 cc             \txor    rcx,rsp\n   180025d89:\te8 32 4a 04 00       \tcall   0x18006a7c0\n   180025d8e:\t48 81 c4 c0 00 00 00 \tadd    rsp,0xc0\n   180025d95:\t5b                   \tpop    rbx\n   180025d96:\tc3                   \tret    \n",
+    "local_storage_locator": "\nD:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\SMT\\Scripts\\smt.dll:     file format pei-x86-64\n\n\nDisassembly of section .text:\n\n000000018002d050 <.text+0x2c050>:\n   18002d050:\t40 53                \trex push rbx\n   18002d052:\t48 81 ec c0 00 00 00 \tsub    rsp,0xc0\n   18002d059:\t48 8b 05 20 d3 08 00 \tmov    rax,QWORD PTR [rip+0x8d320]        # 0x1800ba380\n   18002d060:\t48 33 c4             \txor    rax,rsp\n   18002d063:\t48 89 84 24 b0 00 00 \tmov    QWORD PTR [rsp+0xb0],rax\n   18002d06a:\t00 \n   18002d06b:\tb2 01                \tmov    dl,0x1\n   18002d06d:\t48 8d 8c 24 90 00 00 \tlea    rcx,[rsp+0x90]\n   18002d074:\t00 \n   18002d075:\te8 96 b1 03 00       \tcall   0x180068210\n   18002d07a:\t48 8b d8             \tmov    rbx,rax\n   18002d07d:\t48 83 78 18 0f       \tcmp    QWORD PTR [rax+0x18],0xf\n   18002d082:\t76 03                \tjbe    0x18002d087\n   18002d084:\t48 8b 18             \tmov    rbx,QWORD PTR [rax]\n   18002d087:\t48 8d 15 2a d0 04 00 \tlea    rdx,[rip+0x4d02a]        # 0x18007a0b8\n   18002d08e:\t48 8d 4c 24 58       \tlea    rcx,[rsp+0x58]\n   18002d093:\te8 68 12 fe ff       \tcall   0x18000e300\n   18002d098:\t4c 8b c0             \tmov    r8,rax\n   18002d09b:\t48 8b d3             \tmov    rdx,rbx\n   18002d09e:\t48 8d 4c 24 40       \tlea    rcx,[rsp+0x40]\n   18002d0a3:\te8 b8 1a fe ff       \tcall   0x18000eb60\n   18002d0a8:\t0f 10 08             \tmovups xmm1,XMMWORD PTR [rax]\n   18002d0ab:\t0f 11 4c 24 30       \tmovups XMMWORD PTR [rsp+0x30],xmm1\n   18002d0b0:\tf2 0f 10 40 10       \tmovsd  xmm0,QWORD PTR [rax+0x10]\n   18002d0b5:\tf2 0f 11 44 24 50    \tmovsd  QWORD PTR [rsp+0x50],xmm0\n   18002d0bb:\t48 8b 94 24 a8 00 00 \tmov    rdx,QWORD PTR [rsp+0xa8]\n   18002d0c2:\t00 \n   18002d0c3:\t48 83 fa 0f          \tcmp    rdx,0xf\n   18002d0c7:\t76 50                \tjbe    0x18002d119\n   18002d0c9:\t48 ff c2             \tinc    rdx\n   18002d0cc:\t48 8b 8c 24 90 00 00 \tmov    rcx,QWORD PTR [rsp+0x90]\n   18002d0d3:\t00 \n   18002d0d4:\t48 8b c1             \tmov    rax,rcx\n   18002d0d7:\t48 81 fa 00 10 00 00 \tcmp    rdx,0x1000\n   18002d0de:\t72 2f                \tjb     0x18002d10f\n   18002d0e0:\t48 83 c2 27          \tadd    rdx,0x27\n   18002d0e4:\t48 8b 49 f8          \tmov    rcx,QWORD PTR [rcx-0x8]\n   18002d0e8:\t48 2b c1             \tsub    rax,rcx\n   18002d0eb:\t48 83 e8 08          \tsub    rax,0x8\n   18002d0ef:\t48 83 f8 1f          \tcmp    rax,0x1f\n   18002d0f3:\t76 1a                \tjbe    0x18002d10f\n   18002d0f5:\t48 c7 44 24 20 00 00 \tmov    QWORD PTR [rsp+0x20],0x0\n   18002d0fc:\t00 00 \n   18002d0fe:\t45 33 c9             \txor    r9d,r9d\n   18002d101:\t45 33 c0             \txor    r8d,r8d\n   18002d104:\t33 d2                \txor    edx,edx\n   18002d106:\t33 c9                \txor    ecx,ecx\n   18002d108:\tff 15 a2 66 04 00    \tcall   QWORD PTR [rip+0x466a2]        # 0x1800737b0\n   18002d10e:\tcc                   \tint3   \n   18002d10f:\te8 98 d2 03 00       \tcall   0x18006a3ac\n   18002d114:\t0f 10 4c 24 30       \tmovups xmm1,XMMWORD PTR [rsp+0x30]\n   18002d119:\t66 0f 7e c8          \tmovd   eax,xmm1\n   18002d11d:\t84 c0                \ttest   al,al\n   18002d11f:\t74 1d                \tje     0x18002d13e\n   18002d121:\t48 63 4c 24 50       \tmovsxd rcx,DWORD PTR [rsp+0x50]\n   18002d126:\t66 0f 73 d9 08       \tpsrldq xmm1,0x8\n   18002d12b:\t66 48 0f 7e c8       \tmovq   rax,xmm1\n   18002d130:\t48 83 c1 07          \tadd    rcx,0x7\n   18002d134:\t48 03 c8             \tadd    rcx,rax\n   18002d137:\t48 89 0d b2 1b 09 00 \tmov    QWORD PTR [rip+0x91bb2],rcx        # 0x1800becf0\n",
+    "traversal_settings": "\nD:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\SMT\\Scripts\\smt.dll:     file format pei-x86-64\n\n\nDisassembly of section .text:\n\n0000000180065e30 <.text+0x64e30>:\n   180065e30:\t48 89 5c 24 08       \tmov    QWORD PTR [rsp+0x8],rbx\n   180065e35:\t55                   \tpush   rbp\n   180065e36:\t48 8d 6c 24 a9       \tlea    rbp,[rsp-0x57]\n   180065e3b:\t48 81 ec 90 00 00 00 \tsub    rsp,0x90\n   180065e42:\t48 8b d9             \tmov    rbx,rcx\n   180065e45:\t48 8d 15 a4 e8 01 00 \tlea    rdx,[rip+0x1e8a4]        # 0x1800846f0\n   180065e4c:\te8 8f b1 fe ff       \tcall   0x180050fe0\n   180065e51:\tc6 45 23 01          \tmov    BYTE PTR [rbp+0x23],0x1\n   180065e55:\t48 8d 05 8c 44 05 00 \tlea    rax,[rip+0x5448c]        # 0x1800ba2e8\n   180065e5c:\t48 89 45 0f          \tmov    QWORD PTR [rbp+0xf],rax\n   180065e60:\tc7 45 17 02 00 00 00 \tmov    DWORD PTR [rbp+0x17],0x2\n   180065e67:\tc7 45 1f 01 00 00 00 \tmov    DWORD PTR [rbp+0x1f],0x1\n   180065e6e:\te8 9d 03 00 00       \tcall   0x180066210\n   180065e73:\t0f b6 c0             \tmovzx  eax,al\n   180065e76:\t89 45 1b             \tmov    DWORD PTR [rbp+0x1b],eax\n   180065e79:\t66 0f 6f 05 7f 2d 01 \tmovdqa xmm0,XMMWORD PTR [rip+0x12d7f]        # 0x180078c00\n   180065e80:\t00 \n   180065e81:\tf3 0f 7f 45 27       \tmovdqu XMMWORD PTR [rbp+0x27],xmm0\n   180065e86:\tc6 45 3f 00          \tmov    BYTE PTR [rbp+0x3f],0x0\n   180065e8a:\t48 c7 45 47 00 00 00 \tmov    QWORD PTR [rbp+0x47],0x0\n   180065e91:\t00 \n   180065e92:\t48 8d 15 1f 94 01 00 \tlea    rdx,[rip+0x1941f]        # 0x18007f2b8\n   180065e99:\t48 8d 4d 27          \tlea    rcx,[rbp+0x27]\n   180065e9d:\te8 0e 58 fc ff       \tcall   0x18002b6b0\n   180065ea2:\t90                   \tnop\n   180065ea3:\t48 8d 45 27          \tlea    rax,[rbp+0x27]\n   180065ea7:\t48 89 44 24 28       \tmov    QWORD PTR [rsp+0x28],rax\n   180065eac:\t48 8d 05 0d e8 01 00 \tlea    rax,[rip+0x1e80d]        # 0x1800846c0\n   180065eb3:\t48 89 44 24 20       \tmov    QWORD PTR [rsp+0x20],rax\n   180065eb8:\t4c 8d 4d 0f          \tlea    r9,[rbp+0xf]\n   180065ebc:\t4c 8d 05 3d e8 01 00 \tlea    r8,[rip+0x1e83d]        # 0x180084700\n   180065ec3:\t48 8d 15 86 e8 01 00 \tlea    rdx,[rip+0x1e886]        # 0x180084750\n   180065eca:\t48 8b cb             \tmov    rcx,rbx\n   180065ecd:\te8 de b1 fe ff       \tcall   0x1800510b0\n   180065ed2:\t90                   \tnop\n   180065ed3:\tf6 45 3f 40          \ttest   BYTE PTR [rbp+0x3f],0x40\n   180065ed7:\t74 0a                \tje     0x180065ee3\n   180065ed9:\t48 8d 4d 27          \tlea    rcx,[rbp+0x27]\n   180065edd:\te8 de 57 fc ff       \tcall   0x18002b6c0\n   180065ee2:\t90                   \tnop\n   180065ee3:\tc6 45 0b 01          \tmov    BYTE PTR [rbp+0xb],0x1\n   180065ee7:\tc7 45 fb 00 00 80 3f \tmov    DWORD PTR [rbp-0x5],0x3f800000\n   180065eee:\tc7 45 03 00 00 80 3f \tmov    DWORD PTR [rbp+0x3],0x3f800000\n   180065ef5:\tc7 45 07 00 00 80 3f \tmov    DWORD PTR [rbp+0x7],0x3f800000\n   180065efc:\tc7 45 ff 00 00 10 41 \tmov    DWORD PTR [rbp-0x1],0x41100000\n   180065f03:\te8 38 04 00 00       \tcall   0x180066340\n   180065f08:\tf3 0f 11 45 f7       \tmovss  DWORD PTR [rbp-0x9],xmm0\n   180065f0d:\t66 0f 6f 05 eb 2c 01 \tmovdqa xmm0,XMMWORD PTR [rip+0x12ceb]        # 0x180078c00\n   180065f14:\t00 \n   180065f15:\tf3 0f 7f 45 27       \tmovdqu XMMWORD PTR [rbp+0x27],xmm0\n   180065f1a:\tc6 45 3f 00          \tmov    BYTE PTR [rbp+0x3f],0x0\n   180065f1e:\t48 c7 45 47 00 00 00 \tmov    QWORD PTR [rbp+0x47],0x0\n   180065f25:\t00 \n   180065f26:\t48 8d 15 8b 93 01 00 \tlea    rdx,[rip+0x1938b]        # 0x18007f2b8\n   180065f2d:\t48 8d 4d 27          \tlea    rcx,[rbp+0x27]\n   180065f31:\te8 7a 57 fc ff       \tcall   0x18002b6b0\n   180065f36:\t90                   \tnop\n   180065f37:\t48 8d 45 27          \tlea    rax,[rbp+0x27]\n   180065f3b:\t48 89 44 24 28       \tmov    QWORD PTR [rsp+0x28],rax\n   180065f40:\t48 8d 05 91 e7 01 00 \tlea    rax,[rip+0x1e791]        # 0x1800846d8\n   180065f47:\t48 89 44 24 20       \tmov    QWORD PTR [rsp+0x20],rax\n   180065f4c:\t4c 8d 4d f7          \tlea    r9,[rbp-0x9]\n   180065f50:\t4c 8d 05 09 e8 01 00 \tlea    r8,[rip+0x1e809]        # 0x180084760\n   180065f57:\t48 8d 15 3a e8 01 00 \tlea    rdx,[rip+0x1e83a]        # 0x180084798\n   180065f5e:\t48 8b cb             \tmov    rcx,rbx\n   180065f61:\te8 9a b5 fe ff       \tcall   0x180051500\n   180065f66:\t90                   \tnop\n   180065f67:\tf6 45 3f 40          \ttest   BYTE PTR [rbp+0x3f],0x40\n   180065f6b:\t74 0a                \tje     0x180065f77\n   180065f6d:\t48 8d 4d 27          \tlea    rcx,[rbp+0x27]\n   180065f71:\te8 4a 57 fc ff       \tcall   0x18002b6c0\n   180065f76:\t90                   \tnop\n   180065f77:\t48 8b 9c 24 a0 00 00 \tmov    rbx,QWORD PTR [rsp+0xa0]\n   180065f7e:\t00 \n   180065f7f:\t48 81 c4 90 00 00 00 \tadd    rsp,0x90\n   180065f86:\t5d                   \tpop    rbp\n   180065f87:\tc3                   \tret    \n   180065f88:\tcc                   \tint3   \n   180065f89:\tcc                   \tint3   \n   180065f8a:\tcc                   \tint3   \n   180065f8b:\tcc                   \tint3   \n   180065f8c:\tcc                   \tint3   \n   180065f8d:\tcc                   \tint3   \n   180065f8e:\tcc                   \tint3   \n   180065f8f:\tcc                   \tint3   \n   180065f90:\t48 89 5c 24 08       \tmov    QWORD PTR [rsp+0x8],rbx\n   180065f95:\t55                   \tpush   rbp\n   180065f96:\t48 8d 6c 24 a9       \tlea    rbp,[rsp-0x57]\n   180065f9b:\t48 81 ec c0 00 00 00 \tsub    rsp,0xc0\n   180065fa2:\t48 8b 05 d7 43 05 00 \tmov    rax,QWORD PTR [rip+0x543d7]        # 0x1800ba380\n   180065fa9:\t48 33 c4             \txor    rax,rsp\n   180065fac:\t48 89 45 4f          \tmov    QWORD PTR [rbp+0x4f],rax\n   180065fb0:\t48 8b d9             \tmov    rbx,rcx\n   180065fb3:\t48 8d 05 f6 e7 01 00 \tlea    rax,[rip+0x1e7f6]        # 0x1800847b0\n   180065fba:\t48 89 45 d7          \tmov    QWORD PTR [rbp-0x29],rax\n   180065fbe:\t48 89 4d df          \tmov    QWORD PTR [rbp-0x21],rcx\n   180065fc2:\t48 8d 45 d7          \tlea    rax,[rbp-0x29]\n   180065fc6:\t48 89 45 0f          \tmov    QWORD PTR [rbp+0xf],rax\n   180065fca:\t48 8d 55 d7          \tlea    rdx,[rbp-0x29]\n   180065fce:\t48 8d 0d eb e6 01 00 \tlea    rcx,[rip+0x1e6eb]        # 0x1800846c0\n   180065fd5:\te8 76 a2 fe ff       \tcall   0x180050250\n   180065fda:\t48 8d 05 07 e8 01 00 \tlea    rax,[rip+0x1e807]        # 0x1800847e8\n   180065fe1:\t48 89 45 d7          \tmov    QWORD PTR [rbp-0x29],rax\n   180065fe5:\t48 89 5d df          \tmov    QWORD PTR [rbp-0x21],rbx\n   180065fe9:\t48 8d 45 d7          \tlea    rax,[rbp-0x29]\n   180065fed:\t48 89 45 0f          \tmov    QWORD PTR [rbp+0xf],rax\n   180065ff1:\t48 8d 55 d7          \tlea    rdx,[rbp-0x29]\n   180065ff5:\t48 8d 0d dc e6 01 00 \tlea    rcx,[rip+0x1e6dc]        # 0x1800846d8\n   180065ffc:\te8 4f a2 fe ff       \tcall   0x180050250\n",
+    "physics_component_reference": "\nD:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\SMT\\Scripts\\smt.dll:     file format pei-x86-64\n\n\nDisassembly of section .text:\n\n0000000180057450 <.text+0x56450>:\n   180057450:\t85 d2                \ttest   edx,edx\n   180057452:\t0f 8e 9b 00 00 00    \tjle    0x1800574f3\n   180057458:\t41 56                \tpush   r14\n   18005745a:\t48 83 ec 20          \tsub    rsp,0x20\n   18005745e:\t48 89 6c 24 38       \tmov    QWORD PTR [rsp+0x38],rbp\n   180057463:\t4c 8b f1             \tmov    r14,rcx\n   180057466:\t48 63 ea             \tmovsxd rbp,edx\n   180057469:\t85 d2                \ttest   edx,edx\n   18005746b:\t74 7b                \tje     0x1800574e8\n   18005746d:\t48 89 5c 24 30       \tmov    QWORD PTR [rsp+0x30],rbx\n   180057472:\t33 db                \txor    ebx,ebx\n   180057474:\t48 89 7c 24 48       \tmov    QWORD PTR [rsp+0x48],rdi\n   180057479:\t48 89 74 24 40       \tmov    QWORD PTR [rsp+0x40],rsi\n   18005747e:\t66 90                \txchg   ax,ax\n   180057480:\t49 8b 3c de          \tmov    rdi,QWORD PTR [r14+rbx*8]\n   180057484:\t0f b6 47 1d          \tmovzx  eax,BYTE PTR [rdi+0x1d]\n   180057488:\t24 03                \tand    al,0x3\n   18005748a:\t3c 01                \tcmp    al,0x1\n   18005748c:\t75 43                \tjne    0x1800574d1\n   18005748e:\t48 8b 77 08          \tmov    rsi,QWORD PTR [rdi+0x8]\n   180057492:\t48 85 f6             \ttest   rsi,rsi\n   180057495:\t74 3a                \tje     0x1800574d1\n   180057497:\t48 8d 15 7a 9a 02 00 \tlea    rdx,[rip+0x29a7a]        # 0x180080f18\n   18005749e:\t48 8b ce             \tmov    rcx,rsi\n   1800574a1:\te8 7a e0 fc ff       \tcall   0x180025520\n   1800574a6:\t48 85 c0             \ttest   rax,rax\n   1800574a9:\t74 26                \tje     0x1800574d1\n   1800574ab:\t48 8d 15 7e 9a 02 00 \tlea    rdx,[rip+0x29a7e]        # 0x180080f30\n   1800574b2:\t48 8b ce             \tmov    rcx,rsi\n   1800574b5:\te8 66 e0 fc ff       \tcall   0x180025520\n   1800574ba:\t48 85 c0             \ttest   rax,rax\n   1800574bd:\t74 12                \tje     0x1800574d1\n   1800574bf:\t48 8b cf             \tmov    rcx,rdi\n   1800574c2:\tff 15 90 bc 06 00    \tcall   QWORD PTR [rip+0x6bc90]        # 0x1800c3158\n   1800574c8:\t48 8b cf             \tmov    rcx,rdi\n   1800574cb:\tff 15 8f bc 06 00    \tcall   QWORD PTR [rip+0x6bc8f]        # 0x1800c3160\n   1800574d1:\t48 ff c3             \tinc    rbx\n   1800574d4:\t48 3b dd             \tcmp    rbx,rbp\n   1800574d7:\t7c a7                \tjl     0x180057480\n   1800574d9:\t48 8b 7c 24 48       \tmov    rdi,QWORD PTR [rsp+0x48]\n   1800574de:\t48 8b 74 24 40       \tmov    rsi,QWORD PTR [rsp+0x40]\n   1800574e3:\t48 8b 5c 24 30       \tmov    rbx,QWORD PTR [rsp+0x30]\n   1800574e8:\t48 8b 6c 24 38       \tmov    rbp,QWORD PTR [rsp+0x38]\n   1800574ed:\t48 83 c4 20          \tadd    rsp,0x20\n   1800574f1:\t41 5e                \tpop    r14\n   1800574f3:\tc3                   \tret    \n",
+    "player_menu_teleport": "\nD:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\SMT\\Scripts\\smt.dll:     file format pei-x86-64\n\n\nDisassembly of section .text:\n\n0000000180067ec0 <.text+0x66ec0>:\n   180067ec0:\t48 89 5c 24 10       \tmov    QWORD PTR [rsp+0x10],rbx\n   180067ec5:\t48 89 4c 24 08       \tmov    QWORD PTR [rsp+0x8],rcx\n   180067eca:\t57                   \tpush   rdi\n   180067ecb:\t48 83 ec 50          \tsub    rsp,0x50\n   180067ecf:\t48 8b 0a             \tmov    rcx,QWORD PTR [rdx]\n   180067ed2:\t41 83 38 01          \tcmp    DWORD PTR [r8],0x1\n   180067ed6:\t0f 85 ef 00 00 00    \tjne    0x180067fcb\n   180067edc:\t0f b6 41 18          \tmovzx  eax,BYTE PTR [rcx+0x18]\n   180067ee0:\t24 8f                \tand    al,0x8f\n   180067ee2:\t3c 08                \tcmp    al,0x8\n   180067ee4:\t0f 85 e1 00 00 00    \tjne    0x180067fcb\n   180067eea:\t66 0f 6f 05 0e 0d 01 \tmovdqa xmm0,XMMWORD PTR [rip+0x10d0e]        # 0x180078c00\n   180067ef1:\t00 \n   180067ef2:\tf3 0f 7f 44 24 20    \tmovdqu XMMWORD PTR [rsp+0x20],xmm0\n   180067ef8:\tc6 44 24 38 00       \tmov    BYTE PTR [rsp+0x38],0x0\n   180067efd:\t33 db                \txor    ebx,ebx\n   180067eff:\t48 89 5c 24 40       \tmov    QWORD PTR [rsp+0x40],rbx\n   180067f04:\t4c 8d 44 24 20       \tlea    r8,[rsp+0x20]\n   180067f09:\t48 8d 15 20 74 01 00 \tlea    rdx,[rip+0x17420]        # 0x18007f330\n   180067f10:\te8 db 37 fc ff       \tcall   0x18002b6f0\n   180067f15:\t8b d3                \tmov    edx,ebx\n   180067f17:\t8b cb                \tmov    ecx,ebx\n   180067f19:\t4c 8b 0d d0 6d 05 00 \tmov    r9,QWORD PTR [rip+0x56dd0]        # 0x1800becf0\n   180067f20:\t49 8d 41 18          \tlea    rax,[r9+0x18]\n   180067f24:\t44 8b 44 24 40       \tmov    r8d,DWORD PTR [rsp+0x40]\n   180067f29:\t0f 1f 80 00 00 00 00 \tnop    DWORD PTR [rax+0x0]\n   180067f30:\t44 39 00             \tcmp    DWORD PTR [rax],r8d\n   180067f33:\t74 13                \tje     0x180067f48\n   180067f35:\tff c2                \tinc    edx\n   180067f37:\t48 ff c1             \tinc    rcx\n   180067f3a:\t48 83 c0 14          \tadd    rax,0x14\n   180067f3e:\t48 83 f9 10          \tcmp    rcx,0x10\n   180067f42:\t7c ec                \tjl     0x180067f30\n   180067f44:\t8b c3                \tmov    eax,ebx\n   180067f46:\teb 0c                \tjmp    0x180067f54\n   180067f48:\t48 63 c2             \tmovsxd rax,edx\n   180067f4b:\t48 8d 0c 80          \tlea    rcx,[rax+rax*4]\n   180067f4f:\t41 8b 44 89 1c       \tmov    eax,DWORD PTR [r9+rcx*4+0x1c]\n   180067f54:\t89 44 24 60          \tmov    DWORD PTR [rsp+0x60],eax\n   180067f58:\t48 8d 4c 24 60       \tlea    rcx,[rsp+0x60]\n   180067f5d:\te8 1e dd fb ff       \tcall   0x180025c80\n   180067f62:\t48 8b f8             \tmov    rdi,rax\n   180067f65:\t48 85 c0             \ttest   rax,rax\n   180067f68:\t75 02                \tjne    0x180067f6c\n   180067f6a:\teb 4d                \tjmp    0x180067fb9\n   180067f6c:\t48 8b 05 7d 6d 05 00 \tmov    rax,QWORD PTR [rip+0x56d7d]        # 0x1800becf0\n   180067f73:\t48 8b 88 58 01 00 00 \tmov    rcx,QWORD PTR [rax+0x158]\n   180067f7a:\t48 85 c9             \ttest   rcx,rcx\n   180067f7d:\t74 0c                \tje     0x180067f8b\n   180067f7f:\t48 83 c1 04          \tadd    rcx,0x4\n   180067f83:\te8 f8 dc fb ff       \tcall   0x180025c80\n   180067f88:\t48 8b d8             \tmov    rbx,rax\n   180067f8b:\t48 8b 0f             \tmov    rcx,QWORD PTR [rdi]\n   180067f8e:\t48 85 c9             \ttest   rcx,rcx\n   180067f91:\t74 06                \tje     0x180067f99\n   180067f93:\t48 83 c1 30          \tadd    rcx,0x30\n   180067f97:\teb 07                \tjmp    0x180067fa0\n   180067f99:\t48 8d 0d 48 96 05 00 \tlea    rcx,[rip+0x59648]        # 0x1800c15e8\n   180067fa0:\t48 8b 13             \tmov    rdx,QWORD PTR [rbx]\n   180067fa3:\t48 85 d2             \ttest   rdx,rdx\n   180067fa6:\t74 11                \tje     0x180067fb9\n   180067fa8:\t8b 01                \tmov    eax,DWORD PTR [rcx]\n   180067faa:\t89 42 30             \tmov    DWORD PTR [rdx+0x30],eax\n   180067fad:\t8b 41 04             \tmov    eax,DWORD PTR [rcx+0x4]\n   180067fb0:\t89 42 34             \tmov    DWORD PTR [rdx+0x34],eax\n   180067fb3:\t8b 41 08             \tmov    eax,DWORD PTR [rcx+0x8]\n   180067fb6:\t89 42 38             \tmov    DWORD PTR [rdx+0x38],eax\n   180067fb9:\tf6 44 24 38 40       \ttest   BYTE PTR [rsp+0x38],0x40\n   180067fbe:\t74 0b                \tje     0x180067fcb\n   180067fc0:\t48 8d 4c 24 20       \tlea    rcx,[rsp+0x20]\n   180067fc5:\te8 f6 36 fc ff       \tcall   0x18002b6c0\n   180067fca:\t90                   \tnop\n   180067fcb:\tb0 01                \tmov    al,0x1\n   180067fcd:\t48 8b 5c 24 68       \tmov    rbx,QWORD PTR [rsp+0x68]\n   180067fd2:\t48 83 c4 50          \tadd    rsp,0x50\n   180067fd6:\t5f                   \tpop    rdi\n   180067fd7:\tc3                   \tret    \n"
+  }
+}

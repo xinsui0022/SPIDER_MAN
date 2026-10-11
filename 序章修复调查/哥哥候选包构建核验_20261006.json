@@ -1,0 +1,18 @@
+{
+  "candidate_directory_name": "哥哥安装候选包_20261006",
+  "zip_name": "哥哥安装候选包_20261006.zip",
+  "zip_bytes": 1759876,
+  "zip_sha256": "556ead7a57eb715f9a2b3680e14432808f4d09874daba3c8a35c1fccf8c90deb",
+  "archive_files": 17,
+  "install_files": 14,
+  "runtime_unchanged_files": 11,
+  "unchanged_config_files": 2,
+  "connections_empty": true,
+  "source_hash_checks_passed": true,
+  "zip_roundtrip_hash_checks_passed": true,
+  "personal_address_name_path_terms_checked_without_emitting_values": true,
+  "short_ascii_display_names_checked_as_whole_identifiers": true,
+  "forbidden_items_absent": true,
+  "deployment_modified": false,
+  "sent_externally": false
+}

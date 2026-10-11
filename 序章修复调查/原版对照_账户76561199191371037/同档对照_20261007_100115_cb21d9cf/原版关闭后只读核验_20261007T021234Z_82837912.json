@@ -1,0 +1,722 @@
+{
+  "captured_utc": "2026-10-07T02:12:34.212406+00:00",
+  "native_path": "C:\\Users\\xinsui\\Documents\\Marvel's Spider-Man Remastered\\76561199191371037\\slot3-s.save",
+  "processes_at_begin": [],
+  "scope": "Double read only; no native/session state changes",
+  "frozen_sha256": "7c69f619ae0271012c287ccee5a76703fc2cd22e5731bdd98f891b35bcdde475",
+  "stable": true,
+  "stats": [
+    {
+      "size": 142350,
+      "mtime_ns": 1791339012323695100
+    },
+    {
+      "size": 142350,
+      "mtime_ns": 1791339012323695100
+    },
+    {
+      "size": 142350,
+      "mtime_ns": 1791339012323695100
+    }
+  ],
+  "sha256": "e6194198d2aaa7b65a556cf145beecae15d32c349882711809e7dd907eb1e0d1",
+  "size": 142350,
+  "native_equals_original_frozen": false,
+  "source_identity_caveat": "If hash differs, cannot assume this is original failure save while parent replaces native directory.",
+  "classification": "Confirmed native checkpoint-reload/normal-exit test save, before any candidate replacement; task tables and checkpoint unchanged.",
+  "observed_bytes_snapshot": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\原版对照_账户76561199191371037\\同档对照_20261007_100115_cb21d9cf\\关闭后未分类读数_20261007T021234Z_82837912.save",
+  "comparison_unclassified": {
+    "metadata": [
+      {
+        "path": "[1].fields.GamePercent",
+        "before": 0.010526316240429878,
+        "after": 0.011665917001664639
+      },
+      {
+        "path": "[1].fields.LastSaveTime",
+        "before": 2125084844,
+        "after": 2125085322
+      }
+    ],
+    "objective_tables": [],
+    "global_missions": [],
+    "sections": [
+      {
+        "tag": "0xd0a9df",
+        "before_size": 23672,
+        "after_size": 23672,
+        "bytes_equal": false,
+        "object_changes": []
+      },
+      {
+        "tag": "0xd6f8fc",
+        "before_size": 1356,
+        "after_size": 1356,
+        "bytes_equal": true,
+        "object_changes": []
+      },
+      {
+        "tag": "0x185f188",
+        "before_size": 776,
+        "after_size": 776,
+        "bytes_equal": true,
+        "object_changes": []
+      },
+      {
+        "tag": "0x1cea6ceb",
+        "before_size": 2504,
+        "after_size": 2504,
+        "bytes_equal": false,
+        "object_changes": [
+          {
+            "path": "[0].object.Segments.1586441792.Duration",
+            "before": 312998.3125,
+            "after": 313073.78125
+          },
+          {
+            "path": "[0].object.Segments.1586441792.StartTime",
+            "before": 879.3985595703125,
+            "after": 75.45609283447266
+          },
+          {
+            "path": "[0].object.Segments.168079190.Duration",
+            "before": 11699.8701171875,
+            "after": 11775.326171875
+          },
+          {
+            "path": "[0].object.Segments.168079190.StartTime",
+            "before": 879.3985595703125,
+            "after": 75.45609283447266
+          },
+          {
+            "path": "[0].object.Segments.2098995363.Duration",
+            "before": 1696.96044921875,
+            "after": 1772.41650390625
+          },
+          {
+            "path": "[0].object.Segments.2098995363.StartTime",
+            "before": 879.3985595703125,
+            "after": 75.45609283447266
+          },
+          {
+            "path": "[0].object.Segments.2176817769.Duration",
+            "before": 870.7181396484375,
+            "after": 946.1742553710938
+          },
+          {
+            "path": "[0].object.Segments.2176817769.StartTime",
+            "before": 879.3985595703125,
+            "after": 75.45609283447266
+          },
+          {
+            "path": "[0].object.Segments.2356652936",
+            "before": null,
+            "after": {
+              "SegmentId": "0E6B3712417990EFB0ECDAF6159BA20E",
+              "SegmentName": "GameSegment",
+              "SegmentType": "Game",
+              "ParentSegmentName": "",
+              "Duration": 75.42228698730469,
+              "StartTime": 75.45609283447266,
+              "UsePauseTime": false,
+              "ParentSegmentId": 0,
+              "SegmentFlags": null
+            },
+            "presence_changed": true
+          },
+          {
+            "path": "[0].object.Segments.3198264795.Duration",
+            "before": 2051.74951171875,
+            "after": 2127.20556640625
+          },
+          {
+            "path": "[0].object.Segments.3198264795.StartTime",
+            "before": 879.3985595703125,
+            "after": 75.45609283447266
+          },
+          {
+            "path": "[0].object.Segments.3283664032.Duration",
+            "before": 312998.3125,
+            "after": 313073.78125
+          },
+          {
+            "path": "[0].object.Segments.3283664032.StartTime",
+            "before": 879.3985595703125,
+            "after": 75.45609283447266
+          },
+          {
+            "path": "[0].object.Segments.3939007425",
+            "before": {
+              "SegmentId": "8F55EC4E32BBAE722B85CE230C2ED923",
+              "SegmentName": "GameSegment",
+              "SegmentType": "Game",
+              "ParentSegmentName": "",
+              "Duration": 534.481201171875,
+              "StartTime": 879.3985595703125,
+              "UsePauseTime": false,
+              "ParentSegmentId": 0,
+              "SegmentFlags": null
+            },
+            "after": null,
+            "presence_changed": true
+          },
+          {
+            "path": "[0].object.Segments.4225955953.Duration",
+            "before": 11699.8701171875,
+            "after": 11775.326171875
+          },
+          {
+            "path": "[0].object.Segments.4225955953.StartTime",
+            "before": 879.3985595703125,
+            "after": 75.45609283447266
+          },
+          {
+            "path": "[1].object.1586441792.Duration",
+            "before": 312998.3125,
+            "after": 313073.78125
+          },
+          {
+            "path": "[1].object.1586441792.StartTime",
+            "before": 879.3985595703125,
+            "after": 75.45609283447266
+          },
+          {
+            "path": "[1].object.168079190.Duration",
+            "before": 11699.8701171875,
+            "after": 11775.326171875
+          },
+          {
+            "path": "[1].object.168079190.StartTime",
+            "before": 879.3985595703125,
+            "after": 75.45609283447266
+          },
+          {
+            "path": "[1].object.2098995363.Duration",
+            "before": 1696.96044921875,
+            "after": 1772.41650390625
+          },
+          {
+            "path": "[1].object.2098995363.StartTime",
+            "before": 879.3985595703125,
+            "after": 75.45609283447266
+          },
+          {
+            "path": "[1].object.2176817769.Duration",
+            "before": 870.7181396484375,
+            "after": 946.1742553710938
+          },
+          {
+            "path": "[1].object.2176817769.StartTime",
+            "before": 879.3985595703125,
+            "after": 75.45609283447266
+          },
+          {
+            "path": "[1].object.2356652936",
+            "before": null,
+            "after": {
+              "SegmentId": "0E6B3712417990EFB0ECDAF6159BA20E",
+              "SegmentName": "GameSegment",
+              "SegmentType": "Game",
+              "ParentSegmentName": "",
+              "Duration": 75.42228698730469,
+              "StartTime": 75.45609283447266,
+              "UsePauseTime": false,
+              "ParentSegmentId": 0,
+              "SegmentFlags": null
+            },
+            "presence_changed": true
+          },
+          {
+            "path": "[1].object.3198264795.Duration",
+            "before": 2051.74951171875,
+            "after": 2127.20556640625
+          },
+          {
+            "path": "[1].object.3198264795.StartTime",
+            "before": 879.3985595703125,
+            "after": 75.45609283447266
+          },
+          {
+            "path": "[1].object.3283664032.Duration",
+            "before": 312998.3125,
+            "after": 313073.78125
+          },
+          {
+            "path": "[1].object.3283664032.StartTime",
+            "before": 879.3985595703125,
+            "after": 75.45609283447266
+          },
+          {
+            "path": "[1].object.3939007425",
+            "before": {
+              "SegmentId": "8F55EC4E32BBAE722B85CE230C2ED923",
+              "SegmentName": "GameSegment",
+              "SegmentType": "Game",
+              "ParentSegmentName": "",
+              "Duration": 534.481201171875,
+              "StartTime": 879.3985595703125,
+              "UsePauseTime": false,
+              "ParentSegmentId": 0,
+              "SegmentFlags": null
+            },
+            "after": null,
+            "presence_changed": true
+          },
+          {
+            "path": "[1].object.4225955953.Duration",
+            "before": 11699.8701171875,
+            "after": 11775.326171875
+          },
+          {
+            "path": "[1].object.4225955953.StartTime",
+            "before": 879.3985595703125,
+            "after": 75.45609283447266
+          },
+          {
+            "path": "[2].object.Duration",
+            "before": 312998.3125,
+            "after": 313073.78125
+          },
+          {
+            "path": "[2].object.StartTime",
+            "before": 879.3985595703125,
+            "after": 75.45609283447266
+          },
+          {
+            "path": "[3].object.Duration",
+            "before": 870.7181396484375,
+            "after": 946.1742553710938
+          },
+          {
+            "path": "[3].object.StartTime",
+            "before": 879.3985595703125,
+            "after": 75.45609283447266
+          },
+          {
+            "path": "[4].object.Duration",
+            "before": 11699.8701171875,
+            "after": 313073.78125
+          },
+          {
+            "path": "[4].object.SegmentId",
+            "before": "2EF68A849E7E2B9E749EAED2EF8813AC",
+            "after": "BECEBBC782C724ADFB9B9E2F988CF955"
+          },
+          {
+            "path": "[4].object.SegmentName",
+            "before": "GP_A2_TRUCK_START",
+            "after": "GP_A1_SWING_TUTORIAL"
+          },
+          {
+            "path": "[4].object.SegmentType",
+            "before": "Objective",
+            "after": "Mission"
+          },
+          {
+            "path": "[4].object.StartTime",
+            "before": 879.3985595703125,
+            "after": 75.45609283447266
+          },
+          {
+            "path": "[5].object.Duration",
+            "before": 312998.3125,
+            "after": 11775.326171875
+          },
+          {
+            "path": "[5].object.SegmentId",
+            "before": "BECEBBC782C724ADFB9B9E2F988CF955",
+            "after": "2EF68A849E7E2B9E749EAED2EF8813AC"
+          },
+          {
+            "path": "[5].object.SegmentName",
+            "before": "GP_A1_SWING_TUTORIAL",
+            "after": "GP_A2_TRUCK_START"
+          },
+          {
+            "path": "[5].object.SegmentType",
+            "before": "Mission",
+            "after": "Objective"
+          },
+          {
+            "path": "[5].object.StartTime",
+            "before": 879.3985595703125,
+            "after": 75.45609283447266
+          },
+          {
+            "path": "[6].object.Duration",
+            "before": 2051.74951171875,
+            "after": 2127.20556640625
+          },
+          {
+            "path": "[6].object.StartTime",
+            "before": 879.3985595703125,
+            "after": 75.45609283447266
+          },
+          {
+            "path": "[7].object.Duration",
+            "before": 1696.96044921875,
+            "after": 1772.41650390625
+          },
+          {
+            "path": "[7].object.StartTime",
+            "before": 879.3985595703125,
+            "after": 75.45609283447266
+          },
+          {
+            "path": "[8].object.Duration",
+            "before": 11699.8701171875,
+            "after": 11775.326171875
+          },
+          {
+            "path": "[8].object.StartTime",
+            "before": 879.3985595703125,
+            "after": 75.45609283447266
+          },
+          {
+            "path": "[9].object.Duration",
+            "before": 534.481201171875,
+            "after": 75.42228698730469
+          },
+          {
+            "path": "[9].object.SegmentId",
+            "before": "8F55EC4E32BBAE722B85CE230C2ED923",
+            "after": "0E6B3712417990EFB0ECDAF6159BA20E"
+          },
+          {
+            "path": "[9].object.StartTime",
+            "before": 879.3985595703125,
+            "after": 75.45609283447266
+          }
+        ]
+      },
+      {
+        "tag": "0x43e0a1be",
+        "before_size": 8,
+        "after_size": 8,
+        "bytes_equal": true,
+        "object_changes": []
+      },
+      {
+        "tag": "0x4b2362cb",
+        "before_size": 277,
+        "after_size": 277,
+        "bytes_equal": true,
+        "object_changes": []
+      },
+      {
+        "tag": "0x4e217848",
+        "before_size": 3664,
+        "after_size": 3664,
+        "bytes_equal": true,
+        "object_changes": []
+      },
+      {
+        "tag": "0x52768c44",
+        "before_size": 2756,
+        "after_size": 2756,
+        "bytes_equal": true,
+        "object_changes": []
+      },
+      {
+        "tag": "0x586e01a8",
+        "before_size": 1755,
+        "after_size": 1755,
+        "bytes_equal": false,
+        "object_changes": []
+      },
+      {
+        "tag": "0x6142f8dd",
+        "before_size": 259,
+        "after_size": 259,
+        "bytes_equal": true,
+        "object_changes": []
+      },
+      {
+        "tag": "0x6d91265c",
+        "before_size": 24,
+        "after_size": 24,
+        "bytes_equal": true,
+        "object_changes": []
+      },
+      {
+        "tag": "0x82975026",
+        "before_size": 948,
+        "after_size": 948,
+        "bytes_equal": true,
+        "object_changes": []
+      },
+      {
+        "tag": "0x8c2d0f2d",
+        "before_size": 12805,
+        "after_size": 12805,
+        "bytes_equal": true,
+        "object_changes": []
+      },
+      {
+        "tag": "0x8f4c99f1",
+        "before_size": 199,
+        "after_size": 199,
+        "bytes_equal": true,
+        "object_changes": []
+      },
+      {
+        "tag": "0x9d1b37dc",
+        "before_size": 900,
+        "after_size": 900,
+        "bytes_equal": false,
+        "object_changes": [
+          {
+            "path": "[0].object.Entries[0].SaveTime",
+            "before": 6734,
+            "after": 33472
+          },
+          {
+            "path": "[0].object.Entries[1].SaveTime",
+            "before": 6734,
+            "after": 33472
+          },
+          {
+            "path": "[0].object.Entries[2].SaveTime",
+            "before": 6734,
+            "after": 33472
+          },
+          {
+            "path": "[0].object.Entries[3].SaveTime",
+            "before": 6734,
+            "after": 33472
+          },
+          {
+            "path": "[0].object.Entries[4].SaveTime",
+            "before": 6734,
+            "after": 33472
+          },
+          {
+            "path": "[0].object.Entries[5].SaveTime",
+            "before": 6734,
+            "after": 33472
+          },
+          {
+            "path": "[0].object.Entries[6].SaveTime",
+            "before": 6734,
+            "after": 33472
+          },
+          {
+            "path": "[0].object.Entries[7].SaveTime",
+            "before": 6734,
+            "after": 33472
+          },
+          {
+            "path": "[0].object.Entries[8].SaveTime",
+            "before": 6734,
+            "after": 33472
+          },
+          {
+            "path": "[0].object.Entries[9].SaveTime",
+            "before": 6734,
+            "after": 33472
+          },
+          {
+            "path": "[0].object.Entries[10].SaveTime",
+            "before": 6734,
+            "after": 33472
+          },
+          {
+            "path": "[0].object.Entries[11].SaveTime",
+            "before": 6734,
+            "after": 33472
+          },
+          {
+            "path": "[0].object.Entries[12].SaveTime",
+            "before": 6734,
+            "after": 33472
+          },
+          {
+            "path": "[0].object.Entries[13].SaveTime",
+            "before": 6734,
+            "after": 33472
+          },
+          {
+            "path": "[1].object.SaveTime",
+            "before": 6734,
+            "after": 33472
+          },
+          {
+            "path": "[2].object.SaveTime",
+            "before": 6734,
+            "after": 33472
+          },
+          {
+            "path": "[3].object.SaveTime",
+            "before": 6734,
+            "after": 33472
+          },
+          {
+            "path": "[4].object.SaveTime",
+            "before": 6734,
+            "after": 33472
+          },
+          {
+            "path": "[5].object.SaveTime",
+            "before": 6734,
+            "after": 33472
+          },
+          {
+            "path": "[6].object.SaveTime",
+            "before": 6734,
+            "after": 33472
+          },
+          {
+            "path": "[7].object.SaveTime",
+            "before": 6734,
+            "after": 33472
+          },
+          {
+            "path": "[8].object.SaveTime",
+            "before": 6734,
+            "after": 33472
+          },
+          {
+            "path": "[9].object.SaveTime",
+            "before": 6734,
+            "after": 33472
+          },
+          {
+            "path": "[10].object.SaveTime",
+            "before": 6734,
+            "after": 33472
+          },
+          {
+            "path": "[11].object.SaveTime",
+            "before": 6734,
+            "after": 33472
+          },
+          {
+            "path": "[12].object.SaveTime",
+            "before": 6734,
+            "after": 33472
+          },
+          {
+            "path": "[13].object.SaveTime",
+            "before": 6734,
+            "after": 33472
+          },
+          {
+            "path": "[14].object.SaveTime",
+            "before": 6734,
+            "after": 33472
+          }
+        ]
+      },
+      {
+        "tag": "0xa026eedb",
+        "before_size": 4284,
+        "after_size": 4284,
+        "bytes_equal": true,
+        "object_changes": []
+      },
+      {
+        "tag": "0xa2bed772",
+        "before_size": 4123,
+        "after_size": 4123,
+        "bytes_equal": true,
+        "object_changes": []
+      },
+      {
+        "tag": "0xa806f448",
+        "before_size": 23672,
+        "after_size": 23672,
+        "bytes_equal": true,
+        "object_changes": []
+      },
+      {
+        "tag": "0xb5ee9aa1",
+        "before_size": 990,
+        "after_size": 990,
+        "bytes_equal": true,
+        "object_changes": []
+      },
+      {
+        "tag": "0xc0174d02",
+        "before_size": 4116,
+        "after_size": 4180,
+        "bytes_equal": false,
+        "object_changes": []
+      },
+      {
+        "tag": "0xc34cac48",
+        "before_size": 2074,
+        "after_size": 2074,
+        "bytes_equal": false,
+        "object_changes": []
+      },
+      {
+        "tag": "0xc82d7ab4",
+        "before_size": 839,
+        "after_size": 839,
+        "bytes_equal": true,
+        "object_changes": []
+      },
+      {
+        "tag": "0xcd3888a8",
+        "before_size": 4320,
+        "after_size": 4320,
+        "bytes_equal": true,
+        "object_changes": []
+      },
+      {
+        "tag": "0xd436a987",
+        "before_size": 7688,
+        "after_size": 7688,
+        "bytes_equal": false,
+        "object_changes": [
+          {
+            "path": "[1].object.GamePercent",
+            "before": 0.010526316240429878,
+            "after": 0.011665917001664639
+          },
+          {
+            "path": "[1].object.LastSaveTime",
+            "before": 2125084844,
+            "after": 2125085322
+          }
+        ]
+      },
+      {
+        "tag": "0xe6e715e7",
+        "before_size": 6,
+        "after_size": 6,
+        "bytes_equal": true,
+        "object_changes": []
+      },
+      {
+        "tag": "0xeb364589",
+        "before_size": 13046,
+        "after_size": 13046,
+        "bytes_equal": false,
+        "object_changes": []
+      },
+      {
+        "tag": "0xeccba896",
+        "before_size": 8452,
+        "after_size": 8452,
+        "bytes_equal": true,
+        "object_changes": []
+      },
+      {
+        "tag": "0xff391f3b",
+        "before_size": 1033,
+        "after_size": 1033,
+        "bytes_equal": true,
+        "object_changes": []
+      }
+    ]
+  },
+  "processes_at_end": [],
+  "source_identity_confirmation": {
+    "source": "Root task explicitly confirmed no native replacement or native file edits through this capture",
+    "game_exit_time_hong_kong": "2026-10-07 10:11:35",
+    "operation": "Normal AltF4 close after user checkpoint reload test",
+    "candidate_replacement_had_occurred": false,
+    "write_trigger_limit": "Cannot distinguish checkpoint reload save from normal-exit save using these two fixed files alone"
+  }
+}

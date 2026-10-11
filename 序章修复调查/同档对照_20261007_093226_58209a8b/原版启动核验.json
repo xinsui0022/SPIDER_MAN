@@ -1,0 +1,17 @@
+{
+  "pid": 23764,
+  "time_local": "2026-10-07T09:41:54.671014+08:00",
+  "launch_options": "-nolauncher",
+  "mp_absent": true,
+  "smt_and_helper_modules_absent": true,
+  "native_slot3_sha256": "7c69f619ae0271012c287ccee5a76703fc2cd22e5731bdd98f891b35bcdde475",
+  "frozen_slot3_sha256": "7c69f619ae0271012c287ccee5a76703fc2cd22e5731bdd98f891b35bcdde475",
+  "slot3_matches_frozen": true,
+  "winmm_modules": [
+    {
+      "name": "WINMM.dll",
+      "path": "C:\\WINDOWS\\SYSTEM32\\WINMM.dll"
+    }
+  ],
+  "initial_attempt_note": "Direct EXE launch was rerouted by Steam with old -mp options; closed before selecting save. Options changed through Steam UI, then new PID23764 launched without -mp."
+}

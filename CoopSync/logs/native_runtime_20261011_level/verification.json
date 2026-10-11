@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "record_type": "manual_verification_summary",
+  "pid": 17652,
+  "dll_sha256": "b92dda455a79b86d5f50c5173744aa5d17cf9d409c56ffac79bc151eb7a2360e",
+  "game_sha256": "e297d4d94f1ffe4febf289745e79e7b6fa233a788e7a00f480fc77c55db81ad1",
+  "loaded_dll_identity_verified": true,
+  "stop_utc": "2026-10-10T16:25:59.120680+00:00",
+  "stop_result": 0,
+  "runtime_phase": 4,
+  "last_error": 0,
+  "sample_count": 4432,
+  "game_process_responding_after_stop": true,
+  "engine_functions_called": false,
+  "game_code_patched": false,
+  "world_replication_enabled": false,
+  "saves_written_by_tools": false,
+  "human_report": "救助平民；开始前剧情自然结束，没有跳过选项",
+  "human_report_exact_snapshot_sequence_known": false
+}

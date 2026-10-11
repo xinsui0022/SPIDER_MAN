@@ -1,0 +1,16 @@
+{"time_utc": "2026-10-07T01:32:26.224501+00:00", "event": "freeze_intent", "source_kind": "smt", "source_path": "D:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\SMT\\Save"}
+{"time_utc": "2026-10-07T01:32:26.348091+00:00", "event": "freeze_verified"}
+{"time_utc": "2026-10-07T01:32:26.395791+00:00", "event": "native_backup_intent"}
+{"time_utc": "2026-10-07T01:32:26.402201+00:00", "event": "native_backed_up"}
+{"time_utc": "2026-10-07T01:32:26.405199+00:00", "event": "native_copy_intent"}
+{"time_utc": "2026-10-07T01:32:26.534397+00:00", "event": "native_copy_verified"}
+{"time_utc": "2026-10-07T01:32:26.545791+00:00", "event": "winmm_disable_intent"}
+{"time_utc": "2026-10-07T01:32:26.552157+00:00", "event": "winmm_disabled"}
+{"time_utc": "2026-10-07T01:32:26.587531+00:00", "event": "prepared"}
+{"time_utc": "2026-10-07T01:52:00.896834+00:00", "event": "preserve_test_intent", "destination": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\同档对照_20261007_093226_58209a8b\\native_test_save"}
+{"time_utc": "2026-10-07T01:52:00.904360+00:00", "event": "test_preserved", "destination": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\同档对照_20261007_093226_58209a8b\\native_test_save"}
+{"time_utc": "2026-10-07T01:52:00.909002+00:00", "event": "native_restore_intent"}
+{"time_utc": "2026-10-07T01:52:00.915049+00:00", "event": "native_restored"}
+{"time_utc": "2026-10-07T01:52:00.920061+00:00", "event": "winmm_restore_intent"}
+{"time_utc": "2026-10-07T01:52:00.925555+00:00", "event": "winmm_restored"}
+{"time_utc": "2026-10-07T01:52:00.928893+00:00", "event": "restored"}

@@ -1,0 +1,29 @@
+{
+  "note": "Only diagnostic copies prepared; no game save directory changed; do not run old mod_save_control restore or replace the whole active Save with historic data. Current full 23-file snapshot retained. Require game closed before any active replacement.",
+  "candidates": [
+    {
+      "name": "01_当前安保室",
+      "source": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\存档卡关调查_20261007_023046_1bc42284\\当前SMT_Save_只读快照\\slot3-s.save",
+      "candidate": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\存档卡关调查_20261007_023046_1bc42284\\完整恢复候选\\01_当前安保室\\slot3-s.save",
+      "sha256": "f0307d2cd827723e76b16414a0257ba7b86d7ecbee3280073a86371ed3d421d8",
+      "size": 142286,
+      "scope": "未证实坏档；优先完整当前档重新加载"
+    },
+    {
+      "name": "02_安装前井道",
+      "source": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\穿门安装前备份_20261007_020010_6b9342aa\\SMT_Save\\slot3-s.save",
+      "candidate": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\存档卡关调查_20261007_023046_1bc42284\\完整恢复候选\\02_安装前井道\\slot3-s.save",
+      "sha256": "911843b9f0214fa0814c5933b66ee7a4010a44eaa1a1f6b3e1078f6819cd5569",
+      "size": 142286,
+      "scope": "较近备份；未通过此阶段原版重新载入对照"
+    },
+    {
+      "name": "03_已验证门厅",
+      "source": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\联机NG对照_20261006_155424_9e9669ed\\MOD二次载入后_已暂停\\slot3-s.save",
+      "candidate": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\存档卡关调查_20261007_023046_1bc42284\\完整恢复候选\\03_已验证门厅\\slot3-s.save",
+      "sha256": "e80e50fd9758604584be33fd22c7c08e1eff82e9b9ae4f84c3f26aab8f8eee3d",
+      "size": 142974,
+      "scope": "MOD主机实际二次载入通过；会退回门厅阶段"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "schema": 1,
+  "session_id": "20261006_040620_c7c352da",
+  "known_hashes": {
+    "game": "e297d4d94f1ffe4febf289745e79e7b6fa233a788e7a00f480fc77c55db81ad1",
+    "mod": "b7ab575100f2346af25180d74bf9641e24ce09bf549ce47446be09c3462606c7",
+    "winmm": "ec59e8537eb9c6ec144897f64ccd8a79618309dd1bb3a62b65ad70b308bcab85"
+  },
+  "paths": {
+    "session": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\同档对照_20261006_040620_c7c352da",
+    "native": "C:\\Users\\xinsui\\Documents\\Marvel's Spider-Man Remastered\\76561199372553531",
+    "original": "C:\\Users\\xinsui\\Documents\\Marvel's Spider-Man Remastered\\76561199372553531.codex-original-20261006_040620_c7c352da",
+    "disabled": "D:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\winmm.dll.codex-disabled-20261006_040620_c7c352da",
+    "freeze": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\同档对照_20261006_040620_c7c352da\\frozen_smt_save"
+  },
+  "source_kind": "smt",
+  "source_path": "D:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\SMT\\Save",
+  "source_manifest": {
+    "files": {
+      "-userprefs.save": {
+        "size": 1476,
+        "sha256": "4709be8091a387d7d12642043abc0e38bca42fa9913aad1133eced25c24be7cc"
+      },
+      "SMT_SAVE_BACKUP (2).save": {
+        "size": 138254,
+        "sha256": "89677dcb78ae6bc763b0ee448bdc2865ae68862d075d46a7600fe92fa12133da"
+      },
+      "SMT_SAVE_BACKUP (3).save": {
+        "size": 142830,
+        "sha256": "d363e6aa65edc8b033e2e1181267872fe1589853e2638411a6306c5c4d5ce473"
+      },
+      "SMT_SAVE_BACKUP.save": {
+        "size": 138654,
+        "sha256": "8fa5a5922414fb5d573e3ae49a2e3be139b1808d6fa8647398bc6774e6d93a5e"
+      },
+      "slot0-s-manual-0.save": {
+        "size": 138686,
+        "sha256": "b7dfa63f81649bb7de6dc567c2a1a2311311068d8a3ec26db926077012f3b4b7"
+      },
+      "slot0-s-manual-1.save": {
+        "size": 136606,
+        "sha256": "ae429a673bad76d41cebd4047e90f707537a79540eec9207727535ae29dc75d4"
+      },
+      "slot0-s-manual-2.save": {
+        "size": 146702,
+        "sha256": "4bd9bb55f1793ec15739fe36d68fdc80085dd52a96b159b55890c16483ccdfa0"
+      },
+      "slot0-s-manual-3.save": {
+        "size": 146702,
+        "sha256": "2f7e971a2fb32e1f9ea77714088e5c0e0a818ee9336f4b1dd6d11bb558b7946f"
+      },
+      "slot0-s-manual-4.save": {
+        "size": 150846,
+        "sha256": "b85a91d1556d470cdc9c3da95d0bd9803535715e2234c2333f353a82ade25c9a"
+      },
+      "slot0-s.save": {
+        "size": 157390,
+        "sha256": "ef63493b8677f9ad5637f902586f8b2fa44a6ef5681b685e4f10892ea2bd8549"
+      },
+      "slot0-s.save.backup01": {
+        "size": 150766,
+        "sha256": "f6e0aef114f5e2a15328bbefb97340e8036c8acdad67f4668e1dc01ee277bcb7"
+      },
+      "slot0-s.save.backup02": {
+        "size": 150126,
+        "sha256": "19f54a65d739584927d709630d61ed9558938afa54c3c7cd776f4673227336c1"
+      },
+      "slot0-s.save.backup03": {
+        "size": 150126,
+        "sha256": "95132c8edd00d80d7420fa2c3985ca5c5f4feee5250dd22d996bc69962ab6624"
+      },
+      "slot0-s.save.backup04": {
+        "size": 150126,
+        "sha256": "93920496c9f86fecc82a69a7acfa18cd1ee2f3798f2353622c2d669374723916"
+      },
+      "slot0-s.save.backup05": {
+        "size": 150366,
+        "sha256": "fd818054be2b898988fb690d526a28be5d2b172837b99314b2fefb292e599de7"
+      },
+      "slot0-s.save.backup06": {
+        "size": 149182,
+        "sha256": "4d343448389a141075dae118ead9ea7713bd213ed45b1a88366588539ab7942c"
+      },
+      "slot1-s-manual-0.save": {
+        "size": 93566,
+        "sha256": "acc9158a16603a8a0eeb0f23e67563f1d943067bfb576069dd0e319f69755bd9"
+      },
+      "slot1-s-manual-1.save": {
+        "size": 93198,
+        "sha256": "bcc27c8238923052c35d9245cddb5b0d415f5fd11bfa83769995d901c3622866"
+      },
+      "slot1-s.save": {
+        "size": 141502,
+        "sha256": "e88daa5f89a56e37662e82845ebccb980c4fe704dad1ee2eebccfdbdc80c8658"
+      },
+      "slot2-s.save": {
+        "size": 67008,
+        "sha256": "494987e4a81c45b38763e615f47ab474ef4f388e4f84e661849ba371952e6c2b"
+      },
+      "slot3-s.save": {
+        "size": 66992,
+        "sha256": "d1bb0d116e2659d63131fdd9f06683cac139c00e877c2bffe8094ef48996c821"
+      },
+      "slot4-s.save": {
+        "size": 93918,
+        "sha256": "c776c1c4a3b025c8db874337a264c2ba6d19a437a6ffade2d51a1adc03fec16b"
+      },
+      "slot5-s.save": {
+        "size": 66992,
+        "sha256": "5265092b9cc69dc4169989b49a4f70447f1656a3c1cf4b0a4ad79c04e6408c28"
+      }
+    },
+    "directories": []
+  },
+  "native_original_manifest": {
+    "files": {
+      "-userprefs.save": {
+        "size": 1460,
+        "sha256": "51fdd8617ea4b97218b9cb8dbedbd01312cedd0b7b90f1152e22730bde875670"
+      },
+      "slot0-s.save": {
+        "size": 94782,
+        "sha256": "0b8dcafbd883ad6f4dd98789078e344e967929d4cac3c16239b694e231ab374e"
+      },
+      "steam_autocloud.vdf": {
+        "size": 53,
+        "sha256": "3e1bbbba9e4c92f2392e6c5e97d12b73002f8ede29289d13d06f65f2e9714a6d"
+      }
+    },
+    "directories": []
+  },
+  "purpose": "用 SMT 存档副本完全关闭 MOD 做单人对照；需核对槽位和任务阶段，不证明合作功能",
+  "smt_source_manifest": {
+    "files": {
+      "-userprefs.save": {
+        "size": 1476,
+        "sha256": "4709be8091a387d7d12642043abc0e38bca42fa9913aad1133eced25c24be7cc"
+      },
+      "SMT_SAVE_BACKUP (2).save": {
+        "size": 138254,
+        "sha256": "89677dcb78ae6bc763b0ee448bdc2865ae68862d075d46a7600fe92fa12133da"
+      },
+      "SMT_SAVE_BACKUP (3).save": {
+        "size": 142830,
+        "sha256": "d363e6aa65edc8b033e2e1181267872fe1589853e2638411a6306c5c4d5ce473"
+      },
+      "SMT_SAVE_BACKUP.save": {
+        "size": 138654,
+        "sha256": "8fa5a5922414fb5d573e3ae49a2e3be139b1808d6fa8647398bc6774e6d93a5e"
+      },
+      "slot0-s-manual-0.save": {
+        "size": 138686,
+        "sha256": "b7dfa63f81649bb7de6dc567c2a1a2311311068d8a3ec26db926077012f3b4b7"
+      },
+      "slot0-s-manual-1.save": {
+        "size": 136606,
+        "sha256": "ae429a673bad76d41cebd4047e90f707537a79540eec9207727535ae29dc75d4"
+      },
+      "slot0-s-manual-2.save": {
+        "size": 146702,
+        "sha256": "4bd9bb55f1793ec15739fe36d68fdc80085dd52a96b159b55890c16483ccdfa0"
+      },
+      "slot0-s-manual-3.save": {
+        "size": 146702,
+        "sha256": "2f7e971a2fb32e1f9ea77714088e5c0e0a818ee9336f4b1dd6d11bb558b7946f"
+      },
+      "slot0-s-manual-4.save": {
+        "size": 150846,
+        "sha256": "b85a91d1556d470cdc9c3da95d0bd9803535715e2234c2333f353a82ade25c9a"
+      },
+      "slot0-s.save": {
+        "size": 157390,
+        "sha256": "ef63493b8677f9ad5637f902586f8b2fa44a6ef5681b685e4f10892ea2bd8549"
+      },
+      "slot0-s.save.backup01": {
+        "size": 150766,
+        "sha256": "f6e0aef114f5e2a15328bbefb97340e8036c8acdad67f4668e1dc01ee277bcb7"
+      },
+      "slot0-s.save.backup02": {
+        "size": 150126,
+        "sha256": "19f54a65d739584927d709630d61ed9558938afa54c3c7cd776f4673227336c1"
+      },
+      "slot0-s.save.backup03": {
+        "size": 150126,
+        "sha256": "95132c8edd00d80d7420fa2c3985ca5c5f4feee5250dd22d996bc69962ab6624"
+      },
+      "slot0-s.save.backup04": {
+        "size": 150126,
+        "sha256": "93920496c9f86fecc82a69a7acfa18cd1ee2f3798f2353622c2d669374723916"
+      },
+      "slot0-s.save.backup05": {
+        "size": 150366,
+        "sha256": "fd818054be2b898988fb690d526a28be5d2b172837b99314b2fefb292e599de7"
+      },
+      "slot0-s.save.backup06": {
+        "size": 149182,
+        "sha256": "4d343448389a141075dae118ead9ea7713bd213ed45b1a88366588539ab7942c"
+      },
+      "slot1-s-manual-0.save": {
+        "size": 93566,
+        "sha256": "acc9158a16603a8a0eeb0f23e67563f1d943067bfb576069dd0e319f69755bd9"
+      },
+      "slot1-s-manual-1.save": {
+        "size": 93198,
+        "sha256": "bcc27c8238923052c35d9245cddb5b0d415f5fd11bfa83769995d901c3622866"
+      },
+      "slot1-s.save": {
+        "size": 141502,
+        "sha256": "e88daa5f89a56e37662e82845ebccb980c4fe704dad1ee2eebccfdbdc80c8658"
+      },
+      "slot2-s.save": {
+        "size": 67008,
+        "sha256": "494987e4a81c45b38763e615f47ab474ef4f388e4f84e661849ba371952e6c2b"
+      },
+      "slot3-s.save": {
+        "size": 66992,
+        "sha256": "d1bb0d116e2659d63131fdd9f06683cac139c00e877c2bffe8094ef48996c821"
+      },
+      "slot4-s.save": {
+        "size": 93918,
+        "sha256": "c776c1c4a3b025c8db874337a264c2ba6d19a437a6ffade2d51a1adc03fec16b"
+      },
+      "slot5-s.save": {
+        "size": 66992,
+        "sha256": "5265092b9cc69dc4169989b49a4f70447f1656a3c1cf4b0a4ad79c04e6408c28"
+      }
+    },
+    "directories": []
+  }
+}

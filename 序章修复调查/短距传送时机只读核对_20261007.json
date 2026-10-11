@@ -1,0 +1,157 @@
+{
+  "scope": "Static inspection and one read-only runtime snapshot; OpenProcess access0x410 + ReadProcessMemory only. No game function calls, writes, UI control, save or config changes.",
+  "utc": "2026-10-06T17:42:12.961566+00:00",
+  "proposal_assessment": {
+    "reject_hook_rva": "0x1fb80d0",
+    "reason": "Only MoverBase vtable+0x58 points to this function. Current local player is exact MoverStandard; its virtual+0x58 overrides this with0x1fbd1b0, which does not call the base function. No direct CALL/JMP xrefs found in game.text.",
+    "recommended_hook_rva": "0x1fbd440",
+    "prototype": "void __fastcall(MoverStandard* self)",
+    "timing": "Virtual+0x60 is called in the serial commit loop0x1fb87a0..0x1fb87b8 after completion/wait of Mover worker jobs in0x1fb85b0. Execute pending local warp after original returns.",
+    "local_identity": "Resolve local entry each callback; compare *(void**)(self+8)==entry. Optionally also re-resolve component descriptor0x7c40bf0 and compare returned pointer==self.",
+    "thread_limit": "Caller thread is proven; absolute Windows thread/main-thread identity not independently sampled. The function is reached after job synchronization, not within each worker job body.",
+    "recursion": "Warp0x1fc1c50 has no direct call/jump to0x1fbd440 or virtual+0x60 in reviewed body.",
+    "matrix_contract": "Read normalized matrix via0x5c6530(entry,out). alignas(16) float[16]. +0x20 third axis, +0x30 translation. Current layout is Y-up. Warp(mover,matrix,0.0f) then return cached original matrix through same API for F9."
+  },
+  "runtime_snapshot": {
+    "pid": 22276,
+    "gameBase": "0x7ff7cfbf0000",
+    "localRecord": "0x7ff7d598dd18",
+    "handle": "0x108562",
+    "entry": "0x1e323c14500",
+    "spatial": "0x1e284e07a40",
+    "componentDescriptor": "0x7ff7d7830bf0",
+    "componentHashCapacity": 1024,
+    "matchedBucket": 191,
+    "mover": "0x1e29d1687d0",
+    "moverVtableRva": "0x4f70168",
+    "moverEntry": "0x1e323c14500",
+    "moverEntryMatchesLocal": true,
+    "virtual58Rva": "0x1fbd1b0",
+    "virtual60Rva": "0x1fbd440",
+    "spatialMatrix": [
+      0.7817899584770203,
+      0.0,
+      -0.6235376000404358,
+      0.0,
+      0.0,
+      0.9999951124191284,
+      0.0,
+      0.0,
+      0.6235362887382507,
+      0.0,
+      0.7817882895469666,
+      0.0,
+      -534.6573486328125,
+      101.25,
+      -595.8712768554688,
+      1.0
+    ],
+    "spatialScale": [
+      0.9999973177909851,
+      0.9999951124191284,
+      0.999995231628418
+    ],
+    "moverCachedPosition": [
+      -534.6573486328125,
+      101.32942962646484,
+      -595.8712768554688
+    ],
+    "moverPrevPosition": [
+      -534.6573486328125,
+      101.32942962646484,
+      -595.8712768554688
+    ]
+  },
+  "component_lookup_contract": {
+    "large": "entry+0x80 contains pointer to16-byte buckets; u16(entry+0x88) is capacity; key is exact descriptor pointer, value atbucket+8. Function0x16799a0 hashes(desc>>4)&(capacity-1) and probes linearly.",
+    "small": "entry+0x58 is vector container; entries pointer atentry+0x68, count u16(entry+0x70). Items16bytes key/value. Function0x167ab40 may also match parent descriptors according to descriptor+0xe4 bit6 and descriptor inheritance array+0x80/count+0xe6.",
+    "runtime_exact": "Current local player large map contains exact key descriptor0x7c40bf0 returning exact MoverStandard vtable0x4f70168 withself+8==entry."
+  },
+  "disassembly": {
+    "standard_commit_hook": "\nD:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\Spider-Man.exe:     file format pei-x86-64\n\n\nDisassembly of section .text:\n\n0000000141fbd440 <.text+0x1fbc440>:\n   141fbd440:\t40 53                \trex push rbx\n   141fbd442:\t48 83 ec 20          \tsub    rsp,0x20\n   141fbd446:\t48 8b d9             \tmov    rbx,rcx\n   141fbd449:\te8 c2 61 00 00       \tcall   0x141fc3610\n   141fbd44e:\t48 8b cb             \tmov    rcx,rbx\n   141fbd451:\t48 83 c4 20          \tadd    rsp,0x20\n   141fbd455:\t5b                   \tpop    rbx\n   141fbd456:\te9 95 ac ff ff       \tjmp    0x141fb80f0\n",
+    "worker_join_and_serial_commit": "\nD:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\Spider-Man.exe:     file format pei-x86-64\n\n\nDisassembly of section .text:\n\n0000000141fb8678 <.text+0x1fb7678>:\n   141fb8678:\te8 53 7e 74 ff       \tcall   0x1417004d0\n   141fb867d:\t48 8b c8             \tmov    rcx,rax\n   141fb8680:\te8 1b 85 74 ff       \tcall   0x141700ba0\n   141fb8685:\te9 16 01 00 00       \tjmp    0x141fb87a0\n   141fb868a:\t33 db                \txor    ebx,ebx\n   141fb868c:\t66 89 5d 0c          \tmov    WORD PTR [rbp+0xc],bx\n   141fb8690:\t66 89 75 0e          \tmov    WORD PTR [rbp+0xe],si\n   141fb8694:\t48 89 9d 28 01 00 00 \tmov    QWORD PTR [rbp+0x128],rbx\n   141fb869b:\t0f 28 45 00          \tmovaps xmm0,XMMWORD PTR [rbp+0x0]\n   141fb869f:\t0f 29 85 a0 00 00 00 \tmovaps XMMWORD PTR [rbp+0xa0],xmm0\n   141fb86a6:\t0f 28 4d 10          \tmovaps xmm1,XMMWORD PTR [rbp+0x10]\n   141fb86aa:\t0f 29 8d b0 00 00 00 \tmovaps XMMWORD PTR [rbp+0xb0],xmm1\n   141fb86b1:\t0f 28 45 20          \tmovaps xmm0,XMMWORD PTR [rbp+0x20]\n   141fb86b5:\t0f 29 85 c0 00 00 00 \tmovaps XMMWORD PTR [rbp+0xc0],xmm0\n   141fb86bc:\t0f 28 4d 30          \tmovaps xmm1,XMMWORD PTR [rbp+0x30]\n   141fb86c0:\t0f 29 8d d0 00 00 00 \tmovaps XMMWORD PTR [rbp+0xd0],xmm1\n   141fb86c7:\tf2 0f 10 45 40       \tmovsd  xmm0,QWORD PTR [rbp+0x40]\n   141fb86cc:\tf2 0f 11 85 e0 00 00 \tmovsd  QWORD PTR [rbp+0xe0],xmm0\n   141fb86d3:\t00 \n   141fb86d4:\t89 5c 24 30          \tmov    DWORD PTR [rsp+0x30],ebx\n   141fb86d8:\tc7 44 24 28 ff ff ff \tmov    DWORD PTR [rsp+0x28],0xffffffff\n   141fb86df:\tff \n   141fb86e0:\t89 74 24 20          \tmov    DWORD PTR [rsp+0x20],esi\n   141fb86e4:\t4c 8d 8d a0 00 00 00 \tlea    r9,[rbp+0xa0]\n   141fb86eb:\t4c 8d 05 ee 79 fb 02 \tlea    r8,[rip+0x2fb79ee]        # 0x144f700e0\n   141fb86f2:\t48 8d 15 27 01 00 00 \tlea    rdx,[rip+0x127]        # 0x141fb8820\n   141fb86f9:\t48 8d 8d 00 01 00 00 \tlea    rcx,[rbp+0x100]\n   141fb8700:\te8 db 67 74 ff       \tcall   0x1416feee0\n   141fb8705:\t4c 8b bd 30 01 00 00 \tmov    r15,QWORD PTR [rbp+0x130]\n   141fb870c:\tf3 0f 10 b5 38 01 00 \tmovss  xmm6,DWORD PTR [rbp+0x138]\n   141fb8713:\t00 \n   141fb8714:\t44 8b b5 90 01 00 00 \tmov    r14d,DWORD PTR [rbp+0x190]\n   141fb871b:\tb8 01 00 00 00       \tmov    eax,0x1\n   141fb8720:\tf0 0f c1 85 88 01 00 \tlock xadd DWORD PTR [rbp+0x188],eax\n   141fb8727:\t00 \n   141fb8728:\t41 3b c6             \tcmp    eax,r14d\n   141fb872b:\t7d 5b                \tjge    0x141fb8788\n   141fb872d:\t0f 1f 00             \tnop    DWORD PTR [rax]\n   141fb8730:\t48 98                \tcdqe   \n   141fb8732:\t49 8b 0c c7          \tmov    rcx,QWORD PTR [r15+rax*8]\n   141fb8736:\tf6 41 1d 01          \ttest   BYTE PTR [rcx+0x1d],0x1\n   141fb873a:\t74 0d                \tje     0x141fb8749\n   141fb873c:\t0f 28 ce             \tmovaps xmm1,xmm6\n   141fb873f:\tf3 0f 59 49 10       \tmulss  xmm1,DWORD PTR [rcx+0x10]\n   141fb8744:\te8 e7 01 00 00       \tcall   0x141fb8930\n   141fb8749:\tff c3                \tinc    ebx\n   141fb874b:\tb8 01 00 00 00       \tmov    eax,0x1\n   141fb8750:\tf0 0f c1 85 88 01 00 \tlock xadd DWORD PTR [rbp+0x188],eax\n   141fb8757:\t00 \n   141fb8758:\t41 3b c6             \tcmp    eax,r14d\n   141fb875b:\t7c d3                \tjl     0x141fb8730\n   141fb875d:\t85 db                \ttest   ebx,ebx\n   141fb875f:\t74 27                \tje     0x141fb8788\n   141fb8761:\t8b c3                \tmov    eax,ebx\n   141fb8763:\tf0 0f c1 85 8c 01 00 \tlock xadd DWORD PTR [rbp+0x18c],eax\n   141fb876a:\t00 \n   141fb876b:\t8b 8d 90 01 00 00    \tmov    ecx,DWORD PTR [rbp+0x190]\n   141fb8771:\t3b c1                \tcmp    eax,ecx\n   141fb8773:\t7d 13                \tjge    0x141fb8788\n   141fb8775:\t03 c3                \tadd    eax,ebx\n   141fb8777:\t3b c1                \tcmp    eax,ecx\n   141fb8779:\t7c 0d                \tjl     0x141fb8788\n   141fb877b:\t48 8d 8d 00 01 00 00 \tlea    rcx,[rbp+0x100]\n   141fb8782:\te8 79 6f 74 ff       \tcall   0x1416ff700\n   141fb8787:\t90                   \tnop\n   141fb8788:\t48 8d 8d 00 01 00 00 \tlea    rcx,[rbp+0x100]\n   141fb878f:\te8 9c 5f 74 ff       \tcall   0x1416fe730\n   141fb8794:\t85 f6                \ttest   esi,esi\n   141fb8796:\t7e 22                \tjle    0x141fb87ba\n   141fb8798:\t0f 1f 84 00 00 00 00 \tnop    DWORD PTR [rax+rax*1+0x0]\n   141fb879f:\t00 \n   141fb87a0:\t48 8b 47 08          \tmov    rax,QWORD PTR [rdi+0x8]\n   141fb87a4:\t0f 18 08             \tprefetcht0 BYTE PTR [rax]\n   141fb87a7:\t48 8b 0f             \tmov    rcx,QWORD PTR [rdi]\n   141fb87aa:\t48 8b 01             \tmov    rax,QWORD PTR [rcx]\n   141fb87ad:\tff 50 60             \tcall   QWORD PTR [rax+0x60]\n   141fb87b0:\t48 8d 7f 08          \tlea    rdi,[rdi+0x8]\n   141fb87b4:\t48 83 ee 01          \tsub    rsi,0x1\n   141fb87b8:\t75 e6                \tjne    0x141fb87a0\n",
+    "large_component_lookup": "\nD:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\Spider-Man.exe:     file format pei-x86-64\n\n\nDisassembly of section .text:\n\n00000001416799a0 <.text+0x16789a0>:\n   1416799a0:\t44 0f b7 49 08       \tmovzx  r9d,WORD PTR [rcx+0x8]\n   1416799a5:\t4c 8b c2             \tmov    r8,rdx\n   1416799a8:\t4c 8b 11             \tmov    r10,QWORD PTR [rcx]\n   1416799ab:\t41 ff c9             \tdec    r9d\n   1416799ae:\t49 c1 e8 04          \tshr    r8,0x4\n   1416799b2:\t45 23 c1             \tand    r8d,r9d\n   1416799b5:\t49 63 c0             \tmovsxd rax,r8d\n   1416799b8:\t48 c1 e0 04          \tshl    rax,0x4\n   1416799bc:\t49 03 c2             \tadd    rax,r10\n   1416799bf:\t48 8b 08             \tmov    rcx,QWORD PTR [rax]\n   1416799c2:\t48 3b ca             \tcmp    rcx,rdx\n   1416799c5:\t74 2e                \tje     0x1416799f5\n   1416799c7:\t66 0f 1f 84 00 00 00 \tnop    WORD PTR [rax+rax*1+0x0]\n   1416799ce:\t00 00 \n   1416799d0:\t41 8d 40 01          \tlea    eax,[r8+0x1]\n   1416799d4:\t41 23 c1             \tand    eax,r9d\n   1416799d7:\t48 85 c9             \ttest   rcx,rcx\n   1416799da:\t74 1e                \tje     0x1416799fa\n   1416799dc:\t41 3b c0             \tcmp    eax,r8d\n   1416799df:\t74 19                \tje     0x1416799fa\n   1416799e1:\t44 8b c0             \tmov    r8d,eax\n   1416799e4:\t48 98                \tcdqe   \n   1416799e6:\t48 c1 e0 04          \tshl    rax,0x4\n   1416799ea:\t49 03 c2             \tadd    rax,r10\n   1416799ed:\t48 8b 08             \tmov    rcx,QWORD PTR [rax]\n   1416799f0:\t48 3b ca             \tcmp    rcx,rdx\n   1416799f3:\t75 db                \tjne    0x1416799d0\n   1416799f5:\t48 8b 40 08          \tmov    rax,QWORD PTR [rax+0x8]\n   1416799f9:\tc3                   \tret    \n   1416799fa:\t33 c0                \txor    eax,eax\n   1416799fc:\tc3                   \tret    \n",
+    "small_component_lookup": "\nD:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\Spider-Man.exe:     file format pei-x86-64\n\n\nDisassembly of section .text:\n\n000000014167ab40 <.text+0x1679b40>:\n   14167ab40:\t48 89 5c 24 08       \tmov    QWORD PTR [rsp+0x8],rbx\n   14167ab45:\t57                   \tpush   rdi\n   14167ab46:\t48 83 ec 20          \tsub    rsp,0x20\n   14167ab4a:\t48 8b da             \tmov    rbx,rdx\n   14167ab4d:\t48 8b f9             \tmov    rdi,rcx\n   14167ab50:\t48 85 d2             \ttest   rdx,rdx\n   14167ab53:\t0f 84 33 01 00 00    \tje     0x14167ac8c\n   14167ab59:\t66 83 79 18 00       \tcmp    WORD PTR [rcx+0x18],0x0\n   14167ab5e:\t0f 84 28 01 00 00    \tje     0x14167ac8c\n   14167ab64:\te8 b7 4d 54 00       \tcall   0x141bbf920\n   14167ab69:\t48 8b 57 10          \tmov    rdx,QWORD PTR [rdi+0x10]\n   14167ab6d:\t84 c0                \ttest   al,al\n   14167ab6f:\t0f 85 9b 00 00 00    \tjne    0x14167ac10\n   14167ab75:\t44 0f b7 57 18       \tmovzx  r10d,WORD PTR [rdi+0x18]\n   14167ab7a:\t45 33 db             \txor    r11d,r11d\n   14167ab7d:\t0f b6 83 e4 00 00 00 \tmovzx  eax,BYTE PTR [rbx+0xe4]\n   14167ab84:\t49 c1 e2 04          \tshl    r10,0x4\n   14167ab88:\t4c 03 d2             \tadd    r10,rdx\n   14167ab8b:\tc0 e8 06             \tshr    al,0x6\n   14167ab8e:\ta8 01                \ttest   al,0x1\n   14167ab90:\t74 4b                \tje     0x14167abdd\n   14167ab92:\t49 3b d2             \tcmp    rdx,r10\n   14167ab95:\t73 6b                \tjae    0x14167ac02\n   14167ab97:\t48 8b 0a             \tmov    rcx,QWORD PTR [rdx]\n   14167ab9a:\t48 3b cb             \tcmp    rcx,rbx\n   14167ab9d:\t74 5f                \tje     0x14167abfe\n   14167ab9f:\t48 85 c9             \ttest   rcx,rcx\n   14167aba2:\t74 22                \tje     0x14167abc6\n   14167aba4:\t44 0f b6 81 e6 00 00 \tmovzx  r8d,BYTE PTR [rcx+0xe6]\n   14167abab:\t00 \n   14167abac:\t49 8b c3             \tmov    rax,r11\n   14167abaf:\t4d 85 c0             \ttest   r8,r8\n   14167abb2:\t74 12                \tje     0x14167abc6\n   14167abb4:\t48 39 9c c1 80 00 00 \tcmp    QWORD PTR [rcx+rax*8+0x80],rbx\n   14167abbb:\t00 \n   14167abbc:\t74 40                \tje     0x14167abfe\n   14167abbe:\t48 ff c0             \tinc    rax\n   14167abc1:\t49 3b c0             \tcmp    rax,r8\n   14167abc4:\t7c ee                \tjl     0x14167abb4\n   14167abc6:\t48 83 c2 10          \tadd    rdx,0x10\n   14167abca:\t49 3b d2             \tcmp    rdx,r10\n   14167abcd:\t72 c8                \tjb     0x14167ab97\n   14167abcf:\t49 8b c3             \tmov    rax,r11\n   14167abd2:\t48 8b 5c 24 30       \tmov    rbx,QWORD PTR [rsp+0x30]\n   14167abd7:\t48 83 c4 20          \tadd    rsp,0x20\n   14167abdb:\t5f                   \tpop    rdi\n   14167abdc:\tc3                   \tret    \n   14167abdd:\t49 3b d2             \tcmp    rdx,r10\n   14167abe0:\t73 20                \tjae    0x14167ac02\n   14167abe2:\t48 39 1a             \tcmp    QWORD PTR [rdx],rbx\n   14167abe5:\t74 17                \tje     0x14167abfe\n   14167abe7:\t48 83 c2 10          \tadd    rdx,0x10\n   14167abeb:\t49 3b d2             \tcmp    rdx,r10\n   14167abee:\t72 f2                \tjb     0x14167abe2\n   14167abf0:\t49 8b c3             \tmov    rax,r11\n   14167abf3:\t48 8b 5c 24 30       \tmov    rbx,QWORD PTR [rsp+0x30]\n   14167abf8:\t48 83 c4 20          \tadd    rsp,0x20\n   14167abfc:\t5f                   \tpop    rdi\n   14167abfd:\tc3                   \tret    \n   14167abfe:\t4c 8b 5a 08          \tmov    r11,QWORD PTR [rdx+0x8]\n   14167ac02:\t49 8b c3             \tmov    rax,r11\n   14167ac05:\t48 8b 5c 24 30       \tmov    rbx,QWORD PTR [rsp+0x30]\n   14167ac0a:\t48 83 c4 20          \tadd    rsp,0x20\n   14167ac0e:\t5f                   \tpop    rdi\n   14167ac0f:\tc3                   \tret    \n"
+  },
+  "entry_byte_verification": {
+    "utc": "2026-10-06T17:45:28.317326+00:00",
+    "method": "File PE section mapping compared with ReadProcessMemory of 32 bytes at each function entry; read-only process handle access 0x410.",
+    "all_match": true,
+    "functions": {
+      "standard_post_job_commit": {
+        "rva": "0x1fbd440",
+        "length": 32,
+        "file_hex": "40 53 48 83 ec 20 48 8b d9 e8 c2 61 00 00 48 8b cb 48 83 c4 20 5b e9 95 ac ff ff cc cc cc cc cc",
+        "runtime_hex": "40 53 48 83 ec 20 48 8b d9 e8 c2 61 00 00 48 8b cb 48 83 c4 20 5b e9 95 ac ff ff cc cc cc cc cc",
+        "matches": true
+      },
+      "native_mover_warp": {
+        "rva": "0x1fc1c50",
+        "length": 32,
+        "file_hex": "48 89 5c 24 08 48 89 6c 24 10 48 89 74 24 18 57 48 81 ec 80 00 00 00 48 8b fa 0f 29 74 24 70 48",
+        "runtime_hex": "48 89 5c 24 08 48 89 6c 24 10 48 89 74 24 18 57 48 81 ec 80 00 00 00 48 8b fa 0f 29 74 24 70 48",
+        "matches": true
+      },
+      "normalized_matrix_read": {
+        "rva": "0x5c6530",
+        "length": 32,
+        "file_hex": "48 8b 01 48 85 c0 0f 84 de 00 00 00 f3 0f 10 48 78 0f 57 c0 0f 2f c8 f3 0f 10 1d 91 77 26 03 76",
+        "runtime_hex": "48 8b 01 48 85 c0 0f 84 de 00 00 00 f3 0f 10 48 78 0f 57 c0 0f 2f c8 f3 0f 10 1d 91 77 26 03 76",
+        "matches": true
+      },
+      "native_handle_resolve": {
+        "rva": "0x15a0560",
+        "length": 32,
+        "file_hex": "44 8b 01 41 8b d0 c1 ea 14 81 e2 ff 07 00 00 74 2d 41 81 e0 ff ff 0f 00 4b 8d 0c 40 48 c1 e1 06",
+        "runtime_hex": "44 8b 01 41 8b d0 c1 ea 14 81 e2 ff 07 00 00 74 2d 41 81 e0 ff ff 0f 00 4b 8d 0c 40 48 c1 e1 06",
+        "matches": true
+      },
+      "large_component_lookup": {
+        "rva": "0x16799a0",
+        "length": 32,
+        "file_hex": "44 0f b7 49 08 4c 8b c2 4c 8b 11 41 ff c9 49 c1 e8 04 45 23 c1 49 63 c0 48 c1 e0 04 49 03 c2 48",
+        "runtime_hex": "44 0f b7 49 08 4c 8b c2 4c 8b 11 41 ff c9 49 c1 e8 04 45 23 c1 49 63 c0 48 c1 e0 04 49 03 c2 48",
+        "matches": true
+      },
+      "small_component_lookup": {
+        "rva": "0x167ab40",
+        "length": 32,
+        "file_hex": "48 89 5c 24 08 57 48 83 ec 20 48 8b da 48 8b f9 48 85 d2 0f 84 33 01 00 00 66 83 79 18 00 0f 84",
+        "runtime_hex": "48 89 5c 24 08 57 48 83 ec 20 48 8b da 48 8b f9 48 85 d2 0f 84 33 01 00 00 66 83 79 18 00 0f 84",
+        "matches": true
+      },
+      "base_empty_commit_return": {
+        "rva": "0x1fb80f0",
+        "length": 32,
+        "file_hex": "c2 00 00 cc cc cc cc cc cc cc cc cc cc cc cc cc 40 53 48 83 ec 20 48 8b 41 08 48 8b da 48 8b 00",
+        "runtime_hex": "c2 00 00 cc cc cc cc cc cc cc cc cc cc cc cc cc 40 53 48 83 ec 20 48 8b 41 08 48 8b da 48 8b 00",
+        "matches": true
+      }
+    },
+    "runtime_local_identity_recheck": {
+      "pid": 22276,
+      "base": "0x7ff7cfbf0000",
+      "localRecord": "0x7ff7d598dd18",
+      "handle": "0x108562",
+      "entry": "0x1e323c14500",
+      "descriptorRva": "0x7c40bf0",
+      "mover": "0x1e29d1687d0",
+      "exactMoverVtableRva": "0x4f70168",
+      "moverEntryMatches": true,
+      "virtual58Rva": "0x1fbd1b0",
+      "virtual60Rva": "0x1fbd440"
+    }
+  },
+  "signature_evidence": {
+    "commit": {
+      "recommended_abi": "void (__fastcall*)(void* self)",
+      "argument_evidence": "0x1fbd446 copies RCX to RBX, calls 0x1fc3610 with RCX self, restores RCX self, then tails to 0x1fb80f0. No reads of RDX/R8/R9/XMM argument registers.",
+      "return_evidence": "Tail target 0x1fb80f0 is RET 0 and has no value-producing code. The only reviewed caller at 0x1fb87ad immediately advances loop without reading RAX or XMM0. Therefore void is ABI-compatible; original source-level return type cannot be proven without symbols."
+    },
+    "normalized_matrix_read": "float* (__fastcall*)(void* entry, float* outMatrix); return instruction 0x5c6612 MOV RAX,RDX returns output pointer on non-null spatial path.",
+    "warp": "void (__fastcall*)(void* mover, const float* normalizedMatrix, float dt); RCX/RDX/XMM2 based on whole body and native callers using XORPS XMM2,XMM2 before CALL.",
+    "resolve": "void* (__fastcall*)(const uint32_t* handle)",
+    "large_lookup": "void* (__fastcall*)(void* containerEntryPlus80, void* descriptor)",
+    "small_lookup": "void* (__fastcall*)(void* containerEntryPlus58, void* descriptor)"
+  }
+}

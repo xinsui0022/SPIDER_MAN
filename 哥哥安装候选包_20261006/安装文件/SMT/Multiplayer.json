@@ -1,0 +1,34 @@
+{
+    "Appearance": {
+        "PlayerScale": 1.0
+    },
+    "Crimes": {
+        "AssaultEnabled": true,
+        "BreakinEnabled": true,
+        "DrugDealEnabled": true,
+        "RobberyEnabled": true,
+        "ShootoutEnabled": true
+    },
+    "Difficulty": {
+        "EnemyHealthMultiplier": 0.0,
+        "EnemySpawnMultiplier": 0.0,
+        "IncreasedAggro": false
+    },
+    "Traversal": {
+        "AutoDetach": false,
+        "FloorPushback": 0.11111115664243698
+    },
+    "Visibility": {
+        "ChatVisibility": 1,
+        "NametagVisibility": 2,
+        "Outline": {
+            "a": 1.0,
+            "b": 0.0,
+            "display_opt": 2,
+            "g": 1.0,
+            "r": 1.0,
+            "scale": 1.0
+        },
+        "ShowDistance": true
+    }
+}

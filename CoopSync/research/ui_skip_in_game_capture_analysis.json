@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "scope": "saved-log analysis and pinned EXE static decoding only; no process access",
+  "source": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\CoopSync\\logs\\runtime_manual_skip_20261010_in_game\\ui_skip.jsonl",
+  "source_bytes": 3611091,
+  "source_sha256_at_analysis": "c7820349b56b449d3dbb3f6a02bc42e7dd0bfb56da0e34332e3c3b234d620b61",
+  "capture_has_terminal_record": true,
+  "malformed_line_numbers": [],
+  "session_pid": 25612,
+  "module_base": "0x7ff7c12d0000",
+  "sample_count": 2982,
+  "accepted_sample_count": 2982,
+  "rejected_samples": [],
+  "first_sample": 0,
+  "last_sample": 2981,
+  "status_counts": {
+    "overlay_identity_match_slots_stable_raw_only": 2982
+  },
+  "distinct_raw_fields": {
+    "0x210": [
+      "00"
+    ],
+    "0x214": [
+      "00000000"
+    ],
+    "0x220": [
+      "0000000000000000"
+    ],
+    "0x228": [
+      "0000000000000000"
+    ]
+  },
+  "state_transitions": [
+    {
+      "sample": 0,
+      "monotonic_ms": 65727952,
+      "raw_state": {
+        "0x210": "00",
+        "0x214": "00000000",
+        "0x220": "0000000000000000",
+        "0x228": "0000000000000000"
+      }
+    }
+  ],
+  "nonzero_callback_targets": [],
+  "callback_abi_static_observation": "OverlayUI callsite 0x1D22C94 loads RCX from +0x228 then 0x1D22C9B calls +0x220; no further arguments verified",
+  "manual_action_evidence": "No skip/action claim derived from intent labels, directory names, null slots or pointer transitions alone",
+  "human_report_receipts": [
+    {
+      "schema": 1,
+      "record_type": "human_report",
+      "receipt_utc": "2026-10-10T08:57:08.816656+00:00",
+      "receipt_monotonic_ms": 65822609,
+      "report": "用户明确：我现在正在剧情中。已指导按游戏提示跳过，无提示则自然播完；尚未确认完成。",
+      "event_time_status": "receipt only; exact cinematic start unknown",
+      "game_operations": false,
+      "skip_verified": false
+    },
+    {
+      "schema": 1,
+      "record_type": "human_report",
+      "receipt_utc": "2026-10-10T08:58:17.420031+00:00",
+      "receipt_monotonic_ms": 65891218,
+      "report": "用户已过完该段剧情；没有跳过剧情选项，随后重新进入战斗。",
+      "event_time_status": "retrospective natural-end report; exact start/end time unknown",
+      "human_reported_outcome": "natural_end_without_skip_option",
+      "manual_skip_performed": false,
+      "game_operations": false,
+      "skip_verified": false
+    },
+    {
+      "schema": 1,
+      "record_type": "human_report",
+      "receipt_utc": "2026-10-10T09:00:32.768303+00:00",
+      "receipt_monotonic_ms": 66026562,
+      "report": "战斗后屏幕提示战斗专注；用户确认机房门可以通过，已走到外面。",
+      "event_time_status": "retrospective receipt; exact traversal time unknown",
+      "door_traversal_reported": true,
+      "door_entity_observed_by_probe": false,
+      "game_operations": false,
+      "full_world_sync_verified": false
+    }
+  ],
+  "human_context_from_saved_receipts": [
+    "用户明确：我现在正在剧情中。已指导按游戏提示跳过，无提示则自然播完；尚未确认完成。",
+    "用户已过完该段剧情；没有跳过剧情选项，随后重新进入战斗。",
+    "战斗后屏幕提示战斗专注；用户确认机房门可以通过，已走到外面。"
+  ],
+  "coverage_interpretation": "User receipt times are not exact event/load times. No cutscene/skip claim follows from intent labels or raw slots. Retained cinematic memory does not establish an active scene",
+  "verified_callable_interfaces": []
+}

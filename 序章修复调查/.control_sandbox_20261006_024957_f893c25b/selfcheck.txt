@@ -1,0 +1,1 @@
+PASS: sandbox restore, saved test result, unchanged SMT source/freeze, repeated restore, three escaping/nested path rejections. No real game or Documents files touched.

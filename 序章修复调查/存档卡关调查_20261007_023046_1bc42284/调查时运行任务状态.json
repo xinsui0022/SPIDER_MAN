@@ -1,0 +1,207 @@
+{
+  "time_local": "2026-10-07T02:32:39.763381+08:00",
+  "pid": 26904,
+  "read_only": true,
+  "data": {
+    "mode_raw": 4,
+    "director_enabled_raw": 1,
+    "manager_pointer": "0x7ff7d6aec1a0",
+    "mod_manager_pointer": "0x7ff7d6aec1a0",
+    "storage": "0x7ff7d6aec200",
+    "entry_array": "0x2b32923e5b0",
+    "entry_count": 251,
+    "candidate_count": 1,
+    "state_array": "0x2b32b6ec3f0",
+    "missions": [
+      {
+        "index": 83,
+        "listed": true,
+        "state_raw": 2,
+        "object": "0x2b33e051580",
+        "mission_id_raw": "0xD3665CA4",
+        "mission_name_raw": "GP_A1_FISK",
+        "objectives": [
+          {
+            "slot": 0,
+            "state_raw": 2,
+            "name_raw": "GP_A1_FISK_START",
+            "description_raw": null
+          },
+          {
+            "slot": 1,
+            "state_raw": 2,
+            "name_raw": "GP_A1_FISK_ATRIUM",
+            "description_raw": null
+          },
+          {
+            "slot": 2,
+            "state_raw": 2,
+            "name_raw": "GP_A1_FISK_ATRIUM_02",
+            "description_raw": null
+          },
+          {
+            "slot": 3,
+            "state_raw": 2,
+            "name_raw": "GP_A1_FISK_COPS_ARRIVED_CIN",
+            "description_raw": null
+          },
+          {
+            "slot": 4,
+            "state_raw": 2,
+            "name_raw": "GP_A1_FISK_ELEVATOR_LOBBY",
+            "description_raw": null
+          },
+          {
+            "slot": 5,
+            "state_raw": 2,
+            "name_raw": "GP_A1_FISK_SHAFT_CLIMB_FIGHT",
+            "description_raw": null
+          },
+          {
+            "slot": 6,
+            "state_raw": 2,
+            "name_raw": "GP_A1_FISK_POST_SKILL_POINT",
+            "description_raw": null
+          },
+          {
+            "slot": 7,
+            "state_raw": 1,
+            "name_raw": "GP_A1_FISK_SECURITY_ROOM",
+            "description_raw": null
+          },
+          {
+            "slot": 8,
+            "state_raw": 0,
+            "name_raw": "GP_A1_FISK_SECURITY_COUNTDOWN",
+            "description_raw": null
+          },
+          {
+            "slot": 9,
+            "state_raw": 0,
+            "name_raw": "GP_A1_FISK_HACK_CIN2",
+            "description_raw": null
+          },
+          {
+            "slot": 10,
+            "state_raw": 0,
+            "name_raw": "GP_A1_FISK_POP_UP_TUT",
+            "description_raw": null
+          },
+          {
+            "slot": 11,
+            "state_raw": 0,
+            "name_raw": "GP_A1_FISK_FIRST_EXPLOSION",
+            "description_raw": null
+          },
+          {
+            "slot": 12,
+            "state_raw": 0,
+            "name_raw": "GP_A1_FISK_SWAT_INTRO",
+            "description_raw": null
+          },
+          {
+            "slot": 13,
+            "state_raw": 0,
+            "name_raw": "GP_A1_FISK_HELP_CIVS",
+            "description_raw": null
+          },
+          {
+            "slot": 14,
+            "state_raw": 0,
+            "name_raw": "GP_A1_FISK_INVESTIGATE_VENT",
+            "description_raw": null
+          },
+          {
+            "slot": 15,
+            "state_raw": 0,
+            "name_raw": "GP_A1_FISK_NEW_BOMB",
+            "description_raw": null
+          },
+          {
+            "slot": 16,
+            "state_raw": 0,
+            "name_raw": "GP_A1_FISK_LOCATE_SWAT",
+            "description_raw": null
+          },
+          {
+            "slot": 17,
+            "state_raw": 0,
+            "name_raw": "GP_A1_FISK_INVESTIGATE_SCENE",
+            "description_raw": null
+          },
+          {
+            "slot": 18,
+            "state_raw": 0,
+            "name_raw": "GP_A1_FISK_FIGHT_SWAT_CIN",
+            "description_raw": null
+          },
+          {
+            "slot": 19,
+            "state_raw": 0,
+            "name_raw": "GP_A1_FISK_FIGHT_SWAT",
+            "description_raw": null
+          },
+          {
+            "slot": 20,
+            "state_raw": 0,
+            "name_raw": "GP_A1_FISK_INTRO_FISK_CIN",
+            "description_raw": null
+          },
+          {
+            "slot": 21,
+            "state_raw": 0,
+            "name_raw": "GP_A1_FISK_TURRETS",
+            "description_raw": null
+          },
+          {
+            "slot": 22,
+            "state_raw": 0,
+            "name_raw": "GP_A1_FISK_DESK_SMASH_CIN",
+            "description_raw": null
+          },
+          {
+            "slot": 23,
+            "state_raw": 0,
+            "name_raw": "GP_A1_FISK_BOSS_2",
+            "description_raw": null
+          },
+          {
+            "slot": 24,
+            "state_raw": 0,
+            "name_raw": "GP_A1_FISK_WALL_BASH_CIN",
+            "description_raw": null
+          },
+          {
+            "slot": 25,
+            "state_raw": 0,
+            "name_raw": "GP_A1_FISK_BOSS_3",
+            "description_raw": null
+          },
+          {
+            "slot": 26,
+            "state_raw": 0,
+            "name_raw": "GP_A1_FISK_FALL",
+            "description_raw": null
+          },
+          {
+            "slot": 27,
+            "state_raw": 0,
+            "name_raw": "GP_A1_FISK_OUTRO_CINE",
+            "description_raw": null
+          },
+          {
+            "slot": 28,
+            "state_raw": 0,
+            "name_raw": "GP_A1_FISK_SKILL_TUT",
+            "description_raw": null
+          }
+        ]
+      }
+    ],
+    "local_player_position": [
+      -534.2703247070312,
+      101.25,
+      -594.0842895507812
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "session_id": "20261006_024957_faf725b7",
+  "known_hashes": {
+    "game": "test",
+    "mod": "test",
+    "winmm": "db59a713025d56d5d02f90b7373f32f911146b2f3687b4e05be1c23ff724195d"
+  },
+  "paths": {
+    "session": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\.control_sandbox_20261006_024957_f893c25b\\diag\\同档对照_20261006_024957_faf725b7",
+    "native": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\.control_sandbox_20261006_024957_f893c25b\\Documents_game\\76561199372553531",
+    "original": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\.control_sandbox_20261006_024957_f893c25b\\Documents_game\\76561199372553531.codex-original-20261006_024957_faf725b7",
+    "disabled": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\.control_sandbox_20261006_024957_f893c25b\\game\\winmm.dll.codex-disabled-20261006_024957_faf725b7",
+    "freeze": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\.control_sandbox_20261006_024957_f893c25b\\diag\\同档对照_20261006_024957_faf725b7\\frozen_smt_save"
+  },
+  "smt_source_manifest": {
+    "files": {
+      "slot0-s.save": {
+        "size": 20,
+        "sha256": "a725d9bd4bb46f4c205952d6d04f10c4e604280961b30ef9b807ece141161c24"
+      }
+    },
+    "directories": []
+  },
+  "native_original_manifest": {
+    "files": {
+      "slot0-s.save": {
+        "size": 15,
+        "sha256": "28fe4b692d45e352d21512032f00e78b9a4e00e77a43c1bd904ecfde803d5e0f"
+      }
+    },
+    "directories": []
+  }
+}

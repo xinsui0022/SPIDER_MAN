@@ -1,0 +1,4786 @@
+{
+  "utc": "2026-10-06T18:33:11.500317+00:00",
+  "note": "Only fixed diagnostic copies read. No UI/process memory/save writes. Metadata/table equality does not prove trigger state integrity.",
+  "files": {
+    "current_snapshot": {
+      "path": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\存档卡关调查_20261007_023046_1bc42284\\当前SMT_Save_只读快照\\slot3-s.save",
+      "sha256": "f0307d2cd827723e76b16414a0257ba7b86d7ecbee3280073a86371ed3d421d8",
+      "size": 142286,
+      "metadata": [
+        {
+          "section_tag": "0xd436a987",
+          "relative_offset": 4,
+          "fields": {
+            "CurrentLightingMode": "kBlackout",
+            "CurrentCheckpointId": 10863563502179515499,
+            "CurrentCheckpoint": 1230831290,
+            "PlaythroughSegmentId": 3198264795,
+            "CurrentLightingModeValid": true,
+            "CurrentLevel": 0
+          }
+        },
+        {
+          "section_tag": "0xd436a987",
+          "relative_offset": 140,
+          "fields": {
+            "LastPosition": {
+              "X": 1107.189697265625,
+              "Y": 45.762451171875,
+              "Z": 1288.1719970703125
+            },
+            "PerchForward": {
+              "X": 0,
+              "Y": 0,
+              "Z": 1
+            },
+            "PerchPosition": {
+              "X": 0,
+              "Y": 0,
+              "Z": 0
+            },
+            "GamePercent": 0.010526316240429878,
+            "ActiveMissionHash": 3546700964,
+            "LocationHash": 1725685535,
+            "LastSaveTime": 2125084826,
+            "PerchUID": 0,
+            "SlotDifficulty": 3,
+            "LowestDifficultyEverSet": 3,
+            "PlayerLevel": 50,
+            "NewGamePlusUnlocked": false,
+            "NewGamePlus": true,
+            "NewGamePlusNewGame": false,
+            "TotalPlayTime": 0
+          }
+        },
+        {
+          "section_tag": "0xd436a987",
+          "relative_offset": 7552,
+          "fields": {
+            "CurrentLightingMode": "kBlackout",
+            "CurrentCheckpointId": 10863563502179515499,
+            "CurrentCheckpoint": 1230831290,
+            "PlaythroughSegmentId": 3198264795,
+            "CurrentLightingModeValid": true,
+            "CurrentLevel": 0
+          }
+        }
+      ],
+      "objective_tables": [
+        {
+          "mission_hash": "0xd3665ca4",
+          "runtime_name": "GP_A1_FISK",
+          "header_offset": "0xdcb",
+          "stride": 24,
+          "rows": [
+            {
+              "runtime_name": "GP_A1_FISK_START",
+              "objective_hash": "0xbd3b8884",
+              "words_raw": [
+                3174795396,
+                2,
+                2,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ATRIUM",
+              "objective_hash": "0xe7df67ad",
+              "words_raw": [
+                3890177965,
+                2,
+                2,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ATRIUM_02",
+              "objective_hash": "0x9d01f20f",
+              "words_raw": [
+                2634150415,
+                2,
+                2,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_COPS_ARRIVED_CIN",
+              "objective_hash": "0xdbaa182e",
+              "words_raw": [
+                3685357614,
+                2,
+                2,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ELEVATOR_LOBBY",
+              "objective_hash": "0xde78dcce",
+              "words_raw": [
+                3732462798,
+                2,
+                2,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SHAFT_CLIMB_FIGHT",
+              "objective_hash": "0xc23a1035",
+              "words_raw": [
+                3258585141,
+                2,
+                2,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_POST_SKILL_POINT",
+              "objective_hash": "0x452ddaea",
+              "words_raw": [
+                1160633066,
+                2,
+                2,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SECURITY_ROOM",
+              "objective_hash": "0xa1b118ab",
+              "words_raw": [
+                2712737963,
+                1,
+                1,
+                0,
+                1,
+                2176817769
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SECURITY_COUNTDOWN",
+              "objective_hash": "0xd9e6e4fc",
+              "words_raw": [
+                3655787772,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_HACK_CIN2",
+              "objective_hash": "0x8ae0a942",
+              "words_raw": [
+                2329979202,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_POP_UP_TUT",
+              "objective_hash": "0xa1e4dcd2",
+              "words_raw": [
+                2716130514,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIRST_EXPLOSION",
+              "objective_hash": "0x4e03777",
+              "words_raw": [
+                81803127,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SWAT_INTRO",
+              "objective_hash": "0xe375bb3",
+              "words_raw": [
+                238508979,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_HELP_CIVS",
+              "objective_hash": "0x295dec9e",
+              "words_raw": [
+                694021278,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INVESTIGATE_VENT",
+              "objective_hash": "0x19ce3f8",
+              "words_raw": [
+                27059192,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_NEW_BOMB",
+              "objective_hash": "0x7cd40d7b",
+              "words_raw": [
+                2094271867,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_LOCATE_SWAT",
+              "objective_hash": "0x605b37",
+              "words_raw": [
+                6314807,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INVESTIGATE_SCENE",
+              "objective_hash": "0xe4229644",
+              "words_raw": [
+                3827471940,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIGHT_SWAT_CIN",
+              "objective_hash": "0xcdc33aea",
+              "words_raw": [
+                3452123882,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIGHT_SWAT",
+              "objective_hash": "0x37b5c45",
+              "words_raw": [
+                58416197,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INTRO_FISK_CIN",
+              "objective_hash": "0xa1a12a07",
+              "words_raw": [
+                2711693831,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_TURRETS",
+              "objective_hash": "0xa466ba46",
+              "words_raw": [
+                2758195782,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_DESK_SMASH_CIN",
+              "objective_hash": "0xb80eac23",
+              "words_raw": [
+                3087969315,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_BOSS_2",
+              "objective_hash": "0xe5237674",
+              "words_raw": [
+                3844306548,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_WALL_BASH_CIN",
+              "objective_hash": "0xf4f6e0bf",
+              "words_raw": [
+                4109820095,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_BOSS_3",
+              "objective_hash": "0x922446e2",
+              "words_raw": [
+                2451850978,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FALL",
+              "objective_hash": "0xb4f11dbc",
+              "words_raw": [
+                3035700668,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_OUTRO_CINE",
+              "objective_hash": "0x46982422",
+              "words_raw": [
+                1184375842,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SKILL_TUT",
+              "objective_hash": "0xa8563c71",
+              "words_raw": [
+                2824223857,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "mission_hash": "0xd3665ca4",
+          "runtime_name": "GP_A1_FISK",
+          "header_offset": "0x3048",
+          "stride": 20,
+          "rows": [
+            {
+              "runtime_name": "GP_A1_FISK_START",
+              "objective_hash": "0xbd3b8884",
+              "words_raw": [
+                3174795396,
+                2,
+                2,
+                0,
+                1
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ATRIUM",
+              "objective_hash": "0xe7df67ad",
+              "words_raw": [
+                3890177965,
+                2,
+                2,
+                0,
+                1
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ATRIUM_02",
+              "objective_hash": "0x9d01f20f",
+              "words_raw": [
+                2634150415,
+                2,
+                2,
+                0,
+                1
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_COPS_ARRIVED_CIN",
+              "objective_hash": "0xdbaa182e",
+              "words_raw": [
+                3685357614,
+                2,
+                2,
+                0,
+                1
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ELEVATOR_LOBBY",
+              "objective_hash": "0xde78dcce",
+              "words_raw": [
+                3732462798,
+                2,
+                2,
+                0,
+                1
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SHAFT_CLIMB_FIGHT",
+              "objective_hash": "0xc23a1035",
+              "words_raw": [
+                3258585141,
+                2,
+                2,
+                0,
+                1
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_POST_SKILL_POINT",
+              "objective_hash": "0x452ddaea",
+              "words_raw": [
+                1160633066,
+                2,
+                2,
+                0,
+                1
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SECURITY_ROOM",
+              "objective_hash": "0xa1b118ab",
+              "words_raw": [
+                2712737963,
+                1,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SECURITY_COUNTDOWN",
+              "objective_hash": "0xd9e6e4fc",
+              "words_raw": [
+                3655787772,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_HACK_CIN2",
+              "objective_hash": "0x8ae0a942",
+              "words_raw": [
+                2329979202,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_POP_UP_TUT",
+              "objective_hash": "0xa1e4dcd2",
+              "words_raw": [
+                2716130514,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIRST_EXPLOSION",
+              "objective_hash": "0x4e03777",
+              "words_raw": [
+                81803127,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SWAT_INTRO",
+              "objective_hash": "0xe375bb3",
+              "words_raw": [
+                238508979,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_HELP_CIVS",
+              "objective_hash": "0x295dec9e",
+              "words_raw": [
+                694021278,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INVESTIGATE_VENT",
+              "objective_hash": "0x19ce3f8",
+              "words_raw": [
+                27059192,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_NEW_BOMB",
+              "objective_hash": "0x7cd40d7b",
+              "words_raw": [
+                2094271867,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_LOCATE_SWAT",
+              "objective_hash": "0x605b37",
+              "words_raw": [
+                6314807,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INVESTIGATE_SCENE",
+              "objective_hash": "0xe4229644",
+              "words_raw": [
+                3827471940,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIGHT_SWAT_CIN",
+              "objective_hash": "0xcdc33aea",
+              "words_raw": [
+                3452123882,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIGHT_SWAT",
+              "objective_hash": "0x37b5c45",
+              "words_raw": [
+                58416197,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INTRO_FISK_CIN",
+              "objective_hash": "0xa1a12a07",
+              "words_raw": [
+                2711693831,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_TURRETS",
+              "objective_hash": "0xa466ba46",
+              "words_raw": [
+                2758195782,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_DESK_SMASH_CIN",
+              "objective_hash": "0xb80eac23",
+              "words_raw": [
+                3087969315,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_BOSS_2",
+              "objective_hash": "0xe5237674",
+              "words_raw": [
+                3844306548,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_WALL_BASH_CIN",
+              "objective_hash": "0xf4f6e0bf",
+              "words_raw": [
+                4109820095,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_BOSS_3",
+              "objective_hash": "0x922446e2",
+              "words_raw": [
+                2451850978,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FALL",
+              "objective_hash": "0xb4f11dbc",
+              "words_raw": [
+                3035700668,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_OUTRO_CINE",
+              "objective_hash": "0x46982422",
+              "words_raw": [
+                1184375842,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SKILL_TUT",
+              "objective_hash": "0xa8563c71",
+              "words_raw": [
+                2824223857,
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "segments": {
+        "Segments": {
+          "1586441792": {
+            "SegmentId": "605E630D079676A72C36E497386AE115",
+            "SegmentName": "GP_A1_SWING_TUTORIAL_INTRO",
+            "SegmentType": "Objective",
+            "SegmentFlags": "kPersistent",
+            "ParentSegmentName": "",
+            "StartTime": 344.7486877441406,
+            "Duration": 312463.78125,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "2176817769": {
+            "SegmentId": "DFFFAF8E5532C7CC3DF470A28BFA4B28",
+            "SegmentName": "GP_A1_FISK_SECURITY_ROOM",
+            "SegmentType": "Objective",
+            "SegmentFlags": "kPersistent",
+            "ParentSegmentName": "",
+            "StartTime": 344.7486877441406,
+            "Duration": 336.1903991699219,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "3283664032": {
+            "SegmentId": "BECEBBC782C724ADFB9B9E2F988CF955",
+            "SegmentName": "GP_A1_SWING_TUTORIAL",
+            "SegmentFlags": "kPersistent",
+            "SegmentType": "Mission",
+            "ParentSegmentName": "",
+            "StartTime": 344.7486877441406,
+            "Duration": 312463.78125,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "4225955953": {
+            "SegmentId": "2EF68A849E7E2B9E749EAED2EF8813AC",
+            "SegmentName": "GP_A2_TRUCK_START",
+            "SegmentType": "Objective",
+            "SegmentFlags": "kPersistent",
+            "ParentSegmentName": "",
+            "StartTime": 344.7486877441406,
+            "Duration": 11165.3427734375,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "3198264795": {
+            "SegmentId": "A622972B48098486A10BB98FA0355D0E",
+            "SegmentName": "Playthrough",
+            "SegmentType": "Playthrough",
+            "SegmentFlags": "kPersistent",
+            "ParentSegmentName": "",
+            "StartTime": 344.7486877441406,
+            "Duration": 1517.2216796875,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "2098995363": {
+            "SegmentId": "BF8680CE12318721A0A92E2A5F5C73B3",
+            "SegmentName": "GP_A1_FISK",
+            "SegmentFlags": "kPersistent",
+            "SegmentType": "Mission",
+            "ParentSegmentName": "",
+            "StartTime": 344.7486877441406,
+            "Duration": 1162.4327392578125,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "168079190": {
+            "SegmentId": "19171E23CB3B1255D5A96B360AB608F2",
+            "SegmentName": "GP_A2_TRUCK",
+            "SegmentFlags": "kPersistent",
+            "SegmentType": "Mission",
+            "ParentSegmentName": "",
+            "StartTime": 344.7486877441406,
+            "Duration": 11165.3427734375,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "2302514534": {
+            "SegmentId": "40C47C7B75BD388DA0D0F7A4F4A72198",
+            "SegmentName": "GameSegment",
+            "SegmentType": "Game",
+            "ParentSegmentName": "",
+            "Duration": 344.716796875,
+            "StartTime": 344.7486877441406,
+            "UsePauseTime": false,
+            "ParentSegmentId": 0,
+            "SegmentFlags": null
+          }
+        },
+        "PrimarySegment": 0
+      },
+      "sections": {
+        "0xd0a9df": {
+          "size": 23672,
+          "sha256": "0e82f66ebac7114ded626dd6a9ecef24323f6740707d60a99479f6f1d10d87e1"
+        },
+        "0xd6f8fc": {
+          "size": 1356,
+          "sha256": "9a5fb83d0c117d3bf9ac8c58f5a1033ff7f205e3935cab2659c6e9e73a43cf19"
+        },
+        "0x185f188": {
+          "size": 776,
+          "sha256": "bbe52dc91316e2fd1881ac03aef1f3218cd6402164108dfaf3a5d863347fb8b8"
+        },
+        "0x1cea6ceb": {
+          "size": 2504,
+          "sha256": "94cec560946211dc7e91fc4fbead7425c94685a0e2befc829c3b8b21bb0811c7"
+        },
+        "0x43e0a1be": {
+          "size": 8,
+          "sha256": "7c9fa136d4413fa6173637e883b6998d32e1d675f88cddff9dcbcf331820f4b8"
+        },
+        "0x4b2362cb": {
+          "size": 277,
+          "sha256": "9cf2c3c33745a5ea4b7afd1a4290c7cc3ac0566b27ff680648640b829e103136"
+        },
+        "0x4e217848": {
+          "size": 3664,
+          "sha256": "5c2ae04dd03736ba26a95f48b518ff158dbcb9821b499dba2be1a7ed83b4865e"
+        },
+        "0x52768c44": {
+          "size": 2756,
+          "sha256": "00d768afa97bd695feccb32a7f0d6037ac5c793493f5c042dbe9c52598b880cb"
+        },
+        "0x586e01a8": {
+          "size": 1755,
+          "sha256": "8de22357a4a8484b7dc3d6bdf4ef9c12cab3a1e7b35b8043e6899427c6c1d79f"
+        },
+        "0x6142f8dd": {
+          "size": 259,
+          "sha256": "412ecad429d79e230e56b383b16d3d293ef6beb5f641d7de6f910228119b7bf3"
+        },
+        "0x6d91265c": {
+          "size": 24,
+          "sha256": "d5039144208228e8bedb4cfbf5bf0222f0f457e7e52aa557840af7d717a863e2"
+        },
+        "0x82975026": {
+          "size": 948,
+          "sha256": "a7f406cc412a359bac6aa75d170c0a82ac49a8a11a4d4eac476cdaf13746ba02"
+        },
+        "0x8c2d0f2d": {
+          "size": 12805,
+          "sha256": "f21234d40e48ef3f7ebb8ab70e6fad87e1eaa6e79af9c8ccf91b2d28c2d3e6d9"
+        },
+        "0x8f4c99f1": {
+          "size": 199,
+          "sha256": "ad1dd1cf7df74c798c0376003cea08edbfb5fed357afcbe5a02fd2ae06711353"
+        },
+        "0x9d1b37dc": {
+          "size": 900,
+          "sha256": "404539c9c2b9caf9a43b20a461aacab57b7cc15b1500a1a4c5e5af9b3dd39a67"
+        },
+        "0xa026eedb": {
+          "size": 4284,
+          "sha256": "8c7ce7cd8f7e53cc5a1e895685f87144f4eee55bf6394cb7de972d935124ea49"
+        },
+        "0xa2bed772": {
+          "size": 4123,
+          "sha256": "31725b1f84f1d8d2d33acfd8105f5efa5ce5bc3438e3dad970198f2ebfa8f77f"
+        },
+        "0xa806f448": {
+          "size": 23672,
+          "sha256": "0e82f66ebac7114ded626dd6a9ecef24323f6740707d60a99479f6f1d10d87e1"
+        },
+        "0xb5ee9aa1": {
+          "size": 990,
+          "sha256": "f78c5836d344e138613200ad60d1239e1789c5ef5b2a230b9e0808ea87866afd"
+        },
+        "0xc0174d02": {
+          "size": 4116,
+          "sha256": "1c95f70c3afbd3d0ed1c2c8d398cf78bad25a70f96d39836304005a700f75fe4"
+        },
+        "0xc34cac48": {
+          "size": 2074,
+          "sha256": "bade71517ecd612006e86ea6965a8e942b56c94e3b057dad3517ca93b7f1cdb6"
+        },
+        "0xc82d7ab4": {
+          "size": 839,
+          "sha256": "6172b0db8cbfd6d52bf84c00113a9143db7637acd283121bea6a1b9fc0f07f17"
+        },
+        "0xcd3888a8": {
+          "size": 4320,
+          "sha256": "b96bbe2e25e795f32b386e7392dc6d689746413c446a59d9baa9d592e46c80b0"
+        },
+        "0xd436a987": {
+          "size": 7688,
+          "sha256": "170791e0bf8bd55abbad6f64669b3cb4d8749526b5265d1025a497ab43f13e8b"
+        },
+        "0xe6e715e7": {
+          "size": 6,
+          "sha256": "cd41fef213afb1de08d204b0122e1053826da686335fe6260aa6ed620764f820"
+        },
+        "0xeb364589": {
+          "size": 13046,
+          "sha256": "4d4c1957b88b8bb07a08ad2430fc7d413edbd89502a4ee33ed257d7983b7c5b6"
+        },
+        "0xeccba896": {
+          "size": 8452,
+          "sha256": "8011fd46c6586e7468bb9b6f1948d121373638ceb94ffb0110f97e08308fdd77"
+        },
+        "0xff391f3b": {
+          "size": 1033,
+          "sha256": "9121f504ca9971e12bd80405ab8cc35c93b25f5cbedcce8d422f475eb29e824d"
+        }
+      }
+    },
+    "before_helper_020010": {
+      "path": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\穿门安装前备份_20261007_020010_6b9342aa\\SMT_Save\\slot3-s.save",
+      "sha256": "911843b9f0214fa0814c5933b66ee7a4010a44eaa1a1f6b3e1078f6819cd5569",
+      "size": 142286,
+      "metadata": [
+        {
+          "section_tag": "0xd436a987",
+          "relative_offset": 4,
+          "fields": {
+            "CurrentLightingMode": "kBlackout",
+            "CurrentCheckpointId": 10863563502179515499,
+            "CurrentCheckpoint": 1230831290,
+            "PlaythroughSegmentId": 3198264795,
+            "CurrentLightingModeValid": true,
+            "CurrentLevel": 0
+          }
+        },
+        {
+          "section_tag": "0xd436a987",
+          "relative_offset": 140,
+          "fields": {
+            "LastPosition": {
+              "X": 1107.189697265625,
+              "Y": 45.762451171875,
+              "Z": 1288.1719970703125
+            },
+            "PerchForward": {
+              "X": 0,
+              "Y": 0,
+              "Z": 1
+            },
+            "PerchPosition": {
+              "X": 0,
+              "Y": 0,
+              "Z": 0
+            },
+            "GamePercent": 0.010526316240429878,
+            "ActiveMissionHash": 3546700964,
+            "LocationHash": 1725685535,
+            "LastSaveTime": 2125084790,
+            "PerchUID": 0,
+            "SlotDifficulty": 3,
+            "LowestDifficultyEverSet": 3,
+            "PlayerLevel": 50,
+            "NewGamePlusUnlocked": false,
+            "NewGamePlus": true,
+            "NewGamePlusNewGame": false,
+            "TotalPlayTime": 0
+          }
+        },
+        {
+          "section_tag": "0xd436a987",
+          "relative_offset": 7552,
+          "fields": {
+            "CurrentLightingMode": "kBlackout",
+            "CurrentCheckpointId": 10863563502179515499,
+            "CurrentCheckpoint": 1230831290,
+            "PlaythroughSegmentId": 3198264795,
+            "CurrentLightingModeValid": true,
+            "CurrentLevel": 0
+          }
+        }
+      ],
+      "objective_tables": [
+        {
+          "mission_hash": "0xd3665ca4",
+          "runtime_name": "GP_A1_FISK",
+          "header_offset": "0xdcb",
+          "stride": 24,
+          "rows": [
+            {
+              "runtime_name": "GP_A1_FISK_START",
+              "objective_hash": "0xbd3b8884",
+              "words_raw": [
+                3174795396,
+                2,
+                2,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ATRIUM",
+              "objective_hash": "0xe7df67ad",
+              "words_raw": [
+                3890177965,
+                2,
+                2,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ATRIUM_02",
+              "objective_hash": "0x9d01f20f",
+              "words_raw": [
+                2634150415,
+                2,
+                2,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_COPS_ARRIVED_CIN",
+              "objective_hash": "0xdbaa182e",
+              "words_raw": [
+                3685357614,
+                2,
+                2,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ELEVATOR_LOBBY",
+              "objective_hash": "0xde78dcce",
+              "words_raw": [
+                3732462798,
+                2,
+                2,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SHAFT_CLIMB_FIGHT",
+              "objective_hash": "0xc23a1035",
+              "words_raw": [
+                3258585141,
+                1,
+                1,
+                0,
+                1,
+                3730305235
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_POST_SKILL_POINT",
+              "objective_hash": "0x452ddaea",
+              "words_raw": [
+                1160633066,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SECURITY_ROOM",
+              "objective_hash": "0xa1b118ab",
+              "words_raw": [
+                2712737963,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SECURITY_COUNTDOWN",
+              "objective_hash": "0xd9e6e4fc",
+              "words_raw": [
+                3655787772,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_HACK_CIN2",
+              "objective_hash": "0x8ae0a942",
+              "words_raw": [
+                2329979202,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_POP_UP_TUT",
+              "objective_hash": "0xa1e4dcd2",
+              "words_raw": [
+                2716130514,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIRST_EXPLOSION",
+              "objective_hash": "0x4e03777",
+              "words_raw": [
+                81803127,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SWAT_INTRO",
+              "objective_hash": "0xe375bb3",
+              "words_raw": [
+                238508979,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_HELP_CIVS",
+              "objective_hash": "0x295dec9e",
+              "words_raw": [
+                694021278,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INVESTIGATE_VENT",
+              "objective_hash": "0x19ce3f8",
+              "words_raw": [
+                27059192,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_NEW_BOMB",
+              "objective_hash": "0x7cd40d7b",
+              "words_raw": [
+                2094271867,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_LOCATE_SWAT",
+              "objective_hash": "0x605b37",
+              "words_raw": [
+                6314807,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INVESTIGATE_SCENE",
+              "objective_hash": "0xe4229644",
+              "words_raw": [
+                3827471940,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIGHT_SWAT_CIN",
+              "objective_hash": "0xcdc33aea",
+              "words_raw": [
+                3452123882,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIGHT_SWAT",
+              "objective_hash": "0x37b5c45",
+              "words_raw": [
+                58416197,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INTRO_FISK_CIN",
+              "objective_hash": "0xa1a12a07",
+              "words_raw": [
+                2711693831,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_TURRETS",
+              "objective_hash": "0xa466ba46",
+              "words_raw": [
+                2758195782,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_DESK_SMASH_CIN",
+              "objective_hash": "0xb80eac23",
+              "words_raw": [
+                3087969315,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_BOSS_2",
+              "objective_hash": "0xe5237674",
+              "words_raw": [
+                3844306548,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_WALL_BASH_CIN",
+              "objective_hash": "0xf4f6e0bf",
+              "words_raw": [
+                4109820095,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_BOSS_3",
+              "objective_hash": "0x922446e2",
+              "words_raw": [
+                2451850978,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FALL",
+              "objective_hash": "0xb4f11dbc",
+              "words_raw": [
+                3035700668,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_OUTRO_CINE",
+              "objective_hash": "0x46982422",
+              "words_raw": [
+                1184375842,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SKILL_TUT",
+              "objective_hash": "0xa8563c71",
+              "words_raw": [
+                2824223857,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "mission_hash": "0xd3665ca4",
+          "runtime_name": "GP_A1_FISK",
+          "header_offset": "0x3048",
+          "stride": 20,
+          "rows": [
+            {
+              "runtime_name": "GP_A1_FISK_START",
+              "objective_hash": "0xbd3b8884",
+              "words_raw": [
+                3174795396,
+                2,
+                2,
+                0,
+                1
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ATRIUM",
+              "objective_hash": "0xe7df67ad",
+              "words_raw": [
+                3890177965,
+                2,
+                2,
+                0,
+                1
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ATRIUM_02",
+              "objective_hash": "0x9d01f20f",
+              "words_raw": [
+                2634150415,
+                2,
+                2,
+                0,
+                1
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_COPS_ARRIVED_CIN",
+              "objective_hash": "0xdbaa182e",
+              "words_raw": [
+                3685357614,
+                2,
+                2,
+                0,
+                1
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ELEVATOR_LOBBY",
+              "objective_hash": "0xde78dcce",
+              "words_raw": [
+                3732462798,
+                2,
+                2,
+                0,
+                1
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SHAFT_CLIMB_FIGHT",
+              "objective_hash": "0xc23a1035",
+              "words_raw": [
+                3258585141,
+                1,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_POST_SKILL_POINT",
+              "objective_hash": "0x452ddaea",
+              "words_raw": [
+                1160633066,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SECURITY_ROOM",
+              "objective_hash": "0xa1b118ab",
+              "words_raw": [
+                2712737963,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SECURITY_COUNTDOWN",
+              "objective_hash": "0xd9e6e4fc",
+              "words_raw": [
+                3655787772,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_HACK_CIN2",
+              "objective_hash": "0x8ae0a942",
+              "words_raw": [
+                2329979202,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_POP_UP_TUT",
+              "objective_hash": "0xa1e4dcd2",
+              "words_raw": [
+                2716130514,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIRST_EXPLOSION",
+              "objective_hash": "0x4e03777",
+              "words_raw": [
+                81803127,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SWAT_INTRO",
+              "objective_hash": "0xe375bb3",
+              "words_raw": [
+                238508979,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_HELP_CIVS",
+              "objective_hash": "0x295dec9e",
+              "words_raw": [
+                694021278,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INVESTIGATE_VENT",
+              "objective_hash": "0x19ce3f8",
+              "words_raw": [
+                27059192,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_NEW_BOMB",
+              "objective_hash": "0x7cd40d7b",
+              "words_raw": [
+                2094271867,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_LOCATE_SWAT",
+              "objective_hash": "0x605b37",
+              "words_raw": [
+                6314807,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INVESTIGATE_SCENE",
+              "objective_hash": "0xe4229644",
+              "words_raw": [
+                3827471940,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIGHT_SWAT_CIN",
+              "objective_hash": "0xcdc33aea",
+              "words_raw": [
+                3452123882,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIGHT_SWAT",
+              "objective_hash": "0x37b5c45",
+              "words_raw": [
+                58416197,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INTRO_FISK_CIN",
+              "objective_hash": "0xa1a12a07",
+              "words_raw": [
+                2711693831,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_TURRETS",
+              "objective_hash": "0xa466ba46",
+              "words_raw": [
+                2758195782,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_DESK_SMASH_CIN",
+              "objective_hash": "0xb80eac23",
+              "words_raw": [
+                3087969315,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_BOSS_2",
+              "objective_hash": "0xe5237674",
+              "words_raw": [
+                3844306548,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_WALL_BASH_CIN",
+              "objective_hash": "0xf4f6e0bf",
+              "words_raw": [
+                4109820095,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_BOSS_3",
+              "objective_hash": "0x922446e2",
+              "words_raw": [
+                2451850978,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FALL",
+              "objective_hash": "0xb4f11dbc",
+              "words_raw": [
+                3035700668,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_OUTRO_CINE",
+              "objective_hash": "0x46982422",
+              "words_raw": [
+                1184375842,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SKILL_TUT",
+              "objective_hash": "0xa8563c71",
+              "words_raw": [
+                2824223857,
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "segments": {
+        "Segments": {
+          "3730305235": {
+            "SegmentId": "31B022C36D361FCF815EAA2B9C2D94DC",
+            "SegmentName": "GP_A1_FISK_SHAFT_CLIMB_FIGHT",
+            "SegmentType": "Objective",
+            "SegmentFlags": "kPersistent",
+            "ParentSegmentName": "",
+            "StartTime": 488.98309326171875,
+            "Duration": 126.08272552490234,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "1586441792": {
+            "SegmentId": "605E630D079676A72C36E497386AE115",
+            "SegmentName": "GP_A1_SWING_TUTORIAL_INTRO",
+            "SegmentType": "Objective",
+            "SegmentFlags": "kPersistent",
+            "ParentSegmentName": "",
+            "StartTime": 488.98309326171875,
+            "Duration": 312119.03125,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "4225955953": {
+            "SegmentId": "2EF68A849E7E2B9E749EAED2EF8813AC",
+            "SegmentName": "GP_A2_TRUCK_START",
+            "SegmentType": "Objective",
+            "SegmentFlags": "kPersistent",
+            "ParentSegmentName": "",
+            "StartTime": 488.98309326171875,
+            "Duration": 10820.5947265625,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "3283664032": {
+            "SegmentId": "BECEBBC782C724ADFB9B9E2F988CF955",
+            "SegmentName": "GP_A1_SWING_TUTORIAL",
+            "SegmentFlags": "kPersistent",
+            "SegmentType": "Mission",
+            "ParentSegmentName": "",
+            "StartTime": 488.98309326171875,
+            "Duration": 312119.03125,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "3198264795": {
+            "SegmentId": "A622972B48098486A10BB98FA0355D0E",
+            "SegmentName": "Playthrough",
+            "SegmentType": "Playthrough",
+            "SegmentFlags": "kPersistent",
+            "ParentSegmentName": "",
+            "StartTime": 488.98309326171875,
+            "Duration": 1172.47314453125,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "2098995363": {
+            "SegmentId": "BF8680CE12318721A0A92E2A5F5C73B3",
+            "SegmentName": "GP_A1_FISK",
+            "SegmentFlags": "kPersistent",
+            "SegmentType": "Mission",
+            "ParentSegmentName": "",
+            "StartTime": 488.98309326171875,
+            "Duration": 817.6840209960938,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "168079190": {
+            "SegmentId": "19171E23CB3B1255D5A96B360AB608F2",
+            "SegmentName": "GP_A2_TRUCK",
+            "SegmentFlags": "kPersistent",
+            "SegmentType": "Mission",
+            "ParentSegmentName": "",
+            "StartTime": 488.98309326171875,
+            "Duration": 10820.5947265625,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "2562007084": {
+            "SegmentId": "3005B55A5914DC420BA61910CE233673",
+            "SegmentName": "GameSegment",
+            "SegmentType": "Game",
+            "ParentSegmentName": "",
+            "Duration": 488.96343994140625,
+            "StartTime": 488.98309326171875,
+            "UsePauseTime": false,
+            "ParentSegmentId": 0,
+            "SegmentFlags": null
+          }
+        },
+        "PrimarySegment": 0
+      },
+      "sections": {
+        "0xd0a9df": {
+          "size": 23672,
+          "sha256": "736962ad3ed642e67c3d980478b602ba5feaec0960201a21412e7d64ae64c11d"
+        },
+        "0xd6f8fc": {
+          "size": 1356,
+          "sha256": "9a5fb83d0c117d3bf9ac8c58f5a1033ff7f205e3935cab2659c6e9e73a43cf19"
+        },
+        "0x185f188": {
+          "size": 776,
+          "sha256": "bbe52dc91316e2fd1881ac03aef1f3218cd6402164108dfaf3a5d863347fb8b8"
+        },
+        "0x1cea6ceb": {
+          "size": 2508,
+          "sha256": "f2f56de2c08585ce7683fa8021dfc4d8e28dbb95da06b03c2f8354905e3f50bf"
+        },
+        "0x43e0a1be": {
+          "size": 8,
+          "sha256": "7c9fa136d4413fa6173637e883b6998d32e1d675f88cddff9dcbcf331820f4b8"
+        },
+        "0x4b2362cb": {
+          "size": 277,
+          "sha256": "9cf2c3c33745a5ea4b7afd1a4290c7cc3ac0566b27ff680648640b829e103136"
+        },
+        "0x4e217848": {
+          "size": 3664,
+          "sha256": "5c2ae04dd03736ba26a95f48b518ff158dbcb9821b499dba2be1a7ed83b4865e"
+        },
+        "0x52768c44": {
+          "size": 2756,
+          "sha256": "00d768afa97bd695feccb32a7f0d6037ac5c793493f5c042dbe9c52598b880cb"
+        },
+        "0x586e01a8": {
+          "size": 1755,
+          "sha256": "93be812d7e150689e73ef52487b30e57464ef51a928080729425fdfa2764e995"
+        },
+        "0x6142f8dd": {
+          "size": 259,
+          "sha256": "412ecad429d79e230e56b383b16d3d293ef6beb5f641d7de6f910228119b7bf3"
+        },
+        "0x6d91265c": {
+          "size": 24,
+          "sha256": "d5039144208228e8bedb4cfbf5bf0222f0f457e7e52aa557840af7d717a863e2"
+        },
+        "0x82975026": {
+          "size": 948,
+          "sha256": "a7f406cc412a359bac6aa75d170c0a82ac49a8a11a4d4eac476cdaf13746ba02"
+        },
+        "0x8c2d0f2d": {
+          "size": 12805,
+          "sha256": "f21234d40e48ef3f7ebb8ab70e6fad87e1eaa6e79af9c8ccf91b2d28c2d3e6d9"
+        },
+        "0x8f4c99f1": {
+          "size": 199,
+          "sha256": "ad1dd1cf7df74c798c0376003cea08edbfb5fed357afcbe5a02fd2ae06711353"
+        },
+        "0x9d1b37dc": {
+          "size": 900,
+          "sha256": "3aa15ae0250c976a1ce1d3c6a2001f1b43ec8a736cf446906337d91a38dead07"
+        },
+        "0xa026eedb": {
+          "size": 4284,
+          "sha256": "8c7ce7cd8f7e53cc5a1e895685f87144f4eee55bf6394cb7de972d935124ea49"
+        },
+        "0xa2bed772": {
+          "size": 4123,
+          "sha256": "31725b1f84f1d8d2d33acfd8105f5efa5ce5bc3438e3dad970198f2ebfa8f77f"
+        },
+        "0xa806f448": {
+          "size": 23672,
+          "sha256": "736962ad3ed642e67c3d980478b602ba5feaec0960201a21412e7d64ae64c11d"
+        },
+        "0xb5ee9aa1": {
+          "size": 990,
+          "sha256": "f78c5836d344e138613200ad60d1239e1789c5ef5b2a230b9e0808ea87866afd"
+        },
+        "0xc0174d02": {
+          "size": 4116,
+          "sha256": "1c95f70c3afbd3d0ed1c2c8d398cf78bad25a70f96d39836304005a700f75fe4"
+        },
+        "0xc34cac48": {
+          "size": 2074,
+          "sha256": "ab5e2a6ff2ad5747df67efc09d0bbebe7e3bed1f725b1fab672d913e62f9d9c7"
+        },
+        "0xc82d7ab4": {
+          "size": 839,
+          "sha256": "6172b0db8cbfd6d52bf84c00113a9143db7637acd283121bea6a1b9fc0f07f17"
+        },
+        "0xcd3888a8": {
+          "size": 4320,
+          "sha256": "b96bbe2e25e795f32b386e7392dc6d689746413c446a59d9baa9d592e46c80b0"
+        },
+        "0xd436a987": {
+          "size": 7688,
+          "sha256": "6174d58759c48b730f88d17d571ef0774be0bbff8789c9ccef23d0e480478c57"
+        },
+        "0xe6e715e7": {
+          "size": 6,
+          "sha256": "cd41fef213afb1de08d204b0122e1053826da686335fe6260aa6ed620764f820"
+        },
+        "0xeb364589": {
+          "size": 13046,
+          "sha256": "48205e9b43521200aa678aac26c340adf620193a11671a8535b17c59655c0cae"
+        },
+        "0xeccba896": {
+          "size": 8452,
+          "sha256": "8011fd46c6586e7468bb9b6f1948d121373638ceb94ffb0110f97e08308fdd77"
+        },
+        "0xff391f3b": {
+          "size": 1033,
+          "sha256": "9121f504ca9971e12bd80405ab8cc35c93b25f5cbedcce8d422f475eb29e824d"
+        }
+      }
+    },
+    "before_elevator_011528": {
+      "path": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\电梯场景对照_20261007_011528_00a33d52\\主机存档_测试前\\slot3-s.save",
+      "sha256": "9607535f92798647037c24a8c030d2c29a5c417b6e581023ae65215ba81f12fd",
+      "size": 142398,
+      "metadata": [
+        {
+          "section_tag": "0xd436a987",
+          "relative_offset": 4,
+          "fields": {
+            "CurrentLightingMode": "kBlackout",
+            "CurrentCheckpointId": 10863563502179515499,
+            "CurrentCheckpoint": 1230831290,
+            "PlaythroughSegmentId": 3198264795,
+            "CurrentLightingModeValid": true,
+            "CurrentLevel": 0
+          }
+        },
+        {
+          "section_tag": "0xd436a987",
+          "relative_offset": 140,
+          "fields": {
+            "LastPosition": {
+              "X": 1107.189697265625,
+              "Y": 45.762451171875,
+              "Z": 1288.1719970703125
+            },
+            "PerchForward": {
+              "X": 0,
+              "Y": 0,
+              "Z": 1
+            },
+            "PerchPosition": {
+              "X": 0,
+              "Y": 0,
+              "Z": 0
+            },
+            "GamePercent": 0.010526316240429878,
+            "ActiveMissionHash": 3546700964,
+            "LocationHash": 1725685535,
+            "LastSaveTime": 2125084076,
+            "PerchUID": 0,
+            "SlotDifficulty": 3,
+            "LowestDifficultyEverSet": 3,
+            "PlayerLevel": 50,
+            "NewGamePlusUnlocked": false,
+            "NewGamePlus": true,
+            "NewGamePlusNewGame": false,
+            "TotalPlayTime": 0
+          }
+        },
+        {
+          "section_tag": "0xd436a987",
+          "relative_offset": 7552,
+          "fields": {
+            "CurrentLightingMode": "kBlackout",
+            "CurrentCheckpointId": 10863563502179515499,
+            "CurrentCheckpoint": 1230831290,
+            "PlaythroughSegmentId": 3198264795,
+            "CurrentLightingModeValid": true,
+            "CurrentLevel": 0
+          }
+        }
+      ],
+      "objective_tables": [
+        {
+          "mission_hash": "0xd3665ca4",
+          "runtime_name": "GP_A1_FISK",
+          "header_offset": "0xdcb",
+          "stride": 24,
+          "rows": [
+            {
+              "runtime_name": "GP_A1_FISK_START",
+              "objective_hash": "0xbd3b8884",
+              "words_raw": [
+                3174795396,
+                2,
+                2,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ATRIUM",
+              "objective_hash": "0xe7df67ad",
+              "words_raw": [
+                3890177965,
+                2,
+                2,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ATRIUM_02",
+              "objective_hash": "0x9d01f20f",
+              "words_raw": [
+                2634150415,
+                2,
+                2,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_COPS_ARRIVED_CIN",
+              "objective_hash": "0xdbaa182e",
+              "words_raw": [
+                3685357614,
+                2,
+                2,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ELEVATOR_LOBBY",
+              "objective_hash": "0xde78dcce",
+              "words_raw": [
+                3732462798,
+                1,
+                1,
+                0,
+                1,
+                443370037
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SHAFT_CLIMB_FIGHT",
+              "objective_hash": "0xc23a1035",
+              "words_raw": [
+                3258585141,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_POST_SKILL_POINT",
+              "objective_hash": "0x452ddaea",
+              "words_raw": [
+                1160633066,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SECURITY_ROOM",
+              "objective_hash": "0xa1b118ab",
+              "words_raw": [
+                2712737963,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SECURITY_COUNTDOWN",
+              "objective_hash": "0xd9e6e4fc",
+              "words_raw": [
+                3655787772,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_HACK_CIN2",
+              "objective_hash": "0x8ae0a942",
+              "words_raw": [
+                2329979202,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_POP_UP_TUT",
+              "objective_hash": "0xa1e4dcd2",
+              "words_raw": [
+                2716130514,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIRST_EXPLOSION",
+              "objective_hash": "0x4e03777",
+              "words_raw": [
+                81803127,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SWAT_INTRO",
+              "objective_hash": "0xe375bb3",
+              "words_raw": [
+                238508979,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_HELP_CIVS",
+              "objective_hash": "0x295dec9e",
+              "words_raw": [
+                694021278,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INVESTIGATE_VENT",
+              "objective_hash": "0x19ce3f8",
+              "words_raw": [
+                27059192,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_NEW_BOMB",
+              "objective_hash": "0x7cd40d7b",
+              "words_raw": [
+                2094271867,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_LOCATE_SWAT",
+              "objective_hash": "0x605b37",
+              "words_raw": [
+                6314807,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INVESTIGATE_SCENE",
+              "objective_hash": "0xe4229644",
+              "words_raw": [
+                3827471940,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIGHT_SWAT_CIN",
+              "objective_hash": "0xcdc33aea",
+              "words_raw": [
+                3452123882,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIGHT_SWAT",
+              "objective_hash": "0x37b5c45",
+              "words_raw": [
+                58416197,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INTRO_FISK_CIN",
+              "objective_hash": "0xa1a12a07",
+              "words_raw": [
+                2711693831,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_TURRETS",
+              "objective_hash": "0xa466ba46",
+              "words_raw": [
+                2758195782,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_DESK_SMASH_CIN",
+              "objective_hash": "0xb80eac23",
+              "words_raw": [
+                3087969315,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_BOSS_2",
+              "objective_hash": "0xe5237674",
+              "words_raw": [
+                3844306548,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_WALL_BASH_CIN",
+              "objective_hash": "0xf4f6e0bf",
+              "words_raw": [
+                4109820095,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_BOSS_3",
+              "objective_hash": "0x922446e2",
+              "words_raw": [
+                2451850978,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FALL",
+              "objective_hash": "0xb4f11dbc",
+              "words_raw": [
+                3035700668,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_OUTRO_CINE",
+              "objective_hash": "0x46982422",
+              "words_raw": [
+                1184375842,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SKILL_TUT",
+              "objective_hash": "0xa8563c71",
+              "words_raw": [
+                2824223857,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "mission_hash": "0xd3665ca4",
+          "runtime_name": "GP_A1_FISK",
+          "header_offset": "0x3048",
+          "stride": 20,
+          "rows": [
+            {
+              "runtime_name": "GP_A1_FISK_START",
+              "objective_hash": "0xbd3b8884",
+              "words_raw": [
+                3174795396,
+                2,
+                2,
+                0,
+                1
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ATRIUM",
+              "objective_hash": "0xe7df67ad",
+              "words_raw": [
+                3890177965,
+                2,
+                2,
+                0,
+                1
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ATRIUM_02",
+              "objective_hash": "0x9d01f20f",
+              "words_raw": [
+                2634150415,
+                2,
+                2,
+                0,
+                1
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_COPS_ARRIVED_CIN",
+              "objective_hash": "0xdbaa182e",
+              "words_raw": [
+                3685357614,
+                2,
+                2,
+                0,
+                1
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ELEVATOR_LOBBY",
+              "objective_hash": "0xde78dcce",
+              "words_raw": [
+                3732462798,
+                1,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SHAFT_CLIMB_FIGHT",
+              "objective_hash": "0xc23a1035",
+              "words_raw": [
+                3258585141,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_POST_SKILL_POINT",
+              "objective_hash": "0x452ddaea",
+              "words_raw": [
+                1160633066,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SECURITY_ROOM",
+              "objective_hash": "0xa1b118ab",
+              "words_raw": [
+                2712737963,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SECURITY_COUNTDOWN",
+              "objective_hash": "0xd9e6e4fc",
+              "words_raw": [
+                3655787772,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_HACK_CIN2",
+              "objective_hash": "0x8ae0a942",
+              "words_raw": [
+                2329979202,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_POP_UP_TUT",
+              "objective_hash": "0xa1e4dcd2",
+              "words_raw": [
+                2716130514,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIRST_EXPLOSION",
+              "objective_hash": "0x4e03777",
+              "words_raw": [
+                81803127,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SWAT_INTRO",
+              "objective_hash": "0xe375bb3",
+              "words_raw": [
+                238508979,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_HELP_CIVS",
+              "objective_hash": "0x295dec9e",
+              "words_raw": [
+                694021278,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INVESTIGATE_VENT",
+              "objective_hash": "0x19ce3f8",
+              "words_raw": [
+                27059192,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_NEW_BOMB",
+              "objective_hash": "0x7cd40d7b",
+              "words_raw": [
+                2094271867,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_LOCATE_SWAT",
+              "objective_hash": "0x605b37",
+              "words_raw": [
+                6314807,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INVESTIGATE_SCENE",
+              "objective_hash": "0xe4229644",
+              "words_raw": [
+                3827471940,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIGHT_SWAT_CIN",
+              "objective_hash": "0xcdc33aea",
+              "words_raw": [
+                3452123882,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIGHT_SWAT",
+              "objective_hash": "0x37b5c45",
+              "words_raw": [
+                58416197,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INTRO_FISK_CIN",
+              "objective_hash": "0xa1a12a07",
+              "words_raw": [
+                2711693831,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_TURRETS",
+              "objective_hash": "0xa466ba46",
+              "words_raw": [
+                2758195782,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_DESK_SMASH_CIN",
+              "objective_hash": "0xb80eac23",
+              "words_raw": [
+                3087969315,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_BOSS_2",
+              "objective_hash": "0xe5237674",
+              "words_raw": [
+                3844306548,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_WALL_BASH_CIN",
+              "objective_hash": "0xf4f6e0bf",
+              "words_raw": [
+                4109820095,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_BOSS_3",
+              "objective_hash": "0x922446e2",
+              "words_raw": [
+                2451850978,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FALL",
+              "objective_hash": "0xb4f11dbc",
+              "words_raw": [
+                3035700668,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_OUTRO_CINE",
+              "objective_hash": "0x46982422",
+              "words_raw": [
+                1184375842,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SKILL_TUT",
+              "objective_hash": "0xa8563c71",
+              "words_raw": [
+                2824223857,
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "segments": {
+        "Segments": {
+          "1586441792": {
+            "SegmentId": "605E630D079676A72C36E497386AE115",
+            "SegmentName": "GP_A1_SWING_TUTORIAL_INTRO",
+            "SegmentType": "Objective",
+            "SegmentFlags": "kPersistent",
+            "ParentSegmentName": "",
+            "StartTime": 100.9142837524414,
+            "Duration": 311630.03125,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "443370037": {
+            "SegmentId": "E884558A06EA31183ABCFA1820BF5DB0",
+            "SegmentName": "GP_A1_FISK_ELEVATOR_LOBBY",
+            "SegmentType": "Objective",
+            "SegmentFlags": "kPersistent",
+            "ParentSegmentName": "",
+            "StartTime": 100.9142837524414,
+            "Duration": 174.5381317138672,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "3283664032": {
+            "SegmentId": "BECEBBC782C724ADFB9B9E2F988CF955",
+            "SegmentName": "GP_A1_SWING_TUTORIAL",
+            "SegmentFlags": "kPersistent",
+            "SegmentType": "Mission",
+            "ParentSegmentName": "",
+            "StartTime": 100.9142837524414,
+            "Duration": 311630.03125,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "4225955953": {
+            "SegmentId": "2EF68A849E7E2B9E749EAED2EF8813AC",
+            "SegmentName": "GP_A2_TRUCK_START",
+            "SegmentType": "Objective",
+            "SegmentFlags": "kPersistent",
+            "ParentSegmentName": "",
+            "StartTime": 100.9142837524414,
+            "Duration": 10331.611328125,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "3198264795": {
+            "SegmentId": "A622972B48098486A10BB98FA0355D0E",
+            "SegmentName": "Playthrough",
+            "SegmentType": "Playthrough",
+            "SegmentFlags": "kPersistent",
+            "ParentSegmentName": "",
+            "StartTime": 100.9142837524414,
+            "Duration": 683.4900512695312,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "2098995363": {
+            "SegmentId": "BF8680CE12318721A0A92E2A5F5C73B3",
+            "SegmentName": "GP_A1_FISK",
+            "SegmentFlags": "kPersistent",
+            "SegmentType": "Mission",
+            "ParentSegmentName": "",
+            "StartTime": 100.9142837524414,
+            "Duration": 328.70086669921875,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "168079190": {
+            "SegmentId": "19171E23CB3B1255D5A96B360AB608F2",
+            "SegmentName": "GP_A2_TRUCK",
+            "SegmentFlags": "kPersistent",
+            "SegmentType": "Mission",
+            "ParentSegmentName": "",
+            "StartTime": 100.9142837524414,
+            "Duration": 10331.611328125,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "2442272126": {
+            "SegmentId": "AD983C2326AFDECE9CEF2F6572165EAB",
+            "SegmentName": "GameSegment",
+            "SegmentType": "Game",
+            "ParentSegmentName": "",
+            "Duration": 100.89385223388672,
+            "StartTime": 100.9142837524414,
+            "UsePauseTime": false,
+            "ParentSegmentId": 0,
+            "SegmentFlags": null
+          }
+        },
+        "PrimarySegment": 0
+      },
+      "sections": {
+        "0xd0a9df": {
+          "size": 23672,
+          "sha256": "736962ad3ed642e67c3d980478b602ba5feaec0960201a21412e7d64ae64c11d"
+        },
+        "0xd6f8fc": {
+          "size": 1356,
+          "sha256": "0a89d3728d168e6ddee3c86cae2c44b7ef742c3ad102e4955073aee6e4f9eccf"
+        },
+        "0x185f188": {
+          "size": 776,
+          "sha256": "bbe52dc91316e2fd1881ac03aef1f3218cd6402164108dfaf3a5d863347fb8b8"
+        },
+        "0x1cea6ceb": {
+          "size": 2504,
+          "sha256": "8759699a44a8c15b2d6450bc337855922d140ce12c09297487f4c31701019d9b"
+        },
+        "0x43e0a1be": {
+          "size": 8,
+          "sha256": "7c9fa136d4413fa6173637e883b6998d32e1d675f88cddff9dcbcf331820f4b8"
+        },
+        "0x4b2362cb": {
+          "size": 277,
+          "sha256": "9cf2c3c33745a5ea4b7afd1a4290c7cc3ac0566b27ff680648640b829e103136"
+        },
+        "0x4e217848": {
+          "size": 3664,
+          "sha256": "b77835291b044a1f7a31dc8d32b77017f4ab6409dccc4606c7609f95101635f4"
+        },
+        "0x52768c44": {
+          "size": 2756,
+          "sha256": "00d768afa97bd695feccb32a7f0d6037ac5c793493f5c042dbe9c52598b880cb"
+        },
+        "0x586e01a8": {
+          "size": 1755,
+          "sha256": "cd1a4db31d41b197e9c56ed0b9a16acefb62d73922d29af97f711353b3d5bc24"
+        },
+        "0x6142f8dd": {
+          "size": 259,
+          "sha256": "412ecad429d79e230e56b383b16d3d293ef6beb5f641d7de6f910228119b7bf3"
+        },
+        "0x6d91265c": {
+          "size": 24,
+          "sha256": "d5039144208228e8bedb4cfbf5bf0222f0f457e7e52aa557840af7d717a863e2"
+        },
+        "0x82975026": {
+          "size": 948,
+          "sha256": "28d7295d725c410330d0a892c40ace6b2891da28f3f5c9bb1f149e23d9ab6146"
+        },
+        "0x8c2d0f2d": {
+          "size": 12805,
+          "sha256": "f21234d40e48ef3f7ebb8ab70e6fad87e1eaa6e79af9c8ccf91b2d28c2d3e6d9"
+        },
+        "0x8f4c99f1": {
+          "size": 199,
+          "sha256": "ad1dd1cf7df74c798c0376003cea08edbfb5fed357afcbe5a02fd2ae06711353"
+        },
+        "0x9d1b37dc": {
+          "size": 956,
+          "sha256": "5ee69628f78a757c7784caa59916ff8c8df3d7e6f2fc58589b8c6658b2b4dd1a"
+        },
+        "0xa026eedb": {
+          "size": 4284,
+          "sha256": "ecc696c7d74952811cb7299878e0b60939e1134fa287d4dde0e1f90bc5ad02dd"
+        },
+        "0xa2bed772": {
+          "size": 4123,
+          "sha256": "31725b1f84f1d8d2d33acfd8105f5efa5ce5bc3438e3dad970198f2ebfa8f77f"
+        },
+        "0xa806f448": {
+          "size": 23672,
+          "sha256": "736962ad3ed642e67c3d980478b602ba5feaec0960201a21412e7d64ae64c11d"
+        },
+        "0xb5ee9aa1": {
+          "size": 990,
+          "sha256": "f78c5836d344e138613200ad60d1239e1789c5ef5b2a230b9e0808ea87866afd"
+        },
+        "0xc0174d02": {
+          "size": 4180,
+          "sha256": "52aac8e21fa76862060250e83f9dc838d0abceef6d6c65b33e1b794430532d00"
+        },
+        "0xc34cac48": {
+          "size": 2074,
+          "sha256": "b58127eb247fbaeddfe901e2630bd5f6538b6ac39230df1a211252e5af185a57"
+        },
+        "0xc82d7ab4": {
+          "size": 839,
+          "sha256": "6172b0db8cbfd6d52bf84c00113a9143db7637acd283121bea6a1b9fc0f07f17"
+        },
+        "0xcd3888a8": {
+          "size": 4320,
+          "sha256": "ae61977586d65172a5ae379509fb3fc38119a07f201e974d5c1bb03e7c08c4af"
+        },
+        "0xd436a987": {
+          "size": 7688,
+          "sha256": "14795a6ed6d2c436a68fa45db60b9960e3eeabfad627df44ca510dd76b01fad2"
+        },
+        "0xe6e715e7": {
+          "size": 6,
+          "sha256": "cd41fef213afb1de08d204b0122e1053826da686335fe6260aa6ed620764f820"
+        },
+        "0xeb364589": {
+          "size": 13046,
+          "sha256": "63251e118c891af221725436caa9c2deb5064999d2cb43cdc38a53093b5cb9a7"
+        },
+        "0xeccba896": {
+          "size": 8452,
+          "sha256": "ac35917ed7329836773dcf8688bddc702084f2c2d43601ffd8369968b5ddb784"
+        },
+        "0xff391f3b": {
+          "size": 1033,
+          "sha256": "9121f504ca9971e12bd80405ab8cc35c93b25f5cbedcce8d422f475eb29e824d"
+        }
+      }
+    },
+    "MOD_reload_verified_e80": {
+      "path": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\联机NG对照_20261006_155424_9e9669ed\\MOD二次载入后_已暂停\\slot3-s.save",
+      "sha256": "e80e50fd9758604584be33fd22c7c08e1eff82e9b9ae4f84c3f26aab8f8eee3d",
+      "size": 142974,
+      "metadata": [
+        {
+          "section_tag": "0xd436a987",
+          "relative_offset": 4,
+          "fields": {
+            "CurrentLightingMode": "kBlackout",
+            "CurrentCheckpointId": 10863563502179515499,
+            "CurrentCheckpoint": 1230831290,
+            "PlaythroughSegmentId": 3198264795,
+            "CurrentLightingModeValid": true,
+            "CurrentLevel": 0
+          }
+        },
+        {
+          "section_tag": "0xd436a987",
+          "relative_offset": 140,
+          "fields": {
+            "LastPosition": {
+              "X": 1107.189697265625,
+              "Y": 45.762451171875,
+              "Z": 1288.1719970703125
+            },
+            "PerchForward": {
+              "X": 0,
+              "Y": 0,
+              "Z": 1
+            },
+            "PerchPosition": {
+              "X": 0,
+              "Y": 0,
+              "Z": 0
+            },
+            "GamePercent": 0.010526316240429878,
+            "ActiveMissionHash": 3546700964,
+            "LocationHash": 1725685535,
+            "LastSaveTime": 2125083665,
+            "PerchUID": 0,
+            "SlotDifficulty": 3,
+            "LowestDifficultyEverSet": 3,
+            "PlayerLevel": 50,
+            "NewGamePlusUnlocked": false,
+            "NewGamePlus": true,
+            "NewGamePlusNewGame": false,
+            "TotalPlayTime": 0
+          }
+        },
+        {
+          "section_tag": "0xd436a987",
+          "relative_offset": 7552,
+          "fields": {
+            "CurrentLightingMode": "kBlackout",
+            "CurrentCheckpointId": 10863563502179515499,
+            "CurrentCheckpoint": 1230831290,
+            "PlaythroughSegmentId": 3198264795,
+            "CurrentLightingModeValid": true,
+            "CurrentLevel": 0
+          }
+        }
+      ],
+      "objective_tables": [
+        {
+          "mission_hash": "0xd3665ca4",
+          "runtime_name": "GP_A1_FISK",
+          "header_offset": "0xdcb",
+          "stride": 24,
+          "rows": [
+            {
+              "runtime_name": "GP_A1_FISK_START",
+              "objective_hash": "0xbd3b8884",
+              "words_raw": [
+                3174795396,
+                2,
+                2,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ATRIUM",
+              "objective_hash": "0xe7df67ad",
+              "words_raw": [
+                3890177965,
+                2,
+                2,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ATRIUM_02",
+              "objective_hash": "0x9d01f20f",
+              "words_raw": [
+                2634150415,
+                2,
+                2,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_COPS_ARRIVED_CIN",
+              "objective_hash": "0xdbaa182e",
+              "words_raw": [
+                3685357614,
+                2,
+                2,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ELEVATOR_LOBBY",
+              "objective_hash": "0xde78dcce",
+              "words_raw": [
+                3732462798,
+                1,
+                1,
+                0,
+                1,
+                443370037
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SHAFT_CLIMB_FIGHT",
+              "objective_hash": "0xc23a1035",
+              "words_raw": [
+                3258585141,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_POST_SKILL_POINT",
+              "objective_hash": "0x452ddaea",
+              "words_raw": [
+                1160633066,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SECURITY_ROOM",
+              "objective_hash": "0xa1b118ab",
+              "words_raw": [
+                2712737963,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SECURITY_COUNTDOWN",
+              "objective_hash": "0xd9e6e4fc",
+              "words_raw": [
+                3655787772,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_HACK_CIN2",
+              "objective_hash": "0x8ae0a942",
+              "words_raw": [
+                2329979202,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_POP_UP_TUT",
+              "objective_hash": "0xa1e4dcd2",
+              "words_raw": [
+                2716130514,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIRST_EXPLOSION",
+              "objective_hash": "0x4e03777",
+              "words_raw": [
+                81803127,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SWAT_INTRO",
+              "objective_hash": "0xe375bb3",
+              "words_raw": [
+                238508979,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_HELP_CIVS",
+              "objective_hash": "0x295dec9e",
+              "words_raw": [
+                694021278,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INVESTIGATE_VENT",
+              "objective_hash": "0x19ce3f8",
+              "words_raw": [
+                27059192,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_NEW_BOMB",
+              "objective_hash": "0x7cd40d7b",
+              "words_raw": [
+                2094271867,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_LOCATE_SWAT",
+              "objective_hash": "0x605b37",
+              "words_raw": [
+                6314807,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INVESTIGATE_SCENE",
+              "objective_hash": "0xe4229644",
+              "words_raw": [
+                3827471940,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIGHT_SWAT_CIN",
+              "objective_hash": "0xcdc33aea",
+              "words_raw": [
+                3452123882,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIGHT_SWAT",
+              "objective_hash": "0x37b5c45",
+              "words_raw": [
+                58416197,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INTRO_FISK_CIN",
+              "objective_hash": "0xa1a12a07",
+              "words_raw": [
+                2711693831,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_TURRETS",
+              "objective_hash": "0xa466ba46",
+              "words_raw": [
+                2758195782,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_DESK_SMASH_CIN",
+              "objective_hash": "0xb80eac23",
+              "words_raw": [
+                3087969315,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_BOSS_2",
+              "objective_hash": "0xe5237674",
+              "words_raw": [
+                3844306548,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_WALL_BASH_CIN",
+              "objective_hash": "0xf4f6e0bf",
+              "words_raw": [
+                4109820095,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_BOSS_3",
+              "objective_hash": "0x922446e2",
+              "words_raw": [
+                2451850978,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FALL",
+              "objective_hash": "0xb4f11dbc",
+              "words_raw": [
+                3035700668,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_OUTRO_CINE",
+              "objective_hash": "0x46982422",
+              "words_raw": [
+                1184375842,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SKILL_TUT",
+              "objective_hash": "0xa8563c71",
+              "words_raw": [
+                2824223857,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "mission_hash": "0xd3665ca4",
+          "runtime_name": "GP_A1_FISK",
+          "header_offset": "0x3048",
+          "stride": 20,
+          "rows": [
+            {
+              "runtime_name": "GP_A1_FISK_START",
+              "objective_hash": "0xbd3b8884",
+              "words_raw": [
+                3174795396,
+                2,
+                2,
+                0,
+                1
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ATRIUM",
+              "objective_hash": "0xe7df67ad",
+              "words_raw": [
+                3890177965,
+                2,
+                2,
+                0,
+                1
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ATRIUM_02",
+              "objective_hash": "0x9d01f20f",
+              "words_raw": [
+                2634150415,
+                2,
+                2,
+                0,
+                1
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_COPS_ARRIVED_CIN",
+              "objective_hash": "0xdbaa182e",
+              "words_raw": [
+                3685357614,
+                2,
+                2,
+                0,
+                1
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ELEVATOR_LOBBY",
+              "objective_hash": "0xde78dcce",
+              "words_raw": [
+                3732462798,
+                1,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SHAFT_CLIMB_FIGHT",
+              "objective_hash": "0xc23a1035",
+              "words_raw": [
+                3258585141,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_POST_SKILL_POINT",
+              "objective_hash": "0x452ddaea",
+              "words_raw": [
+                1160633066,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SECURITY_ROOM",
+              "objective_hash": "0xa1b118ab",
+              "words_raw": [
+                2712737963,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SECURITY_COUNTDOWN",
+              "objective_hash": "0xd9e6e4fc",
+              "words_raw": [
+                3655787772,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_HACK_CIN2",
+              "objective_hash": "0x8ae0a942",
+              "words_raw": [
+                2329979202,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_POP_UP_TUT",
+              "objective_hash": "0xa1e4dcd2",
+              "words_raw": [
+                2716130514,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIRST_EXPLOSION",
+              "objective_hash": "0x4e03777",
+              "words_raw": [
+                81803127,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SWAT_INTRO",
+              "objective_hash": "0xe375bb3",
+              "words_raw": [
+                238508979,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_HELP_CIVS",
+              "objective_hash": "0x295dec9e",
+              "words_raw": [
+                694021278,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INVESTIGATE_VENT",
+              "objective_hash": "0x19ce3f8",
+              "words_raw": [
+                27059192,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_NEW_BOMB",
+              "objective_hash": "0x7cd40d7b",
+              "words_raw": [
+                2094271867,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_LOCATE_SWAT",
+              "objective_hash": "0x605b37",
+              "words_raw": [
+                6314807,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INVESTIGATE_SCENE",
+              "objective_hash": "0xe4229644",
+              "words_raw": [
+                3827471940,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIGHT_SWAT_CIN",
+              "objective_hash": "0xcdc33aea",
+              "words_raw": [
+                3452123882,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIGHT_SWAT",
+              "objective_hash": "0x37b5c45",
+              "words_raw": [
+                58416197,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INTRO_FISK_CIN",
+              "objective_hash": "0xa1a12a07",
+              "words_raw": [
+                2711693831,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_TURRETS",
+              "objective_hash": "0xa466ba46",
+              "words_raw": [
+                2758195782,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_DESK_SMASH_CIN",
+              "objective_hash": "0xb80eac23",
+              "words_raw": [
+                3087969315,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_BOSS_2",
+              "objective_hash": "0xe5237674",
+              "words_raw": [
+                3844306548,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_WALL_BASH_CIN",
+              "objective_hash": "0xf4f6e0bf",
+              "words_raw": [
+                4109820095,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_BOSS_3",
+              "objective_hash": "0x922446e2",
+              "words_raw": [
+                2451850978,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FALL",
+              "objective_hash": "0xb4f11dbc",
+              "words_raw": [
+                3035700668,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_OUTRO_CINE",
+              "objective_hash": "0x46982422",
+              "words_raw": [
+                1184375842,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SKILL_TUT",
+              "objective_hash": "0xa8563c71",
+              "words_raw": [
+                2824223857,
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "segments": {
+        "Segments": {
+          "1586441792": {
+            "SegmentId": "605E630D079676A72C36E497386AE115",
+            "SegmentName": "GP_A1_SWING_TUTORIAL_INTRO",
+            "SegmentType": "Objective",
+            "SegmentFlags": "kPersistent",
+            "ParentSegmentName": "",
+            "StartTime": 109.66620635986328,
+            "Duration": 311455.5625,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "443370037": {
+            "SegmentId": "E884558A06EA31183ABCFA1820BF5DB0",
+            "SegmentName": "GP_A1_FISK_ELEVATOR_LOBBY",
+            "SegmentType": "Objective",
+            "SegmentFlags": "kPersistent",
+            "ParentSegmentName": "",
+            "StartTime": 109.66620635986328,
+            "Duration": 0.0955606997013092,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "3283664032": {
+            "SegmentId": "BECEBBC782C724ADFB9B9E2F988CF955",
+            "SegmentName": "GP_A1_SWING_TUTORIAL",
+            "SegmentFlags": "kPersistent",
+            "SegmentType": "Mission",
+            "ParentSegmentName": "",
+            "StartTime": 109.66620635986328,
+            "Duration": 311455.5625,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "4225955953": {
+            "SegmentId": "2EF68A849E7E2B9E749EAED2EF8813AC",
+            "SegmentName": "GP_A2_TRUCK_START",
+            "SegmentType": "Objective",
+            "SegmentFlags": "kPersistent",
+            "ParentSegmentName": "",
+            "StartTime": 109.66620635986328,
+            "Duration": 10157.16796875,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "3198264795": {
+            "SegmentId": "A622972B48098486A10BB98FA0355D0E",
+            "SegmentName": "Playthrough",
+            "SegmentType": "Playthrough",
+            "SegmentFlags": "kPersistent",
+            "ParentSegmentName": "",
+            "StartTime": 109.66620635986328,
+            "Duration": 509.0474853515625,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "168079190": {
+            "SegmentId": "19171E23CB3B1255D5A96B360AB608F2",
+            "SegmentName": "GP_A2_TRUCK",
+            "SegmentFlags": "kPersistent",
+            "SegmentType": "Mission",
+            "ParentSegmentName": "",
+            "StartTime": 109.66620635986328,
+            "Duration": 10157.16796875,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "2098995363": {
+            "SegmentId": "BF8680CE12318721A0A92E2A5F5C73B3",
+            "SegmentName": "GP_A1_FISK",
+            "SegmentFlags": "kPersistent",
+            "SegmentType": "Mission",
+            "ParentSegmentName": "",
+            "StartTime": 109.66620635986328,
+            "Duration": 154.25828552246094,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "2166961296": {
+            "SegmentId": "7E6B719B963725016F3CA23AD6E926F6",
+            "SegmentName": "GameSegment",
+            "SegmentType": "Game",
+            "ParentSegmentName": "",
+            "Duration": 109.62367248535156,
+            "StartTime": 109.66620635986328,
+            "UsePauseTime": false,
+            "ParentSegmentId": 0,
+            "SegmentFlags": null
+          }
+        },
+        "PrimarySegment": 0
+      },
+      "sections": {
+        "0xd0a9df": {
+          "size": 23672,
+          "sha256": "33611c8f72a8a51fc1be6dba00465be60d2ed67a480a3ffc1c35bff3b5ef7d34"
+        },
+        "0xd6f8fc": {
+          "size": 1356,
+          "sha256": "0a89d3728d168e6ddee3c86cae2c44b7ef742c3ad102e4955073aee6e4f9eccf"
+        },
+        "0x185f188": {
+          "size": 776,
+          "sha256": "bbe52dc91316e2fd1881ac03aef1f3218cd6402164108dfaf3a5d863347fb8b8"
+        },
+        "0x1cea6ceb": {
+          "size": 2504,
+          "sha256": "f17aea96738d37f2c8abc2f7bed9624294e3ab31e2925c4fd15d729f106c0e91"
+        },
+        "0x43e0a1be": {
+          "size": 8,
+          "sha256": "7c9fa136d4413fa6173637e883b6998d32e1d675f88cddff9dcbcf331820f4b8"
+        },
+        "0x4b2362cb": {
+          "size": 277,
+          "sha256": "9cf2c3c33745a5ea4b7afd1a4290c7cc3ac0566b27ff680648640b829e103136"
+        },
+        "0x4e217848": {
+          "size": 3664,
+          "sha256": "b77835291b044a1f7a31dc8d32b77017f4ab6409dccc4606c7609f95101635f4"
+        },
+        "0x52768c44": {
+          "size": 2756,
+          "sha256": "00d768afa97bd695feccb32a7f0d6037ac5c793493f5c042dbe9c52598b880cb"
+        },
+        "0x586e01a8": {
+          "size": 1755,
+          "sha256": "9099d337279186c2f440f442ad2326c4f3141b4369f6267d0554c3fcdb6b9878"
+        },
+        "0x6142f8dd": {
+          "size": 259,
+          "sha256": "412ecad429d79e230e56b383b16d3d293ef6beb5f641d7de6f910228119b7bf3"
+        },
+        "0x6d91265c": {
+          "size": 24,
+          "sha256": "d5039144208228e8bedb4cfbf5bf0222f0f457e7e52aa557840af7d717a863e2"
+        },
+        "0x82975026": {
+          "size": 948,
+          "sha256": "28d7295d725c410330d0a892c40ace6b2891da28f3f5c9bb1f149e23d9ab6146"
+        },
+        "0x8c2d0f2d": {
+          "size": 12805,
+          "sha256": "f21234d40e48ef3f7ebb8ab70e6fad87e1eaa6e79af9c8ccf91b2d28c2d3e6d9"
+        },
+        "0x8f4c99f1": {
+          "size": 199,
+          "sha256": "ad1dd1cf7df74c798c0376003cea08edbfb5fed357afcbe5a02fd2ae06711353"
+        },
+        "0x9d1b37dc": {
+          "size": 956,
+          "sha256": "44578356d41eaa3cba6d4f5a51fae5c741df4555217adc483fd192a9ab96ba26"
+        },
+        "0xa026eedb": {
+          "size": 4284,
+          "sha256": "ecc696c7d74952811cb7299878e0b60939e1134fa287d4dde0e1f90bc5ad02dd"
+        },
+        "0xa2bed772": {
+          "size": 4123,
+          "sha256": "31725b1f84f1d8d2d33acfd8105f5efa5ce5bc3438e3dad970198f2ebfa8f77f"
+        },
+        "0xa806f448": {
+          "size": 23672,
+          "sha256": "67afd5c57e9fb6d183e35d5e54952c6dd1b042a40a4417341cad8eab78b83c97"
+        },
+        "0xb5ee9aa1": {
+          "size": 990,
+          "sha256": "f78c5836d344e138613200ad60d1239e1789c5ef5b2a230b9e0808ea87866afd"
+        },
+        "0xc0174d02": {
+          "size": 4756,
+          "sha256": "1a4c08b4ba838777b57da131ba84fad20298473039757be55c404c458f6406cd"
+        },
+        "0xc34cac48": {
+          "size": 2074,
+          "sha256": "c6b128e4fb5c36859e59f7b411ff6e2cac5d1298d670bb5a1e52e948b69b8fe8"
+        },
+        "0xc82d7ab4": {
+          "size": 839,
+          "sha256": "6172b0db8cbfd6d52bf84c00113a9143db7637acd283121bea6a1b9fc0f07f17"
+        },
+        "0xcd3888a8": {
+          "size": 4320,
+          "sha256": "ae61977586d65172a5ae379509fb3fc38119a07f201e974d5c1bb03e7c08c4af"
+        },
+        "0xd436a987": {
+          "size": 7688,
+          "sha256": "49e0b6f7b481ba8cb8a27ad59b55c00647da5d92972e5d6c702905e21a845a60"
+        },
+        "0xe6e715e7": {
+          "size": 6,
+          "sha256": "cd41fef213afb1de08d204b0122e1053826da686335fe6260aa6ed620764f820"
+        },
+        "0xeb364589": {
+          "size": 13046,
+          "sha256": "b3604960ec905772ccd1a83d9c319812df09e94cd416496b8f541c84bfa0fa94"
+        },
+        "0xeccba896": {
+          "size": 8452,
+          "sha256": "ac35917ed7329836773dcf8688bddc702084f2c2d43601ffd8369968b5ddb784"
+        },
+        "0xff391f3b": {
+          "size": 1033,
+          "sha256": "e84ecb0b7c14583a473a338109b6369a41d99abc6f068a1007166e6cc3814988"
+        }
+      }
+    },
+    "native_reload_verified_a836": {
+      "path": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\联机NG对照_20261006_155424_9e9669ed\\frozen_slot3-s.save",
+      "sha256": "a8364131cb6cc9d8aa35301e043431aefc160f688c883b721d9bfe842edd64c3",
+      "size": 143694,
+      "metadata": [
+        {
+          "section_tag": "0xd436a987",
+          "relative_offset": 4,
+          "fields": {
+            "CurrentLightingMode": "kBlackout",
+            "CurrentCheckpointId": 10863563502179515499,
+            "CurrentCheckpoint": 1230831290,
+            "PlaythroughSegmentId": 3198264795,
+            "CurrentLightingModeValid": true,
+            "CurrentLevel": 0
+          }
+        },
+        {
+          "section_tag": "0xd436a987",
+          "relative_offset": 140,
+          "fields": {
+            "LastPosition": {
+              "X": 1107.189697265625,
+              "Y": 45.762451171875,
+              "Z": 1288.1719970703125
+            },
+            "PerchForward": {
+              "X": 0,
+              "Y": 0,
+              "Z": 1
+            },
+            "PerchPosition": {
+              "X": 0,
+              "Y": 0,
+              "Z": 0
+            },
+            "GamePercent": 0.010526316240429878,
+            "ActiveMissionHash": 3546700964,
+            "LocationHash": 1725685535,
+            "LastSaveTime": 2125083623,
+            "PerchUID": 0,
+            "SlotDifficulty": 3,
+            "LowestDifficultyEverSet": 3,
+            "PlayerLevel": 50,
+            "NewGamePlusUnlocked": false,
+            "NewGamePlus": true,
+            "NewGamePlusNewGame": false,
+            "TotalPlayTime": 0
+          }
+        },
+        {
+          "section_tag": "0xd436a987",
+          "relative_offset": 7552,
+          "fields": {
+            "CurrentLightingMode": "kBlackout",
+            "CurrentCheckpointId": 10863563502179515499,
+            "CurrentCheckpoint": 1230831290,
+            "PlaythroughSegmentId": 3198264795,
+            "CurrentLightingModeValid": true,
+            "CurrentLevel": 0
+          }
+        }
+      ],
+      "objective_tables": [
+        {
+          "mission_hash": "0xd3665ca4",
+          "runtime_name": "GP_A1_FISK",
+          "header_offset": "0xdcb",
+          "stride": 24,
+          "rows": [
+            {
+              "runtime_name": "GP_A1_FISK_START",
+              "objective_hash": "0xbd3b8884",
+              "words_raw": [
+                3174795396,
+                2,
+                2,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ATRIUM",
+              "objective_hash": "0xe7df67ad",
+              "words_raw": [
+                3890177965,
+                1,
+                1,
+                0,
+                1,
+                4087086444
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ATRIUM_02",
+              "objective_hash": "0x9d01f20f",
+              "words_raw": [
+                2634150415,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_COPS_ARRIVED_CIN",
+              "objective_hash": "0xdbaa182e",
+              "words_raw": [
+                3685357614,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ELEVATOR_LOBBY",
+              "objective_hash": "0xde78dcce",
+              "words_raw": [
+                3732462798,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SHAFT_CLIMB_FIGHT",
+              "objective_hash": "0xc23a1035",
+              "words_raw": [
+                3258585141,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_POST_SKILL_POINT",
+              "objective_hash": "0x452ddaea",
+              "words_raw": [
+                1160633066,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SECURITY_ROOM",
+              "objective_hash": "0xa1b118ab",
+              "words_raw": [
+                2712737963,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SECURITY_COUNTDOWN",
+              "objective_hash": "0xd9e6e4fc",
+              "words_raw": [
+                3655787772,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_HACK_CIN2",
+              "objective_hash": "0x8ae0a942",
+              "words_raw": [
+                2329979202,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_POP_UP_TUT",
+              "objective_hash": "0xa1e4dcd2",
+              "words_raw": [
+                2716130514,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIRST_EXPLOSION",
+              "objective_hash": "0x4e03777",
+              "words_raw": [
+                81803127,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SWAT_INTRO",
+              "objective_hash": "0xe375bb3",
+              "words_raw": [
+                238508979,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_HELP_CIVS",
+              "objective_hash": "0x295dec9e",
+              "words_raw": [
+                694021278,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INVESTIGATE_VENT",
+              "objective_hash": "0x19ce3f8",
+              "words_raw": [
+                27059192,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_NEW_BOMB",
+              "objective_hash": "0x7cd40d7b",
+              "words_raw": [
+                2094271867,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_LOCATE_SWAT",
+              "objective_hash": "0x605b37",
+              "words_raw": [
+                6314807,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INVESTIGATE_SCENE",
+              "objective_hash": "0xe4229644",
+              "words_raw": [
+                3827471940,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIGHT_SWAT_CIN",
+              "objective_hash": "0xcdc33aea",
+              "words_raw": [
+                3452123882,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIGHT_SWAT",
+              "objective_hash": "0x37b5c45",
+              "words_raw": [
+                58416197,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INTRO_FISK_CIN",
+              "objective_hash": "0xa1a12a07",
+              "words_raw": [
+                2711693831,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_TURRETS",
+              "objective_hash": "0xa466ba46",
+              "words_raw": [
+                2758195782,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_DESK_SMASH_CIN",
+              "objective_hash": "0xb80eac23",
+              "words_raw": [
+                3087969315,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_BOSS_2",
+              "objective_hash": "0xe5237674",
+              "words_raw": [
+                3844306548,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_WALL_BASH_CIN",
+              "objective_hash": "0xf4f6e0bf",
+              "words_raw": [
+                4109820095,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_BOSS_3",
+              "objective_hash": "0x922446e2",
+              "words_raw": [
+                2451850978,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FALL",
+              "objective_hash": "0xb4f11dbc",
+              "words_raw": [
+                3035700668,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_OUTRO_CINE",
+              "objective_hash": "0x46982422",
+              "words_raw": [
+                1184375842,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SKILL_TUT",
+              "objective_hash": "0xa8563c71",
+              "words_raw": [
+                2824223857,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "mission_hash": "0xd3665ca4",
+          "runtime_name": "GP_A1_FISK",
+          "header_offset": "0x3048",
+          "stride": 20,
+          "rows": [
+            {
+              "runtime_name": "GP_A1_FISK_START",
+              "objective_hash": "0xbd3b8884",
+              "words_raw": [
+                3174795396,
+                2,
+                2,
+                0,
+                1
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ATRIUM",
+              "objective_hash": "0xe7df67ad",
+              "words_raw": [
+                3890177965,
+                1,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ATRIUM_02",
+              "objective_hash": "0x9d01f20f",
+              "words_raw": [
+                2634150415,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_COPS_ARRIVED_CIN",
+              "objective_hash": "0xdbaa182e",
+              "words_raw": [
+                3685357614,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_ELEVATOR_LOBBY",
+              "objective_hash": "0xde78dcce",
+              "words_raw": [
+                3732462798,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SHAFT_CLIMB_FIGHT",
+              "objective_hash": "0xc23a1035",
+              "words_raw": [
+                3258585141,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_POST_SKILL_POINT",
+              "objective_hash": "0x452ddaea",
+              "words_raw": [
+                1160633066,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SECURITY_ROOM",
+              "objective_hash": "0xa1b118ab",
+              "words_raw": [
+                2712737963,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SECURITY_COUNTDOWN",
+              "objective_hash": "0xd9e6e4fc",
+              "words_raw": [
+                3655787772,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_HACK_CIN2",
+              "objective_hash": "0x8ae0a942",
+              "words_raw": [
+                2329979202,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_POP_UP_TUT",
+              "objective_hash": "0xa1e4dcd2",
+              "words_raw": [
+                2716130514,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIRST_EXPLOSION",
+              "objective_hash": "0x4e03777",
+              "words_raw": [
+                81803127,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SWAT_INTRO",
+              "objective_hash": "0xe375bb3",
+              "words_raw": [
+                238508979,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_HELP_CIVS",
+              "objective_hash": "0x295dec9e",
+              "words_raw": [
+                694021278,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INVESTIGATE_VENT",
+              "objective_hash": "0x19ce3f8",
+              "words_raw": [
+                27059192,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_NEW_BOMB",
+              "objective_hash": "0x7cd40d7b",
+              "words_raw": [
+                2094271867,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_LOCATE_SWAT",
+              "objective_hash": "0x605b37",
+              "words_raw": [
+                6314807,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INVESTIGATE_SCENE",
+              "objective_hash": "0xe4229644",
+              "words_raw": [
+                3827471940,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIGHT_SWAT_CIN",
+              "objective_hash": "0xcdc33aea",
+              "words_raw": [
+                3452123882,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FIGHT_SWAT",
+              "objective_hash": "0x37b5c45",
+              "words_raw": [
+                58416197,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_INTRO_FISK_CIN",
+              "objective_hash": "0xa1a12a07",
+              "words_raw": [
+                2711693831,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_TURRETS",
+              "objective_hash": "0xa466ba46",
+              "words_raw": [
+                2758195782,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_DESK_SMASH_CIN",
+              "objective_hash": "0xb80eac23",
+              "words_raw": [
+                3087969315,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_BOSS_2",
+              "objective_hash": "0xe5237674",
+              "words_raw": [
+                3844306548,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_WALL_BASH_CIN",
+              "objective_hash": "0xf4f6e0bf",
+              "words_raw": [
+                4109820095,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_BOSS_3",
+              "objective_hash": "0x922446e2",
+              "words_raw": [
+                2451850978,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_FALL",
+              "objective_hash": "0xb4f11dbc",
+              "words_raw": [
+                3035700668,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_OUTRO_CINE",
+              "objective_hash": "0x46982422",
+              "words_raw": [
+                1184375842,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "runtime_name": "GP_A1_FISK_SKILL_TUT",
+              "objective_hash": "0xa8563c71",
+              "words_raw": [
+                2824223857,
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "segments": {
+        "Segments": {
+          "1586441792": {
+            "SegmentId": "605E630D079676A72C36E497386AE115",
+            "SegmentName": "GP_A1_SWING_TUTORIAL_INTRO",
+            "SegmentType": "Objective",
+            "SegmentFlags": "kPersistent",
+            "ParentSegmentName": "",
+            "StartTime": 271.8143310546875,
+            "Duration": 311345.9375,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "3283664032": {
+            "SegmentId": "BECEBBC782C724ADFB9B9E2F988CF955",
+            "SegmentName": "GP_A1_SWING_TUTORIAL",
+            "SegmentFlags": "kPersistent",
+            "SegmentType": "Mission",
+            "ParentSegmentName": "",
+            "StartTime": 271.8143310546875,
+            "Duration": 311345.9375,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "4225955953": {
+            "SegmentId": "2EF68A849E7E2B9E749EAED2EF8813AC",
+            "SegmentName": "GP_A2_TRUCK_START",
+            "SegmentType": "Objective",
+            "SegmentFlags": "kPersistent",
+            "ParentSegmentName": "",
+            "StartTime": 271.8143310546875,
+            "Duration": 10047.5009765625,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "4087086444": {
+            "SegmentId": "7C286C5F34525DC4CED6B2A037D4CE23",
+            "SegmentName": "GP_A1_FISK_ATRIUM",
+            "SegmentType": "Objective",
+            "SegmentFlags": "kPersistent",
+            "ParentSegmentName": "",
+            "StartTime": 271.8143310546875,
+            "Duration": 0.1415410041809082,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "3198264795": {
+            "SegmentId": "A622972B48098486A10BB98FA0355D0E",
+            "SegmentName": "Playthrough",
+            "SegmentType": "Playthrough",
+            "SegmentFlags": "kPersistent",
+            "ParentSegmentName": "",
+            "StartTime": 271.8143310546875,
+            "Duration": 399.3813171386719,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "168079190": {
+            "SegmentId": "19171E23CB3B1255D5A96B360AB608F2",
+            "SegmentName": "GP_A2_TRUCK",
+            "SegmentFlags": "kPersistent",
+            "SegmentType": "Mission",
+            "ParentSegmentName": "",
+            "StartTime": 271.8143310546875,
+            "Duration": 10047.5009765625,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "2098995363": {
+            "SegmentId": "BF8680CE12318721A0A92E2A5F5C73B3",
+            "SegmentName": "GP_A1_FISK",
+            "SegmentFlags": "kPersistent",
+            "SegmentType": "Mission",
+            "ParentSegmentName": "",
+            "StartTime": 271.8143310546875,
+            "Duration": 44.59206771850586,
+            "ParentSegmentId": 0,
+            "UsePauseTime": false
+          },
+          "3189444850": {
+            "SegmentId": "4D5429F35A6B8818DAACA0F7410E2500",
+            "SegmentName": "GameSegment",
+            "SegmentType": "Game",
+            "ParentSegmentName": "",
+            "Duration": 271.7074279785156,
+            "StartTime": 271.8143310546875,
+            "UsePauseTime": false,
+            "ParentSegmentId": 0,
+            "SegmentFlags": null
+          }
+        },
+        "PrimarySegment": 0
+      },
+      "sections": {
+        "0xd0a9df": {
+          "size": 23672,
+          "sha256": "33611c8f72a8a51fc1be6dba00465be60d2ed67a480a3ffc1c35bff3b5ef7d34"
+        },
+        "0xd6f8fc": {
+          "size": 1356,
+          "sha256": "9a5fb83d0c117d3bf9ac8c58f5a1033ff7f205e3935cab2659c6e9e73a43cf19"
+        },
+        "0x185f188": {
+          "size": 776,
+          "sha256": "bbe52dc91316e2fd1881ac03aef1f3218cd6402164108dfaf3a5d863347fb8b8"
+        },
+        "0x1cea6ceb": {
+          "size": 2496,
+          "sha256": "460216154a418e8aed1e94c2680f771fbb403298b4091118e7662148f3e7cb58"
+        },
+        "0x43e0a1be": {
+          "size": 8,
+          "sha256": "7c9fa136d4413fa6173637e883b6998d32e1d675f88cddff9dcbcf331820f4b8"
+        },
+        "0x4b2362cb": {
+          "size": 277,
+          "sha256": "9cf2c3c33745a5ea4b7afd1a4290c7cc3ac0566b27ff680648640b829e103136"
+        },
+        "0x4e217848": {
+          "size": 3664,
+          "sha256": "5c2ae04dd03736ba26a95f48b518ff158dbcb9821b499dba2be1a7ed83b4865e"
+        },
+        "0x52768c44": {
+          "size": 2756,
+          "sha256": "00d768afa97bd695feccb32a7f0d6037ac5c793493f5c042dbe9c52598b880cb"
+        },
+        "0x586e01a8": {
+          "size": 1755,
+          "sha256": "320252a39fcab0be7c660c0d48f76ed6b73518f15171a100a251f717a31f299b"
+        },
+        "0x6142f8dd": {
+          "size": 259,
+          "sha256": "412ecad429d79e230e56b383b16d3d293ef6beb5f641d7de6f910228119b7bf3"
+        },
+        "0x6d91265c": {
+          "size": 24,
+          "sha256": "d5039144208228e8bedb4cfbf5bf0222f0f457e7e52aa557840af7d717a863e2"
+        },
+        "0x82975026": {
+          "size": 948,
+          "sha256": "a7f406cc412a359bac6aa75d170c0a82ac49a8a11a4d4eac476cdaf13746ba02"
+        },
+        "0x8c2d0f2d": {
+          "size": 12805,
+          "sha256": "f21234d40e48ef3f7ebb8ab70e6fad87e1eaa6e79af9c8ccf91b2d28c2d3e6d9"
+        },
+        "0x8f4c99f1": {
+          "size": 199,
+          "sha256": "ad1dd1cf7df74c798c0376003cea08edbfb5fed357afcbe5a02fd2ae06711353"
+        },
+        "0x9d1b37dc": {
+          "size": 956,
+          "sha256": "c0fa5d29cf4298bf93e4212725325cf7def4da6a5242c391eff6c0e6130b13b0"
+        },
+        "0xa026eedb": {
+          "size": 4284,
+          "sha256": "4b776137a99445cf864042595cf63378fbb8172fa94cb6a4f98ce68495b4ab40"
+        },
+        "0xa2bed772": {
+          "size": 4123,
+          "sha256": "31725b1f84f1d8d2d33acfd8105f5efa5ce5bc3438e3dad970198f2ebfa8f77f"
+        },
+        "0xa806f448": {
+          "size": 23780,
+          "sha256": "e644ffe067da7f9040aa64abc2d7059beb0b7ab91753d0b2893280a35a0df4a6"
+        },
+        "0xb5ee9aa1": {
+          "size": 990,
+          "sha256": "f78c5836d344e138613200ad60d1239e1789c5ef5b2a230b9e0808ea87866afd"
+        },
+        "0xc0174d02": {
+          "size": 5380,
+          "sha256": "0a9623804aa0f4be7abcd464a76d1294ed30c692c9128863001e9a4fed96b43a"
+        },
+        "0xc34cac48": {
+          "size": 2074,
+          "sha256": "1e91885ffcf15df228d6d47052424b9b8eabd088684aa5dd1b82d8199403a3a1"
+        },
+        "0xc82d7ab4": {
+          "size": 839,
+          "sha256": "6172b0db8cbfd6d52bf84c00113a9143db7637acd283121bea6a1b9fc0f07f17"
+        },
+        "0xcd3888a8": {
+          "size": 4320,
+          "sha256": "b96bbe2e25e795f32b386e7392dc6d689746413c446a59d9baa9d592e46c80b0"
+        },
+        "0xd436a987": {
+          "size": 7688,
+          "sha256": "1f58c180bc5dd0808030a5baa619ab5aff458fabfd2d97626d80de5733010310"
+        },
+        "0xe6e715e7": {
+          "size": 6,
+          "sha256": "cd41fef213afb1de08d204b0122e1053826da686335fe6260aa6ed620764f820"
+        },
+        "0xeb364589": {
+          "size": 13046,
+          "sha256": "3f67d0fa1ae6aadbe2828587e8c1dde85558b9c6d22adfd8459268f84d0e4ea8"
+        },
+        "0xeccba896": {
+          "size": 8452,
+          "sha256": "8011fd46c6586e7468bb9b6f1948d121373638ceb94ffb0110f97e08308fdd77"
+        },
+        "0xff391f3b": {
+          "size": 1033,
+          "sha256": "e84ecb0b7c14583a473a338109b6369a41d99abc6f068a1007166e6cc3814988"
+        }
+      }
+    }
+  }
+}

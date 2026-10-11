@@ -1,0 +1,1 @@
+{"cinematic_id": null, "full_world_digest": null, "game_attached": false, "game_operations": false, "limitations": "Task subset only; not a scene-ready signal or complete world snapshot", "monotonic_ms": 66353717, "process_access": "read_only", "scene_ready_verified": false, "schema": 1, "status": "waiting_for_game", "utc": "2026-10-10T09:05:59.923794+00:00"}

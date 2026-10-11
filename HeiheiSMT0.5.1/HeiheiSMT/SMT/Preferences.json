@@ -1,0 +1,6 @@
+{
+    "EnableAskToJoinRPC": true,
+    "EnableDiscordRPC": true,
+    "ShowConsole": true,
+    "ShowImGui": true
+}

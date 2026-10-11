@@ -1,0 +1,330 @@
+{
+  "utc": "2026-10-07T01:46:59.280114+00:00",
+  "mode": "Read-only; writes diagnostic JSON only. Login/account names, tokens and unrelated registry values are never emitted.",
+  "loginusers_path": "D:\\STEAM__\\config\\loginusers.vdf",
+  "SteamID_MostRecent_only": [
+    {
+      "SteamID64": "76561199191371037",
+      "MostRecent": null
+    },
+    {
+      "SteamID64": "76561199372553531",
+      "MostRecent": null
+    }
+  ],
+  "ActiveProcess": {
+    "ActiveUser32": 1231105309,
+    "SteamID64": "76561199191371037"
+  },
+  "account_directories": [
+    {
+      "SteamID64": "76561199191371037",
+      "path": "C:\\Users\\xinsui\\Documents\\Marvel's Spider-Man Remastered\\76561199191371037",
+      "files": [
+        {
+          "name": "-userprefs.save",
+          "size": 1460,
+          "sha256": "f988b8bb4aecd6b828328126e2ed80434bdb0910bb1ffd4879f5c061ff11f0e9",
+          "mtime_utc": "2026-08-27T12:29:01.546315+00:00"
+        },
+        {
+          "name": "slot0-s.save",
+          "size": 94286,
+          "sha256": "5decc6e11f1f5fd5b762138e30134aa40a9c2eb01327a5473cc7ba49c656279c",
+          "mtime_utc": "2026-08-27T12:33:13.611730+00:00"
+        },
+        {
+          "name": "steam_autocloud.vdf",
+          "size": 53,
+          "sha256": "d60f68325684c093672e51b31f287e8181ddbac53faff5a7dee9ae0bb03c55fe",
+          "mtime_utc": "2026-10-07T01:41:01.235442+00:00"
+        }
+      ],
+      "slot0_metadata": {
+        "path": "C:\\Users\\xinsui\\Documents\\Marvel's Spider-Man Remastered\\76561199191371037\\slot0-s.save",
+        "size": 94286,
+        "sha256": "5decc6e11f1f5fd5b762138e30134aa40a9c2eb01327a5473cc7ba49c656279c",
+        "mtime_utc": "2026-08-27T12:33:13.611730+00:00",
+        "DAT1_version": 8,
+        "DAT1_sections": 25,
+        "matching_objects": [
+          {
+            "section_tag": "0xd436a987",
+            "file_offset": "0x86a4",
+            "fields": {
+              "CurrentLightingMode": "kBlackout",
+              "CurrentCheckpointId": 6664636795607631017,
+              "CurrentCheckpoint": 648768089,
+              "PlaythroughSegmentId": 2802154342,
+              "CurrentLightingModeValid": true,
+              "CurrentLevel": 0
+            }
+          },
+          {
+            "section_tag": "0xd436a987",
+            "file_offset": "0x872c",
+            "fields": {
+              "PerchForward": {
+                "X": 0,
+                "Y": 0,
+                "Z": 0
+              },
+              "LastPosition": {
+                "X": 0,
+                "Y": 0,
+                "Z": 0
+              },
+              "PerchPosition": {
+                "X": 0,
+                "Y": 0,
+                "Z": 0
+              },
+              "GamePercent": 0.0011396011104807258,
+              "ActiveMissionHash": 923129643,
+              "LocationHash": 2400438793,
+              "LastSaveTime": 2124995873,
+              "PerchUID": 0,
+              "SlotDifficulty": 3,
+              "LowestDifficultyEverSet": 3,
+              "PlayerLevel": 1,
+              "NewGamePlusUnlocked": false,
+              "NewGamePlus": false,
+              "NewGamePlusNewGame": false,
+              "TotalPlayTime": 0
+            }
+          },
+          {
+            "section_tag": "0xd436a987",
+            "file_offset": "0xa418",
+            "fields": {
+              "CurrentLightingMode": "kBlackout",
+              "CurrentCheckpointId": 6664636795607631017,
+              "CurrentCheckpoint": 648768089,
+              "PlaythroughSegmentId": 2802154342,
+              "CurrentLightingModeValid": true,
+              "CurrentLevel": 0
+            }
+          }
+        ],
+        "unparsed_marker_candidates": 0
+      },
+      "SteamAutoCloud": {
+        "AccountID32": 1231105309,
+        "SteamID64": "76561199191371037"
+      }
+    },
+    {
+      "SteamID64": "76561199372553531",
+      "path": "C:\\Users\\xinsui\\Documents\\Marvel's Spider-Man Remastered\\76561199372553531",
+      "files": [
+        {
+          "name": "-userprefs.save",
+          "size": 1476,
+          "sha256": "b8132cc36da4887535dfb9f38ddff3f43a9a361491bb20c250bf1d0bafb23d37",
+          "mtime_utc": "2026-10-06T18:26:27.859105+00:00"
+        },
+        {
+          "name": "slot0-s-manual-0.save",
+          "size": 138686,
+          "sha256": "b7dfa63f81649bb7de6dc567c2a1a2311311068d8a3ec26db926077012f3b4b7",
+          "mtime_utc": "2025-08-21T12:45:18+00:00"
+        },
+        {
+          "name": "slot0-s-manual-1.save",
+          "size": 136606,
+          "sha256": "ae429a673bad76d41cebd4047e90f707537a79540eec9207727535ae29dc75d4",
+          "mtime_utc": "2025-08-21T13:03:30+00:00"
+        },
+        {
+          "name": "slot0-s-manual-2.save",
+          "size": 146702,
+          "sha256": "4bd9bb55f1793ec15739fe36d68fdc80085dd52a96b159b55890c16483ccdfa0",
+          "mtime_utc": "2025-10-23T11:46:24+00:00"
+        },
+        {
+          "name": "slot0-s-manual-3.save",
+          "size": 146702,
+          "sha256": "2f7e971a2fb32e1f9ea77714088e5c0e0a818ee9336f4b1dd6d11bb558b7946f",
+          "mtime_utc": "2025-10-23T11:46:42+00:00"
+        },
+        {
+          "name": "slot0-s-manual-4.save",
+          "size": 150846,
+          "sha256": "b85a91d1556d470cdc9c3da95d0bd9803535715e2234c2333f353a82ade25c9a",
+          "mtime_utc": "2026-02-16T08:24:22+00:00"
+        },
+        {
+          "name": "slot0-s.save",
+          "size": 157390,
+          "sha256": "ef63493b8677f9ad5637f902586f8b2fa44a6ef5681b685e4f10892ea2bd8549",
+          "mtime_utc": "2026-10-05T18:16:14.678249+00:00"
+        },
+        {
+          "name": "slot0-s.save.backup01",
+          "size": 150766,
+          "sha256": "f6e0aef114f5e2a15328bbefb97340e8036c8acdad67f4668e1dc01ee277bcb7",
+          "mtime_utc": "2026-02-16T08:20:58+00:00"
+        },
+        {
+          "name": "slot0-s.save.backup02",
+          "size": 150126,
+          "sha256": "19f54a65d739584927d709630d61ed9558938afa54c3c7cd776f4673227336c1",
+          "mtime_utc": "2026-02-16T08:19:22+00:00"
+        },
+        {
+          "name": "slot0-s.save.backup03",
+          "size": 150126,
+          "sha256": "95132c8edd00d80d7420fa2c3985ca5c5f4feee5250dd22d996bc69962ab6624",
+          "mtime_utc": "2026-02-16T08:19:22+00:00"
+        },
+        {
+          "name": "slot0-s.save.backup04",
+          "size": 150126,
+          "sha256": "93920496c9f86fecc82a69a7acfa18cd1ee2f3798f2353622c2d669374723916",
+          "mtime_utc": "2026-02-16T08:19:22+00:00"
+        },
+        {
+          "name": "slot0-s.save.backup05",
+          "size": 150366,
+          "sha256": "fd818054be2b898988fb690d526a28be5d2b172837b99314b2fefb292e599de7",
+          "mtime_utc": "2026-02-16T08:13:58+00:00"
+        },
+        {
+          "name": "slot0-s.save.backup06",
+          "size": 149182,
+          "sha256": "4d343448389a141075dae118ead9ea7713bd213ed45b1a88366588539ab7942c",
+          "mtime_utc": "2026-02-07T11:00:16+00:00"
+        },
+        {
+          "name": "slot1-s-manual-0.save",
+          "size": 93566,
+          "sha256": "acc9158a16603a8a0eeb0f23e67563f1d943067bfb576069dd0e319f69755bd9",
+          "mtime_utc": "2026-02-07T11:24:00+00:00"
+        },
+        {
+          "name": "slot1-s-manual-1.save",
+          "size": 93198,
+          "sha256": "bcc27c8238923052c35d9245cddb5b0d415f5fd11bfa83769995d901c3622866",
+          "mtime_utc": "2026-02-07T11:24:32+00:00"
+        },
+        {
+          "name": "slot1-s.save",
+          "size": 141502,
+          "sha256": "e88daa5f89a56e37662e82845ebccb980c4fe704dad1ee2eebccfdbdc80c8658",
+          "mtime_utc": "2026-10-05T18:48:14.250485+00:00"
+        },
+        {
+          "name": "slot2-s.save",
+          "size": 67008,
+          "sha256": "494987e4a81c45b38763e615f47ab474ef4f388e4f84e661849ba371952e6c2b",
+          "mtime_utc": "2026-01-18T06:20:36+00:00"
+        },
+        {
+          "name": "slot3-s.save",
+          "size": 142286,
+          "sha256": "7c69f619ae0271012c287ccee5a76703fc2cd22e5731bdd98f891b35bcdde475",
+          "mtime_utc": "2026-10-06T18:44:37.170702+00:00"
+        },
+        {
+          "name": "slot4-s.save",
+          "size": 93918,
+          "sha256": "c776c1c4a3b025c8db874337a264c2ba6d19a437a6ffade2d51a1adc03fec16b",
+          "mtime_utc": "2026-02-07T11:53:18+00:00"
+        },
+        {
+          "name": "slot5-s.save",
+          "size": 66992,
+          "sha256": "5265092b9cc69dc4169989b49a4f70447f1656a3c1cf4b0a4ad79c04e6408c28",
+          "mtime_utc": "2025-12-26T15:12:40+00:00"
+        },
+        {
+          "name": "SMT_SAVE_BACKUP (2).save",
+          "size": 138254,
+          "sha256": "89677dcb78ae6bc763b0ee448bdc2865ae68862d075d46a7600fe92fa12133da",
+          "mtime_utc": "2025-08-24T12:24:30+00:00"
+        },
+        {
+          "name": "SMT_SAVE_BACKUP (3).save",
+          "size": 142830,
+          "sha256": "d363e6aa65edc8b033e2e1181267872fe1589853e2638411a6306c5c4d5ce473",
+          "mtime_utc": "2025-08-24T11:47:20+00:00"
+        },
+        {
+          "name": "SMT_SAVE_BACKUP.save",
+          "size": 138654,
+          "sha256": "8fa5a5922414fb5d573e3ae49a2e3be139b1808d6fa8647398bc6774e6d93a5e",
+          "mtime_utc": "2025-08-21T12:45:20+00:00"
+        }
+      ],
+      "slot0_metadata": {
+        "path": "C:\\Users\\xinsui\\Documents\\Marvel's Spider-Man Remastered\\76561199372553531\\slot0-s.save",
+        "size": 157390,
+        "sha256": "ef63493b8677f9ad5637f902586f8b2fa44a6ef5681b685e4f10892ea2bd8549",
+        "mtime_utc": "2026-10-05T18:16:14.678249+00:00",
+        "DAT1_version": 8,
+        "DAT1_sections": 28,
+        "matching_objects": [
+          {
+            "section_tag": "0xd436a987",
+            "file_offset": "0xab54",
+            "fields": {
+              "CurrentLightingMode": "kOvercast",
+              "CurrentCheckpointId": 8898936940653795004,
+              "CurrentCheckpoint": 1522489898,
+              "PlaythroughSegmentId": 813151840,
+              "CurrentLightingModeValid": true,
+              "CurrentLevel": 0
+            }
+          },
+          {
+            "section_tag": "0xd436a987",
+            "file_offset": "0xabdc",
+            "fields": {
+              "PerchPosition": {
+                "X": -811.3350830078125,
+                "Y": 7.441680908203125,
+                "Z": -686.5966796875
+              },
+              "LastPosition": {
+                "X": -804.8292236328125,
+                "Y": 4.3311052322387695,
+                "Z": -695.66015625
+              },
+              "PerchForward": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "PerchUID": 11334327513788687425,
+              "GamePercent": 0.8413756489753723,
+              "LocationHash": 3329886630,
+              "LastSaveTime": 2125082768,
+              "SlotDifficulty": 4,
+              "LowestDifficultyEverSet": 1,
+              "PlayerLevel": 50,
+              "ActiveMissionHash": 0,
+              "NewGamePlusUnlocked": true,
+              "NewGamePlus": true,
+              "NewGamePlusNewGame": false,
+              "TotalPlayTime": 0
+            }
+          },
+          {
+            "section_tag": "0xd436a987",
+            "file_offset": "0xc8dc",
+            "fields": {
+              "CurrentLightingMode": "kOvercast",
+              "CurrentCheckpointId": 8898936940653795004,
+              "CurrentCheckpoint": 1522489898,
+              "PlaythroughSegmentId": 813151840,
+              "CurrentLightingModeValid": true,
+              "CurrentLevel": 0
+            }
+          }
+        ],
+        "unparsed_marker_candidates": 0
+      }
+    }
+  ],
+  "evidence_limit": "ActiveProcess and MostRecent identify the Steam active account. Documents log redacts username and omits account subdirectory, so it does not by itself prove which account path this game process opened."
+}

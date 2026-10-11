@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "scope": "saved-log analysis and pinned EXE static decoding only; no process access",
+  "source": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\CoopSync\\logs\\runtime_manual_skip_20261010_returned\\ui_skip.jsonl",
+  "source_bytes": 3611091,
+  "source_sha256_at_analysis": "01865ce5d493aefe0a85869e937fe64360bbbee089d3eb12949384304d4389b0",
+  "capture_has_terminal_record": true,
+  "malformed_line_numbers": [],
+  "session_pid": 25612,
+  "module_base": "0x7ff7c12d0000",
+  "sample_count": 2982,
+  "accepted_sample_count": 2982,
+  "rejected_samples": [],
+  "first_sample": 0,
+  "last_sample": 2981,
+  "status_counts": {
+    "overlay_identity_match_slots_stable_raw_only": 2982
+  },
+  "distinct_raw_fields": {
+    "0x210": [
+      "00"
+    ],
+    "0x214": [
+      "00000000"
+    ],
+    "0x220": [
+      "0000000000000000"
+    ],
+    "0x228": [
+      "0000000000000000"
+    ]
+  },
+  "state_transitions": [
+    {
+      "sample": 0,
+      "monotonic_ms": 65428296,
+      "raw_state": {
+        "0x210": "00",
+        "0x214": "00000000",
+        "0x220": "0000000000000000",
+        "0x228": "0000000000000000"
+      }
+    }
+  ],
+  "nonzero_callback_targets": [],
+  "callback_abi_static_observation": "OverlayUI callsite 0x1D22C94 loads RCX from +0x228 then 0x1D22C9B calls +0x220; no further arguments verified",
+  "manual_action_evidence": "No skip/action claim derived from intent labels, directory names, null slots or pointer transitions alone",
+  "human_report_receipts": [
+    {
+      "schema": 1,
+      "record_type": "human_report",
+      "receipt_utc": "2026-10-10T08:53:53.651388+00:00",
+      "receipt_monotonic_ms": 65627453,
+      "game_operations": false,
+      "skip_verified": false,
+      "report": "用户刚接手兄弟的开发工作，不熟悉旧测试流程；此前界面为主菜单或未打开游戏",
+      "event_time_status": "reported retrospectively; exact event time unknown"
+    },
+    {
+      "schema": 1,
+      "record_type": "human_report",
+      "receipt_utc": "2026-10-10T08:53:53.651388+00:00",
+      "receipt_monotonic_ms": 65627453,
+      "game_operations": false,
+      "skip_verified": false,
+      "report": "已选择继续进入关卡，主要任务显示：阻止倒数",
+      "event_time_status": "receipt only; no exact load timestamp or skip claim"
+    }
+  ],
+  "human_context_from_saved_receipts": [
+    "用户刚接手兄弟的开发工作，不熟悉旧测试流程；此前界面为主菜单或未打开游戏",
+    "已选择继续进入关卡，主要任务显示：阻止倒数"
+  ],
+  "coverage_interpretation": "User receipt times are not exact event/load times. No cutscene/skip claim follows from intent labels or raw slots. Retained cinematic memory does not establish an active scene",
+  "verified_callable_interfaces": []
+}

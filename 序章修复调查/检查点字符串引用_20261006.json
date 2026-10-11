@@ -1,0 +1,46 @@
+[
+  {
+    "ref": "0xaf55d",
+    "target": "0x38ad3f8",
+    "text": "AutoCheckpoint",
+    "function": [
+      "0xaf553",
+      "0xaf591"
+    ],
+    "known_hook_sites": [],
+    "other_strings": [
+      {
+        "rva": "0xaf55d",
+        "target": "0x38ad3f8",
+        "text": "AutoCheckpoint"
+      }
+    ]
+  },
+  {
+    "ref": "0x1f7d069",
+    "target": "0x4f6c720",
+    "text": "CheckpointManager",
+    "function": [
+      "0x1f7d040",
+      "0x1f7d30a"
+    ],
+    "known_hook_sites": [],
+    "other_strings": [
+      {
+        "rva": "0x1f7d069",
+        "target": "0x4f6c720",
+        "text": "CheckpointManager"
+      },
+      {
+        "rva": "0x1f7d22d",
+        "target": "0x4f6c748",
+        "text": "CheckpointData"
+      },
+      {
+        "rva": "0x1f7d234",
+        "target": "0x4f6c738",
+        "text": "LEVEL_START"
+      }
+    ]
+  }
+]

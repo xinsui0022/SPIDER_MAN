@@ -1,0 +1,19 @@
+{
+  "current_zip_name": "哥哥安装候选包_20261006.zip",
+  "current_zip_bytes": 1761375,
+  "current_zip_sha256": "b8c6cd9bf8de11828ed73c1b4f9aa2bde4a7c67d59cdd0d166682c03110d90f1",
+  "intermediate_zip_name": "哥哥安装候选包_20261006_中间版_原版初始化说明修正前.zip",
+  "intermediate_zip_sha256": "d7ce70d4aa9986fdebbf0869827b7487e60f7dca8f3b85034347a652d085c06c",
+  "earlier_zip_name": "哥哥安装候选包_20261006_旧版_二次载入验证前.zip",
+  "earlier_zip_sha256": "556ead7a57eb715f9a2b3680e14432808f4d09874daba3c8a35c1fccf8c90deb",
+  "files": 17,
+  "install_files": 14,
+  "all_install_bytes_and_hashes_unchanged": true,
+  "SHA256SUMS_and_zip_CRC_and_all_bytes_verified": true,
+  "personal_path_and_forbidden_file_checks_passed": true,
+  "empty_connection_template_verified": true,
+  "game_directory_or_system_DLL_modified": false,
+  "investigation_main_report_modified": false,
+  "sent_externally": false,
+  "scope_only_native_initialization_instructions_clarified": true
+}

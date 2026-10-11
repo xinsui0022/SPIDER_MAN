@@ -1,0 +1,21 @@
+{
+  "files": {
+    "-userprefs.save": {
+      "size": 14,
+      "sha256": "ea3463f9cbccd6d0d3fca3d13905f88a4b694b13232a6f35145307e2ecec3b2f"
+    },
+    "slot0-s.save": {
+      "size": 14,
+      "sha256": "c1a7535d8a0890c7a4a97835a7253bfe8ac55f25e545c6a26eaa3569b3e9adc4"
+    },
+    "slot3-s.save": {
+      "size": 26,
+      "sha256": "f44f4338b274816d6266de452c894115fc5e69cb18c93b88c30d052b0f4b61bd"
+    },
+    "test-extra.save": {
+      "size": 8,
+      "sha256": "5eab565ecf5fd249455ab7a981629975165e302de34816b4e5bd330ff7b8830c"
+    }
+  },
+  "directories": []
+}

@@ -1,0 +1,22 @@
+{
+  "time_hong_kong": "2026-10-06T23:08:47.998016+08:00",
+  "files": [
+    {
+      "name": "Marvel's Spider-Man Remastered.log",
+      "bytes": 18034,
+      "sha256": "e6cf83e100e95e18742975b20e7f59014f83e5d7f73952d6f2a76a0a8848cc14"
+    },
+    {
+      "name": "crash_2026-10-06_22-27-02.log",
+      "bytes": 461,
+      "sha256": "0cfb73b9507178b47c2cdfeb69a98c7dd6b28bbc50db60215acb2dbd20186f6c"
+    },
+    {
+      "name": "crash_2026-10-06_22-27-02.dmp",
+      "bytes": 954967,
+      "sha256": "832b2ae1307881233264c6734ec41741b9b581362642e0e5ad278d92c1862079"
+    }
+  ],
+  "no_game_or_save_changes": true,
+  "sent_externally": false
+}

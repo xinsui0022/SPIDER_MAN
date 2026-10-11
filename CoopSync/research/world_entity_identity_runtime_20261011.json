@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "scope": "one bounded raw entity-key candidate observation",
+  "utc": "2026-10-10T16:28:08.742759+00:00",
+  "pid": 17652,
+  "source": {
+    "path": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\CoopSync\\logs\\native_runtime_20261011_level\\CoopSyncRuntime_17652_2139890_1.jsonl",
+    "complete_prefix_bytes": 14673272,
+    "complete_prefix_sha256": "274b7db66593ef84166c85089562fefafa77b4850c40012ea6a9e6031c49ac43",
+    "complete_lines": 4435,
+    "file_changed_during_source_read": false,
+    "source_recording_may_be_active": true,
+    "candidates_selected": 16
+  },
+  "game_operations": false,
+  "game_calls": false,
+  "game_writes": false,
+  "hooks": false,
+  "peer_id_verified": false,
+  "cross_process_stability_verified": false,
+  "key_array_capacity_unknown": true,
+  "key_origin_unknown": true,
+  "coverage_incomplete": true,
+  "max_objects": 16,
+  "limitations": "Raw qword array candidate only; no stable actor/asset ID meaning, ABA guarantee, cross-peer match or replication claim.",
+  "process_gate": {
+    "schema": 2,
+    "record_type": "session",
+    "scope": "read-only evidenced object identities and raw component fields",
+    "game_path": "D:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\Spider-Man.exe",
+    "verified_callable_interfaces": [],
+    "limits": {
+      "process_rights": "PROCESS_VM_READ | PROCESS_QUERY_LIMITED_INFORMATION",
+      "max_reads_per_snapshot": 15,
+      "max_bytes_per_snapshot": 87,
+      "largest_read": 8,
+      "max_samples": 3001,
+      "minimum_interval_ms": 50,
+      "max_duration_ms": 300000
+    },
+    "note": "Vtable identity and raw fields do not verify active-cinematic semantics, lifetime or callable ABI.",
+    "game_sha256": "e297d4d94f1ffe4febf289745e79e7b6fa233a788e7a00f480fc77c55db81ad1",
+    "candidate_pids": [
+      17652
+    ],
+    "pid": 17652,
+    "process_path_verified": true,
+    "status": "read_only_probe_setup_error",
+    "error": "[WinError 5] 拒绝访问。"
+  },
+  "status": "process_gate_refused_no_observation"
+}

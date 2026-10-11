@@ -1,0 +1,14 @@
+{"time_utc": "2026-10-05T20:51:46.863741+00:00", "event": "freeze_source_intent"}
+{"time_utc": "2026-10-05T20:51:46.873971+00:00", "event": "source_frozen_verified"}
+{"time_utc": "2026-10-05T20:51:46.924003+00:00", "event": "mod_backup_intent"}
+{"time_utc": "2026-10-05T20:51:46.929999+00:00", "event": "mod_backed_up"}
+{"time_utc": "2026-10-05T20:51:47.035253+00:00", "event": "mod_copy_verified"}
+{"time_utc": "2026-10-05T20:51:47.085259+00:00", "event": "slot3_import_intent", "sha256": "ae64678c0e02ccba5b2721770af3d08cdbc0810866421232349e09e97835e7d5"}
+{"time_utc": "2026-10-05T20:51:47.128766+00:00", "event": "prepared"}
+{"time_utc": "2026-10-05T21:02:41.688742+00:00", "event": "retain_test_intent", "destination": "D:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\SMT\\Save.codex-result-NGtest-20261006_045146_a559a985"}
+{"time_utc": "2026-10-05T21:02:41.695261+00:00", "event": "test_retained", "destination": "D:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\SMT\\Save.codex-result-NGtest-20261006_045146_a559a985"}
+{"time_utc": "2026-10-05T21:02:41.740654+00:00", "event": "copy_result_intent", "destination": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\联机NG对照_20261006_045146_a559a985\\mod_test_result"}
+{"time_utc": "2026-10-05T21:02:41.900515+00:00", "event": "result_copy_verified"}
+{"time_utc": "2026-10-05T21:02:41.904520+00:00", "event": "mod_restore_intent"}
+{"time_utc": "2026-10-05T21:02:41.910046+00:00", "event": "mod_restored"}
+{"time_utc": "2026-10-05T21:02:41.955597+00:00", "event": "restored"}

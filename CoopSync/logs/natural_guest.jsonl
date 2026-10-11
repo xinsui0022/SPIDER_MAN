@@ -1,0 +1,6 @@
+{"build_version":"0.1","monotonic_ms":87653296,"mode":"simulation","game_operations":false,"role":"guest","event":"simulation_only","epoch":0,"detail":"TCP and coordinator test; Spider-Man is not controlled","port":0}
+{"build_version":"0.1","monotonic_ms":87653312,"mode":"simulation","game_operations":false,"role":"guest","event":"gather_local_simulated","epoch":1,"detail":"","port":0}
+{"build_version":"0.1","monotonic_ms":87653312,"mode":"simulation","game_operations":false,"role":"guest","event":"ready_sent","epoch":1,"detail":"","port":0}
+{"build_version":"0.1","monotonic_ms":87653312,"mode":"simulation","game_operations":false,"role":"guest","event":"start_local_simulated","epoch":1,"detail":"","port":0}
+{"build_version":"0.1","monotonic_ms":87653437,"mode":"simulation","game_operations":false,"role":"guest","event":"ended_local_simulated","epoch":1,"detail":"","port":0}
+{"build_version":"0.1","monotonic_ms":87653437,"mode":"simulation","game_operations":false,"role":"guest","event":"released","epoch":1,"detail":"Matching simulated terminal state; no game world was copied","port":0}

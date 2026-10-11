@@ -1,0 +1,3866 @@
+{
+  "audit_utc": "2026-10-06T08:33:46.760406+00:00",
+  "before_snapshot": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\联机NG对照_20261006_155424_9e9669ed\\MOD推进后_退出前",
+  "after_snapshot": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\联机NG对照_20261006_155424_9e9669ed\\MOD二次载入后_已暂停",
+  "slot3_input_byte_equality": true,
+  "slot3_size": 142974,
+  "slot3_sha256": "e80e50fd9758604584be33fd22c7c08e1eff82e9b9ae4f84c3f26aab8f8eee3d",
+  "before_manifest": {
+    "-userprefs.save": {
+      "size": 1476,
+      "sha256": "1fcd7d8cc1180051eb3489ef0f23eae4d7a566247742db1d32edcca92ec5b292"
+    },
+    "slot0-s-manual-0.save": {
+      "size": 138686,
+      "sha256": "b7dfa63f81649bb7de6dc567c2a1a2311311068d8a3ec26db926077012f3b4b7"
+    },
+    "slot0-s-manual-1.save": {
+      "size": 136606,
+      "sha256": "ae429a673bad76d41cebd4047e90f707537a79540eec9207727535ae29dc75d4"
+    },
+    "slot0-s-manual-2.save": {
+      "size": 146702,
+      "sha256": "4bd9bb55f1793ec15739fe36d68fdc80085dd52a96b159b55890c16483ccdfa0"
+    },
+    "slot0-s-manual-3.save": {
+      "size": 146702,
+      "sha256": "2f7e971a2fb32e1f9ea77714088e5c0e0a818ee9336f4b1dd6d11bb558b7946f"
+    },
+    "slot0-s-manual-4.save": {
+      "size": 150846,
+      "sha256": "b85a91d1556d470cdc9c3da95d0bd9803535715e2234c2333f353a82ade25c9a"
+    },
+    "slot0-s.save": {
+      "size": 157390,
+      "sha256": "ef63493b8677f9ad5637f902586f8b2fa44a6ef5681b685e4f10892ea2bd8549"
+    },
+    "slot0-s.save.backup01": {
+      "size": 150766,
+      "sha256": "f6e0aef114f5e2a15328bbefb97340e8036c8acdad67f4668e1dc01ee277bcb7"
+    },
+    "slot0-s.save.backup02": {
+      "size": 150126,
+      "sha256": "19f54a65d739584927d709630d61ed9558938afa54c3c7cd776f4673227336c1"
+    },
+    "slot0-s.save.backup03": {
+      "size": 150126,
+      "sha256": "95132c8edd00d80d7420fa2c3985ca5c5f4feee5250dd22d996bc69962ab6624"
+    },
+    "slot0-s.save.backup04": {
+      "size": 150126,
+      "sha256": "93920496c9f86fecc82a69a7acfa18cd1ee2f3798f2353622c2d669374723916"
+    },
+    "slot0-s.save.backup05": {
+      "size": 150366,
+      "sha256": "fd818054be2b898988fb690d526a28be5d2b172837b99314b2fefb292e599de7"
+    },
+    "slot0-s.save.backup06": {
+      "size": 149182,
+      "sha256": "4d343448389a141075dae118ead9ea7713bd213ed45b1a88366588539ab7942c"
+    },
+    "slot1-s-manual-0.save": {
+      "size": 93566,
+      "sha256": "acc9158a16603a8a0eeb0f23e67563f1d943067bfb576069dd0e319f69755bd9"
+    },
+    "slot1-s-manual-1.save": {
+      "size": 93198,
+      "sha256": "bcc27c8238923052c35d9245cddb5b0d415f5fd11bfa83769995d901c3622866"
+    },
+    "slot1-s.save": {
+      "size": 141502,
+      "sha256": "e88daa5f89a56e37662e82845ebccb980c4fe704dad1ee2eebccfdbdc80c8658"
+    },
+    "slot2-s.save": {
+      "size": 67008,
+      "sha256": "494987e4a81c45b38763e615f47ab474ef4f388e4f84e661849ba371952e6c2b"
+    },
+    "slot3-s.save": {
+      "size": 142974,
+      "sha256": "e80e50fd9758604584be33fd22c7c08e1eff82e9b9ae4f84c3f26aab8f8eee3d"
+    },
+    "slot4-s.save": {
+      "size": 93918,
+      "sha256": "c776c1c4a3b025c8db874337a264c2ba6d19a437a6ffade2d51a1adc03fec16b"
+    },
+    "slot5-s.save": {
+      "size": 66992,
+      "sha256": "5265092b9cc69dc4169989b49a4f70447f1656a3c1cf4b0a4ad79c04e6408c28"
+    },
+    "SMT_SAVE_BACKUP (2).save": {
+      "size": 138254,
+      "sha256": "89677dcb78ae6bc763b0ee448bdc2865ae68862d075d46a7600fe92fa12133da"
+    },
+    "SMT_SAVE_BACKUP (3).save": {
+      "size": 142830,
+      "sha256": "d363e6aa65edc8b033e2e1181267872fe1589853e2638411a6306c5c4d5ce473"
+    },
+    "SMT_SAVE_BACKUP.save": {
+      "size": 138654,
+      "sha256": "8fa5a5922414fb5d573e3ae49a2e3be139b1808d6fa8647398bc6774e6d93a5e"
+    }
+  },
+  "after_manifest": {
+    "-userprefs.save": {
+      "size": 1476,
+      "sha256": "1fcd7d8cc1180051eb3489ef0f23eae4d7a566247742db1d32edcca92ec5b292"
+    },
+    "slot0-s-manual-0.save": {
+      "size": 138686,
+      "sha256": "b7dfa63f81649bb7de6dc567c2a1a2311311068d8a3ec26db926077012f3b4b7"
+    },
+    "slot0-s-manual-1.save": {
+      "size": 136606,
+      "sha256": "ae429a673bad76d41cebd4047e90f707537a79540eec9207727535ae29dc75d4"
+    },
+    "slot0-s-manual-2.save": {
+      "size": 146702,
+      "sha256": "4bd9bb55f1793ec15739fe36d68fdc80085dd52a96b159b55890c16483ccdfa0"
+    },
+    "slot0-s-manual-3.save": {
+      "size": 146702,
+      "sha256": "2f7e971a2fb32e1f9ea77714088e5c0e0a818ee9336f4b1dd6d11bb558b7946f"
+    },
+    "slot0-s-manual-4.save": {
+      "size": 150846,
+      "sha256": "b85a91d1556d470cdc9c3da95d0bd9803535715e2234c2333f353a82ade25c9a"
+    },
+    "slot0-s.save": {
+      "size": 157390,
+      "sha256": "ef63493b8677f9ad5637f902586f8b2fa44a6ef5681b685e4f10892ea2bd8549"
+    },
+    "slot0-s.save.backup01": {
+      "size": 150766,
+      "sha256": "f6e0aef114f5e2a15328bbefb97340e8036c8acdad67f4668e1dc01ee277bcb7"
+    },
+    "slot0-s.save.backup02": {
+      "size": 150126,
+      "sha256": "19f54a65d739584927d709630d61ed9558938afa54c3c7cd776f4673227336c1"
+    },
+    "slot0-s.save.backup03": {
+      "size": 150126,
+      "sha256": "95132c8edd00d80d7420fa2c3985ca5c5f4feee5250dd22d996bc69962ab6624"
+    },
+    "slot0-s.save.backup04": {
+      "size": 150126,
+      "sha256": "93920496c9f86fecc82a69a7acfa18cd1ee2f3798f2353622c2d669374723916"
+    },
+    "slot0-s.save.backup05": {
+      "size": 150366,
+      "sha256": "fd818054be2b898988fb690d526a28be5d2b172837b99314b2fefb292e599de7"
+    },
+    "slot0-s.save.backup06": {
+      "size": 149182,
+      "sha256": "4d343448389a141075dae118ead9ea7713bd213ed45b1a88366588539ab7942c"
+    },
+    "slot1-s-manual-0.save": {
+      "size": 93566,
+      "sha256": "acc9158a16603a8a0eeb0f23e67563f1d943067bfb576069dd0e319f69755bd9"
+    },
+    "slot1-s-manual-1.save": {
+      "size": 93198,
+      "sha256": "bcc27c8238923052c35d9245cddb5b0d415f5fd11bfa83769995d901c3622866"
+    },
+    "slot1-s.save": {
+      "size": 141502,
+      "sha256": "e88daa5f89a56e37662e82845ebccb980c4fe704dad1ee2eebccfdbdc80c8658"
+    },
+    "slot2-s.save": {
+      "size": 67008,
+      "sha256": "494987e4a81c45b38763e615f47ab474ef4f388e4f84e661849ba371952e6c2b"
+    },
+    "slot3-s.save": {
+      "size": 142974,
+      "sha256": "e80e50fd9758604584be33fd22c7c08e1eff82e9b9ae4f84c3f26aab8f8eee3d"
+    },
+    "slot4-s.save": {
+      "size": 93918,
+      "sha256": "c776c1c4a3b025c8db874337a264c2ba6d19a437a6ffade2d51a1adc03fec16b"
+    },
+    "slot5-s.save": {
+      "size": 66992,
+      "sha256": "5265092b9cc69dc4169989b49a4f70447f1656a3c1cf4b0a4ad79c04e6408c28"
+    },
+    "SMT_SAVE_BACKUP (2).save": {
+      "size": 138254,
+      "sha256": "89677dcb78ae6bc763b0ee448bdc2865ae68862d075d46a7600fe92fa12133da"
+    },
+    "SMT_SAVE_BACKUP (3).save": {
+      "size": 142830,
+      "sha256": "d363e6aa65edc8b033e2e1181267872fe1589853e2638411a6306c5c4d5ce473"
+    },
+    "SMT_SAVE_BACKUP.save": {
+      "size": 138654,
+      "sha256": "8fa5a5922414fb5d573e3ae49a2e3be139b1808d6fa8647398bc6774e6d93a5e"
+    }
+  },
+  "whole_snapshot_manifest_equal": true,
+  "other_file_differences": [],
+  "runtime_log": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\记录\\20261006T082944_697016Z.jsonl",
+  "attached": {
+    "data": {
+      "game_base": "0x7ff77f300000",
+      "game_sha256": "e297d4d94f1ffe4febf289745e79e7b6fa233a788e7a00f480fc77c55db81ad1",
+      "pid": 15448
+    },
+    "event": "attached_read_only",
+    "utc": "2026-10-06T08:29:44.891448+00:00"
+  },
+  "smt_detected": {
+    "data": {
+      "smt_base": "0x7ffb66dc0000",
+      "smt_sha256": "b7ab575100f2346af25180d74bf9641e24ce09bf549ce47446be09c3462606c7"
+    },
+    "event": "smt_detected",
+    "utc": "2026-10-06T08:29:44.896501+00:00"
+  },
+  "matching_runtime_task_snapshots": [
+    {
+      "utc": "2026-10-06T08:30:33.968728+00:00",
+      "mode_raw": 3,
+      "director_enabled_raw": 1,
+      "mission": {
+        "index": 83,
+        "listed": true,
+        "mission_id_raw": "0xD3665CA4",
+        "mission_name_raw": "GP_A1_FISK",
+        "object": "0x14478347c00",
+        "objectives": [
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_START",
+            "slot": 0,
+            "state_raw": 2
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_ATRIUM",
+            "slot": 1,
+            "state_raw": 2
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_ATRIUM_02",
+            "slot": 2,
+            "state_raw": 2
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_COPS_ARRIVED_CIN",
+            "slot": 3,
+            "state_raw": 2
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_ELEVATOR_LOBBY",
+            "slot": 4,
+            "state_raw": 1
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_SHAFT_CLIMB_FIGHT",
+            "slot": 5,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_POST_SKILL_POINT",
+            "slot": 6,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_SECURITY_ROOM",
+            "slot": 7,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_SECURITY_COUNTDOWN",
+            "slot": 8,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_HACK_CIN2",
+            "slot": 9,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_POP_UP_TUT",
+            "slot": 10,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_FIRST_EXPLOSION",
+            "slot": 11,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_SWAT_INTRO",
+            "slot": 12,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_HELP_CIVS",
+            "slot": 13,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_INVESTIGATE_VENT",
+            "slot": 14,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_NEW_BOMB",
+            "slot": 15,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_LOCATE_SWAT",
+            "slot": 16,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_INVESTIGATE_SCENE",
+            "slot": 17,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_FIGHT_SWAT_CIN",
+            "slot": 18,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_FIGHT_SWAT",
+            "slot": 19,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_INTRO_FISK_CIN",
+            "slot": 20,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_TURRETS",
+            "slot": 21,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_DESK_SMASH_CIN",
+            "slot": 22,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_BOSS_2",
+            "slot": 23,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_WALL_BASH_CIN",
+            "slot": 24,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_BOSS_3",
+            "slot": 25,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_FALL",
+            "slot": 26,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_OUTRO_CINE",
+            "slot": 27,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_SKILL_TUT",
+            "slot": 28,
+            "state_raw": 0
+          }
+        ],
+        "state_raw": 2
+      }
+    },
+    {
+      "utc": "2026-10-06T08:30:39.311567+00:00",
+      "mode_raw": 4,
+      "director_enabled_raw": 1,
+      "mission": {
+        "index": 83,
+        "listed": true,
+        "mission_id_raw": "0xD3665CA4",
+        "mission_name_raw": "GP_A1_FISK",
+        "object": "0x14478347c00",
+        "objectives": [
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_START",
+            "slot": 0,
+            "state_raw": 2
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_ATRIUM",
+            "slot": 1,
+            "state_raw": 2
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_ATRIUM_02",
+            "slot": 2,
+            "state_raw": 2
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_COPS_ARRIVED_CIN",
+            "slot": 3,
+            "state_raw": 2
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_ELEVATOR_LOBBY",
+            "slot": 4,
+            "state_raw": 1
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_SHAFT_CLIMB_FIGHT",
+            "slot": 5,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_POST_SKILL_POINT",
+            "slot": 6,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_SECURITY_ROOM",
+            "slot": 7,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_SECURITY_COUNTDOWN",
+            "slot": 8,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_HACK_CIN2",
+            "slot": 9,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_POP_UP_TUT",
+            "slot": 10,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_FIRST_EXPLOSION",
+            "slot": 11,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_SWAT_INTRO",
+            "slot": 12,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_HELP_CIVS",
+            "slot": 13,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_INVESTIGATE_VENT",
+            "slot": 14,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_NEW_BOMB",
+            "slot": 15,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_LOCATE_SWAT",
+            "slot": 16,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_INVESTIGATE_SCENE",
+            "slot": 17,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_FIGHT_SWAT_CIN",
+            "slot": 18,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_FIGHT_SWAT",
+            "slot": 19,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_INTRO_FISK_CIN",
+            "slot": 20,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_TURRETS",
+            "slot": 21,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_DESK_SMASH_CIN",
+            "slot": 22,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_BOSS_2",
+            "slot": 23,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_WALL_BASH_CIN",
+            "slot": 24,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_BOSS_3",
+            "slot": 25,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_FALL",
+            "slot": 26,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_OUTRO_CINE",
+            "slot": 27,
+            "state_raw": 0
+          },
+          {
+            "description_raw": null,
+            "name_raw": "GP_A1_FISK_SKILL_TUT",
+            "slot": 28,
+            "state_raw": 0
+          }
+        ],
+        "state_raw": 2
+      }
+    }
+  ],
+  "save_metadata": [
+    {
+      "section_tag": "0xd436a987",
+      "relative_offset": 4,
+      "fields": {
+        "CurrentLightingMode": "kBlackout",
+        "CurrentCheckpointId": 10863563502179515499,
+        "CurrentCheckpoint": 1230831290,
+        "PlaythroughSegmentId": 3198264795,
+        "CurrentLightingModeValid": true,
+        "CurrentLevel": 0
+      }
+    },
+    {
+      "section_tag": "0xd436a987",
+      "relative_offset": 140,
+      "fields": {
+        "LastPosition": {
+          "X": 1107.189697265625,
+          "Y": 45.762451171875,
+          "Z": 1288.1719970703125
+        },
+        "PerchForward": {
+          "X": 0,
+          "Y": 0,
+          "Z": 1
+        },
+        "PerchPosition": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "GamePercent": 0.010526316240429878,
+        "ActiveMissionHash": 3546700964,
+        "LocationHash": 1725685535,
+        "LastSaveTime": 2125083665,
+        "PerchUID": 0,
+        "SlotDifficulty": 3,
+        "LowestDifficultyEverSet": 3,
+        "PlayerLevel": 50,
+        "NewGamePlusUnlocked": false,
+        "NewGamePlus": true,
+        "NewGamePlusNewGame": false,
+        "TotalPlayTime": 0
+      }
+    },
+    {
+      "section_tag": "0xd436a987",
+      "relative_offset": 7552,
+      "fields": {
+        "CurrentLightingMode": "kBlackout",
+        "CurrentCheckpointId": 10863563502179515499,
+        "CurrentCheckpoint": 1230831290,
+        "PlaythroughSegmentId": 3198264795,
+        "CurrentLightingModeValid": true,
+        "CurrentLevel": 0
+      }
+    }
+  ],
+  "save_MSFX": {
+    "section_size": 13046,
+    "header_hex": "5846534d2300000008fb000000",
+    "global_mission_states": [
+      {
+        "index": 0,
+        "mission_hash": "0xc127dd2",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "mission_hash": "0x951b2c68",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "mission_hash": "0x36c76daf",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "mission_hash": "0x8223bf5d",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 4,
+        "mission_hash": "0x1b2aeee7",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 5,
+        "mission_hash": "0x6c2dde71",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 6,
+        "mission_hash": "0x74a14c4c",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 7,
+        "mission_hash": "0xeda81df6",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 8,
+        "mission_hash": "0x9aaf2d60",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 9,
+        "mission_hash": "0x390dfe70",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 10,
+        "mission_hash": "0xf3c7ef02",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 11,
+        "mission_hash": "0x6acebeb8",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 12,
+        "mission_hash": "0xc50412f7",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 13,
+        "mission_hash": "0x5c0d434d",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 14,
+        "mission_hash": "0x2c88cedc",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 15,
+        "mission_hash": "0xb5819f66",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 16,
+        "mission_hash": "0xbdb72369",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 17,
+        "mission_hash": "0x24be72d3",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 18,
+        "mission_hash": "0xb234fe5f",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 19,
+        "mission_hash": "0x2b3dafe5",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 20,
+        "mission_hash": "0xc8d658c3",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 21,
+        "mission_hash": "0x51df0979",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 22,
+        "mission_hash": "0x3559188a",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 23,
+        "mission_hash": "0xac504930",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 24,
+        "mission_hash": "0x4dea2914",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 25,
+        "mission_hash": "0xd4e378ae",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 26,
+        "mission_hash": "0xf139ee85",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 27,
+        "mission_hash": "0x9c70aed4",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 28,
+        "mission_hash": "0xff0a475c",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 29,
+        "mission_hash": "0xfa4828de",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 30,
+        "mission_hash": "0xcb7f92c6",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 31,
+        "mission_hash": "0xc262111c",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 32,
+        "mission_hash": "0x8dc9bf41",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 33,
+        "mission_hash": "0xceca2489",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 34,
+        "mission_hash": "0x11a53d22",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 35,
+        "mission_hash": "0x1f6b2d2",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 36,
+        "mission_hash": "0x29181b69",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 37,
+        "mission_hash": "0x130a12f1",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 38,
+        "mission_hash": "0xdc1492cb",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 39,
+        "mission_hash": "0x5e15d536",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 40,
+        "mission_hash": "0x2c294419",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 41,
+        "mission_hash": "0xda975565",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 42,
+        "mission_hash": "0x565d2f1d",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 43,
+        "mission_hash": "0x8df4ffa4",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 44,
+        "mission_hash": "0xbd0b0502",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 45,
+        "mission_hash": "0xcd7aabad",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 46,
+        "mission_hash": "0x8009109d",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 47,
+        "mission_hash": "0x97624824",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 48,
+        "mission_hash": "0x61b2d1c2",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 49,
+        "mission_hash": "0x70b2ed0",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 50,
+        "mission_hash": "0x9e027f6a",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 51,
+        "mission_hash": "0xe9054ffc",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 52,
+        "mission_hash": "0x67e48631",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 53,
+        "mission_hash": "0x5cd932c7",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 54,
+        "mission_hash": "0x36efe6f0",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 55,
+        "mission_hash": "0x9c885a18",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 56,
+        "mission_hash": "0xf14071c9",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 57,
+        "mission_hash": "0x7b22f4f9",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 58,
+        "mission_hash": "0x70e6ccd2",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 59,
+        "mission_hash": "0xa744a671",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 60,
+        "mission_hash": "0x46cc488",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 61,
+        "mission_hash": "0xa8768613",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 62,
+        "mission_hash": "0x2357e41d",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 63,
+        "mission_hash": "0x4678e73f",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 64,
+        "mission_hash": "0x547841e8",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 65,
+        "mission_hash": "0x75345e52",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 66,
+        "mission_hash": "0xa82d5761",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 67,
+        "mission_hash": "0x49a0d6ba",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 68,
+        "mission_hash": "0xfe6d666e",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 69,
+        "mission_hash": "0x539dc316",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 70,
+        "mission_hash": "0x9197ec9b",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 71,
+        "mission_hash": "0xd880bf51",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 72,
+        "mission_hash": "0x349e1d82",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 73,
+        "mission_hash": "0x204bbd95",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 74,
+        "mission_hash": "0x950e611",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 75,
+        "mission_hash": "0xc6d90514",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 76,
+        "mission_hash": "0x4970b190",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 77,
+        "mission_hash": "0x397c44f",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 78,
+        "mission_hash": "0x27807168",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 79,
+        "mission_hash": "0xc8497660",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 80,
+        "mission_hash": "0x94437b81",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 81,
+        "mission_hash": "0xdfcd6a7c",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 82,
+        "mission_hash": "0xd72896e0",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 83,
+        "mission_hash": "0xd3665ca4",
+        "state_raw": 2,
+        "word_raw": 15,
+        "bytes_raw": [
+          0,
+          0
+        ],
+        "runtime_name": "GP_A1_FISK"
+      },
+      {
+        "index": 84,
+        "mission_hash": "0xb5860bc4",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 85,
+        "mission_hash": "0x528b5fd4",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 86,
+        "mission_hash": "0x83380455",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 87,
+        "mission_hash": "0x1408bdcc",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 88,
+        "mission_hash": "0x1458134f",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 89,
+        "mission_hash": "0x24293876",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 90,
+        "mission_hash": "0x915c22ef",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 91,
+        "mission_hash": "0x83bd14f9",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 92,
+        "mission_hash": "0x92e2b8dc",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 93,
+        "mission_hash": "0x263963ef",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 94,
+        "mission_hash": "0xeda98ebc",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 95,
+        "mission_hash": "0x3705d72b",
+        "state_raw": 4,
+        "word_raw": 2047,
+        "bytes_raw": [
+          0,
+          0
+        ],
+        "runtime_name": "GP_A1_SWING_TUTORIAL"
+      },
+      {
+        "index": 96,
+        "mission_hash": "0x91223d8d",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 97,
+        "mission_hash": "0xf70d7e8c",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 98,
+        "mission_hash": "0x5bcb682a",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 99,
+        "mission_hash": "0x54e04dfb",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 100,
+        "mission_hash": "0x209db7cc",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 101,
+        "mission_hash": "0xc722d78d",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 102,
+        "mission_hash": "0xac00c44b",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 103,
+        "mission_hash": "0x23a6e5d3",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 104,
+        "mission_hash": "0xa0a8705e",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 105,
+        "mission_hash": "0x924132e2",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 106,
+        "mission_hash": "0x804ce4a5",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 107,
+        "mission_hash": "0xeccbe3ac",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 108,
+        "mission_hash": "0x707198a5",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 109,
+        "mission_hash": "0x4d27a403",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 110,
+        "mission_hash": "0x1a1ee8e8",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 111,
+        "mission_hash": "0x518ea1c7",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 112,
+        "mission_hash": "0x11f1160b",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 113,
+        "mission_hash": "0x2f928dcc",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 114,
+        "mission_hash": "0x50e261ee",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 115,
+        "mission_hash": "0xce7f88ca",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 116,
+        "mission_hash": "0xbef8d8fd",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 117,
+        "mission_hash": "0x3600880b",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 118,
+        "mission_hash": "0xe7b234c",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 119,
+        "mission_hash": "0xfcae3862",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 120,
+        "mission_hash": "0xbfa88e01",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 121,
+        "mission_hash": "0xf9d4acb7",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 122,
+        "mission_hash": "0x3126ce6b",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 123,
+        "mission_hash": "0x4460ab0a",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 124,
+        "mission_hash": "0xfbc2c875",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 125,
+        "mission_hash": "0x3720f013",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 126,
+        "mission_hash": "0xdd77275e",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 127,
+        "mission_hash": "0x122e2225",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 128,
+        "mission_hash": "0x1473976a",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 129,
+        "mission_hash": "0x7e4933bc",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 130,
+        "mission_hash": "0x51cf2487",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 131,
+        "mission_hash": "0xefae33bb",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 132,
+        "mission_hash": "0x62b4391a",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 133,
+        "mission_hash": "0x158b1769",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 134,
+        "mission_hash": "0xe89220a1",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 135,
+        "mission_hash": "0xb3bdfa35",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 136,
+        "mission_hash": "0x17f3f008",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 137,
+        "mission_hash": "0x8562d355",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 138,
+        "mission_hash": "0xfd73954b",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 139,
+        "mission_hash": "0x303b233f",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 140,
+        "mission_hash": "0xe8188d61",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 141,
+        "mission_hash": "0xa64d5dd4",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 142,
+        "mission_hash": "0x5953e45a",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 143,
+        "mission_hash": "0x679ff4b1",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 144,
+        "mission_hash": "0x53a861ff",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 145,
+        "mission_hash": "0xdce8c750",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 146,
+        "mission_hash": "0xb0eebd02",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 147,
+        "mission_hash": "0x9415d9bc",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 148,
+        "mission_hash": "0x4f9b2eca",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 149,
+        "mission_hash": "0x93461382",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 150,
+        "mission_hash": "0xcb49ac73",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 151,
+        "mission_hash": "0x2a236784",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 152,
+        "mission_hash": "0xe42b60e3",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 153,
+        "mission_hash": "0xc4aef921",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 154,
+        "mission_hash": "0x3f96441",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 155,
+        "mission_hash": "0xab527738",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 156,
+        "mission_hash": "0x1c912409",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 157,
+        "mission_hash": "0x8cce5d1b",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 158,
+        "mission_hash": "0x4df92a28",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 159,
+        "mission_hash": "0x1cafc4a2",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 160,
+        "mission_hash": "0x85a69518",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 161,
+        "mission_hash": "0xf2a1a58e",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 162,
+        "mission_hash": "0x6cc5302d",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 163,
+        "mission_hash": "0x1bc200bb",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 164,
+        "mission_hash": "0x637af6d1",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 165,
+        "mission_hash": "0xb6b361cd",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 166,
+        "mission_hash": "0xeeaa3225",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 167,
+        "mission_hash": "0x11381794",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 168,
+        "mission_hash": "0xb1ce5de3",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 169,
+        "mission_hash": "0x7d1bfaf8",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 170,
+        "mission_hash": "0x40811505",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 171,
+        "mission_hash": "0x9e9b3405",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 172,
+        "mission_hash": "0x3c0d7328",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 173,
+        "mission_hash": "0xd88db5e",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 174,
+        "mission_hash": "0x67926ad2",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 175,
+        "mission_hash": "0xfcf6eae7",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 176,
+        "mission_hash": "0x4c698da9",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 177,
+        "mission_hash": "0x8ed66598",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 178,
+        "mission_hash": "0x3892af43",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 179,
+        "mission_hash": "0xa19bfef9",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 180,
+        "mission_hash": "0x28276dd5",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 181,
+        "mission_hash": "0xb12e3c6f",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 182,
+        "mission_hash": "0xf468ba03",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 183,
+        "mission_hash": "0x590c171d",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 184,
+        "mission_hash": "0x2771dea2",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 185,
+        "mission_hash": "0xc971952a",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 186,
+        "mission_hash": "0x1714707b",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 187,
+        "mission_hash": "0x78a54b53",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 188,
+        "mission_hash": "0xb1120eb3",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 189,
+        "mission_hash": "0xe0085a3f",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 190,
+        "mission_hash": "0x2cc7f4e2",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 191,
+        "mission_hash": "0xb59ad805",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 192,
+        "mission_hash": "0xb48a34d2",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 193,
+        "mission_hash": "0x5e511f00",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 194,
+        "mission_hash": "0xdb72d0ad",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 195,
+        "mission_hash": "0xb73cb24d",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 196,
+        "mission_hash": "0xcc7132d2",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 197,
+        "mission_hash": "0x9611eb0b",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 198,
+        "mission_hash": "0x65859d16",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 199,
+        "mission_hash": "0x1282ad80",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 200,
+        "mission_hash": "0x8b8bfc3a",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 201,
+        "mission_hash": "0xfc8cccac",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 202,
+        "mission_hash": "0x62e8590f",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 203,
+        "mission_hash": "0x15ef6999",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 204,
+        "mission_hash": "0x8ce63823",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 205,
+        "mission_hash": "0x1cfe1d25",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 206,
+        "mission_hash": "0x64acdef2",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 207,
+        "mission_hash": "0xc557376f",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 208,
+        "mission_hash": "0x5c5e66d5",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 209,
+        "mission_hash": "0x2b595643",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 210,
+        "mission_hash": "0xb53dc3e0",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 211,
+        "mission_hash": "0xc23af376",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 212,
+        "mission_hash": "0x5b33a2cc",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 213,
+        "mission_hash": "0x2c34925a",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 214,
+        "mission_hash": "0xbc8b8fcb",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 215,
+        "mission_hash": "0x508283d",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 216,
+        "mission_hash": "0xef84e434",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 217,
+        "mission_hash": "0x9883d4a2",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 218,
+        "mission_hash": "0x18a8518",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 219,
+        "mission_hash": "0x768db58e",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 220,
+        "mission_hash": "0xe8e9202d",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 221,
+        "mission_hash": "0x9fee10bb",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 222,
+        "mission_hash": "0x6e74101",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 223,
+        "mission_hash": "0x425f6f28",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 224,
+        "mission_hash": "0x76b7fc3b",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 225,
+        "mission_hash": "0x1b0ccad",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 226,
+        "mission_hash": "0x98b99d17",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 227,
+        "mission_hash": "0xefbead81",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 228,
+        "mission_hash": "0x71da3822",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 229,
+        "mission_hash": "0x6dd08b4",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 230,
+        "mission_hash": "0x9fd4590e",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 231,
+        "mission_hash": "0xd6ab7282",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 232,
+        "mission_hash": "0x4cfd991b",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 233,
+        "mission_hash": "0xd5f4c8a1",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 234,
+        "mission_hash": "0xa2f3f837",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 235,
+        "mission_hash": "0x3c976d94",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 236,
+        "mission_hash": "0x4b905d02",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 237,
+        "mission_hash": "0xd2990cb8",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 238,
+        "mission_hash": "0x7f35938a",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 239,
+        "mission_hash": "0x28845d49",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 240,
+        "mission_hash": "0x20fdf68e",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 241,
+        "mission_hash": "0x64ab19b1",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 242,
+        "mission_hash": "0x57f08d44",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 243,
+        "mission_hash": "0x2414a08d",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 244,
+        "mission_hash": "0x745b9593",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 245,
+        "mission_hash": "0xc0a84b66",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 246,
+        "mission_hash": "0xf80b7064",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 247,
+        "mission_hash": "0xa6b315ab",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 248,
+        "mission_hash": "0x48bd7487",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 249,
+        "mission_hash": "0x0",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 250,
+        "mission_hash": "0x0",
+        "state_raw": 0,
+        "word_raw": 0,
+        "bytes_raw": [
+          0,
+          0
+        ]
+      }
+    ],
+    "first_objective_table_count_offset": "0xdc7",
+    "first_objective_table_count": 1,
+    "objective_tables": [
+      {
+        "mission_hash": "0xd3665ca4",
+        "runtime_name": "GP_A1_FISK",
+        "header_offset": "0xdcb",
+        "stride": 24,
+        "rows": [
+          {
+            "runtime_name": "GP_A1_FISK_START",
+            "objective_hash": "0xbd3b8884",
+            "words_raw": [
+              3174795396,
+              2,
+              2,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_ATRIUM",
+            "objective_hash": "0xe7df67ad",
+            "words_raw": [
+              3890177965,
+              2,
+              2,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_ATRIUM_02",
+            "objective_hash": "0x9d01f20f",
+            "words_raw": [
+              2634150415,
+              2,
+              2,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_COPS_ARRIVED_CIN",
+            "objective_hash": "0xdbaa182e",
+            "words_raw": [
+              3685357614,
+              2,
+              2,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_ELEVATOR_LOBBY",
+            "objective_hash": "0xde78dcce",
+            "words_raw": [
+              3732462798,
+              1,
+              1,
+              0,
+              1,
+              443370037
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_SHAFT_CLIMB_FIGHT",
+            "objective_hash": "0xc23a1035",
+            "words_raw": [
+              3258585141,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_POST_SKILL_POINT",
+            "objective_hash": "0x452ddaea",
+            "words_raw": [
+              1160633066,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_SECURITY_ROOM",
+            "objective_hash": "0xa1b118ab",
+            "words_raw": [
+              2712737963,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_SECURITY_COUNTDOWN",
+            "objective_hash": "0xd9e6e4fc",
+            "words_raw": [
+              3655787772,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_HACK_CIN2",
+            "objective_hash": "0x8ae0a942",
+            "words_raw": [
+              2329979202,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_POP_UP_TUT",
+            "objective_hash": "0xa1e4dcd2",
+            "words_raw": [
+              2716130514,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_FIRST_EXPLOSION",
+            "objective_hash": "0x4e03777",
+            "words_raw": [
+              81803127,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_SWAT_INTRO",
+            "objective_hash": "0xe375bb3",
+            "words_raw": [
+              238508979,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_HELP_CIVS",
+            "objective_hash": "0x295dec9e",
+            "words_raw": [
+              694021278,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_INVESTIGATE_VENT",
+            "objective_hash": "0x19ce3f8",
+            "words_raw": [
+              27059192,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_NEW_BOMB",
+            "objective_hash": "0x7cd40d7b",
+            "words_raw": [
+              2094271867,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_LOCATE_SWAT",
+            "objective_hash": "0x605b37",
+            "words_raw": [
+              6314807,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_INVESTIGATE_SCENE",
+            "objective_hash": "0xe4229644",
+            "words_raw": [
+              3827471940,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_FIGHT_SWAT_CIN",
+            "objective_hash": "0xcdc33aea",
+            "words_raw": [
+              3452123882,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_FIGHT_SWAT",
+            "objective_hash": "0x37b5c45",
+            "words_raw": [
+              58416197,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_INTRO_FISK_CIN",
+            "objective_hash": "0xa1a12a07",
+            "words_raw": [
+              2711693831,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_TURRETS",
+            "objective_hash": "0xa466ba46",
+            "words_raw": [
+              2758195782,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_DESK_SMASH_CIN",
+            "objective_hash": "0xb80eac23",
+            "words_raw": [
+              3087969315,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_BOSS_2",
+            "objective_hash": "0xe5237674",
+            "words_raw": [
+              3844306548,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_WALL_BASH_CIN",
+            "objective_hash": "0xf4f6e0bf",
+            "words_raw": [
+              4109820095,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_BOSS_3",
+            "objective_hash": "0x922446e2",
+            "words_raw": [
+              2451850978,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_FALL",
+            "objective_hash": "0xb4f11dbc",
+            "words_raw": [
+              3035700668,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_OUTRO_CINE",
+            "objective_hash": "0x46982422",
+            "words_raw": [
+              1184375842,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_SKILL_TUT",
+            "objective_hash": "0xa8563c71",
+            "words_raw": [
+              2824223857,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "mission_hash": "0xd3665ca4",
+        "runtime_name": "GP_A1_FISK",
+        "header_offset": "0x3048",
+        "stride": 20,
+        "rows": [
+          {
+            "runtime_name": "GP_A1_FISK_START",
+            "objective_hash": "0xbd3b8884",
+            "words_raw": [
+              3174795396,
+              2,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_ATRIUM",
+            "objective_hash": "0xe7df67ad",
+            "words_raw": [
+              3890177965,
+              2,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_ATRIUM_02",
+            "objective_hash": "0x9d01f20f",
+            "words_raw": [
+              2634150415,
+              2,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_COPS_ARRIVED_CIN",
+            "objective_hash": "0xdbaa182e",
+            "words_raw": [
+              3685357614,
+              2,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_ELEVATOR_LOBBY",
+            "objective_hash": "0xde78dcce",
+            "words_raw": [
+              3732462798,
+              1,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_SHAFT_CLIMB_FIGHT",
+            "objective_hash": "0xc23a1035",
+            "words_raw": [
+              3258585141,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_POST_SKILL_POINT",
+            "objective_hash": "0x452ddaea",
+            "words_raw": [
+              1160633066,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_SECURITY_ROOM",
+            "objective_hash": "0xa1b118ab",
+            "words_raw": [
+              2712737963,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_SECURITY_COUNTDOWN",
+            "objective_hash": "0xd9e6e4fc",
+            "words_raw": [
+              3655787772,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_HACK_CIN2",
+            "objective_hash": "0x8ae0a942",
+            "words_raw": [
+              2329979202,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_POP_UP_TUT",
+            "objective_hash": "0xa1e4dcd2",
+            "words_raw": [
+              2716130514,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_FIRST_EXPLOSION",
+            "objective_hash": "0x4e03777",
+            "words_raw": [
+              81803127,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_SWAT_INTRO",
+            "objective_hash": "0xe375bb3",
+            "words_raw": [
+              238508979,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_HELP_CIVS",
+            "objective_hash": "0x295dec9e",
+            "words_raw": [
+              694021278,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_INVESTIGATE_VENT",
+            "objective_hash": "0x19ce3f8",
+            "words_raw": [
+              27059192,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_NEW_BOMB",
+            "objective_hash": "0x7cd40d7b",
+            "words_raw": [
+              2094271867,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_LOCATE_SWAT",
+            "objective_hash": "0x605b37",
+            "words_raw": [
+              6314807,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_INVESTIGATE_SCENE",
+            "objective_hash": "0xe4229644",
+            "words_raw": [
+              3827471940,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_FIGHT_SWAT_CIN",
+            "objective_hash": "0xcdc33aea",
+            "words_raw": [
+              3452123882,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_FIGHT_SWAT",
+            "objective_hash": "0x37b5c45",
+            "words_raw": [
+              58416197,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_INTRO_FISK_CIN",
+            "objective_hash": "0xa1a12a07",
+            "words_raw": [
+              2711693831,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_TURRETS",
+            "objective_hash": "0xa466ba46",
+            "words_raw": [
+              2758195782,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_DESK_SMASH_CIN",
+            "objective_hash": "0xb80eac23",
+            "words_raw": [
+              3087969315,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_BOSS_2",
+            "objective_hash": "0xe5237674",
+            "words_raw": [
+              3844306548,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_WALL_BASH_CIN",
+            "objective_hash": "0xf4f6e0bf",
+            "words_raw": [
+              4109820095,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_BOSS_3",
+            "objective_hash": "0x922446e2",
+            "words_raw": [
+              2451850978,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_FALL",
+            "objective_hash": "0xb4f11dbc",
+            "words_raw": [
+              3035700668,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_OUTRO_CINE",
+            "objective_hash": "0x46982422",
+            "words_raw": [
+              1184375842,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_name": "GP_A1_FISK_SKILL_TUT",
+            "objective_hash": "0xa8563c71",
+            "words_raw": [
+              2824223857,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "raw_hex": "5846534d2300000008fb000000d27d120c00000000000000000000682c1b9500000000000000000000af6dc736000000000000000000005dbf238200000000000000000000e7ee2a1b0000000000000000000071de2d6c000000000000000000004c4ca17400000000000000000000f61da8ed00000000000000000000602daf9a0000000000000000000070fe0d390000000000000000000002efc7f300000000000000000000b8bece6a00000000000000000000f71204c5000000000000000000004d430d5c00000000000000000000dcce882c00000000000000000000669f81b5000000000000000000006923b7bd00000000000000000000d372be24000000000000000000005ffe34b200000000000000000000e5af3d2b00000000000000000000c358d6c8000000000000000000007909df51000000000000000000008a18593500000000000000000000304950ac000000000000000000001429ea4d00000000000000000000ae78e3d40000000000000000000085ee39f100000000000000000000d4ae709c000000000000000000005c470aff00000000000000000000de2848fa00000000000000000000c6927fcb000000000000000000001c1162c20000000000000000000041bfc98d000000000000000000008924cace00000000000000000000223da51100000000000000000000d2b2f60100000000000000000000691b182900000000000000000000f1120a1300000000000000000000cb9214dc0000000000000000000036d5155e000000000000000000001944292c00000000000000000000655597da000000000000000000001d2f5d5600000000000000000000a4fff48d0000000000000000000002050bbd00000000000000000000adab7acd000000000000000000009d100980000000000000000000002448629700000000000000000000c2d1b26100000000000000000000d02e0b07000000000000000000006a7f029e00000000000000000000fc4f05e9000000000000000000003186e46700000000000000000000c732d95c00000000000000000000f0e6ef3600000000000000000000185a889c00000000000000000000c97140f100000000000000000000f9f4227b00000000000000000000d2cce6700000000000000000000071a644a70000000000000000000088c46c0400000000000000000000138676a8000000000000000000001de45723000000000000000000003fe7784600000000000000000000e841785400000000000000000000525e34750000000000000000000061572da800000000000000000000bad6a049000000000000000000006e666dfe0000000000000000000016c39d53000000000000000000009bec97910000000000000000000051bf80d800000000000000000000821d9e340000000000000000000095bd4b200000000000000000000011e65009000000000000000000001405d9c60000000000000000000090b17049000000000000000000004fc49703000000000000000000006871802700000000000000000000607649c800000000000000000000817b4394000000000000000000007c6acddf00000000000000000000e09628d700000000000000000000a45c66d3020000000f0000000000c40b86b500000000000000000000d45f8b52000000000000000000005504388300000000000000000000ccbd0814000000000000000000004f135814000000000000000000007638292400000000000000000000ef225c9100000000000000000000f914bd8300000000000000000000dcb8e29200000000000000000000ef63392600000000000000000000bc8ea9ed000000000000000000002bd7053704000000ff07000000008d3d2291000000000000000000008c7e0df7000000000000000000002a68cb5b00000000000000000000fb4de05400000000000000000000ccb79d20000000000000000000008dd722c7000000000000000000004bc400ac00000000000000000000d3e5a623000000000000000000005e70a8a000000000000000000000e232419200000000000000000000a5e44c8000000000000000000000ace3cbec00000000000000000000a59871700000000000000000000003a4274d00000000000000000000e8e81e1a00000000000000000000c7a18e51000000000000000000000b16f11100000000000000000000cc8d922f00000000000000000000ee61e25000000000000000000000ca887fce00000000000000000000fdd8f8be000000000000000000000b880036000000000000000000004c237b0e000000000000000000006238aefc00000000000000000000018ea8bf00000000000000000000b7acd4f9000000000000000000006bce2631000000000000000000000aab60440000000000000000000075c8c2fb0000000000000000000013f02037000000000000000000005e2777dd0000000000000000000025222e12000000000000000000006a97731400000000000000000000bc33497e000000000000000000008724cf5100000000000000000000bb33aeef000000000000000000001a39b4620000000000000000000069178b1500000000000000000000a12092e80000000000000000000035fabdb30000000000000000000008f0f3170000000000000000000055d36285000000000000000000004b9573fd000000000000000000003f233b3000000000000000000000618d18e800000000000000000000d45d4da6000000000000000000005ae4535900000000000000000000b1f49f6700000000000000000000ff61a8530000000000000000000050c7e8dc0000000000000000000002bdeeb000000000000000000000bcd9159400000000000000000000ca2e9b4f00000000000000000000821346930000000000000000000073ac49cb000000000000000000008467232a00000000000000000000e3602be40000000000000000000021f9aec4000000000000000000004164f90300000000000000000000387752ab000000000000000000000924911c000000000000000000001b5dce8c00000000000000000000282af94d00000000000000000000a2c4af1c000000000000000000001895a685000000000000000000008ea5a1f2000000000000000000002d30c56c00000000000000000000bb00c21b00000000000000000000d1f67a6300000000000000000000cd61b3b6000000000000000000002532aaee000000000000000000009417381100000000000000000000e35dceb100000000000000000000f8fa1b7d00000000000000000000051581400000000000000000000005349b9e0000000000000000000028730d3c000000000000000000005edb880d00000000000000000000d26a926700000000000000000000e7eaf6fc00000000000000000000a98d694c000000000000000000009865d68e0000000000000000000043af923800000000000000000000f9fe9ba100000000000000000000d56d2728000000000000000000006f3c2eb10000000000000000000003ba68f4000000000000000000001d170c5900000000000000000000a2de7127000000000000000000002a9571c9000000000000000000007b70141700000000000000000000534ba57800000000000000000000b30e12b1000000000000000000003f5a08e000000000000000000000e2f4c72c0000000000000000000005d89ab500000000000000000000d2348ab400000000000000000000001f515e00000000000000000000add072db000000000000000000004db23cb700000000000000000000d23271cc000000000000000000000beb119600000000000000000000169d85650000000000000000000080ad8212000000000000000000003afc8b8b00000000000000000000accc8cfc000000000000000000000f59e862000000000000000000009969ef15000000000000000000002338e68c00000000000000000000251dfe1c00000000000000000000f2deac64000000000000000000006f3757c500000000000000000000d5665e5c000000000000000000004356592b00000000000000000000e0c33db50000000000000000000076f33ac200000000000000000000cca2335b000000000000000000005a92342c00000000000000000000cb8f8bbc000000000000000000003d2808050000000000000000000034e484ef00000000000000000000a2d483980000000000000000000018858a01000000000000000000008eb58d76000000000000000000002d20e9e800000000000000000000bb10ee9f000000000000000000000141e70600000000000000000000286f5f42000000000000000000003bfcb77600000000000000000000adccb00100000000000000000000179db9980000000000000000000081adbeef000000000000000000002238da7100000000000000000000b408dd06000000000000000000000e59d49f000000000000000000008272abd6000000000000000000001b99fd4c00000000000000000000a1c8f4d50000000000000000000037f8f3a200000000000000000000946d973c00000000000000000000025d904b00000000000000000000b80c99d2000000000000000000008a93357f00000000000000000000495d8428000000000000000000008ef6fd2000000000000000000000b119ab6400000000000000000000448df057000000000000000000008da014240000000000000000000093955b7400000000000000000000664ba8c00000000000000000000064700bf800000000000000000000ab15b3a6000000000000000000008774bd48000000000000000000000000000000000000000000000000000000000000000000000000000001000000a45c66d31d00000084883bbd0200000002000000000000000100000000000000ad67dfe702000000020000000000000001000000000000000ff2019d02000000020000000000000001000000000000002e18aadb0200000002000000000000000100000000000000cedc78de01000000010000000000000001000000354a6d1a35103ac20000000000000000000000000000000000000000eada2d450000000000000000000000000000000000000000ab18b1a10000000000000000000000000000000000000000fce4e6d9000000000000000000000000000000000000000042a9e08a0000000000000000000000000000000000000000d2dce4a100000000000000000000000000000000000000007737e0040000000000000000000000000000000000000000b35b370e00000000000000000000000000000000000000009eec5d290000000000000000000000000000000000000000f8e39c0100000000000000000000000000000000000000007b0dd47c0000000000000000000000000000000000000000375b60000000000000000000000000000000000000000000449622e40000000000000000000000000000000000000000ea3ac3cd0000000000000000000000000000000000000000455c7b030000000000000000000000000000000000000000072aa1a1000000000000000000000000000000000000000046ba66a4000000000000000000000000000000000000000023ac0eb80000000000000000000000000000000000000000747623e50000000000000000000000000000000000000000bfe0f6f40000000000000000000000000000000000000000e24624920000000000000000000000000000000000000000bc1df1b40000000000000000000000000000000000000000222498460000000000000000000000000000000000000000713c56a8000000000000000000000000000000000000000000000000a3201c7da45c66d3a45c66d300000000fb000000d27d120c00000000000000000000000000000000000000000000000000000000682c1b9500000000000000000000000000000000000000000000000000000000af6dc736000000000000000000000000000000000000000000000000000000005dbf238200000000000000000000000000000000000000000000000000000000e7ee2a1b0000000000000000000000000000000000000000000000000000000071de2d6c000000000000000000000000000000000000000000000000000000004c4ca17400000000000000000000000000000000000000000000000000000000f61da8ed00000000000000000000000000000000000000000000000000000000602daf9a0000000000000000000000000000000000000000000000000000000070fe0d390000000000000000000000000000000000000000000000000000000002efc7f300000000000000000000000000000000000000000000000000000000b8bece6a00000000000000000000000000000000000000000000000000000000f71204c5000000000000000000000000000000000000000000000000000000004d430d5c00000000000000000000000000000000000000000000000000000000dcce882c00000000000000000000000000000000000000000000000000000000669f81b5000000000000000000000000000000000000000000000000000000006923b7bd00000000000000000000000000000000000000000000000000000000d372be24000000000000000000000000000000000000000000000000000000005ffe34b200000000000000000000000000000000000000000000000000000000e5af3d2b00000000000000000000000000000000000000000000000000000000c358d6c8000000000000000000000000000000000000000000000000000000007909df51000000000000000000000000000000000000000000000000000000008a18593500000000000000000000000000000000000000000000000000000000304950ac000000000000000000000000000000000000000000000000000000001429ea4d00000000000000000000000000000000000000000000000000000000ae78e3d40000000000000000000000000000000000000000000000000000000085ee39f100000000000000000000000000000000000000000000000000000000d4ae709c000000000000000000000000000000000000000000000000000000005c470aff00000000000000000000000000000000000000000000000000000000de2848fa00000000000000000000000000000000000000000000000000000000c6927fcb000000000000000000000000000000000000000000000000000000001c1162c20000000000000000000000000000000000000000000000000000000041bfc98d000000000000000000000000000000000000000000000000000000008924cace00000000000000000000000000000000000000000000000000000000223da51100000000000000000000000000000000000000000000000000000000d2b2f60100000000000000000000000000000000000000000000000000000000691b182900000000000000000000000000000000000000000000000000000000f1120a1300000000000000000000000000000000000000000000000000000000cb9214dc0000000000000000000000000000000000000000000000000000000036d5155e000000000000000000000000000000000000000000000000000000001944292c00000000000000000000000000000000000000000000000000000000655597da000000000000000000000000000000000000000000000000000000001d2f5d5600000000000000000000000000000000000000000000000000000000a4fff48d0000000000000000000000000000000000000000000000000000000002050bbd00000000000000000000000000000000000000000000000000000000adab7acd000000000000000000000000000000000000000000000000000000009d100980000000000000000000000000000000000000000000000000000000002448629700000000000000000000000000000000000000000000000000000000c2d1b26100000000000000000000000000000000000000000000000000000000d02e0b07000000000000000000000000000000000000000000000000000000006a7f029e00000000000000000000000000000000000000000000000000000000fc4f05e9000000000000000000000000000000000000000000000000000000003186e46700000000000000000000000000000000000000000000000000000000c732d95c00000000000000000000000000000000000000000000000000000000f0e6ef3600000000000000000000000000000000000000000000000000000000185a889c00000000000000000000000000000000000000000000000000000000c97140f100000000000000000000000000000000000000000000000000000000f9f4227b00000000000000000000000000000000000000000000000000000000d2cce6700000000000000000000000000000000000000000000000000000000071a644a70000000000000000000000000000000000000000000000000000000088c46c0400000000000000000000000000000000000000000000000000000000138676a8000000000000000000000000000000000000000000000000000000001de45723000000000000000000000000000000000000000000000000000000003fe7784600000000000000000000000000000000000000000000000000000000e841785400000000000000000000000000000000000000000000000000000000525e34750000000000000000000000000000000000000000000000000000000061572da800000000000000000000000000000000000000000000000000000000bad6a049000000000000000000000000000000000000000000000000000000006e666dfe0000000000000000000000000000000000000000000000000000000016c39d53000000000000000000000000000000000000000000000000000000009bec97910000000000000000000000000000000000000000000000000000000051bf80d800000000000000000000000000000000000000000000000000000000821d9e340000000000000000000000000000000000000000000000000000000095bd4b200000000000000000000000000000000000000000000000000000000011e65009000000000000000000000000000000000000000000000000000000001405d9c60000000000000000000000000000000000000000000000000000000090b17049000000000000000000000000000000000000000000000000000000004fc49703000000000000000000000000000000000000000000000000000000006871802700000000000000000000000000000000000000000000000000000000607649c800000000000000000000000000000000000000000000000000000000817b4394000000000000000000000000000000000000000000000000000000007c6acddf00000000000000000000000000000000000000000000000000000000e09628d700000000000000000000000000000000000000000000000000000000a45c66d300000000010000000100000000000000000001000000000000000000c40b86b500000000000000000000000000000000000000000000000000000000d45f8b52000000000000000000000000000000000000000000000000000000005504388300000000000000000000000000000000000000000000000000000000ccbd0814000000000000000000000000000000000000000000000000000000004f135814000000000000000000000000000000000000000000000000000000007638292400000000000000000000000000000000000000000000000000000000ef225c9100000000000000000000000000000000000000000000000000000000f914bd8300000000000000000000000000000000000000000000000000000000dcb8e29200000000000000000000000000000000000000000000000000000000ef63392600000000000000000000000000000000000000000000000000000000bc8ea9ed000000000000000000000000000000000000000000000000000000002bd70537000000000000000000000000000000000000010100000000010000008d3d2291000000000000000000000000000000000000000000000000000000008c7e0df7000000000000000000000000000000000000000000000000000000002a68cb5b00000000000000000000000000000000000000000000000000000000fb4de05400000000000000000000000000000000000000000000000000000000ccb79d20000000000000000000000000000000000000000000000000000000008dd722c7000000000000000000000000000000000000000000000000000000004bc400ac00000000000000000000000000000000000000000000000000000000d3e5a623000000000000000000000000000000000000000000000000000000005e70a8a000000000000000000000000000000000000000000000000000000000e232419200000000000000000000000000000000000000000000000000000000a5e44c8000000000000000000000000000000000000000000000000000000000ace3cbec00000000000000000000000000000000000000000000000000000000a59871700000000000000000000000000000000000000000000000000000000003a4274d00000000000000000000000000000000000000000000000000000000e8e81e1a00000000000000000000000000000000000000000000000000000000c7a18e51000000000000000000000000000000000000000000000000000000000b16f11100000000000000000000000000000000000000000000000000000000cc8d922f00000000000000000000000000000000000000000000000000000000ee61e25000000000000000000000000000000000000000000000000000000000ca887fce00000000000000000000000000000000000000000000000000000000fdd8f8be000000000000000000000000000000000000000000000000000000000b880036000000000000000000000000000000000000000000000000000000004c237b0e000000000000000000000000000000000000000000000000000000006238aefc00000000000000000000000000000000000000000000000000000000018ea8bf00000000000000000000000000000000000000000000000000000000b7acd4f9000000000000000000000000000000000000000000000000000000006bce2631000000000000000000000000000000000000000000000000000000000aab60440000000000000000000000000000000000000000000000000000000075c8c2fb0000000000000000000000000000000000000000000000000000000013f02037000000000000000000000000000000000000000000000000000000005e2777dd0000000000000000000000000000000000000000000000000000000025222e12000000000000000000000000000000000000000000000000000000006a97731400000000000000000000000000000000000000000000000000000000bc33497e000000000000000000000000000000000000000000000000000000008724cf5100000000000000000000000000000000000000000000000000000000bb33aeef000000000000000000000000000000000000000000000000000000001a39b4620000000000000000000000000000000000000000000000000000000069178b1500000000000000000000000000000000000000000000000000000000a12092e80000000000000000000000000000000000000000000000000000000035fabdb30000000000000000000000000000000000000000000000000000000008f0f3170000000000000000000000000000000000000000000000000000000055d36285000000000000000000000000000000000000000000000000000000004b9573fd000000000000000000000000000000000000000000000000000000003f233b3000000000000000000000000000000000000000000000000000000000618d18e800000000000000000000000000000000000000000000000000000000d45d4da6000000000000000000000000000000000000000000000000000000005ae4535900000000000000000000000000000000000000000000000000000000b1f49f6700000000000000000000000000000000000000000000000000000000ff61a8530000000000000000000000000000000000000000000000000000000050c7e8dc0000000000000000000000000000000000000000000000000000000002bdeeb000000000000000000000000000000000000000000000000000000000bcd9159400000000000000000000000000000000000000000000000000000000ca2e9b4f00000000000000000000000000000000000000000000000000000000821346930000000000000000000000000000000000000000000000000000000073ac49cb000000000000000000000000000000000000000000000000000000008467232a00000000000000000000000000000000000000000000000000000000e3602be40000000000000000000000000000000000000000000000000000000021f9aec4000000000000000000000000000000000000000000000000000000004164f90300000000000000000000000000000000000000000000000000000000387752ab000000000000000000000000000000000000000000000000000000000924911c000000000000000000000000000000000000000000000000000000001b5dce8c00000000000000000000000000000000000000000000000000000000282af94d00000000000000000000000000000000000000000000000000000000a2c4af1c000000000000000000000000000000000000000000000000000000001895a685000000000000000000000000000000000000000000000000000000008ea5a1f2000000000000000000000000000000000000000000000000000000002d30c56c00000000000000000000000000000000000000000000000000000000bb00c21b00000000000000000000000000000000000000000000000000000000d1f67a6300000000000000000000000000000000000000000000000000000000cd61b3b6000000000000000000000000000000000000000000000000000000002532aaee000000000000000000000000000000000000000000000000000000009417381100000000000000000000000000000000000000000000000000000000e35dceb100000000000000000000000000000000000000000000000000000000f8fa1b7d00000000000000000000000000000000000000000000000000000000051581400000000000000000000000000000000000000000000000000000000005349b9e0000000000000000000000000000000000000000000000000000000028730d3c000000000000000000000000000000000000000000000000000000005edb880d00000000000000000000000000000000000000000000000000000000d26a926700000000000000000000000000000000000000000000000000000000e7eaf6fc00000000000000000000000000000000000000000000000000000000a98d694c000000000000000000000000000000000000000000000000000000009865d68e0000000000000000000000000000000000000000000000000000000043af923800000000000000000000000000000000000000000000000000000000f9fe9ba100000000000000000000000000000000000000000000000000000000d56d2728000000000000000000000000000000000000000000000000000000006f3c2eb10000000000000000000000000000000000000000000000000000000003ba68f4000000000000000000000000000000000000000000000000000000001d170c5900000000000000000000000000000000000000000000000000000000a2de7127000000000000000000000000000000000000000000000000000000002a9571c9000000000000000000000000000000000000000000000000000000007b70141700000000000000000000000000000000000000000000000000000000534ba57800000000000000000000000000000000000000000000000000000000b30e12b1000000000000000000000000000000000000000000000000000000003f5a08e000000000000000000000000000000000000000000000000000000000e2f4c72c0000000000000000000000000000000000000000000000000000000005d89ab500000000000000000000000000000000000000000000000000000000d2348ab400000000000000000000000000000000000000000000000000000000001f515e00000000000000000000000000000000000000000000000000000000add072db000000000000000000000000000000000000000000000000000000004db23cb700000000000000000000000000000000000000000000000000000000d23271cc000000000000000000000000000000000000000000000000000000000beb119600000000000000000000000000000000000000000000000000000000169d85650000000000000000000000000000000000000000000000000000000080ad8212000000000000000000000000000000000000000000000000000000003afc8b8b00000000000000000000000000000000000000000000000000000000accc8cfc000000000000000000000000000000000000000000000000000000000f59e862000000000000000000000000000000000000000000000000000000009969ef15000000000000000000000000000000000000000000000000000000002338e68c00000000000000000000000000000000000000000000000000000000251dfe1c00000000000000000000000000000000000000000000000000000000f2deac64000000000000000000000000000000000000000000000000000000006f3757c500000000000000000000000000000000000000000000000000000000d5665e5c000000000000000000000000000000000000000000000000000000004356592b00000000000000000000000000000000000000000000000000000000e0c33db50000000000000000000000000000000000000000000000000000000076f33ac200000000000000000000000000000000000000000000000000000000cca2335b000000000000000000000000000000000000000000000000000000005a92342c00000000000000000000000000000000000000000000000000000000cb8f8bbc000000000000000000000000000000000000000000000000000000003d2808050000000000000000000000000000000000000000000000000000000034e484ef00000000000000000000000000000000000000000000000000000000a2d483980000000000000000000000000000000000000000000000000000000018858a01000000000000000000000000000000000000000000000000000000008eb58d76000000000000000000000000000000000000000000000000000000002d20e9e800000000000000000000000000000000000000000000000000000000bb10ee9f000000000000000000000000000000000000000000000000000000000141e70600000000000000000000000000000000000000000000000000000000286f5f42000000000000000000000000000000000000000000000000000000003bfcb77600000000000000000000000000000000000000000000000000000000adccb00100000000000000000000000000000000000000000000000000000000179db9980000000000000000000000000000000000000000000000000000000081adbeef000000000000000000000000000000000000000000000000000000002238da7100000000000000000000000000000000000000000000000000000000b408dd06000000000000000000000000000000000000000000000000000000000e59d49f000000000000000000000000000000000000000000000000000000008272abd6000000000000000000000000000000000000000000000000000000001b99fd4c00000000000000000000000000000000000000000000000000000000a1c8f4d50000000000000000000000000000000000000000000000000000000037f8f3a200000000000000000000000000000000000000000000000000000000946d973c00000000000000000000000000000000000000000000000000000000025d904b00000000000000000000000000000000000000000000000000000000b80c99d2000000000000000000000000000000000000000000000000000000008a93357f00000000000000000000000000000000000000000000000000000000495d8428000000000000000000000000000000000000000000000000000000008ef6fd2000000000000000000000000000000000000000000000000000000000b119ab6400000000000000000000000000000000000000000000000000000000448df057000000000000000000000000000000000000000000000000000000008da014240000000000000000000000000000000000000000000000000000000093955b7400000000000000000000000000000000000000000000000000000000664ba8c00000000000000000000000000000000000000000000000000000000064700bf800000000000000000000000000000000000000000000000000000000ab15b3a6000000000000000000000000000000000000000000000000000000008774bd48000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f77f0000090101010100000001000000000000000000364a5c9a000000000000000004000000a45c66d3a45c66d30000000000f77f0000364a5c9ad2b1dec00201000000a45c66d31d00000084883bbd02000000020000000000000001000000ad67dfe7020000000200000000000000010000000ff2019d020000000200000000000000010000002e18aadb02000000020000000000000001000000cedc78de0100000001000000000000000100000035103ac200000000000000000000000000000000eada2d4500000000000000000000000000000000ab18b1a100000000000000000000000000000000fce4e6d90000000000000000000000000000000042a9e08a00000000000000000000000000000000d2dce4a1000000000000000000000000000000007737e00400000000000000000000000000000000b35b370e000000000000000000000000000000009eec5d2900000000000000000000000000000000f8e39c01000000000000000000000000000000007b0dd47c00000000000000000000000000000000375b600000000000000000000000000000000000449622e400000000000000000000000000000000ea3ac3cd00000000000000000000000000000000455c7b0300000000000000000000000000000000072aa1a10000000000000000000000000000000046ba66a40000000000000000000000000000000023ac0eb800000000000000000000000000000000747623e500000000000000000000000000000000bfe0f6f400000000000000000000000000000000e246249200000000000000000000000000000000bc1df1b4000000000000000000000000000000002224984600000000000000000000000000000000713c56a8000000000000000000000000000000000000000000000000000000000000000000f77f00000000000000000000000000000000000000000000000000000000f77f00000000000000000000000000000000000000000000000000000000f77f00000000000000000000000000000000000000"
+  },
+  "user_confirmation": {
+    "quote": "任务提示正常，并保留门厅战斗后的目标",
+    "source": "User response conveyed by root"
+  },
+  "scope": "Successful second load of this specific NG+ Fisk save in MOD host mode; not a test of two-player joining, all missions, cross-computer portability, enemy synchronization, or shared saves/resources."
+}

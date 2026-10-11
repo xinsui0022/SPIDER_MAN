@@ -1,0 +1,130 @@
+{
+  "name": "哥哥安装候选包_20261006",
+  "date": "2026-10-06",
+  "status": "offline portability candidate; local solo-host NG+ checkpoint reload verified; receiver not tested",
+  "verified_local_game_version": "4.630.0.0",
+  "mod_label": "0.5.1",
+  "launcher_included": false,
+  "original_payload_files": 13,
+  "empty_connection_template_files": 1,
+  "save_included": false,
+  "entries": [
+    {
+      "path": "安装文件/winmm.dll",
+      "install_relative_path": "winmm.dll",
+      "bytes": 76288,
+      "sha256": "ec59e8537eb9c6ec144897f64ccd8a79618309dd1bb3a62b65ad70b308bcab85",
+      "source": "unchanged release file"
+    },
+    {
+      "path": "安装文件/miniupnpc.dll",
+      "install_relative_path": "miniupnpc.dll",
+      "bytes": 49152,
+      "sha256": "0c4f7ad428304a936299756483c5fdcdd0ab3200eca2d3e32ff6de4a2783d18d",
+      "source": "unchanged release file"
+    },
+    {
+      "path": "安装文件/discord-rpc.dll",
+      "install_relative_path": "discord-rpc.dll",
+      "bytes": 399880,
+      "sha256": "5cc2e504800cf4ed2f4781364f661ea22349658ddc391b5d54195e573109d87b",
+      "source": "unchanged release file"
+    },
+    {
+      "path": "安装文件/cache",
+      "install_relative_path": "cache",
+      "bytes": 6833,
+      "sha256": "7191b93ada9ee9b24ab12e13fac82aa8e6a2ca87af2d013a21a79c8fbc9101bf",
+      "source": "unchanged release file"
+    },
+    {
+      "path": "安装文件/SMT/Scripts/smt.dll",
+      "install_relative_path": "SMT/Scripts/smt.dll",
+      "bytes": 799232,
+      "sha256": "b7ab575100f2346af25180d74bf9641e24ce09bf549ce47446be09c3462606c7",
+      "source": "unchanged release file"
+    },
+    {
+      "path": "安装文件/SMT/Assets/UI",
+      "install_relative_path": "SMT/Assets/UI",
+      "bytes": 544896,
+      "sha256": "39bf1803c230b6c52430eb4a85e1f2681d181af47e3100cc8d47c83c844d977d",
+      "source": "unchanged release file"
+    },
+    {
+      "path": "安装文件/SMT/UI/Title.gfx",
+      "install_relative_path": "SMT/UI/Title.gfx",
+      "bytes": 678196,
+      "sha256": "7673bf71afc7aa095b7719f4a36a588eb1edb5d1b1ce75853786ec45527e2a08",
+      "source": "unchanged release file"
+    },
+    {
+      "path": "安装文件/SMT/UI/SystemOverlay_UIv2.gfx",
+      "install_relative_path": "SMT/UI/SystemOverlay_UIv2.gfx",
+      "bytes": 624916,
+      "sha256": "f145698f9e9e751cc980f02f1abb13ab28c2b7cf96383e8db5167f1e4ec86b74",
+      "source": "unchanged release file"
+    },
+    {
+      "path": "安装文件/SMT/UI/POIs.gfx",
+      "install_relative_path": "SMT/UI/POIs.gfx",
+      "bytes": 224897,
+      "sha256": "0f0d8435c0f6de0c3c25683a15a7213048018e13e91638633241b2888092d063",
+      "source": "unchanged release file"
+    },
+    {
+      "path": "安装文件/SMT/UI/Overlay.gfx",
+      "install_relative_path": "SMT/UI/Overlay.gfx",
+      "bytes": 454966,
+      "sha256": "b17125c3612a8e20a8a5cd4db1309df2bcb7bfb1999c172f8692035353735eaf",
+      "source": "unchanged release file"
+    },
+    {
+      "path": "安装文件/SMT/UI/HUD.gfx",
+      "install_relative_path": "SMT/UI/HUD.gfx",
+      "bytes": 83813,
+      "sha256": "de6ce2cb1d343685c20560fa67640a35cc5373d5dea1d683ca3b15c58b9f59a9",
+      "source": "unchanged release file"
+    },
+    {
+      "path": "安装文件/SMT/Preferences.json",
+      "install_relative_path": "SMT/Preferences.json",
+      "bytes": 117,
+      "sha256": "bed994b0c92eb2df7f771a3bc6d653f365e1c2c7726c1392497b18b388b53f5a",
+      "source": "unchanged release file"
+    },
+    {
+      "path": "安装文件/SMT/Multiplayer.json",
+      "install_relative_path": "SMT/Multiplayer.json",
+      "bytes": 766,
+      "sha256": "6dde12a49b7719855010ce8db9a313f21ef8687acfb6a15b96f2ac6db68dabc3",
+      "source": "unchanged release file"
+    },
+    {
+      "path": "安装文件/SMT/Connections.json",
+      "install_relative_path": "SMT/Connections.json",
+      "bytes": 43,
+      "sha256": "1b8354f44bed9ac3b7170f44cddf4dce1b7b1f1ec5ab5c4e9df9df1196a9c1c9",
+      "source": "generated empty connection template"
+    }
+  ],
+  "known_limitation": "Only one correctly original-game-initialized NG+ Fisk checkpoint recovery route was verified on the local host without a client. Receiver machine, ordinary level-1 New Game, full co-op campaign/combat, and client save/XP/resource synchronization remain unverified. No synchronization or DLL/UI patch is included.",
+  "revision": "local_NGplus_solo_host_reload_verified_native_setup_clarified",
+  "verified_launch_route": "Steam Library",
+  "verified_launch_options_literal": "nolauncher -mp",
+  "verified_launch_options_note": "The word nolauncher has no leading hyphen in the tested local Steam setting.",
+  "verified_story_scope": {
+    "local_host_without_client": true,
+    "original_game_initialized_NGplus": true,
+    "phase": "Fisk ATRIUM combat progressed to ELEVATOR_LOBBY",
+    "normal_exit_and_same_save_reload_preserved_target": true,
+    "receiver_machine_verified": false,
+    "ordinary_level_1_new_game_verified": false,
+    "client_join_story_verified": false,
+    "full_campaign_verified": false,
+    "enemy_health_sync_verified": false,
+    "client_save_XP_resource_sync_verified": false,
+    "DLL_proxy_UI_modified": false
+  },
+  "original_game_setup_note": "Prefer creating and advancing NG+ before installing the MOD. If already installed, close the game, preserve backups and Steam launch options, temporarily move only this MOD-provided winmm.dll out of the Spider-Man.exe directory, initialize and advance in the original game, close normally, then restore that proxy and prior launch settings. Removing only -mp is not proof of a fully unmodified run. Never change Windows system DLLs."
+}

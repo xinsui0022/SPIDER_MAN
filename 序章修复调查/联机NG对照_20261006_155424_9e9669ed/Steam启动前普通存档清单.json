@@ -1,0 +1,36 @@
+{
+  "76561199191371037": {
+    "files": {
+      "-userprefs.save": {
+        "size": 1460,
+        "sha256": "f988b8bb4aecd6b828328126e2ed80434bdb0910bb1ffd4879f5c061ff11f0e9"
+      },
+      "slot0-s.save": {
+        "size": 94286,
+        "sha256": "5decc6e11f1f5fd5b762138e30134aa40a9c2eb01327a5473cc7ba49c656279c"
+      },
+      "steam_autocloud.vdf": {
+        "size": 53,
+        "sha256": "d60f68325684c093672e51b31f287e8181ddbac53faff5a7dee9ae0bb03c55fe"
+      }
+    },
+    "directories": []
+  },
+  "76561199372553531": {
+    "files": {
+      "-userprefs.save": {
+        "size": 1460,
+        "sha256": "51fdd8617ea4b97218b9cb8dbedbd01312cedd0b7b90f1152e22730bde875670"
+      },
+      "slot0-s.save": {
+        "size": 94782,
+        "sha256": "0b8dcafbd883ad6f4dd98789078e344e967929d4cac3c16239b694e231ab374e"
+      },
+      "steam_autocloud.vdf": {
+        "size": 53,
+        "sha256": "3e1bbbba9e4c92f2392e6c5e97d12b73002f8ede29289d13d06f65f2e9714a6d"
+      }
+    },
+    "directories": []
+  }
+}

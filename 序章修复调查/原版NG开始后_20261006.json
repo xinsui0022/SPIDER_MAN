@@ -1,0 +1,141 @@
+{
+  "snapshot_utc": "2026-10-05T20:44:35.040633+00:00",
+  "files": [
+    {
+      "path": "C:\\Users\\xinsui\\Documents\\Marvel's Spider-Man Remastered\\76561199372553531\\slot3-s.save",
+      "size": 143006,
+      "sha256": "ec731f6162d4f5cad93f6667757f9bfdc9c31269bca900e5cbf52200fdc193a0",
+      "mtime_utc": "2026-10-05T20:43:45.860811+00:00",
+      "DAT1_version": 8,
+      "DAT1_sections": 28,
+      "matching_objects": [
+        {
+          "section_tag": "0xd436a987",
+          "file_offset": "0xa534",
+          "fields": {
+            "CurrentLightingMode": "kBlackout",
+            "CurrentCheckpointId": 6664636795607631017,
+            "CurrentCheckpoint": 648768089,
+            "PlaythroughSegmentId": 3198264795,
+            "CurrentLightingModeValid": true,
+            "CurrentLevel": 0
+          }
+        },
+        {
+          "section_tag": "0xd436a987",
+          "file_offset": "0xa5bc",
+          "fields": {
+            "LastPosition": {
+              "X": -804.8292236328125,
+              "Y": 4.3311052322387695,
+              "Z": -695.66015625
+            },
+            "PerchForward": {
+              "X": 0,
+              "Y": 0,
+              "Z": 0
+            },
+            "PerchPosition": {
+              "X": 0,
+              "Y": 0,
+              "Z": 0
+            },
+            "GamePercent": 0.0011396011104807258,
+            "ActiveMissionHash": 923129643,
+            "LocationHash": 2400438793,
+            "LastSaveTime": 2125082923,
+            "PerchUID": 0,
+            "SlotDifficulty": 3,
+            "LowestDifficultyEverSet": 3,
+            "PlayerLevel": 50,
+            "NewGamePlusUnlocked": false,
+            "NewGamePlus": true,
+            "NewGamePlusNewGame": false,
+            "TotalPlayTime": 0
+          }
+        },
+        {
+          "section_tag": "0xd436a987",
+          "file_offset": "0xc2b0",
+          "fields": {
+            "CurrentLightingMode": "kBlackout",
+            "CurrentCheckpointId": 6664636795607631017,
+            "CurrentCheckpoint": 648768089,
+            "PlaythroughSegmentId": 3198264795,
+            "CurrentLightingModeValid": true,
+            "CurrentLevel": 0
+          }
+        }
+      ],
+      "unparsed_marker_candidates": 0
+    },
+    {
+      "path": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\同档对照_20261006_040620_c7c352da\\frozen_smt_save\\slot1-s.save",
+      "size": 141502,
+      "sha256": "e88daa5f89a56e37662e82845ebccb980c4fe704dad1ee2eebccfdbdc80c8658",
+      "mtime_utc": "2026-10-05T18:48:14.250485+00:00",
+      "DAT1_version": 8,
+      "DAT1_sections": 28,
+      "matching_objects": [
+        {
+          "section_tag": "0xd436a987",
+          "file_offset": "0xa4e4",
+          "fields": {
+            "CurrentLightingMode": "kOvercast",
+            "CurrentCheckpointId": 8898936940653795004,
+            "PlaythroughSegmentId": 813151840,
+            "CurrentCheckpoint": 0,
+            "CurrentLightingModeValid": true,
+            "CurrentLevel": -1
+          }
+        },
+        {
+          "section_tag": "0xd436a987",
+          "file_offset": "0xa568",
+          "fields": {
+            "PerchPosition": {
+              "X": 941.2308959960938,
+              "Y": 23.13825225830078,
+              "Z": 1311.626708984375
+            },
+            "LastPosition": {
+              "X": 941.2308959960938,
+              "Y": 23.142047882080078,
+              "Z": 1311.5816650390625
+            },
+            "PerchForward": {
+              "X": 0,
+              "Y": 0,
+              "Z": 1
+            },
+            "PerchUID": 10755656043110036559,
+            "ActiveMissionHash": 923129643,
+            "LocationHash": 2400438793,
+            "LastSaveTime": 2125082800,
+            "SlotDifficulty": 3,
+            "LowestDifficultyEverSet": 3,
+            "PlayerLevel": 50,
+            "GamePercent": 0,
+            "NewGamePlusUnlocked": false,
+            "NewGamePlus": true,
+            "NewGamePlusNewGame": false,
+            "TotalPlayTime": 0
+          }
+        },
+        {
+          "section_tag": "0xd436a987",
+          "file_offset": "0xc268",
+          "fields": {
+            "CurrentLightingMode": "kOvercast",
+            "CurrentCheckpointId": 8898936940653795004,
+            "PlaythroughSegmentId": 813151840,
+            "CurrentCheckpoint": 0,
+            "CurrentLightingModeValid": true,
+            "CurrentLevel": -1
+          }
+        }
+      ],
+      "unparsed_marker_candidates": 0
+    }
+  ]
+}

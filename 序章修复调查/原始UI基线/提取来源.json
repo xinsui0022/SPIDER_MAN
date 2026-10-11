@@ -1,0 +1,46 @@
+{
+  "toc_sha256": "58e571cf1e54e08b18db4e8effb3f964eded1ddaa3e4feebd72f88fbbc066da1",
+  "decompressed_toc_length": 21709760,
+  "assets": [
+    {
+      "asset_path": "ui/export/HUD.gfx",
+      "asset_id": "B1555C82B1064AC1",
+      "toc_index": 164142,
+      "archive": "g00s019",
+      "offset": 359031496,
+      "size": 78667,
+      "sha256": "b230d7b810680030cf24a3265e25ed43e099183f13ad5805243ecc6722782feb",
+      "output_path": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\原始UI基线\\HUD.gfx"
+    },
+    {
+      "asset_path": "ui/export/HUD/POIs.gfx",
+      "asset_id": "879FBE68762C1EFA",
+      "toc_index": 25642,
+      "archive": "g00s019",
+      "offset": 344960830,
+      "size": 212305,
+      "sha256": "ab616976bb983502fffd9db26985e47b845d12cfab55d090fe61a30270e5aec1",
+      "output_path": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\原始UI基线\\POIs.gfx"
+    },
+    {
+      "asset_path": "ui/export/Overlay.gfx",
+      "asset_id": "946A509C1E012846",
+      "toc_index": 68175,
+      "archive": "g00s019",
+      "offset": 407156597,
+      "size": 396256,
+      "sha256": "401deb23e629567dc539de9029cdc55fb79ced7c4a48029121c34e312f231808",
+      "output_path": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\原始UI基线\\Overlay.gfx"
+    },
+    {
+      "asset_path": "ui/export/HUD/Objectives.gfx",
+      "asset_id": "A40513778BF0F364",
+      "toc_index": 119760,
+      "archive": "g00s019",
+      "offset": 556785949,
+      "size": 153799,
+      "sha256": "fe6ca65a64d2f77b16a1ef9915fa9410bbe06f21578fa0c765c5420e413b5b23",
+      "output_path": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\原始UI基线\\Objectives.gfx"
+    }
+  ]
+}

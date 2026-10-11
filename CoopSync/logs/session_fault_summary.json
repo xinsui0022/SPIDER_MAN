@@ -1,0 +1,65 @@
+{
+  "game_integration_verified": false,
+  "results": [
+    {
+      "scenario": "start_without_prepare",
+      "passed": true,
+      "exit": 1,
+      "game_operations": false
+    },
+    {
+      "scenario": "wrong_epoch_blocked",
+      "passed": true,
+      "exit": 1,
+      "game_operations": false
+    },
+    {
+      "scenario": "release_before_ended",
+      "passed": true,
+      "exit": 1,
+      "game_operations": false
+    },
+    {
+      "scenario": "wrong_session",
+      "passed": true,
+      "exit": 1,
+      "game_operations": false
+    },
+    {
+      "scenario": "sequence_gap",
+      "passed": true,
+      "exit": 1,
+      "game_operations": false
+    },
+    {
+      "scenario": "skip_before_start",
+      "passed": true,
+      "exit": 1,
+      "game_operations": false
+    },
+    {
+      "scenario": "wrong_cinematic_ready",
+      "passed": true,
+      "exit": 2,
+      "game_operations": false
+    },
+    {
+      "scenario": "guest_sends_start",
+      "passed": true,
+      "exit": 2,
+      "game_operations": false
+    },
+    {
+      "scenario": "oversized_handshake_frame",
+      "passed": true,
+      "exit": 1,
+      "game_operations": false
+    },
+    {
+      "scenario": "truncated_handshake_header",
+      "passed": true,
+      "exit": 1,
+      "game_operations": false
+    }
+  ]
+}

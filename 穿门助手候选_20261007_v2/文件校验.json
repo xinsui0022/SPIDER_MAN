@@ -1,0 +1,49 @@
+{
+  "build": "DoorStep 0.1 candidate + vertical",
+  "client_date": "2026-10-07",
+  "dll_sha256": "a56d509629c5e895cb52112d7af33340b03bb37fc72f8901b743e84afb7e7e68",
+  "offline_checks": 37,
+  "offline_failures": 0,
+  "gameplay_verified": false,
+  "supported_game_sha256": "e297d4d94f1ffe4febf289745e79e7b6fa233a788e7a00f480fc77c55db81ad1",
+  "supported_smt_sha256": "b7ab575100f2346af25180d74bf9641e24ce09bf549ce47446be09c3462606c7",
+  "default_controls": {
+    "F7": "arm/disarm",
+    "F8": "horizontal forward 2.5m",
+    "PageUp": "world Y +1m",
+    "PageDown": "world Y -1m",
+    "F9": "return to last movement origin"
+  },
+  "revision": "v2: wait for loaded player without lobby timeout",
+  "gameplay_verification_scope": "partial: host forward/return and upward only; not full gameplay or client verification",
+  "runtime_checks": {
+    "host_load_ready": {
+      "log_confirmed": true,
+      "time_local": "2026-10-07 02:12:17"
+    },
+    "host_horizontal_forward": {
+      "user_confirmed": true,
+      "log_confirmed": true,
+      "time_local": "2026-10-07 02:13:49"
+    },
+    "host_horizontal_return": {
+      "user_confirmed": true,
+      "log_confirmed": true,
+      "time_local": "2026-10-07 02:13:51"
+    },
+    "host_upward": {
+      "user_confirmed": true,
+      "log_confirmed": true,
+      "time_local": "2026-10-07 02:16:35"
+    },
+    "host_return_after_upward": {
+      "user_confirmed": true,
+      "separate_return_log_observed": false
+    },
+    "host_downward": "not tested in game",
+    "door_crossing": "not tested",
+    "client_movement": "not tested",
+    "story_progression_after_bypass": "not tested",
+    "combat_replication": "not tested"
+  }
+}

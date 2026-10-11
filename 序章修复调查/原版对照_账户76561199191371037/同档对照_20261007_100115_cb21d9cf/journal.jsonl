@@ -1,0 +1,20 @@
+{"time_utc": "2026-10-07T02:01:15.912294+00:00", "event": "freeze_intent", "source_kind": "smt", "source_path": "D:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\SMT\\Save"}
+{"time_utc": "2026-10-07T02:01:16.064202+00:00", "event": "freeze_verified"}
+{"time_utc": "2026-10-07T02:01:16.123079+00:00", "event": "native_backup_intent"}
+{"time_utc": "2026-10-07T02:01:16.130114+00:00", "event": "native_backed_up"}
+{"time_utc": "2026-10-07T02:01:16.132562+00:00", "event": "native_copy_intent"}
+{"time_utc": "2026-10-07T02:01:16.285062+00:00", "event": "native_copy_verified"}
+{"time_utc": "2026-10-07T02:01:16.297605+00:00", "event": "winmm_disable_intent"}
+{"time_utc": "2026-10-07T02:01:16.309041+00:00", "event": "winmm_disabled"}
+{"time_utc": "2026-10-07T02:01:16.351718+00:00", "event": "prepared"}
+{"time_utc": "2026-10-07T02:15:55.012830+00:00", "event": "e80_switch_begin", "run": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\原版对照_账户76561199191371037\\同档对照_20261007_100115_cb21d9cf\\e80_candidate_switch_20261007_101554_eb03c277"}
+{"time_utc": "2026-10-07T02:15:56.964424+00:00", "event": "e80_switch_complete", "run": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\原版对照_账户76561199191371037\\同档对照_20261007_100115_cb21d9cf\\e80_candidate_switch_20261007_101554_eb03c277", "native_slot3": {"sha256": "e80e50fd9758604584be33fd22c7c08e1eff82e9b9ae4f84c3f26aab8f8eee3d", "size": 142974}}
+{"time_utc": "2026-10-07T02:37:40.007598+00:00", "event": "preserve_test_intent", "destination": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\原版对照_账户76561199191371037\\同档对照_20261007_100115_cb21d9cf\\native_test_save"}
+{"time_utc": "2026-10-07T02:37:40.096377+00:00", "event": "test_preserved", "destination": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\原版对照_账户76561199191371037\\同档对照_20261007_100115_cb21d9cf\\native_test_save"}
+{"time_utc": "2026-10-07T02:37:40.100964+00:00", "event": "native_restore_intent"}
+{"time_utc": "2026-10-07T02:37:40.107825+00:00", "event": "native_restored"}
+{"time_utc": "2026-10-07T02:37:40.111768+00:00", "event": "winmm_restore_intent"}
+{"time_utc": "2026-10-07T02:37:40.118920+00:00", "event": "winmm_restored"}
+{"time_utc": "2026-10-07T02:37:40.122661+00:00", "event": "restored"}
+{"time_utc": "2026-10-07T02:37:58.620948+00:00", "event": "smt_auto69_import_begin", "run": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\原版对照_账户76561199191371037\\同档对照_20261007_100115_cb21d9cf\\smt_auto69_import_20261007_103758_73d517e2"}
+{"time_utc": "2026-10-07T02:37:59.601763+00:00", "event": "smt_auto69_import_complete", "run": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\原版对照_账户76561199191371037\\同档对照_20261007_100115_cb21d9cf\\smt_auto69_import_20261007_103758_73d517e2"}

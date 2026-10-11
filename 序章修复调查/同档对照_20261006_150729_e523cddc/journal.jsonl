@@ -1,0 +1,18 @@
+{"time_utc": "2026-10-06T07:07:29.214417+00:00", "event": "freeze_intent", "source_kind": "smt", "source_path": "D:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\SMT\\Save"}
+{"time_utc": "2026-10-06T07:07:29.344050+00:00", "event": "freeze_verified"}
+{"time_utc": "2026-10-06T07:07:29.394740+00:00", "event": "native_backup_intent"}
+{"time_utc": "2026-10-06T07:07:29.401739+00:00", "event": "native_backed_up"}
+{"time_utc": "2026-10-06T07:07:29.404739+00:00", "event": "native_copy_intent"}
+{"time_utc": "2026-10-06T07:07:29.529922+00:00", "event": "native_copy_verified"}
+{"time_utc": "2026-10-06T07:07:29.543092+00:00", "event": "winmm_disable_intent"}
+{"time_utc": "2026-10-06T07:07:29.550092+00:00", "event": "winmm_disabled"}
+{"time_utc": "2026-10-06T07:07:29.584847+00:00", "event": "prepared"}
+{"time_utc": "2026-10-06T07:07:51.415100+00:00", "event": "slot3_pre_cancel_test_override_intent", "source": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\同档对照_20261006_073225_a873a1e6\\frozen_smt_save\\slot3-s.save", "sha256": "de29a47bfd6d4925069523e9f940eb1ecac0ebb6c9adac9962e9c0f364b7a0b7", "previous_test_sha256": "9053da24e454c62be622e8f040563e23ff9010a9041d030e3a742b367f067726"}
+{"time_utc": "2026-10-06T07:07:51.454104+00:00", "event": "slot3_pre_cancel_test_override_verified", "sha256": "de29a47bfd6d4925069523e9f940eb1ecac0ebb6c9adac9962e9c0f364b7a0b7"}
+{"time_utc": "2026-10-06T07:25:12.312918+00:00", "event": "preserve_test_intent", "destination": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\同档对照_20261006_150729_e523cddc\\native_test_save"}
+{"time_utc": "2026-10-06T07:25:12.317918+00:00", "event": "test_preserved", "destination": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\同档对照_20261006_150729_e523cddc\\native_test_save"}
+{"time_utc": "2026-10-06T07:25:12.321471+00:00", "event": "native_restore_intent"}
+{"time_utc": "2026-10-06T07:25:12.326505+00:00", "event": "native_restored"}
+{"time_utc": "2026-10-06T07:25:12.328507+00:00", "event": "winmm_restore_intent"}
+{"time_utc": "2026-10-06T07:25:12.333621+00:00", "event": "winmm_restored"}
+{"time_utc": "2026-10-06T07:25:12.336635+00:00", "event": "restored"}

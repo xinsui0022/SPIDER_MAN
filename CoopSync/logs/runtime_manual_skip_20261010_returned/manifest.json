@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "utc": "2026-10-10T08:50:33.874201+00:00",
+  "seconds_requested": 300,
+  "label": "manual-skip",
+  "label_is_test_intent_only": true,
+  "mode": "read_only_observation",
+  "game_operations": false,
+  "game_launched_by_tool": false,
+  "status": "observations_recorded",
+  "child_exit_codes": {
+    "cinematic": 0,
+    "missions": 0,
+    "ui_skip": 0
+  },
+  "all_observers_ready": true,
+  "observer_pids": {
+    "missions": 25612,
+    "cinematic": 25612,
+    "ui_skip": 25612
+  }
+}

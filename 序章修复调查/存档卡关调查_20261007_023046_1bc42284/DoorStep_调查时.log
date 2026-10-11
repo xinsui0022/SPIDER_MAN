@@ -1,0 +1,32 @@
+2026-10-07 02:01:21 DoorStep 0.1 waiting for loaded local MoverStandard; no hook or warp yet
+2026-10-07 02:04:22 DoorStep 0.1 refused: player identity changed or unavailable
+2026-10-07 02:10:50 DoorStep 0.1 waiting for loaded local MoverStandard; no hook or warp yet
+2026-10-07 02:12:17 DoorStep 0.1 READY, initially DISARMED; F7 enable; F8 forward; PageUp up; PageDown down; F9 return
+2026-10-07 02:13:48 DoorStep 0.1 ARMED: F8 forward, PageUp up, PageDown down, F9 return
+2026-10-07 02:13:49 DoorStep 0.1 request queued
+2026-10-07 02:13:49 DoorStep 0.1 native short step applied
+2026-10-07 02:13:51 DoorStep 0.1 request queued
+2026-10-07 02:13:51 DoorStep 0.1 returned to last step origin
+2026-10-07 02:13:51 DoorStep 0.1 request queued
+2026-10-07 02:13:51 DoorStep 0.1 native short step applied
+2026-10-07 02:13:53 DoorStep 0.1 request queued
+2026-10-07 02:13:53 DoorStep 0.1 returned to last step origin
+2026-10-07 02:13:53 DoorStep 0.1 DISARMED
+2026-10-07 02:16:33 DoorStep 0.1 ARMED: F8 forward, PageUp up, PageDown down, F9 return
+2026-10-07 02:16:35 DoorStep 0.1 request queued
+2026-10-07 02:16:35 DoorStep 0.1 native upward step applied
+2026-10-07 02:16:36 DoorStep 0.1 request queued
+2026-10-07 02:16:36 DoorStep 0.1 native upward step applied
+2026-10-07 02:16:36 DoorStep 0.1 request queued
+2026-10-07 02:16:36 DoorStep 0.1 native upward step applied
+2026-10-07 02:16:37 DoorStep 0.1 request queued
+2026-10-07 02:16:37 DoorStep 0.1 native upward step applied
+2026-10-07 02:16:38 DoorStep 0.1 DISARMED
+2026-10-07 02:25:17 DoorStep 0.1 ARMED: F8 forward, PageUp up, PageDown down, F9 return
+2026-10-07 02:25:18 DoorStep 0.1 request queued
+2026-10-07 02:25:18 DoorStep 0.1 native short step applied
+2026-10-07 02:25:19 DoorStep 0.1 DISARMED
+2026-10-07 02:26:41 DoorStep 0.1 ARMED: F8 forward, PageUp up, PageDown down, F9 return
+2026-10-07 02:26:42 DoorStep 0.1 request queued
+2026-10-07 02:26:42 DoorStep 0.1 native short step applied
+2026-10-07 02:26:42 DoorStep 0.1 DISARMED

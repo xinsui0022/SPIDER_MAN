@@ -1,0 +1,66 @@
+{
+  "processes": [],
+  "native_restored_matches": true,
+  "smt_source_unchanged": true,
+  "binaries": {
+    "game": {
+      "path": "D:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\Spider-Man.exe",
+      "sha256": "e297d4d94f1ffe4febf289745e79e7b6fa233a788e7a00f480fc77c55db81ad1",
+      "expected": "e297d4d94f1ffe4febf289745e79e7b6fa233a788e7a00f480fc77c55db81ad1",
+      "matches": true,
+      "file_version": "4.630.0.0"
+    },
+    "mod": {
+      "path": "D:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\SMT\\Scripts\\smt.dll",
+      "sha256": "b7ab575100f2346af25180d74bf9641e24ce09bf549ce47446be09c3462606c7",
+      "expected": "b7ab575100f2346af25180d74bf9641e24ce09bf549ce47446be09c3462606c7",
+      "matches": true
+    },
+    "winmm": {
+      "path": "D:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\winmm.dll",
+      "sha256": "ec59e8537eb9c6ec144897f64ccd8a79618309dd1bb3a62b65ad70b308bcab85",
+      "expected": "ec59e8537eb9c6ec144897f64ccd8a79618309dd1bb3a62b65ad70b308bcab85",
+      "matches": true
+    }
+  },
+  "latest_slot3_sha256": "9053da24e454c62be622e8f040563e23ff9010a9041d030e3a742b367f067726",
+  "preserved_test_slot3_sha256": "1c88c230e1900c097f93902946e9ac7e71dab137a6895563336a7b309189fa55",
+  "preserved_snapshot_sha256": "1c88c230e1900c097f93902946e9ac7e71dab137a6895563336a7b309189fa55",
+  "sessions": [
+    {
+      "session": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\同档对照_20261006_025153_a895624e",
+      "original_exists": false,
+      "disabled_winmm_exists": false,
+      "last_event": "restored",
+      "restore_needed": false
+    },
+    {
+      "session": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\同档对照_20261006_035631_d831c5f6",
+      "original_exists": false,
+      "disabled_winmm_exists": false,
+      "last_event": "restored",
+      "restore_needed": false
+    },
+    {
+      "session": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\同档对照_20261006_040620_c7c352da",
+      "original_exists": false,
+      "disabled_winmm_exists": false,
+      "last_event": "restored",
+      "restore_needed": false
+    },
+    {
+      "session": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\同档对照_20261006_073225_a873a1e6",
+      "original_exists": false,
+      "disabled_winmm_exists": false,
+      "last_event": "restored",
+      "restore_needed": false
+    },
+    {
+      "session": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\同档对照_20261006_150729_e523cddc",
+      "original_exists": false,
+      "disabled_winmm_exists": false,
+      "last_event": "restored",
+      "restore_needed": false
+    }
+  ]
+}

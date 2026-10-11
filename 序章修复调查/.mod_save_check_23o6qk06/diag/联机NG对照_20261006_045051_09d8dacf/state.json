@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "helper": "mod_save_control",
+  "session_id": "20261006_045051_09d8dacf",
+  "known_hashes": {
+    "game": "4da38111d1fee9e9ad8951259cb8ce4849dfb699850067d736176710dd2d49c6",
+    "mod": "77aa34660e74d51e112c66b8d54044f70cbf7a35dd241c8748546abd12dbeb51",
+    "winmm": "1ffe161776add97105feca27417e1028739b4c2a6bc5898f067c25e2b7b9ca15"
+  },
+  "paths": {
+    "session": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\.mod_save_check_23o6qk06\\diag\\联机NG对照_20261006_045051_09d8dacf",
+    "saves": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\.mod_save_check_23o6qk06\\game\\SMT\\Save",
+    "original": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\.mod_save_check_23o6qk06\\game\\SMT\\Save.codex-original-NGtest-20261006_045051_09d8dacf",
+    "retained": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\.mod_save_check_23o6qk06\\game\\SMT\\Save.codex-result-NGtest-20261006_045051_09d8dacf",
+    "frozen": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\.mod_save_check_23o6qk06\\diag\\联机NG对照_20261006_045051_09d8dacf\\frozen_slot3-s.save",
+    "result": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\.mod_save_check_23o6qk06\\diag\\联机NG对照_20261006_045051_09d8dacf\\mod_test_result"
+  },
+  "source_path": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\.mod_save_check_23o6qk06\\diag\\同档对照_20261006_040620_c7c352da\\native_test_save\\slot3-s.save",
+  "source_sha256": "9899d431de4bcf36edc415b504d095ae6a56f55d96d2122bbcc2c4429d08ddcd",
+  "original_manifest": {
+    "files": {
+      "-userprefs.save": {
+        "size": 14,
+        "sha256": "ea3463f9cbccd6d0d3fca3d13905f88a4b694b13232a6f35145307e2ecec3b2f"
+      },
+      "slot0-s.save": {
+        "size": 14,
+        "sha256": "c1a7535d8a0890c7a4a97835a7253bfe8ac55f25e545c6a26eaa3569b3e9adc4"
+      },
+      "slot3-s.save": {
+        "size": 9,
+        "sha256": "f7bad95109875cb113b5b602624dc06f82bd71f8c5c533cb44340ebebf941879"
+      }
+    },
+    "directories": []
+  },
+  "purpose": "在 SMT 的完整测试副本中仅导入已验证原版 NG+ slot3，对照任务初始化；不覆盖原档"
+}

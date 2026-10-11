@@ -1,0 +1,11 @@
+{"time_utc": "2026-10-05T18:49:57.889498+00:00", "event": "prepared"}
+{"time_utc": "2026-10-05T18:49:57.926715+00:00", "event": "preserve_test_intent", "destination": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\.control_sandbox_20261006_024957_f893c25b\\diag\\同档对照_20261006_024957_faf725b7\\native_test_save"}
+{"time_utc": "2026-10-05T18:49:57.936730+00:00", "event": "test_preserved", "destination": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\.control_sandbox_20261006_024957_f893c25b\\diag\\同档对照_20261006_024957_faf725b7\\native_test_save"}
+{"time_utc": "2026-10-05T18:49:57.940731+00:00", "event": "native_restore_intent"}
+{"time_utc": "2026-10-05T18:49:57.949265+00:00", "event": "native_restored"}
+{"time_utc": "2026-10-05T18:49:57.954265+00:00", "event": "winmm_restore_intent"}
+{"time_utc": "2026-10-05T18:49:57.963852+00:00", "event": "winmm_restored"}
+{"time_utc": "2026-10-05T18:49:57.968852+00:00", "event": "restored"}
+{"time_utc": "2026-10-05T18:49:57.998387+00:00", "event": "restored"}
+{"event": "interrupted
+{"time_utc": "2026-10-05T18:52:09.757405+00:00", "event": "after_simulated_interruption"}

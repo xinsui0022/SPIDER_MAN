@@ -1,0 +1,1662 @@
+[
+  {
+    "rva": "0x38318d8",
+    "text": "BenchmarkFullHealthKill"
+  },
+  {
+    "rva": "0x3839dc0",
+    "text": "BossHealth"
+  },
+  {
+    "rva": "0x3840800",
+    "text": "BotStateRecoverHealth"
+  },
+  {
+    "rva": "0x38459e0",
+    "text": "BotComboConditionHealthRange"
+  },
+  {
+    "rva": "0x3845a70",
+    "text": "HealthValue"
+  },
+  {
+    "rva": "0x3845af0",
+    "text": "BotComboConditionHealthRangePrius"
+  },
+  {
+    "rva": "0x3845b18",
+    "text": "Health Range"
+  },
+  {
+    "rva": "0x3847430",
+    "text": "BotHealth"
+  },
+  {
+    "rva": "0x38474d8",
+    "text": "HealthPrius"
+  },
+  {
+    "rva": "0x38475b0",
+    "text": "BotHealthPrius"
+  },
+  {
+    "rva": "0x38475c0",
+    "text": "Health component for bots to handle dynamic difficulty"
+  },
+  {
+    "rva": "0x384b7a0",
+    "text": "BossHealthPrius"
+  },
+  {
+    "rva": "0x384b7b0",
+    "text": "Health component with phases for bosses"
+  },
+  {
+    "rva": "0x385ad30",
+    "text": "MechaHammerheadBossHealthPrius"
+  },
+  {
+    "rva": "0x385b3c8",
+    "text": "MechaHammerheadBossHealth"
+  },
+  {
+    "rva": "0x38951d8",
+    "text": "boss health"
+  },
+  {
+    "rva": "0x38951e8",
+    "text": "bossHealthManager"
+  },
+  {
+    "rva": "0x389567c",
+    "text": "health"
+  },
+  {
+    "rva": "0x3895688",
+    "text": "healthManager"
+  },
+  {
+    "rva": "0x38956e8",
+    "text": "Health HUD Shake"
+  },
+  {
+    "rva": "0x3895700",
+    "text": "Low_Health"
+  },
+  {
+    "rva": "0x3895710",
+    "text": "material//visualeffect//characters//hero//hero_damage_state_low_health_screen_01//hero_damage_state_low_health_screen_01.material"
+  },
+  {
+    "rva": "0x3895798",
+    "text": "HealthPercent"
+  },
+  {
+    "rva": "0x38957a8",
+    "text": "Health HUD Update"
+  },
+  {
+    "rva": "0x38957c0",
+    "text": "ChangeHealth"
+  },
+  {
+    "rva": "0x3898128",
+    "text": "POIHealth"
+  },
+  {
+    "rva": "0x3898138",
+    "text": "RefreshHealth"
+  },
+  {
+    "rva": "0x389f650",
+    "text": "HealthBarAction"
+  },
+  {
+    "rva": "0x389f6c0",
+    "text": "UIOverridePlayerHealthBarAction"
+  },
+  {
+    "rva": "0x389fd78",
+    "text": "UIForceHealthAction"
+  },
+  {
+    "rva": "0x38a0430",
+    "text": "HealthBarActionHandleAddHealthBar"
+  },
+  {
+    "rva": "0x38a0458",
+    "text": "HealthBarActionHandleRemoveHealthBar"
+  },
+  {
+    "rva": "0x38a0d40",
+    "text": "UIOverridePlayerHealthBarActionPrius"
+  },
+  {
+    "rva": "0x38a0d68",
+    "text": "UI Override Player Health Bar"
+  },
+  {
+    "rva": "0x38a1148",
+    "text": "UIForceHealthActionPrius"
+  },
+  {
+    "rva": "0x38a1168",
+    "text": "Force Health Bar"
+  },
+  {
+    "rva": "0x38a2800",
+    "text": "BossHealthAction"
+  },
+  {
+    "rva": "0x38a48c8",
+    "text": "ui/export/HUD/Health.gfx"
+  },
+  {
+    "rva": "0x38a68c8",
+    "text": "&HealthDropCleaner::SpawnHealthDropCleaner"
+  },
+  {
+    "rva": "0x38a6950",
+    "text": "HealthDropCleaner"
+  },
+  {
+    "rva": "0x38a69c8",
+    "text": "HealthDropScaleAction"
+  },
+  {
+    "rva": "0x38a6a40",
+    "text": "HealthDropLimiterAction"
+  },
+  {
+    "rva": "0x38a6b40",
+    "text": "HealthDropScaleActionPrius"
+  },
+  {
+    "rva": "0x38a6b60",
+    "text": "Health Drop Scale"
+  },
+  {
+    "rva": "0x38a6be8",
+    "text": "HealthDropLimiterActionPrius"
+  },
+  {
+    "rva": "0x38a6c08",
+    "text": "Health Drop Limiter"
+  },
+  {
+    "rva": "0x38a6cb8",
+    "text": "HealthDropCleanerSpawnData"
+  },
+  {
+    "rva": "0x38a6d30",
+    "text": "HealthVolleyTracker"
+  },
+  {
+    "rva": "0x38a6e88",
+    "text": "HeroHealth"
+  },
+  {
+    "rva": "0x38a6f60",
+    "text": "HeroRegenHealth"
+  },
+  {
+    "rva": "0x38a7008",
+    "text": "HeroRegenHealthPrius"
+  },
+  {
+    "rva": "0x38a7020",
+    "text": "Health component with separate critical and standard regen sections"
+  },
+  {
+    "rva": "0x38b2ab8",
+    "text": "HeroHealthManager"
+  },
+  {
+    "rva": "0x38b6ea0",
+    "text": "HeroHealthOptionsAction"
+  },
+  {
+    "rva": "0x38b8208",
+    "text": "ToggleIndoorCameraAction"
+  },
+  {
+    "rva": "0x38b8580",
+    "text": "ToggleIndoorCameraActionPrius"
+  },
+  {
+    "rva": "0x38b85a0",
+    "text": "Toggle Indoor Camera"
+  },
+  {
+    "rva": "0x38b8e00",
+    "text": "HeroHealthOptionsActionPrius"
+  },
+  {
+    "rva": "0x38b8e20",
+    "text": "Hero Health Options"
+  },
+  {
+    "rva": "0x38e23a8",
+    "text": "DoorKeypad"
+  },
+  {
+    "rva": "0x38e2428",
+    "text": "DoorKeypadPrius"
+  },
+  {
+    "rva": "0x38e75d0",
+    "text": "HealthPackDrop"
+  },
+  {
+    "rva": "0x38e75e0",
+    "text": "Health Drop Component"
+  },
+  {
+    "rva": "0x38f6700",
+    "text": "HealthNearPartnerPerk"
+  },
+  {
+    "rva": "0x38f67b8",
+    "text": "HealthOnAccurateDodgePerk"
+  },
+  {
+    "rva": "0x38f6878",
+    "text": "HealthOnFinisherPerk"
+  },
+  {
+    "rva": "0x38f6930",
+    "text": "HealthOnKillPerk"
+  },
+  {
+    "rva": "0x38f69f0",
+    "text": "HealthPerk"
+  },
+  {
+    "rva": "0x38f98f8",
+    "text": "PickupHealth"
+  },
+  {
+    "rva": "0x39122e0",
+    "text": "OpenDoor_Idle_Gunman01"
+  },
+  {
+    "rva": "0x39122f8",
+    "text": "OpenDoor_Idle_Gunman02"
+  },
+  {
+    "rva": "0x3912360",
+    "text": "OpenDoor_SurpriseTrans_Gunman01"
+  },
+  {
+    "rva": "0x3912380",
+    "text": "OpenDoor_SurpriseTrans_Gunman02"
+  },
+  {
+    "rva": "0x39123a0",
+    "text": "OpenDoor_Firing_Gunman01"
+  },
+  {
+    "rva": "0x39123c0",
+    "text": "OpenDoor_Firing_Gunman02"
+  },
+  {
+    "rva": "0x3912460",
+    "text": "Truck_Door_WebOpen_Idle"
+  },
+  {
+    "rva": "0x3912788",
+    "text": "Truck_Door_WebOpen"
+  },
+  {
+    "rva": "0x3931500",
+    "text": "OnDamagedAndHealthLow"
+  },
+  {
+    "rva": "0x3931518",
+    "text": "OnReachedHealthMedium"
+  },
+  {
+    "rva": "0x3931530",
+    "text": "OnReachedHealthLow"
+  },
+  {
+    "rva": "0x3931548",
+    "text": "OnCurrentlyBelowHealthMedium"
+  },
+  {
+    "rva": "0x3931568",
+    "text": "OnCurrentlyBelowHealthLow"
+  },
+  {
+    "rva": "0x3931588",
+    "text": "OnDealtDamageToHealthLowGuy"
+  },
+  {
+    "rva": "0x39320a0",
+    "text": "OnCarChasePlayerLowHealth"
+  },
+  {
+    "rva": "0x39365a0",
+    "text": "LowHealthCount"
+  },
+  {
+    "rva": "0x3937138",
+    "text": "kMaxHealth"
+  },
+  {
+    "rva": "0x39380f0",
+    "text": "kHUDHealth"
+  },
+  {
+    "rva": "0x393821c",
+    "text": "Health"
+  },
+  {
+    "rva": "0x3938a20",
+    "text": "kLevelUpHealth"
+  },
+  {
+    "rva": "0x394cac0",
+    "text": "BenchmarkFullHealthKillPrius"
+  },
+  {
+    "rva": "0x3957078",
+    "text": "Fractional amount of actor's max health for each phase."
+  },
+  {
+    "rva": "0x39570b0",
+    "text": "If health clamping would prevent a finisher from doing any damage, should we just not allow it from happening in the first place"
+  },
+  {
+    "rva": "0x396bdb8",
+    "text": "HealthPhaseValues"
+  },
+  {
+    "rva": "0x396c698",
+    "text": "initial hp to assign to tentacles health"
+  },
+  {
+    "rva": "0x3973d98",
+    "text": "MinHealthPercent"
+  },
+  {
+    "rva": "0x3999120",
+    "text": "Delay the OnKilled dialog event against the hero by this much. 0 means it fires right as the player's health is depleted."
+  },
+  {
+    "rva": "0x399b098",
+    "text": "MinHealth"
+  },
+  {
+    "rva": "0x399b0a8",
+    "text": "MaxHealth"
+  },
+  {
+    "rva": "0x399b198",
+    "text": "Spawn when health is between MinHealth and MaxHealth (0-1)"
+  },
+  {
+    "rva": "0x39b04a0",
+    "text": "Door_Open"
+  },
+  {
+    "rva": "0x39b29e0",
+    "text": "This actor's default display name for certain hud elements like health bars"
+  },
+  {
+    "rva": "0x39c2640",
+    "text": "POIHealthPrius"
+  },
+  {
+    "rva": "0x39c29d8",
+    "text": "POI Health"
+  },
+  {
+    "rva": "0x39c3640",
+    "text": "HealthSegments"
+  },
+  {
+    "rva": "0x39c3700",
+    "text": "Health Segments"
+  },
+  {
+    "rva": "0x39c3830",
+    "text": "HeroHealthPrius"
+  },
+  {
+    "rva": "0x39c5be0",
+    "text": "LowHealthPercent"
+  },
+  {
+    "rva": "0x39c5d30",
+    "text": "Only show this message when the hero's health is below this percentage."
+  },
+  {
+    "rva": "0x39c5e30",
+    "text": "Low Health Percent"
+  },
+  {
+    "rva": "0x39cca38",
+    "text": "HealthStageOne"
+  },
+  {
+    "rva": "0x39cca48",
+    "text": "HealthStageTwo"
+  },
+  {
+    "rva": "0x39cd910",
+    "text": "Indoors"
+  },
+  {
+    "rva": "0x39d25d8",
+    "text": "DoorLightsPrius"
+  },
+  {
+    "rva": "0x39d25e8",
+    "text": "Door Lights"
+  },
+  {
+    "rva": "0x39d97e0",
+    "text": "DoorActor"
+  },
+  {
+    "rva": "0x39d9840",
+    "text": "The slotted interact location index on the door's actor which, when used, should cause this keypad to light up."
+  },
+  {
+    "rva": "0x39db4b0",
+    "text": "HealthPackDropPrius"
+  },
+  {
+    "rva": "0x39dc730",
+    "text": "HealthDropConfig"
+  },
+  {
+    "rva": "0x39dcbc0",
+    "text": "configs\\DefaultHealthDropConfig\\DefaultHealthDropConfig.config"
+  },
+  {
+    "rva": "0x39e4438",
+    "text": "RegenHealthPerSecond"
+  },
+  {
+    "rva": "0x39e8cb0",
+    "text": "Max distance the hero can be to their partner and regen health."
+  },
+  {
+    "rva": "0x39ea320",
+    "text": "HealthPerkPrius"
+  },
+  {
+    "rva": "0x39ea878",
+    "text": "HealthOnKillPerkTest"
+  },
+  {
+    "rva": "0x39ea8d0",
+    "text": "Percentage of full health to add"
+  },
+  {
+    "rva": "0x39ea9a0",
+    "text": "HealthOnKillPerkPrius"
+  },
+  {
+    "rva": "0x39eaa18",
+    "text": "HealthOnFinisherPerkPrius"
+  },
+  {
+    "rva": "0x39eac88",
+    "text": "HealthOnAccurateDodgePerkPrius"
+  },
+  {
+    "rva": "0x39eae28",
+    "text": "HealthNearPartnerPerkPrius"
+  },
+  {
+    "rva": "0x39eb2d0",
+    "text": "Scale the values by this amount at 0 health"
+  },
+  {
+    "rva": "0x39eb300",
+    "text": "Scale the values by this amount at full health. HP is not affected if the value goes negative"
+  },
+  {
+    "rva": "0x39eba88",
+    "text": "Restore this amount of the full health"
+  },
+  {
+    "rva": "0x39ebba0",
+    "text": "AddHealth"
+  },
+  {
+    "rva": "0x39f13a8",
+    "text": "PickupHealthPrius"
+  },
+  {
+    "rva": "0x3a450f0",
+    "text": "percentage (as decimal) of shocker total health needed to trigger QTE from phase 1 to phase 2"
+  },
+  {
+    "rva": "0x3a45150",
+    "text": "percentage (as decimal) of shocker total health needed to trigger QTE from phase 2 to phase 3"
+  },
+  {
+    "rva": "0x3a47030",
+    "text": "Percent of total health that this entry should be triggered."
+  },
+  {
+    "rva": "0x3a481f0",
+    "text": "Trigger dissengage behavior after this percentage of total tentacle health is lost"
+  },
+  {
+    "rva": "0x3a493e0",
+    "text": "PctHealthToStartSupport"
+  },
+  {
+    "rva": "0x3a49a00",
+    "text": "Percent health a bot has to get down to for it to start getting supported by drone"
+  },
+  {
+    "rva": "0x3a49bf0",
+    "text": "Pct Health to Start Support"
+  },
+  {
+    "rva": "0x3a51c98",
+    "text": "RC_HealthPhaseCompleted"
+  },
+  {
+    "rva": "0x3a55f30",
+    "text": "KillableHealthThreshold"
+  },
+  {
+    "rva": "0x3a673a0",
+    "text": "Base score for remaining health of <50%."
+  },
+  {
+    "rva": "0x3a67460",
+    "text": "Health Value"
+  },
+  {
+    "rva": "0x3a6a2c8",
+    "text": "HeroHealthPct"
+  },
+  {
+    "rva": "0x3a6cc58",
+    "text": "RecoverHealthPercent"
+  },
+  {
+    "rva": "0x3a6de20",
+    "text": "EnemyHealth"
+  },
+  {
+    "rva": "0x3a6df80",
+    "text": "From 0-1, how much health the enemies ahve at this difficulty. Only used for display purposes."
+  },
+  {
+    "rva": "0x3a6e070",
+    "text": "Enemy Health"
+  },
+  {
+    "rva": "0x3a911a8",
+    "text": "ShowHealthHUD"
+  },
+  {
+    "rva": "0x3a949c0",
+    "text": "kIndoors"
+  },
+  {
+    "rva": "0x3a98498",
+    "text": "IndoorCameraOffsetMod"
+  },
+  {
+    "rva": "0x3a98d08",
+    "text": "kHorizontalIndoor"
+  },
+  {
+    "rva": "0x3a98d60",
+    "text": "kVerticalIndoor"
+  },
+  {
+    "rva": "0x3a9be78",
+    "text": "SteeringDataIndoor"
+  },
+  {
+    "rva": "0x3a9da70",
+    "text": "UniqueHealth"
+  },
+  {
+    "rva": "0x3a9e1c0",
+    "text": "Steering Data Indoor"
+  },
+  {
+    "rva": "0x3aa2a58",
+    "text": "WebZipSetupIndoor"
+  },
+  {
+    "rva": "0x3aa2a70",
+    "text": "WebZipSetupOutdoor"
+  },
+  {
+    "rva": "0x3aa5878",
+    "text": "HeroHealthSegmentSetup"
+  },
+  {
+    "rva": "0x3aa5ec8",
+    "text": "UniqueHeroHealthConfig"
+  },
+  {
+    "rva": "0x3aa6990",
+    "text": "SharedHeroHealthConfigModDef"
+  },
+  {
+    "rva": "0x3aa80f8",
+    "text": "SharedHeroHealthConfig"
+  },
+  {
+    "rva": "0x3aa8240",
+    "text": "kRunIndoors"
+  },
+  {
+    "rva": "0x3aab180",
+    "text": "ShakeLowHealth"
+  },
+  {
+    "rva": "0x3aab190",
+    "text": "ShakeCriticalHealth"
+  },
+  {
+    "rva": "0x3aab1c0",
+    "text": "OutOfCombatRegenHealthPerSecond"
+  },
+  {
+    "rva": "0x3aab218",
+    "text": "AvoidDamageRegenHealthPerSecond"
+  },
+  {
+    "rva": "0x3aab258",
+    "text": "LowHealthMaterialMaxTime"
+  },
+  {
+    "rva": "0x3aab278",
+    "text": "LowHealthMaterial"
+  },
+  {
+    "rva": "0x3aabd90",
+    "text": "How long do we need to be out of combat before we start regenerating health"
+  },
+  {
+    "rva": "0x3aabdf0",
+    "text": "How much health per second do we regain when regenerating"
+  },
+  {
+    "rva": "0x3aabe40",
+    "text": "We'll start regenerating the health bar up to this percentage level once the regen delay elapses"
+  },
+  {
+    "rva": "0x3aabec0",
+    "text": "How long do we need to go without taking damage before we start regenerating health"
+  },
+  {
+    "rva": "0x3aabf30",
+    "text": "How much health per second do we regain when regenerating in combat"
+  },
+  {
+    "rva": "0x3aabf90",
+    "text": "Maximum time we'll leave the low health material on"
+  },
+  {
+    "rva": "0x3aac570",
+    "text": "Health Segment"
+  },
+  {
+    "rva": "0x3aac5f0",
+    "text": "Health config unique to each hero"
+  },
+  {
+    "rva": "0x3aac688",
+    "text": "SharedHeroHealthConfig ConfigMods for a Variable"
+  },
+  {
+    "rva": "0x3aac730",
+    "text": "Health config shared by all heroes"
+  },
+  {
+    "rva": "0x3ab0b08",
+    "text": "IndoorData"
+  },
+  {
+    "rva": "0x3ab0b90",
+    "text": "Indoor Data"
+  },
+  {
+    "rva": "0x3ab1510",
+    "text": "HealthMidFxPercent"
+  },
+  {
+    "rva": "0x3ab1528",
+    "text": "HealthLowFxPercent"
+  },
+  {
+    "rva": "0x3ab1540",
+    "text": "HealthCriticalFxPercent"
+  },
+  {
+    "rva": "0x3ab1aa8",
+    "text": "Mid Health FX Percent"
+  },
+  {
+    "rva": "0x3ab1ac0",
+    "text": "Low Health FX Percent"
+  },
+  {
+    "rva": "0x3ab1ad8",
+    "text": "Critical Health FX Percent"
+  },
+  {
+    "rva": "0x3abe6f8",
+    "text": "InitialHealthBoost"
+  },
+  {
+    "rva": "0x3abe710",
+    "text": "TimedHealthBoost"
+  },
+  {
+    "rva": "0x3abe728",
+    "text": "TimedHealthPerSecond"
+  },
+  {
+    "rva": "0x3abe840",
+    "text": "Amount of health to grant instantly.  Will not get pro-rated based on actual amount of focus we have"
+  },
+  {
+    "rva": "0x3abe8a8",
+    "text": "How much health do we get for using a full bar of focus"
+  },
+  {
+    "rva": "0x3abe8e0",
+    "text": "How quickly we apply the TimedHealthBoost"
+  },
+  {
+    "rva": "0x3abe910",
+    "text": "Focus cost per health of HealingFactor suit mod"
+  },
+  {
+    "rva": "0x3abeb90",
+    "text": "FinisherHealthRestorePercent"
+  },
+  {
+    "rva": "0x3abeed0",
+    "text": "Amount of health restored when doing a finisher"
+  },
+  {
+    "rva": "0x3ac03b8",
+    "text": "SwingCameraConfigIndoor"
+  },
+  {
+    "rva": "0x3ac2368",
+    "text": "SwingSetupIndoor"
+  },
+  {
+    "rva": "0x3ae11a8",
+    "text": "PercentHealth"
+  },
+  {
+    "rva": "0x3ae3d30",
+    "text": "MissingHealthScale"
+  },
+  {
+    "rva": "0x3ae43f8",
+    "text": "HealthPrecentage"
+  },
+  {
+    "rva": "0x3ae4450",
+    "text": "HealthDropTier"
+  },
+  {
+    "rva": "0x3ae45d8",
+    "text": "HealthDropActor"
+  },
+  {
+    "rva": "0x3ae45e8",
+    "text": "InWorldHealthDropScale"
+  },
+  {
+    "rva": "0x3ae4698",
+    "text": "DropLockoutHealthMin"
+  },
+  {
+    "rva": "0x3ae46b0",
+    "text": "DropLockoutHealthMax"
+  },
+  {
+    "rva": "0x3ae48b0",
+    "text": "Percent of pickup health added to player health per nearby pickup on spawn chance calculation"
+  },
+  {
+    "rva": "0x3ae4910",
+    "text": "Range around potential spawn to search for other health pickups and reduce spawn chance"
+  },
+  {
+    "rva": "0x3ae4968",
+    "text": "Full lockout duration to prevent unforced health drops"
+  },
+  {
+    "rva": "0x3ae4a20",
+    "text": "Lockout range at min health"
+  },
+  {
+    "rva": "0x3ae4a40",
+    "text": "Lockout range at max health"
+  },
+  {
+    "rva": "0x3ae4a60",
+    "text": "Health percent to enforce lockout range min"
+  },
+  {
+    "rva": "0x3ae4a90",
+    "text": "Health percent to enforce lockout range max"
+  },
+  {
+    "rva": "0x3aea0a8",
+    "text": "HealthPercentOnSuccess"
+  },
+  {
+    "rva": "0x3aea6d0",
+    "text": "Fraction of current max health bar to get healed on successful completion of a crime."
+  },
+  {
+    "rva": "0x3aefa60",
+    "text": "ExcludeIndoors"
+  },
+  {
+    "rva": "0x3af4030",
+    "text": "percentage of full health that triggers Assault Mode"
+  },
+  {
+    "rva": "0x3af77f8",
+    "text": "AddHealthPercent"
+  },
+  {
+    "rva": "0x3b426b0",
+    "text": "HealthRecoveryStartEvent"
+  },
+  {
+    "rva": "0x3b428c8",
+    "text": "HealthRecoveryEndEvent"
+  },
+  {
+    "rva": "0x3b5a4e0",
+    "text": "TentacleHealth"
+  },
+  {
+    "rva": "0x3b67520",
+    "text": "AverageHealthPercent"
+  },
+  {
+    "rva": "0x3ba2920",
+    "text": "Health Percent on damaged target, after damage is applied."
+  },
+  {
+    "rva": "0x3ba29e0",
+    "text": "Health Percent"
+  },
+  {
+    "rva": "0x3bafb28",
+    "text": "Actor's health percentage"
+  },
+  {
+    "rva": "0x3bbc5af",
+    "text": "@UILevelUpHealth"
+  },
+  {
+    "rva": "0x3bbd147",
+    "text": "$UILowHealthStartEvent"
+  },
+  {
+    "rva": "0x3bbd470",
+    "text": "UILowHealthStopEvent"
+  },
+  {
+    "rva": "0x3bbd7a0",
+    "text": "UIHealthRestoreEvent"
+  },
+  {
+    "rva": "0x3bc3890",
+    "text": "UIBossHealthScanComplete"
+  },
+  {
+    "rva": "0x3bfe438",
+    "text": "CriticalHealthStartEvent"
+  },
+  {
+    "rva": "0x3bfe968",
+    "text": "CriticalHealthStopEvent"
+  },
+  {
+    "rva": "0x3bfee40",
+    "text": "LowHealthStartEvent"
+  },
+  {
+    "rva": "0x3bff2f0",
+    "text": "LowHealthStopEvent"
+  },
+  {
+    "rva": "0x3bff820",
+    "text": "MidHealthStartEvent"
+  },
+  {
+    "rva": "0x3bffc9f",
+    "text": "@MidHealthStopEvent"
+  },
+  {
+    "rva": "0x3c396f0",
+    "text": "DoorKeypadSwipedEvent"
+  },
+  {
+    "rva": "0x3c39708",
+    "text": "DoorKeypadResetEvent"
+  },
+  {
+    "rva": "0x3caa210",
+    "text": "Breakable health to show"
+  },
+  {
+    "rva": "0x3caa708",
+    "text": "Health value to show on health bar"
+  },
+  {
+    "rva": "0x3cab890",
+    "text": "HealthBarActionPrius"
+  },
+  {
+    "rva": "0x3cabd68",
+    "text": "Health Bar"
+  },
+  {
+    "rva": "0x3cae490",
+    "text": "BossHealthActionPrius"
+  },
+  {
+    "rva": "0x3cb0248",
+    "text": "The actor(s) that will have a Boss Health bar over them."
+  },
+  {
+    "rva": "0x3cb1e68",
+    "text": "Boss Health"
+  },
+  {
+    "rva": "0x3cb9780",
+    "text": "Enable the 1hp health backstop (on by default)"
+  },
+  {
+    "rva": "0x3cb97b0",
+    "text": "Disable the 1hp health backstop (on by default)"
+  },
+  {
+    "rva": "0x3cdb8a0",
+    "text": "SetDoorYankStateOn"
+  },
+  {
+    "rva": "0x3cdb8b8",
+    "text": "SetDoorYankStateOff"
+  },
+  {
+    "rva": "0x3ce2050",
+    "text": "kHealth"
+  },
+  {
+    "rva": "0x3ce28e8",
+    "text": "kHealthAlive"
+  },
+  {
+    "rva": "0x3ce28f8",
+    "text": "kHealthDead"
+  },
+  {
+    "rva": "0x3ce2bb0",
+    "text": "kInteractTypeGondolaDoor"
+  },
+  {
+    "rva": "0x3ce2bd0",
+    "text": "kInteractTypeDoorPry2P"
+  },
+  {
+    "rva": "0x3ce2be8",
+    "text": "kInteractTypeDoorKick2P"
+  },
+  {
+    "rva": "0x3ce2c00",
+    "text": "kInteractTypeDoorLift4P"
+  },
+  {
+    "rva": "0x3ce2c18",
+    "text": "kInteractTypeDoorUnder4P"
+  },
+  {
+    "rva": "0x3ce2c50",
+    "text": "kInteractTypeDoorPry4P"
+  },
+  {
+    "rva": "0x3ce2dc8",
+    "text": "kInteractTypeVaultDoor"
+  },
+  {
+    "rva": "0x3ce2de0",
+    "text": "kInteractTypeKeypadDoor"
+  },
+  {
+    "rva": "0x3ce2e18",
+    "text": "kInteractTypeFeastDoor"
+  },
+  {
+    "rva": "0x3ce2e30",
+    "text": "kInteractTypeOttoDoorExt"
+  },
+  {
+    "rva": "0x3ce2e50",
+    "text": "kInteractTypeOttoDoorInt"
+  },
+  {
+    "rva": "0x3ce3188",
+    "text": "kHealthFull"
+  },
+  {
+    "rva": "0x3ce3198",
+    "text": "kHealthWounded1"
+  },
+  {
+    "rva": "0x3ce31a8",
+    "text": "kHealthWounded2"
+  },
+  {
+    "rva": "0x3ce31b8",
+    "text": "kHealthWounded3"
+  },
+  {
+    "rva": "0x3ce45a8",
+    "text": "HealthPackSpawnData"
+  },
+  {
+    "rva": "0x3d19430",
+    "text": "Indoor"
+  },
+  {
+    "rva": "0x4e5d460",
+    "text": "UpdateIndoorVolumeJob"
+  },
+  {
+    "rva": "0x4e5d478",
+    "text": "UpdateIndoorModelJob"
+  },
+  {
+    "rva": "0x4ea0ce8",
+    "text": "IndoorVolumeManager"
+  },
+  {
+    "rva": "0x4ec3018",
+    "text": "kIndoor"
+  },
+  {
+    "rva": "0x4ec3050",
+    "text": "kFullyIndoor"
+  },
+  {
+    "rva": "0x4ec30a0",
+    "text": "kIndoorWindow"
+  },
+  {
+    "rva": "0x4ec3230",
+    "text": "Fully Indoor"
+  },
+  {
+    "rva": "0x4ec3270",
+    "text": "Indoor Window"
+  },
+  {
+    "rva": "0x4ec3538",
+    "text": "FullyIndoor"
+  },
+  {
+    "rva": "0x4ec3548",
+    "text": "IndoorWindow"
+  },
+  {
+    "rva": "0x4ec3927",
+    "text": "g. Any models that are all or mostly inside an Indoor volume will not cast shadows, and instead the volume itself will render as a (much cheaper) shadow caster."
+  },
+  {
+    "rva": "0x4ec39d0",
+    "text": "Optimization for keylight shadow casting. When the camera is inside a FullyIndoor volume, the keylight and its csm shadows are fully disabled."
+  },
+  {
+    "rva": "0x4ec3a6c",
+    "text": " an area where the keylight can enter a kIndoor volume. Any model that intersects the region of light coming through this window will not be flagged as indoors."
+  },
+  {
+    "rva": "0x4ec4448",
+    "text": "Indoor - Lighting"
+  },
+  {
+    "rva": "0x4ec4460",
+    "text": "Fully Indoor - Lighting"
+  },
+  {
+    "rva": "0x4f490d8",
+    "text": "HealthBasedAnim"
+  },
+  {
+    "rva": "0x4f50058",
+    "text": "BreakableHealth"
+  },
+  {
+    "rva": "0x4f56e38",
+    "text": "ShieldWithHealth"
+  },
+  {
+    "rva": "0x4f5ee00",
+    "text": "DamageModifierConditionHealthThreshhold"
+  },
+  {
+    "rva": "0x4f5f210",
+    "text": "DamageModifierConditionHealthThreshholdPrius"
+  },
+  {
+    "rva": "0x4f657f0",
+    "text": "Health DamagePackets"
+  },
+  {
+    "rva": "0x4f65880",
+    "text": "HealthDebugSystem"
+  },
+  {
+    "rva": "0x4f66bb0",
+    "text": "SegmentedHealth"
+  },
+  {
+    "rva": "0x4f67710",
+    "text": "Door"
+  },
+  {
+    "rva": "0x4f67850",
+    "text": "DoorAnimated"
+  },
+  {
+    "rva": "0x4f678b8",
+    "text": "DoorLockStatusMaterialOverride"
+  },
+  {
+    "rva": "0x4f67a40",
+    "text": "DoorOffer"
+  },
+  {
+    "rva": "0x4f67a50",
+    "text": "Unlock Door With Key (LOC)"
+  },
+  {
+    "rva": "0x4f67a70",
+    "text": "Door Locked (LOC)"
+  },
+  {
+    "rva": "0x4f67a88",
+    "text": "Open Door (LOC)"
+  },
+  {
+    "rva": "0x4f67a98",
+    "text": "Close Door (LOC)"
+  },
+  {
+    "rva": "0x4f67b10",
+    "text": "DoorScriptAction"
+  },
+  {
+    "rva": "0x4f67b98",
+    "text": "DoorScriptActionPrius"
+  },
+  {
+    "rva": "0x4f67c40",
+    "text": "DoorSlide"
+  },
+  {
+    "rva": "0x4f6d458",
+    "text": "MaterialConstantHealthControlled"
+  },
+  {
+    "rva": "0x4f79550",
+    "text": "A component that handles frequent save states for common components (doors, breakables) and event driven states (enabled, activated) and restores it on load."
+  },
+  {
+    "rva": "0x4f8b5f8",
+    "text": "TriggerResponderDoor"
+  },
+  {
+    "rva": "0x4fa2070",
+    "text": "HealthBasedAnimPrius"
+  },
+  {
+    "rva": "0x4fa3c68",
+    "text": "HealthFlags"
+  },
+  {
+    "rva": "0x4faf348",
+    "text": "Damaged at health"
+  },
+  {
+    "rva": "0x4fb0e30",
+    "text": "BrokenAtHealth"
+  },
+  {
+    "rva": "0x4fb1560",
+    "text": "Trigger at this health or less"
+  },
+  {
+    "rva": "0x4fb2460",
+    "text": "Set to negative on objects that manage their own health."
+  },
+  {
+    "rva": "0x4fb24a0",
+    "text": "Does not get damaged based on health.  Must be damaged manually"
+  },
+  {
+    "rva": "0x4fb2c28",
+    "text": "Delete this object after it's health reaches zero."
+  },
+  {
+    "rva": "0x4fb2fb8",
+    "text": "Max Health"
+  },
+  {
+    "rva": "0x4fbd578",
+    "text": "HealthThreshold"
+  },
+  {
+    "rva": "0x4fbd610",
+    "text": "When health is at or below this value, do chunking. Value is in range [0.0, 1.0] by default."
+  },
+  {
+    "rva": "0x4fbd7c0",
+    "text": "If true, HealthThreshold in ValueData is a hit point value."
+  },
+  {
+    "rva": "0x4fc3ba0",
+    "text": "ShieldWithHealthPrius"
+  },
+  {
+    "rva": "0x4fc3bf8",
+    "text": "ShieldHealth"
+  },
+  {
+    "rva": "0x4fc3cb8",
+    "text": "Initital health the shield starts with"
+  },
+  {
+    "rva": "0x4fd5ff8",
+    "text": "SegmentedHealthPrius"
+  },
+  {
+    "rva": "0x4fd60a8",
+    "text": "ArmoredHealthPrius"
+  },
+  {
+    "rva": "0x4fd60c0",
+    "text": "Health component with armor."
+  },
+  {
+    "rva": "0x4fd6b50",
+    "text": "Fractions of health, eg. 0.5 for <= 50% of max health remaining"
+  },
+  {
+    "rva": "0x4fd6bb0",
+    "text": "SegmentedHealthSegment"
+  },
+  {
+    "rva": "0x4fd6c60",
+    "text": "Definition of a single segment of health"
+  },
+  {
+    "rva": "0x4fd6d30",
+    "text": "Health component with additional segment and regen functionality."
+  },
+  {
+    "rva": "0x4fd7650",
+    "text": "AutoDoorTrigger"
+  },
+  {
+    "rva": "0x4fd7678",
+    "text": "DoorOfferPrius"
+  },
+  {
+    "rva": "0x4fd7688",
+    "text": "DoorPrius"
+  },
+  {
+    "rva": "0x4fd7698",
+    "text": "DoorSlidePrius"
+  },
+  {
+    "rva": "0x4fd76a8",
+    "text": "DoorAnimatedPrius"
+  },
+  {
+    "rva": "0x4fd76c0",
+    "text": "DoorLockStatusMaterialOverridePrius"
+  },
+  {
+    "rva": "0x4fd7fe0",
+    "text": "The localization tag for the text to show when the door can be opened."
+  },
+  {
+    "rva": "0x4fd8030",
+    "text": "The localization tag for the text to show when the door can be closed."
+  },
+  {
+    "rva": "0x4fd8080",
+    "text": "The localization tag for the text to show when the door is locked."
+  },
+  {
+    "rva": "0x4fd80d0",
+    "text": "The localization tag for the text to show when the door can be unlocked with a key."
+  },
+  {
+    "rva": "0x4fd8498",
+    "text": "CreateDoorOffer"
+  },
+  {
+    "rva": "0x4fd8668",
+    "text": "Optional.  Only unlock the door if this region is loaded."
+  },
+  {
+    "rva": "0x4fd8780",
+    "text": "Create Door Offer"
+  },
+  {
+    "rva": "0x4fd8e20",
+    "text": "If checked, this component will run the open anim in reverse to close the door, ignoring the specified close anim"
+  },
+  {
+    "rva": "0x4fd8ef0",
+    "text": "If using directional checks, the animation to play when the door is approached from reverse"
+  },
+  {
+    "rva": "0x4fd8f50",
+    "text": "If using directional checks, the animation to play when the door closes after reverse opening"
+  },
+  {
+    "rva": "0x4fd9140",
+    "text": "Door Trigger"
+  },
+  {
+    "rva": "0x4fd9310",
+    "text": "Slide Door"
+  },
+  {
+    "rva": "0x4fd9390",
+    "text": "Animated Door"
+  },
+  {
+    "rva": "0x4fd9410",
+    "text": "Door_OpenIdle"
+  },
+  {
+    "rva": "0x4fd9420",
+    "text": "Door_Close"
+  },
+  {
+    "rva": "0x4fd9430",
+    "text": "Door_CloseIdle"
+  },
+  {
+    "rva": "0x4fe2c40",
+    "text": "HealthAmount"
+  },
+  {
+    "rva": "0x4fe2ce0",
+    "text": "When health is above or equal to this value, use ConstantValue. HealthAmount is in range [0.0, 1.0] unless UseHitPoints is true."
+  },
+  {
+    "rva": "0x4fe2f48",
+    "text": "If true, HealthAmount in ValueData is a hit point value."
+  },
+  {
+    "rva": "0x4fe3ab0",
+    "text": "MaterialConstantHealthControlledValueData"
+  },
+  {
+    "rva": "0x4fe3b40",
+    "text": "MaterialConstantHealthControlledPrius"
+  },
+  {
+    "rva": "0x4ffb498",
+    "text": "TriggerResponderDoorPrius"
+  },
+  {
+    "rva": "0x4ffcb10",
+    "text": "Controls a Door."
+  },
+  {
+    "rva": "0x5035590",
+    "text": "ShieldWithHealthActivatedEvent"
+  },
+  {
+    "rva": "0x50355b0",
+    "text": "ShieldWithHealthDestoryedEvent"
+  },
+  {
+    "rva": "0x50355d0",
+    "text": "ShieldWithHealthDamageEvent"
+  },
+  {
+    "rva": "0x503b1f0",
+    "text": "This is the actual amount of damage that was dealt to the health component."
+  },
+  {
+    "rva": "0x503ba48",
+    "text": "NewHealthValue"
+  },
+  {
+    "rva": "0x50461e0",
+    "text": "HealthChangedEvent"
+  },
+  {
+    "rva": "0x50469d0",
+    "text": "HealthRestoredEvent"
+  },
+  {
+    "rva": "0x506c338",
+    "text": "DisplayHealthValuesOn"
+  },
+  {
+    "rva": "0x506c350",
+    "text": "DisplayHealthValuesOff"
+  },
+  {
+    "rva": "0x506c368",
+    "text": "DisplayHeroHealthBarOn"
+  },
+  {
+    "rva": "0x506c380",
+    "text": "DisplayHeroHealthBarOff"
+  },
+  {
+    "rva": "0x506c3b7",
+    "text": "$DisplayEnemyHealthBarsOn"
+  },
+  {
+    "rva": "0x506c430",
+    "text": "DisplayEnemyHealthBarsOff"
+  },
+  {
+    "rva": "0x50abef0",
+    "text": "Only trigger if damage reduces health to below this percentage value (0-1)."
+  },
+  {
+    "rva": "0x50ac240",
+    "text": "If set, Amount will be interpreted as a % of the target's max health (0-100)."
+  },
+  {
+    "rva": "0x50acce8",
+    "text": "Current health, as a fraction of max, 0 to 1"
+  },
+  {
+    "rva": "0x50acd18",
+    "text": "Current health"
+  },
+  {
+    "rva": "0x50acd28",
+    "text": "Max health"
+  },
+  {
+    "rva": "0x50b9ba0",
+    "text": "If unchecked, Actors with zero health become treated as 'outside'."
+  },
+  {
+    "rva": "0x50caf68",
+    "text": "HealthSettings"
+  },
+  {
+    "rva": "0x50cb000",
+    "text": "DisplayHealthValues"
+  },
+  {
+    "rva": "0x50cb018",
+    "text": "DisplayHeroHealthBar"
+  },
+  {
+    "rva": "0x50cb030",
+    "text": "DisplayEnemyHealthBars"
+  },
+  {
+    "rva": "0x50cb048",
+    "text": "DebugHealthDrops"
+  },
+  {
+    "rva": "0x50cb1c8",
+    "text": "Health values are drawn on screen."
+  },
+  {
+    "rva": "0x50cb1f0",
+    "text": "Hero health bar is drawn on screen."
+  },
+  {
+    "rva": "0x50cb218",
+    "text": "Enemy health bars are drawn on screen."
+  },
+  {
+    "rva": "0x50cb240",
+    "text": "Print debug information about health drops."
+  },
+  {
+    "rva": "0x50cb368",
+    "text": "Draw Health Values"
+  },
+  {
+    "rva": "0x50cb380",
+    "text": "Draw Hero Health Bar"
+  },
+  {
+    "rva": "0x50cb398",
+    "text": "Draw Enemy Health Bars"
+  },
+  {
+    "rva": "0x50cb3b0",
+    "text": "Debug Health Drops"
+  },
+  {
+    "rva": "0x50d1120",
+    "text": "Maximum percent of health that can be lost over the Interval"
+  },
+  {
+    "rva": "0x50d22a8",
+    "text": "CompareTotalHealth"
+  },
+  {
+    "rva": "0x50d22d8",
+    "text": "TestDamagerHealth"
+  },
+  {
+    "rva": "0x50e2030",
+    "text": "The amount of health each hit restores."
+  },
+  {
+    "rva": "0x51120c0",
+    "text": "HealthOutputPlugSignal"
+  },
+  {
+    "rva": "0x51121d0",
+    "text": "HealthNodeDef"
+  },
+  {
+    "rva": "0x5112458",
+    "text": "HealthPercentage"
+  },
+  {
+    "rva": "0x5112b40",
+    "text": "HealthNode"
+  },
+  {
+    "rva": "0x51417d8",
+    "text": "kTriggerHealthEvents"
+  },
+  {
+    "rva": "0x5141930",
+    "text": "HealthAfter"
+  },
+  {
+    "rva": "0x5141940",
+    "text": "HealthBefore"
+  },
+  {
+    "rva": "0x514e250",
+    "text": "ReverseIndoorStatus"
+  },
+  {
+    "rva": "0x514ede8",
+    "text": "Flip Indoor Status"
+  },
+  {
+    "rva": "0x5190d88",
+    "text": "kPoliceBreakDoor"
+  },
+  {
+    "rva": "0x5190f48",
+    "text": "kSableDoorKnock"
+  },
+  {
+    "rva": "0x5191020",
+    "text": "kSableDoorKnock2"
+  },
+  {
+    "rva": "0x5191090",
+    "text": "kPoliceDoorKnockMaggia"
+  },
+  {
+    "rva": "0x5191198",
+    "text": "kSWATDoorKnock"
+  },
+  {
+    "rva": "0x51911e0",
+    "text": "Police Breaking Down Door"
+  },
+  {
+    "rva": "0x51913c0",
+    "text": "Sable Door Knock"
+  },
+  {
+    "rva": "0x51914f8",
+    "text": "Sable Door Knock2"
+  },
+  {
+    "rva": "0x5191580",
+    "text": "Police Door Knock Maggia"
+  },
+  {
+    "rva": "0x5191698",
+    "text": "SWAT Door Knock"
+  },
+  {
+    "rva": "0x51916c8",
+    "text": "Police Break Door"
+  },
+  {
+    "rva": "0x51949d8",
+    "text": "kDoorman"
+  }
+]

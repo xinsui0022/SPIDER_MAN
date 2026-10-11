@@ -1,0 +1,5 @@
+{"record_type":"runtime_lifecycle","event":"starting","pid":3564,"monotonic_ms":1226968,"error_code":0,"sample_count":0,"mode":"read_only_diagnostic","game_operations":false,"scene_ready_verified":false,"world_sync_verified":false,"verified_callable_interfaces":[]}
+{"record_type":"offline_fake_session","game_operations":false}
+{"record_type":"offline_fake_snapshot","game_operations":false}
+{"record_type":"offline_fake_snapshot","game_operations":false}
+{"record_type":"runtime_lifecycle","event":"ended","pid":3564,"monotonic_ms":1227031,"error_code":0,"sample_count":2,"mode":"read_only_diagnostic","game_operations":false,"scene_ready_verified":false,"world_sync_verified":false,"verified_callable_interfaces":[]}

@@ -1,0 +1,73 @@
+{
+  "snapshot_utc": "2026-10-05T20:42:41.256460+00:00",
+  "files": [
+    {
+      "path": "C:\\Users\\xinsui\\Documents\\Marvel's Spider-Man Remastered\\76561199372553531\\slot3-s.save",
+      "size": 116420,
+      "sha256": "475be484cfd1e52a772335d963cbd37f072f8d190b10fcf6ca44350bfb66b4c8",
+      "mtime_utc": "2026-10-05T20:42:14.508601+00:00",
+      "DAT1_version": 8,
+      "DAT1_sections": 28,
+      "matching_objects": [
+        {
+          "section_tag": "0xd436a987",
+          "file_offset": "0xf9b4",
+          "fields": {
+            "CurrentLightingMode": "kOvercast",
+            "CurrentCheckpointId": 8898936940653795004,
+            "PlaythroughSegmentId": 813151840,
+            "CurrentCheckpoint": 0,
+            "CurrentLightingModeValid": true,
+            "CurrentLevel": -1
+          }
+        },
+        {
+          "section_tag": "0xd436a987",
+          "file_offset": "0xfa38",
+          "fields": {
+            "LastPosition": {
+              "X": -804.8292236328125,
+              "Y": 4.3311052322387695,
+              "Z": -695.66015625
+            },
+            "PerchForward": {
+              "X": 0,
+              "Y": 0,
+              "Z": 0
+            },
+            "PerchPosition": {
+              "X": 0,
+              "Y": 0,
+              "Z": 0
+            },
+            "LocationHash": 3329886630,
+            "LastSaveTime": 2125082922,
+            "TotalPlayTime": 0,
+            "PerchUID": 0,
+            "SlotDifficulty": 4,
+            "LowestDifficultyEverSet": 1,
+            "PlayerLevel": 50,
+            "GamePercent": 0,
+            "ActiveMissionHash": 0,
+            "NewGamePlusUnlocked": false,
+            "NewGamePlus": true,
+            "NewGamePlusNewGame": true
+          }
+        },
+        {
+          "section_tag": "0xd436a987",
+          "file_offset": "0x11728",
+          "fields": {
+            "CurrentLightingMode": "kOvercast",
+            "CurrentCheckpointId": 8898936940653795004,
+            "PlaythroughSegmentId": 813151840,
+            "CurrentCheckpoint": 0,
+            "CurrentLightingModeValid": true,
+            "CurrentLevel": -1
+          }
+        }
+      ],
+      "unparsed_marker_candidates": 0
+    }
+  ]
+}

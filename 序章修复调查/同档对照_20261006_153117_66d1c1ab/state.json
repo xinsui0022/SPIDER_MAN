@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "session_id": "20261006_153117_66d1c1ab",
+  "known_hashes": {
+    "game": "e297d4d94f1ffe4febf289745e79e7b6fa233a788e7a00f480fc77c55db81ad1",
+    "mod": "b7ab575100f2346af25180d74bf9641e24ce09bf549ce47446be09c3462606c7",
+    "winmm": "ec59e8537eb9c6ec144897f64ccd8a79618309dd1bb3a62b65ad70b308bcab85"
+  },
+  "paths": {
+    "session": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\同档对照_20261006_153117_66d1c1ab",
+    "native": "C:\\Users\\xinsui\\Documents\\Marvel's Spider-Man Remastered\\76561199372553531",
+    "original": "C:\\Users\\xinsui\\Documents\\Marvel's Spider-Man Remastered\\76561199372553531.codex-original-20261006_153117_66d1c1ab",
+    "disabled": "D:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\winmm.dll.codex-disabled-20261006_153117_66d1c1ab",
+    "freeze": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\同档对照_20261006_153117_66d1c1ab\\frozen_native_save"
+  },
+  "source_kind": "native",
+  "source_path": "C:\\Users\\xinsui\\Documents\\Marvel's Spider-Man Remastered\\76561199372553531",
+  "source_manifest": {
+    "files": {
+      "-userprefs.save": {
+        "size": 1460,
+        "sha256": "51fdd8617ea4b97218b9cb8dbedbd01312cedd0b7b90f1152e22730bde875670"
+      },
+      "slot0-s.save": {
+        "size": 94782,
+        "sha256": "0b8dcafbd883ad6f4dd98789078e344e967929d4cac3c16239b694e231ab374e"
+      },
+      "steam_autocloud.vdf": {
+        "size": 53,
+        "sha256": "3e1bbbba9e4c92f2392e6c5e97d12b73002f8ede29289d13d06f65f2e9714a6d"
+      }
+    },
+    "directories": []
+  },
+  "native_original_manifest": {
+    "files": {
+      "-userprefs.save": {
+        "size": 1460,
+        "sha256": "51fdd8617ea4b97218b9cb8dbedbd01312cedd0b7b90f1152e22730bde875670"
+      },
+      "slot0-s.save": {
+        "size": 94782,
+        "sha256": "0b8dcafbd883ad6f4dd98789078e344e967929d4cac3c16239b694e231ab374e"
+      },
+      "steam_autocloud.vdf": {
+        "size": 53,
+        "sha256": "3e1bbbba9e4c92f2392e6c5e97d12b73002f8ede29289d13d06f65f2e9714a6d"
+      }
+    },
+    "directories": []
+  },
+  "purpose": "用普通存档副本完全关闭 MOD 做单人对照；不导入 SMT 存档，原件完整保留"
+}

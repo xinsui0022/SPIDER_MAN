@@ -1,0 +1,4649 @@
+[
+  {
+    "instruction_rva": "0x2db0d9",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 a2 29 2c 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x2db0c0",
+      "end_rva": "0x2db11f",
+      "unwind_rva": "0x578599c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x2de6a6",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 d5 f3 2b 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x2de650",
+      "end_rva": "0x2de6e5",
+      "unwind_rva": "0x57866ac",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x2de876",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 05 f2 2b 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x2de830",
+      "end_rva": "0x2de8b0",
+      "unwind_rva": "0x5786718",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x2de8d9",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 a2 f1 2b 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x2de8b0",
+      "end_rva": "0x2de998",
+      "unwind_rva": "0x57866bc",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x2f615f",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 1c 79 2a 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x2f6080",
+      "end_rva": "0x2f618d",
+      "unwind_rva": "0x578a524",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x2f8726",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 55 53 2a 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x2f8710",
+      "end_rva": "0x2f8a4d",
+      "unwind_rva": "0x578aef0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x2fef1e",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 bd c9 c7 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x2feec6",
+      "end_rva": "0x2fef4e",
+      "unwind_rva": "0x578b21c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x301b5e",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 1d bf 29 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x301b40",
+      "end_rva": "0x301b7e",
+      "unwind_rva": "0x578be50",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x301ba3",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 d8 be 29 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x301b9e",
+      "end_rva": "0x301bd5",
+      "unwind_rva": "0x578be2c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x301eb4",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 c7 bb 29 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x301e90",
+      "end_rva": "0x301ed1",
+      "unwind_rva": "0x578be58",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x312802",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 d9 90 c6 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x312760",
+      "end_rva": "0x31286a",
+      "unwind_rva": "0x578da88",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x31282d",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 ae 90 c6 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x312760",
+      "end_rva": "0x31286a",
+      "unwind_rva": "0x578da88",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x3129ec",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 ef 8e c6 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x312950",
+      "end_rva": "0x312a04",
+      "unwind_rva": "0x578da40",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x333851",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 2a a2 26 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x3337e0",
+      "end_rva": "0x3339b6",
+      "unwind_rva": "0x5793478",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x333886",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 f5 a1 26 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x3337e0",
+      "end_rva": "0x3339b6",
+      "unwind_rva": "0x5793478",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x3338bb",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 c0 a1 26 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x3337e0",
+      "end_rva": "0x3339b6",
+      "unwind_rva": "0x5793478",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x33b36e",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 6d 05 c4 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x33b2e0",
+      "end_rva": "0x33b395",
+      "unwind_rva": "0x5794b50",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x350802",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 d9 b0 c2 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x350790",
+      "end_rva": "0x3508b5",
+      "unwind_rva": "0x5797f34",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x350d0c",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 cf ab c2 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x350c93",
+      "end_rva": "0x350dbc",
+      "unwind_rva": "0x5797da4",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x356290",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 4b 56 c2 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x356100",
+      "end_rva": "0x3566c9",
+      "unwind_rva": "0x57988f0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x3565ab",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 30 53 c2 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x356100",
+      "end_rva": "0x3566c9",
+      "unwind_rva": "0x57988f0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x3565d9",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 02 53 c2 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x356100",
+      "end_rva": "0x3566c9",
+      "unwind_rva": "0x57988f0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x35a9f0",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 eb 0e c2 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x35a860",
+      "end_rva": "0x35aa99",
+      "unwind_rva": "0x5799100",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x36fdfa",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 e1 ba c0 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x36fd60",
+      "end_rva": "0x36fe65",
+      "unwind_rva": "0x579bff8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x36ff29",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 b2 b9 c0 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x36fe70",
+      "end_rva": "0x36ffa4",
+      "unwind_rva": "0x579bfe4",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x37a61e",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 bd 12 c0 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x37a5a0",
+      "end_rva": "0x37a84c",
+      "unwind_rva": "0x579db10",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x37d901",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 da df bf 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x37d8d1",
+      "end_rva": "0x37da80",
+      "unwind_rva": "0x579d4dc",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x37da0c",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 cf de bf 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x37d8d1",
+      "end_rva": "0x37da80",
+      "unwind_rva": "0x579d4dc",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x37f598",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 43 c3 bf 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x37f48f",
+      "end_rva": "0x37f640",
+      "unwind_rva": "0x579d524",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x37f7fe",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 dd c0 bf 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x37f6e0",
+      "end_rva": "0x37f8f6",
+      "unwind_rva": "0x579dae8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x380d40",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 9b ab bf 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x37f900",
+      "end_rva": "0x381288",
+      "unwind_rva": "0x579d5b4",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x381ea7",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 34 9a bf 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x381db5",
+      "end_rva": "0x381f86",
+      "unwind_rva": "0x579da88",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x38422d",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 ae 76 bf 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x384190",
+      "end_rva": "0x384350",
+      "unwind_rva": "0x579d2e4",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x385058",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 83 68 bf 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x384fb6",
+      "end_rva": "0x385089",
+      "unwind_rva": "0x579dbe0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x3852e5",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 f6 65 bf 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x385180",
+      "end_rva": "0x3853a0",
+      "unwind_rva": "0x579dbb0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x3855eb",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 f0 62 bf 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x385509",
+      "end_rva": "0x3856e4",
+      "unwind_rva": "0x579d1d8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x3855f7",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 e4 62 bf 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x385509",
+      "end_rva": "0x3856e4",
+      "unwind_rva": "0x579d1d8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x385804",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 d7 60 bf 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x385780",
+      "end_rva": "0x385961",
+      "unwind_rva": "0x579d268",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x3859f7",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 e4 5e bf 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x385970",
+      "end_rva": "0x385b54",
+      "unwind_rva": "0x579d278",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x388b71",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 6a 2d bf 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x388b20",
+      "end_rva": "0x388bb7",
+      "unwind_rva": "0x579e660",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x388beb",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 f0 2c bf 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x388bc0",
+      "end_rva": "0x388c49",
+      "unwind_rva": "0x579e6b8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x388c87",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 54 2c bf 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x388c50",
+      "end_rva": "0x388dad",
+      "unwind_rva": "0x579e604",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x388fa8",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 33 29 bf 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x388ee0",
+      "end_rva": "0x3891a7",
+      "unwind_rva": "0x579e554",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x389040",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 9b 28 bf 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x388ee0",
+      "end_rva": "0x3891a7",
+      "unwind_rva": "0x579e554",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x3891e4",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 f7 26 bf 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x3891b0",
+      "end_rva": "0x389242",
+      "unwind_rva": "0x579e68c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x3892ee",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 ed 25 bf 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x389290",
+      "end_rva": "0x389334",
+      "unwind_rva": "0x579e634",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x393075",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 66 88 be 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x393030",
+      "end_rva": "0x3930b3",
+      "unwind_rva": "0x579faf4",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x39344a",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 91 84 be 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x393405",
+      "end_rva": "0x393488",
+      "unwind_rva": "0x579faa0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x3aee48",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 93 ca bc 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x3aedd0",
+      "end_rva": "0x3aef2a",
+      "unwind_rva": "0x57a3d90",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x3afd80",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 5b bb bc 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x3afd30",
+      "end_rva": "0x3afda6",
+      "unwind_rva": "0x57a3bb4",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x3b98b9",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 22 20 bc 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x3b9740",
+      "end_rva": "0x3b994b",
+      "unwind_rva": "0x57a4928",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x3bc1bf",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 1c f7 bb 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x3bc10a",
+      "end_rva": "0x3bc3bd",
+      "unwind_rva": "0x57a4e2c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x3bc449",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 92 f4 bb 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x3bc442",
+      "end_rva": "0x3bc465",
+      "unwind_rva": "0x57a4e74",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x3bc78a",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 51 f1 bb 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x3bc756",
+      "end_rva": "0x3bc801",
+      "unwind_rva": "0x57a4f70",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x3bc808",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 d3 f0 bb 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x3bc801",
+      "end_rva": "0x3bc85d",
+      "unwind_rva": "0x57a4f90",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x3bcca9",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 32 ec bb 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x3bcbfb",
+      "end_rva": "0x3bcec8",
+      "unwind_rva": "0x57a4ea8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x3bcecf",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 0c ea bb 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x3bcec8",
+      "end_rva": "0x3bceef",
+      "unwind_rva": "0x57a4ed0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x40b81d",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 be 00 b7 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x40b788",
+      "end_rva": "0x40b874",
+      "unwind_rva": "0x57b1e10",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x425e91",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 ea 7b 17 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x425e27",
+      "end_rva": "0x425eb5",
+      "unwind_rva": "0x57b52a0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x426aa8",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 d3 6f 17 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x426a58",
+      "end_rva": "0x426adc",
+      "unwind_rva": "0x57b55a8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x42f1fb",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 80 e8 16 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x42f120",
+      "end_rva": "0x42f27e",
+      "unwind_rva": "0x57b6c2c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x42f536",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 45 e5 16 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x42f4c0",
+      "end_rva": "0x42f5bd",
+      "unwind_rva": "0x57b6da8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x4b7ca6",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 d5 5d 0e 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x4b7c10",
+      "end_rva": "0x4b7cf9",
+      "unwind_rva": "0x57cb020",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x4b7d87",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 f4 5c 0e 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x4b7cf9",
+      "end_rva": "0x4b7e97",
+      "unwind_rva": "0x57cb034",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x4b7e4a",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 31 5c 0e 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x4b7cf9",
+      "end_rva": "0x4b7e97",
+      "unwind_rva": "0x57cb034",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x4f3cd6",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 05 7c a8 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x4f3940",
+      "end_rva": "0x4f3d1a",
+      "unwind_rva": "0x57d350c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x5382be",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 bd 57 06 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x538170",
+      "end_rva": "0x538428",
+      "unwind_rva": "0x57de554",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x5505e5",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 96 d4 04 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x550470",
+      "end_rva": "0x550675",
+      "unwind_rva": "0x57e1b2c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x552326",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 b5 95 a2 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x5513b0",
+      "end_rva": "0x552481",
+      "unwind_rva": "0x57e1920",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x55254c",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 2f b5 04 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x552490",
+      "end_rva": "0x5525df",
+      "unwind_rva": "0x57e1b60",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x552a6e",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 6d 8e a2 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x5529d1",
+      "end_rva": "0x552aac",
+      "unwind_rva": "0x57e1a2c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x55ca84",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 f7 0f 04 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x55c9ad",
+      "end_rva": "0x55cb44",
+      "unwind_rva": "0x57e2a18",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x55d00d",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 6e 0a 04 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x55d000",
+      "end_rva": "0x55d02d",
+      "unwind_rva": "0x57e2a74",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x55d1bd",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 be 08 04 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x55d1b0",
+      "end_rva": "0x55d1dd",
+      "unwind_rva": "0x57e2a7c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x55df92",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 e9 fa 03 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x55de80",
+      "end_rva": "0x55e1a0",
+      "unwind_rva": "0x57e2c44",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x55f2e1",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 9a e7 03 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x55f2b0",
+      "end_rva": "0x55f301",
+      "unwind_rva": "0x57e2d5c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x56057e",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 5d b3 a1 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x560550",
+      "end_rva": "0x560644",
+      "unwind_rva": "0x57e2e30",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x56938e",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 4d 25 a1 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x569360",
+      "end_rva": "0x56947c",
+      "unwind_rva": "0x57e3dd0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x572a19",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 c2 8e a0 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x5729b0",
+      "end_rva": "0x572a62",
+      "unwind_rva": "0x57e4ef4",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x573eee",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 ed 79 a0 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x573ec0",
+      "end_rva": "0x573fb4",
+      "unwind_rva": "0x57e4fa4",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x57812b",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 b0 37 a0 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x578100",
+      "end_rva": "0x578373",
+      "unwind_rva": "0x57e55f0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x57a5ae",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 2d 13 a0 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x57a580",
+      "end_rva": "0x57a69b",
+      "unwind_rva": "0x57e5b34",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x5e02b2",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 c9 d7 fb 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x5e0150",
+      "end_rva": "0x5e0330",
+      "unwind_rva": "0x57f1f3c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x606689",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 f2 73 f9 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x606640",
+      "end_rva": "0x606847",
+      "unwind_rva": "0x57f712c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x6066c2",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 b9 73 f9 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x606640",
+      "end_rva": "0x606847",
+      "unwind_rva": "0x57f712c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x60678d",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 ee 72 f9 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x606640",
+      "end_rva": "0x606847",
+      "unwind_rva": "0x57f712c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x606b6f",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 0c 6f f9 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x606b40",
+      "end_rva": "0x606c78",
+      "unwind_rva": "0x57f71d8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x606ba1",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 da 6e f9 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x606b40",
+      "end_rva": "0x606c78",
+      "unwind_rva": "0x57f71d8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x65552b",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 b0 63 92 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x6554b0",
+      "end_rva": "0x655586",
+      "unwind_rva": "0x5804874",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x668ad2",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 09 2e 91 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x6688dd",
+      "end_rva": "0x668eef",
+      "unwind_rva": "0x580732c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x668af2",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 e9 2d 91 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x6688dd",
+      "end_rva": "0x668eef",
+      "unwind_rva": "0x580732c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x688e9d",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 3e 2a 8f 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x688df0",
+      "end_rva": "0x689201",
+      "unwind_rva": "0x580bf24",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x6890f8",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 e3 27 8f 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x688df0",
+      "end_rva": "0x689201",
+      "unwind_rva": "0x580bf24",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x68d41a",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 c1 e4 8e 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x68d170",
+      "end_rva": "0x68d4d7",
+      "unwind_rva": "0x580c5a0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x697cd2",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 a9 5d f0 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x697ca0",
+      "end_rva": "0x697d5a",
+      "unwind_rva": "0x580e494",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x697d79",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 02 5d f0 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x697d60",
+      "end_rva": "0x697ddd",
+      "unwind_rva": "0x580e4b8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x697df1",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 8a 5c f0 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x697de0",
+      "end_rva": "0x697e29",
+      "unwind_rva": "0x580e4ac",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x697e49",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 32 5c f0 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x697e30",
+      "end_rva": "0x697eaa",
+      "unwind_rva": "0x580e4d8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x697ec9",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 b2 5b f0 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x697eb0",
+      "end_rva": "0x697f2d",
+      "unwind_rva": "0x580e4c8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x697f49",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 32 5b f0 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x697f30",
+      "end_rva": "0x697faa",
+      "unwind_rva": "0x580e4e8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x6beeb2",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 29 ca 8b 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x6bed1e",
+      "end_rva": "0x6bef37",
+      "unwind_rva": "0x5814b78",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x6bef6c",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 6f c9 8b 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x6bef37",
+      "end_rva": "0x6befb9",
+      "unwind_rva": "0x5814b8c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x6c0072",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 69 b8 8b 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x6bff60",
+      "end_rva": "0x6c022f",
+      "unwind_rva": "0x5815038",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x6c19e5",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 f6 9e 8b 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x6c1940",
+      "end_rva": "0x6c1a3a",
+      "unwind_rva": "0x58151ec",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x6c1be3",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 f8 9c 8b 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x6c1bc2",
+      "end_rva": "0x6c1ccd",
+      "unwind_rva": "0x58151b0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x6d293d",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 9e 8f 8a 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x6d2900",
+      "end_rva": "0x6d295f",
+      "unwind_rva": "0x5817d54",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x6d299b",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 40 8f 8a 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x6d2977",
+      "end_rva": "0x6d29b7",
+      "unwind_rva": "0x5817d30",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x6d29fb",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 e0 8e 8a 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x6d29d7",
+      "end_rva": "0x6d2a17",
+      "unwind_rva": "0x5817e44",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x6de4c3",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 18 d4 89 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x6de46e",
+      "end_rva": "0x6de4e3",
+      "unwind_rva": "0x58196a4",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x6de70b",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 d0 d1 89 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x6de686",
+      "end_rva": "0x6de72d",
+      "unwind_rva": "0x581956c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x716ebf",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 bc 6b e8 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x716e40",
+      "end_rva": "0x716ef1",
+      "unwind_rva": "0x5823cf8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x716fe8",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 93 6a e8 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x716f90",
+      "end_rva": "0x71703d",
+      "unwind_rva": "0x5823d0c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x7ed5b7",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 c4 04 db 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x7ed310",
+      "end_rva": "0x7ed841",
+      "unwind_rva": "0x583ff4c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x7fb288",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 f3 27 da 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x7fb1d0",
+      "end_rva": "0x7fb36a",
+      "unwind_rva": "0x5843e44",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x813677",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 04 a4 d8 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x81356c",
+      "end_rva": "0x8136c8",
+      "unwind_rva": "0x584a054",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x818f87",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 f4 4a d8 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x818f30",
+      "end_rva": "0x818fd1",
+      "unwind_rva": "0x584a948",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x81904b",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 30 4a d8 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x81903b",
+      "end_rva": "0x8190a9",
+      "unwind_rva": "0x584a900",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x81a321",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 5a 37 d8 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x81a2c0",
+      "end_rva": "0x81a370",
+      "unwind_rva": "0x584a418",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x81a3de",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 9d 36 d8 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x81a3ce",
+      "end_rva": "0x81a43c",
+      "unwind_rva": "0x584a3d0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x81ce3e",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 3d 0c d8 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x81c470",
+      "end_rva": "0x81d00e",
+      "unwind_rva": "0x5849fa4",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x85325f",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 1c a8 d4 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x8531d0",
+      "end_rva": "0x85342c",
+      "unwind_rva": "0x5851a08",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x8532bc",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 bf a7 d4 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x8531d0",
+      "end_rva": "0x85342c",
+      "unwind_rva": "0x5851a08",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x85339d",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 de a6 d4 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x8531d0",
+      "end_rva": "0x85342c",
+      "unwind_rva": "0x5851a08",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x8534bf",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 bc a5 d4 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x853430",
+      "end_rva": "0x85368c",
+      "unwind_rva": "0x58519f0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x85351c",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 5f a5 d4 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x853430",
+      "end_rva": "0x85368c",
+      "unwind_rva": "0x58519f0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x8535fd",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 7e a4 d4 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x853430",
+      "end_rva": "0x85368c",
+      "unwind_rva": "0x58519f0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x86794c",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 8f 3f 71 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x8678e3",
+      "end_rva": "0x867a65",
+      "unwind_rva": "0x5853d9c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x867958",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 83 3f 71 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x8678e3",
+      "end_rva": "0x867a65",
+      "unwind_rva": "0x5853d9c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x867a0a",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 d1 3e 71 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x8678e3",
+      "end_rva": "0x867a65",
+      "unwind_rva": "0x5853d9c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x867a19",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 c2 3e 71 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x8678e3",
+      "end_rva": "0x867a65",
+      "unwind_rva": "0x5853d9c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x867b09",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 d2 3d 71 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x867ac0",
+      "end_rva": "0x867bca",
+      "unwind_rva": "0x5853e3c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x867b98",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 43 3d 71 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x867ac0",
+      "end_rva": "0x867bca",
+      "unwind_rva": "0x5853e3c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x8937c8",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 b3 a2 d0 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x893680",
+      "end_rva": "0x893ca0",
+      "unwind_rva": "0x58581dc",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x894991",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 ea 90 d0 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x894910",
+      "end_rva": "0x8949c1",
+      "unwind_rva": "0x58580bc",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x8ac8bb",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 20 f0 6c 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x8ac720",
+      "end_rva": "0x8ac9c7",
+      "unwind_rva": "0x585ab50",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x8ac93e",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 9d ef 6c 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x8ac720",
+      "end_rva": "0x8ac9c7",
+      "unwind_rva": "0x585ab50",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x96d310",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 cb e5 60 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x96d235",
+      "end_rva": "0x96d4b2",
+      "unwind_rva": "0x586f800",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x96ea1b",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 c0 ce 60 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x96e908",
+      "end_rva": "0x96ea7a",
+      "unwind_rva": "0x586fafc",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x970bb3",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 28 ad 60 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x970580",
+      "end_rva": "0x970bfa",
+      "unwind_rva": "0x586fc7c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x970cce",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 0d ac 60 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x970c00",
+      "end_rva": "0x970d33",
+      "unwind_rva": "0x586fcb4",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x970ee6",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 f5 a9 60 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x970eb8",
+      "end_rva": "0x970f1a",
+      "unwind_rva": "0x586fcdc",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x97199a",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 41 9f 60 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x971720",
+      "end_rva": "0x971e8a",
+      "unwind_rva": "0x586fd90",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x971c16",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 c5 9c 60 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x971720",
+      "end_rva": "0x971e8a",
+      "unwind_rva": "0x586fd90",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x971cda",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 01 9c 60 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x971720",
+      "end_rva": "0x971e8a",
+      "unwind_rva": "0x586fd90",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x97428b",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 50 76 60 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x974020",
+      "end_rva": "0x9743c4",
+      "unwind_rva": "0x586ff60",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x974345",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 96 75 60 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x974020",
+      "end_rva": "0x9743c4",
+      "unwind_rva": "0x586ff60",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x97f7b0",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 2b c1 5f 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x97f765",
+      "end_rva": "0x97f828",
+      "unwind_rva": "0x5870980",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x980390",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 4b b5 5f 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x980270",
+      "end_rva": "0x980429",
+      "unwind_rva": "0x5870a54",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x982562",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 79 93 5f 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x981ef0",
+      "end_rva": "0x9825d1",
+      "unwind_rva": "0x5870c38",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x985d14",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 c7 5b 5f 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x985c90",
+      "end_rva": "0x985d76",
+      "unwind_rva": "0x5870f40",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x986048",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 93 58 5f 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x985de2",
+      "end_rva": "0x9860b8",
+      "unwind_rva": "0x5870f78",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x986cba",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 21 4c 5f 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x986b99",
+      "end_rva": "0x986d53",
+      "unwind_rva": "0x5871098",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x98a21e",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 bd 16 5f 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x98a180",
+      "end_rva": "0x98a296",
+      "unwind_rva": "0x5871508",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x98a52a",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 b1 13 5f 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x98a2a0",
+      "end_rva": "0x98a5a7",
+      "unwind_rva": "0x5871514",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x98b07c",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 5f 08 5f 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x98af00",
+      "end_rva": "0x98b41f",
+      "unwind_rva": "0x5871630",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x98b14b",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 90 07 5f 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x98af00",
+      "end_rva": "0x98b41f",
+      "unwind_rva": "0x5871630",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x98b18b",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 50 07 5f 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x98af00",
+      "end_rva": "0x98b41f",
+      "unwind_rva": "0x5871630",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x98b559",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 82 03 5f 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x98b41f",
+      "end_rva": "0x98b56f",
+      "unwind_rva": "0x5871648",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x98b655",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 86 02 5f 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x98b5c0",
+      "end_rva": "0x98b6a2",
+      "unwind_rva": "0x587166c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x98ba26",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 b5 fe 5e 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x98b860",
+      "end_rva": "0x98ba97",
+      "unwind_rva": "0x5871698",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x98c948",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 93 ef 5e 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x98c900",
+      "end_rva": "0x98c988",
+      "unwind_rva": "0x58717e8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x98c962",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 79 ef 5e 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x98c900",
+      "end_rva": "0x98c988",
+      "unwind_rva": "0x58717e8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x98d5ae",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 2d e3 5e 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x98d150",
+      "end_rva": "0x98d788",
+      "unwind_rva": "0x5871ec0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x990c97",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 44 ac 5e 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x990c60",
+      "end_rva": "0x990cc6",
+      "unwind_rva": "0x58718b8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x9911ec",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 ef a6 5e 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x991170",
+      "end_rva": "0x991225",
+      "unwind_rva": "0x58718ec",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x992f25",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 b6 89 5e 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x992ec8",
+      "end_rva": "0x992f55",
+      "unwind_rva": "0x58719a4",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x99308a",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 51 88 5e 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x992f6d",
+      "end_rva": "0x9930c9",
+      "unwind_rva": "0x58719c8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x998cf3",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 e8 2b 5e 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x9986a0",
+      "end_rva": "0x9990a4",
+      "unwind_rva": "0x5872590",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x99b12e",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 ad 07 5e 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x99b0b0",
+      "end_rva": "0x99b19a",
+      "unwind_rva": "0x5872384",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x9e83b4",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e9 27 35 59 01",
+    "status": "raw direct-call/jump candidate",
+    "function": null
+  },
+  {
+    "instruction_rva": "0x9ed547",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 94 e3 58 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x9ed530",
+      "end_rva": "0x9ed594",
+      "unwind_rva": "0x5880474",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xa08aed",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 ee 2d 57 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xa08ad0",
+      "end_rva": "0xa08b0b",
+      "unwind_rva": "0x5883798",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xa0b0de",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 fd 07 57 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xa0af99",
+      "end_rva": "0xa0b11a",
+      "unwind_rva": "0x5883e18",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xa0ec0d",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 ce cc 56 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xa0ea85",
+      "end_rva": "0xa0ec68",
+      "unwind_rva": "0x588441c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xa0ef9a",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 41 c9 56 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xa0ee00",
+      "end_rva": "0xa0eff9",
+      "unwind_rva": "0x5884448",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xa0fabc",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 1f be 56 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xa0f761",
+      "end_rva": "0xa0fb91",
+      "unwind_rva": "0x5884600",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xa727b2",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 c9 b2 b2 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xa726a0",
+      "end_rva": "0xa728d5",
+      "unwind_rva": "0x58929b8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xa740f9",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 82 99 b2 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xa7408f",
+      "end_rva": "0xa74133",
+      "unwind_rva": "0x589327c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xa74104",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 77 99 b2 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xa7408f",
+      "end_rva": "0xa74133",
+      "unwind_rva": "0x589327c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xa74118",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 63 99 b2 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xa7408f",
+      "end_rva": "0xa74133",
+      "unwind_rva": "0x589327c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xa74123",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 58 99 b2 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xa7408f",
+      "end_rva": "0xa74133",
+      "unwind_rva": "0x589327c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xaa39f3",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 e8 7e 4d 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xaa39c0",
+      "end_rva": "0xaa3c18",
+      "unwind_rva": "0x5898454",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xaf7511",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 ca 43 48 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xaf74b0",
+      "end_rva": "0xaf75a3",
+      "unwind_rva": "0x58a4074",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xaf7d3a",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 a1 3b 48 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xaf7d10",
+      "end_rva": "0xaf7dcd",
+      "unwind_rva": "0x58a40e0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xb15b24",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e9 b7 5d 46 01",
+    "status": "raw direct-call/jump candidate",
+    "function": null
+  },
+  {
+    "instruction_rva": "0xb15b4d",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 8e 5d 46 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xb15b30",
+      "end_rva": "0xb15b58",
+      "unwind_rva": "0x58a7c20",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xb1a48e",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 4d 14 46 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xb1a078",
+      "end_rva": "0xb1a4f7",
+      "unwind_rva": "0x58a7ee4",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xb1ac88",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 f3 2d a8 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xb1ab86",
+      "end_rva": "0xb1ad8c",
+      "unwind_rva": "0x58a7f84",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xb1d028",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 b3 e8 45 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xb1cfe0",
+      "end_rva": "0xb1d089",
+      "unwind_rva": "0x58a825c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xb52875",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 66 90 42 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xb527f0",
+      "end_rva": "0xb528b2",
+      "unwind_rva": "0x58ae910",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xb61040",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 9b a8 41 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xb60d70",
+      "end_rva": "0xb610ac",
+      "unwind_rva": "0x58b0534",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xb867c6",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 b5 72 a1 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xb86700",
+      "end_rva": "0xb86838",
+      "unwind_rva": "0x58b5130",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xba9507",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 d4 23 3d 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xba94e0",
+      "end_rva": "0xba9512",
+      "unwind_rva": "0x58ba944",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xbacc3a",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 a1 ec 3c 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xbacbf0",
+      "end_rva": "0xbacc8a",
+      "unwind_rva": "0x58bb570",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xbb039b",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 40 b5 3c 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xbb0383",
+      "end_rva": "0xbb0447",
+      "unwind_rva": "0x58bbe28",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xbb3a9a",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 41 7e 3c 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xbb3a50",
+      "end_rva": "0xbb3aea",
+      "unwind_rva": "0x58bc638",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xbb6b83",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 58 4d 3c 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xbb6b50",
+      "end_rva": "0xbb6bca",
+      "unwind_rva": "0x58bcd28",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xbb6c23",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 b8 4c 3c 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xbb6bd0",
+      "end_rva": "0xbb6c74",
+      "unwind_rva": "0x58bcd10",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xbb7878",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 63 40 3c 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xbb7770",
+      "end_rva": "0xbb79b2",
+      "unwind_rva": "0x58bd0a0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xbb7891",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 4a 40 3c 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xbb7770",
+      "end_rva": "0xbb79b2",
+      "unwind_rva": "0x58bd0a0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xbb78aa",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 31 40 3c 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xbb7770",
+      "end_rva": "0xbb79b2",
+      "unwind_rva": "0x58bd0a0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xbb78c3",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 18 40 3c 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xbb7770",
+      "end_rva": "0xbb79b2",
+      "unwind_rva": "0x58bd0a0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xbb78dc",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 ff 3f 3c 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xbb7770",
+      "end_rva": "0xbb79b2",
+      "unwind_rva": "0x58bd0a0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xbd3f5d",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 1e 9b 9c 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xbd3f50",
+      "end_rva": "0xbd3fdc",
+      "unwind_rva": "0x58c1b24",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xbd4e0c",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 6f 8c 9c 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xbd4e00",
+      "end_rva": "0xbd4e47",
+      "unwind_rva": "0x58c1c68",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xbea195",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 e6 38 9b 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xbea150",
+      "end_rva": "0xbea3ca",
+      "unwind_rva": "0x58c51cc",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xc156d6",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 a5 83 98 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xc15620",
+      "end_rva": "0xc1571b",
+      "unwind_rva": "0x58cc228",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xc156e3",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 98 83 98 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xc15620",
+      "end_rva": "0xc1571b",
+      "unwind_rva": "0x58cc228",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xc39a78",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 03 40 96 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xc39a30",
+      "end_rva": "0xc39aa8",
+      "unwind_rva": "0x58d091c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xc39d18",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 63 3d 96 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xc39b5b",
+      "end_rva": "0xc39d9d",
+      "unwind_rva": "0x58d0ba4",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xc3b68f",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 ec 23 96 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xc3b603",
+      "end_rva": "0xc3b6d8",
+      "unwind_rva": "0x58d0930",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xc3e161",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 1a f9 95 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xc3e0d2",
+      "end_rva": "0xc3e24e",
+      "unwind_rva": "0x58d1a38",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xc3e183",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 f8 f8 95 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xc3e0d2",
+      "end_rva": "0xc3e24e",
+      "unwind_rva": "0x58d1a38",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xc49bac",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 cf 3e 95 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xc49b80",
+      "end_rva": "0xc49c19",
+      "unwind_rva": "0x58d0e08",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xc4b73e",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 3d 23 95 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xc4b72a",
+      "end_rva": "0xc4b765",
+      "unwind_rva": "0x58d45b0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xc4bf12",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 69 1b 95 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xc4bf0e",
+      "end_rva": "0xc4bf4f",
+      "unwind_rva": "0x58d4798",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xc4c9c5",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 b6 10 95 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xc4c956",
+      "end_rva": "0xc4ca10",
+      "unwind_rva": "0x58d460c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xc521fd",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 7e b8 94 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xc521e9",
+      "end_rva": "0xc52224",
+      "unwind_rva": "0x58d5574",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xc53525",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 56 a5 94 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xc53511",
+      "end_rva": "0xc53555",
+      "unwind_rva": "0x58d55bc",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xc65ec6",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 b5 7b 93 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xc65e22",
+      "end_rva": "0xc65f37",
+      "unwind_rva": "0x58d7c24",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xc66b11",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 6a 6f 93 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xc669bf",
+      "end_rva": "0xc66bde",
+      "unwind_rva": "0x58d7e40",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xc66ecb",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 b0 6b 93 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xc66c10",
+      "end_rva": "0xc66f77",
+      "unwind_rva": "0x58d7f4c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xc79a80",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 fb 3f 92 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xc79a6e",
+      "end_rva": "0xc79b0c",
+      "unwind_rva": "0x58daf18",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xc79d0c",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 6f 3d 92 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xc79c99",
+      "end_rva": "0xc79f71",
+      "unwind_rva": "0x58dafcc",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xc7a00a",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 71 3a 92 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xc79ff4",
+      "end_rva": "0xc7a107",
+      "unwind_rva": "0x58db020",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xc7a206",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 75 38 92 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xc7a1f8",
+      "end_rva": "0xc7a394",
+      "unwind_rva": "0x58daddc",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xc7d1a6",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 d5 08 92 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xc7d0a0",
+      "end_rva": "0xc7d292",
+      "unwind_rva": "0x58db914",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xc7d5df",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 9c 04 92 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xc7d550",
+      "end_rva": "0xc7d603",
+      "unwind_rva": "0x58db8b4",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xc7de02",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 79 fc 91 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xc7dde0",
+      "end_rva": "0xc7de28",
+      "unwind_rva": "0x58dbb08",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xcb3bb3",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 28 7d 2c 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xcb3b40",
+      "end_rva": "0xcb3c20",
+      "unwind_rva": "0x58e4bdc",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xcb3bca",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 11 7d 2c 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xcb3b40",
+      "end_rva": "0xcb3c20",
+      "unwind_rva": "0x58e4bdc",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xcd2d26",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 b5 8b 2a 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xcd2cf5",
+      "end_rva": "0xcd2d8d",
+      "unwind_rva": "0x58e8f88",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xcd2e41",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 9a 8a 2a 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xcd2e10",
+      "end_rva": "0xcd2ea8",
+      "unwind_rva": "0x58e8d10",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xd1bd71",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 6a fb 25 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xd1bb98",
+      "end_rva": "0xd1bdd8",
+      "unwind_rva": "0x58f59e0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xd2b150",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 8b 07 25 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xd2b0ee",
+      "end_rva": "0xd2b200",
+      "unwind_rva": "0x58f8eb8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xd30b7d",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 5e ad 24 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xd30867",
+      "end_rva": "0xd30cd7",
+      "unwind_rva": "0x58f9340",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xd32642",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 99 92 24 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xd325e0",
+      "end_rva": "0xd327fe",
+      "unwind_rva": "0x58f9e60",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xd32815",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 c6 90 24 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xd327fe",
+      "end_rva": "0xd32b45",
+      "unwind_rva": "0x58f9e74",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xd3282b",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 b0 90 24 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xd327fe",
+      "end_rva": "0xd32b45",
+      "unwind_rva": "0x58f9e74",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xd32e03",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 d8 8a 24 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xd32c70",
+      "end_rva": "0xd32f3e",
+      "unwind_rva": "0x58f9f60",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xd32e0f",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 cc 8a 24 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xd32c70",
+      "end_rva": "0xd32f3e",
+      "unwind_rva": "0x58f9f60",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xd32e29",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 b2 8a 24 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xd32c70",
+      "end_rva": "0xd32f3e",
+      "unwind_rva": "0x58f9f60",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xd40622",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 b9 b2 23 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xd405d0",
+      "end_rva": "0xd4068b",
+      "unwind_rva": "0x58fc1ac",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xd4063b",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 a0 b2 23 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xd405d0",
+      "end_rva": "0xd4068b",
+      "unwind_rva": "0x58fc1ac",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xd46bad",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 2e 4d 23 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xd46756",
+      "end_rva": "0xd46c1d",
+      "unwind_rva": "0x58fd54c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xd61776",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 65 a1 21 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xd60bf0",
+      "end_rva": "0xd61a45",
+      "unwind_rva": "0x5901fb0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xd6240f",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 cc 94 21 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xd62380",
+      "end_rva": "0xd62452",
+      "unwind_rva": "0x59022d8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xd71791",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 ea c2 82 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xd71640",
+      "end_rva": "0xd722a5",
+      "unwind_rva": "0x5903848",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xd723c0",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 bb b6 82 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xd722c0",
+      "end_rva": "0xd7264c",
+      "unwind_rva": "0x59038b0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xda55d8",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 a3 84 7f 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xda5525",
+      "end_rva": "0xda562a",
+      "unwind_rva": "0x590ae60",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xda68b3",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 c8 71 7f 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xda68a0",
+      "end_rva": "0xda68ef",
+      "unwind_rva": "0x590b4e8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xda6911",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 6a 71 7f 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xda68f0",
+      "end_rva": "0xda6957",
+      "unwind_rva": "0x590b4f0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xda6988",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 f3 70 7f 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xda696e",
+      "end_rva": "0xda69ea",
+      "unwind_rva": "0x590b50c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xdb7ce9",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 92 5d 7e 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xdb7b80",
+      "end_rva": "0xdb7d85",
+      "unwind_rva": "0x590d5f8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xdb7d13",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 68 5d 7e 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xdb7b80",
+      "end_rva": "0xdb7d85",
+      "unwind_rva": "0x590d5f8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0xe3c2d6",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 05 f6 13 01",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0xe3c150",
+      "end_rva": "0xe3c2fc",
+      "unwind_rva": "0x591e794",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1688633",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 48 54 f1 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x16885e0",
+      "end_rva": "0x16889be",
+      "unwind_rva": "0x59e8d2c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x168f32c",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 4f e7 f0 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x168f317",
+      "end_rva": "0x168f356",
+      "unwind_rva": "0x59e922c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x16d24bb",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 c0 b5 ec ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x16d2496",
+      "end_rva": "0x16d24de",
+      "unwind_rva": "0x59ef6c0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x16d6f07",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 74 6b ec ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x16d6d10",
+      "end_rva": "0x16d76c4",
+      "unwind_rva": "0x59f0ae4",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x17be442",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 39 f6 dd ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x17be400",
+      "end_rva": "0x17be667",
+      "unwind_rva": "0x5a0295c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x19047cd",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 ae 92 c9 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1904750",
+      "end_rva": "0x190485a",
+      "unwind_rva": "0x5a21bd8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1904889",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 f2 91 c9 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1904860",
+      "end_rva": "0x19048f2",
+      "unwind_rva": "0x5a21bcc",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1909624",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e9 57 44 c9 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": null
+  },
+  {
+    "instruction_rva": "0x1d71471",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 0a c6 82 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1d71448",
+      "end_rva": "0x1d714b7",
+      "unwind_rva": "0x5a95c38",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1d9ae7b",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 60 0a 1e 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1d9ae00",
+      "end_rva": "0x1d9b070",
+      "unwind_rva": "0x5a9c978",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1d9d63d",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 9e e2 1d 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1d9d5e0",
+      "end_rva": "0x1d9d7b6",
+      "unwind_rva": "0x5a9c8f4",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1daff4f",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 8c b9 1c 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1daff20",
+      "end_rva": "0x1daff91",
+      "unwind_rva": "0x5a9e72c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1db8a3d",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 9e 2e 1c 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1db89f0",
+      "end_rva": "0x1db8ab7",
+      "unwind_rva": "0x5aa0180",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1db8d04",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 d7 2b 1c 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1db8cc0",
+      "end_rva": "0x1db8d83",
+      "unwind_rva": "0x5aa016c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1db9a35",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 a6 1e 1c 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1db99a0",
+      "end_rva": "0x1db9a9b",
+      "unwind_rva": "0x5aa038c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1db9b13",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 c8 1d 1c 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1db9aa0",
+      "end_rva": "0x1db9b69",
+      "unwind_rva": "0x5aa040c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1dc6bae",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 2d 4d 1b 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1dc6b80",
+      "end_rva": "0x1dc6d5f",
+      "unwind_rva": "0x5aa1e44",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1dc9884",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 f7 41 7d ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1dc9790",
+      "end_rva": "0x1dc9a25",
+      "unwind_rva": "0x5aa23fc",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1dcf1cb",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 b0 e8 7c ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1dcedf0",
+      "end_rva": "0x1dcf2e6",
+      "unwind_rva": "0x5aa2dc0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1ddc28b",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 50 f6 19 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1ddc230",
+      "end_rva": "0x1ddc321",
+      "unwind_rva": "0x5aa417c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1ddf02d",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 ae c8 19 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1ddf020",
+      "end_rva": "0x1ddf03f",
+      "unwind_rva": "0x5aa44d8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1df12a7",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 34 a6 18 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1df128c",
+      "end_rva": "0x1df1337",
+      "unwind_rva": "0x5aa5ff0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1df12be",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 1d a6 18 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1df128c",
+      "end_rva": "0x1df1337",
+      "unwind_rva": "0x5aa5ff0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1df1315",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 c6 a5 18 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1df128c",
+      "end_rva": "0x1df1337",
+      "unwind_rva": "0x5aa5ff0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1df6bdb",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 00 4d 18 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1df6b98",
+      "end_rva": "0x1df6c10",
+      "unwind_rva": "0x5aa6ab0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1df80ac",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 2f 38 18 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1df8099",
+      "end_rva": "0x1df80bb",
+      "unwind_rva": "0x5aa6fc4",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1df8b72",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 69 2d 18 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1df8b61",
+      "end_rva": "0x1df8b7c",
+      "unwind_rva": "0x5aa6e8c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1e0f630",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 4b e4 78 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1e0f5f0",
+      "end_rva": "0x1e0fa8b",
+      "unwind_rva": "0x5aaa4f8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1e1243e",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 3d b6 78 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1e12410",
+      "end_rva": "0x1e12589",
+      "unwind_rva": "0x5aaadec",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1e1310a",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 71 a9 78 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1e130d0",
+      "end_rva": "0x1e13480",
+      "unwind_rva": "0x5aab01c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1e14603",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 78 94 78 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1e14510",
+      "end_rva": "0x1e1466c",
+      "unwind_rva": "0x5aab334",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1e14637",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 44 94 78 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1e14510",
+      "end_rva": "0x1e1466c",
+      "unwind_rva": "0x5aab334",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1e14823",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 b8 70 16 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1e14766",
+      "end_rva": "0x1e14935",
+      "unwind_rva": "0x5aab35c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1e148db",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 00 70 16 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1e14766",
+      "end_rva": "0x1e14935",
+      "unwind_rva": "0x5aab35c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1e148f8",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 e3 6f 16 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1e14766",
+      "end_rva": "0x1e14935",
+      "unwind_rva": "0x5aab35c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1e14fe3",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 f8 68 16 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1e14f93",
+      "end_rva": "0x1e1506c",
+      "unwind_rva": "0x5aab394",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1e15299",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 e2 87 78 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1e15280",
+      "end_rva": "0x1e152be",
+      "unwind_rva": "0x5aab550",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1e78ac1",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 1a 2e 10 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1e78a40",
+      "end_rva": "0x1e78b09",
+      "unwind_rva": "0x5abbe10",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1e7b2de",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 fd 05 10 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1e7b290",
+      "end_rva": "0x1e7b326",
+      "unwind_rva": "0x5abc33c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1e7b8be",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 1d 00 10 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1e7b400",
+      "end_rva": "0x1e7b983",
+      "unwind_rva": "0x5abc2d4",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1e9ecc3",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 b8 ed 6f ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1e9eca0",
+      "end_rva": "0x1e9ecf9",
+      "unwind_rva": "0x5ac2444",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1e9fc0b",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 70 de 6f ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1e9fb70",
+      "end_rva": "0x1e9fde5",
+      "unwind_rva": "0x5ac2b94",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1eb77ac",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 cf 62 6e ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1eb76d0",
+      "end_rva": "0x1eb79c4",
+      "unwind_rva": "0x5ac6814",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1eb7816",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 65 62 6e ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1eb76d0",
+      "end_rva": "0x1eb79c4",
+      "unwind_rva": "0x5ac6814",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1ef1933",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 a8 9f 08 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1ef180b",
+      "end_rva": "0x1ef19d1",
+      "unwind_rva": "0x5ad1720",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1ef22f5",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 e6 95 08 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1ef22c6",
+      "end_rva": "0x1ef232e",
+      "unwind_rva": "0x5ad1220",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1ef2b66",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 75 8d 08 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1ef2b37",
+      "end_rva": "0x1ef2b9f",
+      "unwind_rva": "0x5ad14e8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1f0ccc8",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 b3 0d 69 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1f0ccc3",
+      "end_rva": "0x1f0cd17",
+      "unwind_rva": "0x5ad4c24",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1f0cd93",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 e8 0c 69 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1f0cd30",
+      "end_rva": "0x1f0ce38",
+      "unwind_rva": "0x5ad4c60",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1f0d03f",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 3c 0a 69 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1f0cfe0",
+      "end_rva": "0x1f0d0bc",
+      "unwind_rva": "0x5ad4cec",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1f20c29",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 b2 ac 05 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1f20ac0",
+      "end_rva": "0x1f20c5a",
+      "unwind_rva": "0x5ad8124",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1f32adf",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 fc 8d 04 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1f32aa0",
+      "end_rva": "0x1f32b0f",
+      "unwind_rva": "0x5adae20",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1f52c88",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 f3 ad 64 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1f52c80",
+      "end_rva": "0x1f52c99",
+      "unwind_rva": "0x5ae0144",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1f7971e",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 5d 43 62 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1f79530",
+      "end_rva": "0x1f797a6",
+      "unwind_rva": "0x5ae5c90",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1f79914",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 67 41 62 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1f797b0",
+      "end_rva": "0x1f799d5",
+      "unwind_rva": "0x5ae5ccc",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1f79e4d",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 2e 3c 62 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1f79e10",
+      "end_rva": "0x1f79e6f",
+      "unwind_rva": "0x5ae5ea0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1f7aa08",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 73 30 62 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1f7a9d6",
+      "end_rva": "0x1f7aa85",
+      "unwind_rva": "0x5ae5ef4",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1f7aa3a",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 41 30 62 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1f7a9d6",
+      "end_rva": "0x1f7aa85",
+      "unwind_rva": "0x5ae5ef4",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1f7b389",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 f2 26 62 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1f7b330",
+      "end_rva": "0x1f7b433",
+      "unwind_rva": "0x5ae6284",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1f7b537",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 a4 03 00 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1f7b520",
+      "end_rva": "0x1f7b545",
+      "unwind_rva": "0x5ae6240",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1f7b559",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 82 03 00 00",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1f7b550",
+      "end_rva": "0x1f7b567",
+      "unwind_rva": "0x5ae6238",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1f7b91d",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 5e 21 62 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1f7b8e0",
+      "end_rva": "0x1f7b97b",
+      "unwind_rva": "0x5ae6250",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1f9e91c",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e9 bf cf fd ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1f9e900",
+      "end_rva": "0x1f9e921",
+      "unwind_rva": "0x5aeac44",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1faec0c",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 6f ee 5e ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1faeb10",
+      "end_rva": "0x1faedbc",
+      "unwind_rva": "0x5aec1fc",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1faec14",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 67 ee 5e ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1faeb10",
+      "end_rva": "0x1faedbc",
+      "unwind_rva": "0x5aec1fc",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1faed12",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 69 ed 5e ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1faeb10",
+      "end_rva": "0x1faedbc",
+      "unwind_rva": "0x5aec1fc",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1faed1a",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 61 ed 5e ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1faeb10",
+      "end_rva": "0x1faedbc",
+      "unwind_rva": "0x5aec1fc",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1fb0f35",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 46 cb 5e ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1fb0dc0",
+      "end_rva": "0x1fb111b",
+      "unwind_rva": "0x5aecd9c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1fb2464",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 17 b6 5e ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1fb2360",
+      "end_rva": "0x1fb2606",
+      "unwind_rva": "0x5aed41c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1fb258d",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 ee b4 5e ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1fb2360",
+      "end_rva": "0x1fb2606",
+      "unwind_rva": "0x5aed41c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1fb2595",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 e6 b4 5e ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1fb2360",
+      "end_rva": "0x1fb2606",
+      "unwind_rva": "0x5aed41c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1fdcef4",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 87 0b 5c ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1fdcd60",
+      "end_rva": "0x1fdd3c8",
+      "unwind_rva": "0x5af1590",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1ffae1c",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 5f 2c 5a ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x1ffad90",
+      "end_rva": "0x1ffae86",
+      "unwind_rva": "0x5af51e8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x203cb0c",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 6f 0f 56 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x203caed",
+      "end_rva": "0x203cbdf",
+      "unwind_rva": "0x5afe20c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x203eb1e",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 bd cd f3 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x203ead0",
+      "end_rva": "0x203eda4",
+      "unwind_rva": "0x5afe724",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x2041391",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 4a a5 f3 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x2041290",
+      "end_rva": "0x20413f8",
+      "unwind_rva": "0x5aff01c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x20436bf",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 1c 82 f3 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x2043640",
+      "end_rva": "0x204371d",
+      "unwind_rva": "0x5afe790",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x2049986",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 55 1f f3 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x2049940",
+      "end_rva": "0x20499ff",
+      "unwind_rva": "0x5b002c4",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x2053c09",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 72 9e 54 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x2053b20",
+      "end_rva": "0x2053e5a",
+      "unwind_rva": "0x5b0216c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x2053d4e",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 2d 9d 54 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x2053b20",
+      "end_rva": "0x2053e5a",
+      "unwind_rva": "0x5b0216c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x2053dda",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 a1 9c 54 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x2053b20",
+      "end_rva": "0x2053e5a",
+      "unwind_rva": "0x5b0216c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x20556cb",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 b0 83 54 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x2055660",
+      "end_rva": "0x2055845",
+      "unwind_rva": "0x5b022fc",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x205578b",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 f0 82 54 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x2055660",
+      "end_rva": "0x2055845",
+      "unwind_rva": "0x5b022fc",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x2055a54",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e9 27 80 54 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": null
+  },
+  {
+    "instruction_rva": "0x2057174",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 07 69 54 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x2057130",
+      "end_rva": "0x20571ba",
+      "unwind_rva": "0x5b02954",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x20575e4",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 97 64 54 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x20575a0",
+      "end_rva": "0x205762a",
+      "unwind_rva": "0x5b02a58",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x206002b",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 50 da 53 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x205ffdc",
+      "end_rva": "0x2060094",
+      "unwind_rva": "0x5b04388",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x20623cb",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 b0 b6 53 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x20623a5",
+      "end_rva": "0x20623ee",
+      "unwind_rva": "0x5b04eb0",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x2062aeb",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 90 af 53 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x2062abf",
+      "end_rva": "0x2062b0e",
+      "unwind_rva": "0x5b05108",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x2066850",
+    "target_rva": "0x159da80",
+    "label": "entity qword key getter",
+    "bytes": "e8 2b 72 53 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x206660c",
+      "end_rva": "0x20668a0",
+      "unwind_rva": "0x5b0527c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x20b48f1",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 ea 6f ec ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x20b45d0",
+      "end_rva": "0x20b493f",
+      "unwind_rva": "0x5b12acc",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x20b4967",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 74 6f ec ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x20b493f",
+      "end_rva": "0x20b49d8",
+      "unwind_rva": "0x5b12af8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x20d33e1",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 fa 84 ea ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x20d3370",
+      "end_rva": "0x20d3546",
+      "unwind_rva": "0x5b17c58",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x20d3484",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 57 84 ea ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x20d3370",
+      "end_rva": "0x20d3546",
+      "unwind_rva": "0x5b17c58",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x20d34aa",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 31 84 ea ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x20d3370",
+      "end_rva": "0x20d3546",
+      "unwind_rva": "0x5b17c58",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x20d34f8",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 e3 83 ea ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x20d3370",
+      "end_rva": "0x20d3546",
+      "unwind_rva": "0x5b17c58",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x20d355b",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 80 83 ea ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x20d3546",
+      "end_rva": "0x20d3665",
+      "unwind_rva": "0x5b17c70",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x20d3b3f",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 9c 7d ea ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x20d39c0",
+      "end_rva": "0x20d3c87",
+      "unwind_rva": "0x5b17d00",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x20d3b4b",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 90 7d ea ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x20d39c0",
+      "end_rva": "0x20d3c87",
+      "unwind_rva": "0x5b17d00",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x20d3b57",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 84 7d ea ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x20d39c0",
+      "end_rva": "0x20d3c87",
+      "unwind_rva": "0x5b17d00",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x20d3b71",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 6a 7d ea ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x20d39c0",
+      "end_rva": "0x20d3c87",
+      "unwind_rva": "0x5b17d00",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x20ecaaa",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 31 ee e8 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x20eca7f",
+      "end_rva": "0x20ecc30",
+      "unwind_rva": "0x5b1ba0c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x2140f30",
+    "target_rva": "0x1f7b8e0",
+    "label": "tagged key builder",
+    "bytes": "e8 ab a9 e3 ff",
+    "status": "raw direct-call/jump candidate",
+    "function": {
+      "begin_rva": "0x2140edc",
+      "end_rva": "0x214100a",
+      "unwind_rva": "0x5b29b0c",
+      "source": ".pdata"
+    }
+  }
+]

@@ -1,0 +1,19 @@
+*.exe filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.rar filter=lfs diff=lfs merge=lfs -text
+*.dmp filter=lfs diff=lfs merge=lfs -text
+*.save -text
+*.backup01 -text
+*.backup02 -text
+*.backup03 -text
+*.backup04 -text
+*.backup05 -text
+*.backup06 -text
+*.dll -text
+*.obj -text
+*.lib -text
+*.exp -text
+*.png -text
+*.gfx -text
+*.dat1 -text
+* -text

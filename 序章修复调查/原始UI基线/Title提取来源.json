@@ -1,0 +1,28 @@
+{
+  "toc_sha256": "58e571cf1e54e08b18db4e8effb3f964eded1ddaa3e4feebd72f88fbbc066da1",
+  "decompressed_toc_length": 21709760,
+  "assets": [
+    {
+      "asset_path": "ui/export/HUD.gfx",
+      "asset_id": "B1555C82B1064AC1",
+      "toc_index": 164142,
+      "archive": "g00s019",
+      "offset": 359031496,
+      "size": 78667,
+      "sha256": "b230d7b810680030cf24a3265e25ed43e099183f13ad5805243ecc6722782feb",
+      "output_path": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\原始UI基线\\HUD.gfx"
+    },
+    {
+      "asset_path": "ui/export/lobby/Title.gfx",
+      "asset_id": "8E06F92A9F6F4F47",
+      "toc_index": 46864,
+      "archive": "g00s019",
+      "offset": 341745385,
+      "size": 636234,
+      "sha256": "7d5b8b567ab1e544a9911e5a4682c5b218e45737bd285bd8683e316d0b02ddba",
+      "output_path": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\原始UI基线\\Title.gfx"
+    }
+  ],
+  "format_reference": "https://github.com/Tkachov/Overstrike/tree/main/DAT1",
+  "operation": "read-only archive extraction to diagnostic directory; no deployment"
+}

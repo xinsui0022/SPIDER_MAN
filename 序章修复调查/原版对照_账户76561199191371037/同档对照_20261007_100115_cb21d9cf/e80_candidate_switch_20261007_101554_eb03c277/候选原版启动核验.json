@@ -1,0 +1,12 @@
+{
+  "account_id": "76561199191371037",
+  "pid": 22388,
+  "launch_options": "-nolauncher",
+  "observed_modules": [{"name": "WINMM.dll", "path": "C:\\WINDOWS\\SYSTEM32\\WINMM.dll"}],
+  "smt_or_doorstep_loaded": false,
+  "candidate_slot3_sha256": "e80e50fd9758604584be33fd22c7c08e1eff82e9b9ae4f84c3f26aab8f8eee3d",
+  "sky_profile_page": "设定档4 NG+，50级，1%，日期2026/10/6",
+  "observer_log": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\记录\\20261007T021730_056349Z.jsonl",
+  "gameplay_result": "待用户验证电梯、井道和后续目标；仅启动与选档可见不证明修复",
+  "original_environment_restore_pending": true
+}

@@ -1,0 +1,481 @@
+{
+  "mode": "Read only fixed evidence summary; no game/save/proxy/runtime modification",
+  "source_json": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\原版对照_账户76561199191371037\\同档对照_20261007_110827_188252fd\\69原版_201SMT完整节点差异.json",
+  "source_json_sha256": "69593725e145987400943192f5cb0564b52280cd7690311a842a145fe5c1a858",
+  "evidence_before": {
+    "path": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\原版对照_账户76561199191371037\\同档对照_20261007_100115_cb21d9cf\\机房检查点_首次退出_20261007_102802_0fec3a97\\slot3-s.save",
+    "sha256": "69d891dd71de75a97028d59de930656960f3b8268159921e7b490d8ee79b9747",
+    "size": 142398
+  },
+  "evidence_after": {
+    "path": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\原版对照_账户76561199191371037\\同档对照_20261007_110827_188252fd\\frozen_smt_save\\slot3-s.save",
+    "sha256": "20196723940a8d1d4e392e2acbd1ef520bdf2be8e4bd4fb69b5b6a31c7884e7a",
+    "size": 142350
+  },
+  "section_count_before": 28,
+  "section_count_after": 28,
+  "removed_section_tags": [],
+  "added_section_tags": [],
+  "changed_section_summary": [
+    {
+      "section_tag": "0xd6f8fc",
+      "before_length": 1356,
+      "after_length": 1356,
+      "before_decoded_nodes": 28,
+      "after_decoded_nodes": 28,
+      "length_delta": 0,
+      "reflected_diff_count": 0,
+      "parse_failures_before": [],
+      "parse_failures_after": []
+    },
+    {
+      "section_tag": "0x1cea6ceb",
+      "before_length": 2508,
+      "after_length": 2504,
+      "before_decoded_nodes": 10,
+      "after_decoded_nodes": 10,
+      "length_delta": -4,
+      "reflected_diff_count": 62,
+      "parse_failures_before": [],
+      "parse_failures_after": []
+    },
+    {
+      "section_tag": "0x4e217848",
+      "before_length": 3664,
+      "after_length": 3664,
+      "before_decoded_nodes": 27,
+      "after_decoded_nodes": 27,
+      "length_delta": 0,
+      "reflected_diff_count": 0,
+      "parse_failures_before": [],
+      "parse_failures_after": []
+    },
+    {
+      "section_tag": "0x586e01a8",
+      "before_length": 1755,
+      "after_length": 1755,
+      "before_decoded_nodes": 0,
+      "after_decoded_nodes": 0,
+      "length_delta": 0,
+      "reflected_diff_count": 0,
+      "parse_failures_before": [],
+      "parse_failures_after": []
+    },
+    {
+      "section_tag": "0x82975026",
+      "before_length": 948,
+      "after_length": 948,
+      "before_decoded_nodes": 7,
+      "after_decoded_nodes": 7,
+      "length_delta": 0,
+      "reflected_diff_count": 0,
+      "parse_failures_before": [],
+      "parse_failures_after": []
+    },
+    {
+      "section_tag": "0x9d1b37dc",
+      "before_length": 900,
+      "after_length": 900,
+      "before_decoded_nodes": 15,
+      "after_decoded_nodes": 15,
+      "length_delta": 0,
+      "reflected_diff_count": 28,
+      "parse_failures_before": [],
+      "parse_failures_after": []
+    },
+    {
+      "section_tag": "0xa026eedb",
+      "before_length": 4284,
+      "after_length": 4284,
+      "before_decoded_nodes": 67,
+      "after_decoded_nodes": 67,
+      "length_delta": 0,
+      "reflected_diff_count": 0,
+      "parse_failures_before": [],
+      "parse_failures_after": []
+    },
+    {
+      "section_tag": "0xa806f448",
+      "before_length": 23672,
+      "after_length": 23672,
+      "before_decoded_nodes": 0,
+      "after_decoded_nodes": 0,
+      "length_delta": 0,
+      "reflected_diff_count": 0,
+      "parse_failures_before": [],
+      "parse_failures_after": []
+    },
+    {
+      "section_tag": "0xc0174d02",
+      "before_length": 4228,
+      "after_length": 4180,
+      "before_decoded_nodes": 0,
+      "after_decoded_nodes": 0,
+      "length_delta": -48,
+      "reflected_diff_count": 0,
+      "parse_failures_before": [],
+      "parse_failures_after": []
+    },
+    {
+      "section_tag": "0xc34cac48",
+      "before_length": 2074,
+      "after_length": 2074,
+      "before_decoded_nodes": 0,
+      "after_decoded_nodes": 0,
+      "length_delta": 0,
+      "reflected_diff_count": 0,
+      "parse_failures_before": [],
+      "parse_failures_after": []
+    },
+    {
+      "section_tag": "0xcd3888a8",
+      "before_length": 4320,
+      "after_length": 4320,
+      "before_decoded_nodes": 57,
+      "after_decoded_nodes": 57,
+      "length_delta": 0,
+      "reflected_diff_count": 0,
+      "parse_failures_before": [],
+      "parse_failures_after": []
+    },
+    {
+      "section_tag": "0xd436a987",
+      "before_length": 7688,
+      "after_length": 7688,
+      "before_decoded_nodes": 159,
+      "after_decoded_nodes": 159,
+      "length_delta": 0,
+      "reflected_diff_count": 2,
+      "parse_failures_before": [],
+      "parse_failures_after": []
+    },
+    {
+      "section_tag": "0xeb364589",
+      "before_length": 13046,
+      "after_length": 13046,
+      "before_decoded_nodes": 0,
+      "after_decoded_nodes": 0,
+      "length_delta": 0,
+      "reflected_diff_count": 0,
+      "parse_failures_before": [],
+      "parse_failures_after": []
+    },
+    {
+      "section_tag": "0xeccba896",
+      "before_length": 8452,
+      "after_length": 8452,
+      "before_decoded_nodes": 238,
+      "after_decoded_nodes": 238,
+      "length_delta": 0,
+      "reflected_diff_count": 0,
+      "parse_failures_before": [],
+      "parse_failures_after": []
+    },
+    {
+      "section_tag": "0xff391f3b",
+      "before_length": 1033,
+      "after_length": 1033,
+      "before_decoded_nodes": 0,
+      "after_decoded_nodes": 0,
+      "length_delta": 0,
+      "reflected_diff_count": 0,
+      "parse_failures_before": [],
+      "parse_failures_after": []
+    }
+  ],
+  "opaque_shorter_section": {
+    "section_tag": "0xc0174d02",
+    "before_length": 4228,
+    "after_length": 4180,
+    "identical_prefix_bytes": 4108,
+    "before_tail_bytes": 120,
+    "after_tail_bytes": 72,
+    "algorithm_byte_alignment_changes": [
+      {
+        "algorithm_op": "replace",
+        "before_offset": 4108,
+        "before_length": 1,
+        "after_offset": 4108,
+        "after_length": 1
+      },
+      {
+        "algorithm_op": "replace",
+        "before_offset": 4112,
+        "before_length": 4,
+        "after_offset": 4112,
+        "after_length": 4
+      },
+      {
+        "algorithm_op": "replace",
+        "before_offset": 4128,
+        "before_length": 7,
+        "after_offset": 4128,
+        "after_length": 2
+      },
+      {
+        "algorithm_op": "delete",
+        "before_offset": 4136,
+        "before_length": 27,
+        "after_offset": 4131,
+        "after_length": 0
+      },
+      {
+        "algorithm_op": "replace",
+        "before_offset": 4176,
+        "before_length": 20,
+        "after_offset": 4144,
+        "after_length": 4
+      },
+      {
+        "algorithm_op": "replace",
+        "before_offset": 4208,
+        "before_length": 4,
+        "after_offset": 4160,
+        "after_length": 4
+      }
+    ],
+    "limit": "Byte alignment operations are not object/record boundaries; no field or door/script semantics inferred."
+  },
+  "segments_keyed_summary": {
+    "removed": [
+      {
+        "key": "3979542408",
+        "name": "GP_A1_FISK_SECURITY_COUNTDOWN"
+      },
+      {
+        "key": "3035846623",
+        "name": "GameSegment"
+      }
+    ],
+    "added": [
+      {
+        "key": "1221241511",
+        "name": "GP_A1_FISK_FIRST_EXPLOSION"
+      },
+      {
+        "key": "724812900",
+        "name": "GameSegment"
+      }
+    ],
+    "common_non_time_field_changes": [],
+    "limit": "Nested decoder object list order changed; GP_A1_FISK/GP_A2_TRUCK apparent indexed replacements are not removals from keyed Segments."
+  },
+  "MSFX_tables": [
+    {
+      "stride": 24,
+      "before_row_count": 29,
+      "after_row_count": 29,
+      "changed_rows": [
+        {
+          "index": 8,
+          "name": "GP_A1_FISK_SECURITY_COUNTDOWN",
+          "before_words": [
+            3655787772,
+            1,
+            1,
+            0,
+            1,
+            3979542408
+          ],
+          "after_words": [
+            3655787772,
+            2,
+            2,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "index": 9,
+          "name": "GP_A1_FISK_HACK_CIN2",
+          "before_words": [
+            2329979202,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "after_words": [
+            2329979202,
+            2,
+            2,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "index": 10,
+          "name": "GP_A1_FISK_POP_UP_TUT",
+          "before_words": [
+            2716130514,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "after_words": [
+            2716130514,
+            2,
+            2,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "index": 11,
+          "name": "GP_A1_FISK_FIRST_EXPLOSION",
+          "before_words": [
+            81803127,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "after_words": [
+            81803127,
+            1,
+            1,
+            0,
+            1,
+            1221241511
+          ]
+        }
+      ]
+    },
+    {
+      "stride": 20,
+      "before_row_count": 29,
+      "after_row_count": 29,
+      "changed_rows": [
+        {
+          "index": 8,
+          "name": "GP_A1_FISK_SECURITY_COUNTDOWN",
+          "before_words": [
+            3655787772,
+            1,
+            1,
+            0,
+            1
+          ],
+          "after_words": [
+            3655787772,
+            2,
+            2,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 9,
+          "name": "GP_A1_FISK_HACK_CIN2",
+          "before_words": [
+            2329979202,
+            0,
+            0,
+            0,
+            0
+          ],
+          "after_words": [
+            2329979202,
+            2,
+            2,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 10,
+          "name": "GP_A1_FISK_POP_UP_TUT",
+          "before_words": [
+            2716130514,
+            0,
+            0,
+            0,
+            0
+          ],
+          "after_words": [
+            2716130514,
+            2,
+            2,
+            0,
+            1
+          ]
+        },
+        {
+          "index": 11,
+          "name": "GP_A1_FISK_FIRST_EXPLOSION",
+          "before_words": [
+            81803127,
+            0,
+            0,
+            0,
+            0
+          ],
+          "after_words": [
+            81803127,
+            1,
+            1,
+            0,
+            1
+          ]
+        }
+      ]
+    }
+  ],
+  "MSFX_global_changes": [
+    {
+      "index": 83,
+      "before": {
+        "index": 83,
+        "mission_hash": "0xd3665ca4",
+        "state_raw": 2,
+        "word_raw": 255,
+        "bytes_raw": [
+          0,
+          0
+        ],
+        "runtime_name": "GP_A1_FISK"
+      },
+      "after": {
+        "index": 83,
+        "mission_hash": "0xd3665ca4",
+        "state_raw": 2,
+        "word_raw": 2047,
+        "bytes_raw": [
+          0,
+          0
+        ],
+        "runtime_name": "GP_A1_FISK"
+      }
+    }
+  ],
+  "key_metadata_changes": [
+    {
+      "path": "[1].object.GamePercent",
+      "before": 0.011665917001664639,
+      "after": 0.010526316240429878
+    },
+    {
+      "path": "[1].object.LastSaveTime",
+      "before": 2125085335,
+      "after": 2125085360
+    }
+  ],
+  "verified_unchanged_metadata": [
+    "CurrentCheckpoint=2938446008 (both reflected instances)",
+    "CurrentCheckpointId=7666949632248882830 (both reflected instances)",
+    "CurrentLevel=0",
+    "ActiveMissionHash=3546700964",
+    "PlaythroughSegmentId=3198264795",
+    "LastPosition",
+    "NG+ flags / level50"
+  ],
+  "test_status_from_parent": "Complete201 vanilla load reproduced closed exit. New vanilla naturally advanced FIRST_EXPLOSION auto not yet obtained as of this summary.",
+  "causal_limit": "69 is COUNTDOWN and 201 is later FIRST_EXPLOSION. Length/data changes are candidates for comparison, not evidence of missing door/script records or cause. Original source JSON pending-test note is historical; it was not modified."
+}

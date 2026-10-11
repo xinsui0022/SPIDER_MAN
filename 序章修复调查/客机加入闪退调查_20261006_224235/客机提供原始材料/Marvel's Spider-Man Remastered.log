@@ -1,0 +1,237 @@
+22:31:24:047 (00017360) > [Startup] Marvel's Spider-Man Remastered
+22:31:24:048 (00017360) > [Startup] ==============
+22:31:24:048 (00017360) > [Startup] 
+22:31:24:048 (00017360) > [Startup] Build: v4.630.0.0
+22:31:24:048 (00017360) > [Startup] Windows 10.0 (build 19045)
+22:31:24:048 (00017360) > [Startup] Distribution platform: Steam
+22:31:24:048 (00017360) > [Startup] Game directory: C:\Users\<username>\Documents\Marvel's Spider-Man Remastered\
+22:31:24:048 (00017360) > [Startup] Working directory: D:\steam\steamapps\common\Marvel's Spider-Man Remastered
+22:31:24:048 (00017360) > [Startup] Run ID: A810-5CD5-F6BE-01C5
+22:31:24:048 (00017360) > [Startup] CRS Client ID: 0b53bf62-afd0-443b-890d-5acfb3dbf3df
+22:31:24:048 (00017360) > [Startup] CRS Session ID: e34537be-ef9e-45f8-ac25-c044990a442f
+22:31:24:048 (00017360) > [Startup] 
+22:31:24:048 (00017360) > [Startup] Memory statistics:
+22:31:24:048 (00017360) > [Startup]   Total RAM = 15.9 GB (16291 MB)
+22:31:24:048 (00017360) > [Startup]   Avail RAM = 8.3 GB (8502 MB)
+22:31:24:048 (00017360) > [Startup]   Total virtual memory = 131072.0 GB (134217727 MB)
+22:31:24:048 (00017360) > [Startup]   Avail virtual memory = 131062.5 GB (134208042 MB)
+22:31:24:048 (00017360) > [Startup]   Total page file = 25.7 GB (26291 MB)
+22:31:24:048 (00017360) > [Startup]   Avail page file = 9.1 GB (9275 MB)
+22:31:24:048 (00017360) > [Startup] 
+22:31:24:048 (00017360) > [Startup] RAM info:
+22:31:24:048 (00017360) > [Startup]   Part:  M471A1K43DB1-CWE    
+22:31:24:048 (00017360) > [Startup]   Size:    8.0 GB (  8192 MB)
+22:31:24:048 (00017360) > [Startup]   Speed: 2933 MHz
+22:31:24:048 (00017360) > [Startup] 
+22:31:24:048 (00017360) > [Startup]   Part:  M471A1K43DB1-CWE    
+22:31:24:048 (00017360) > [Startup]   Size:    8.0 GB (  8192 MB)
+22:31:24:048 (00017360) > [Startup]   Speed: 2933 MHz
+22:31:24:048 (00017360) > [Startup] 
+22:31:24:048 (00017360) > [Startup] 
+22:31:24:048 (00017360) > [NxApp] PreInit
+22:31:24:048 (00017360) > [SwapChain] Initializing...
+22:31:24:048 (00017360) > [DXGI] Initializing...
+22:31:27:235 (00017360) > [NxApp] Streamline was successfully initialized.
+22:31:27:238 (00017360) > [DXGI] Successfully initialized.
+22:31:27:238 (00017360) > [Render] Enumerating adapters:
+22:31:27:241 (00017360) > [Render] 	Adapter 0:
+22:31:27:241 (00017360) > [Monitor] 		Description             : NVIDIA GeForce RTX 2060
+22:31:27:241 (00017360) > [Monitor] 		Vendor                  : nVidia (10de)
+22:31:27:241 (00017360) > [Monitor] 		Device                  : 1f15
+22:31:27:241 (00017360) > [Monitor] 		Sub system              : 3f8d17aa
+22:31:27:241 (00017360) > [Monitor] 		Revision                : 161
+22:31:27:241 (00017360) > [Monitor] 		Dedicated Video Memory  : 5955 MB
+22:31:27:241 (00017360) > [Monitor] 		Dedicated System Memory : 0000 MB
+22:31:27:241 (00017360) > [Monitor] 		Shared System Memory    : 8145 MB
+22:31:27:241 (00017360) > [Monitor] 
+22:31:27:241 (00017360) > [Render] Loading NVAPI...
+22:31:27:250 (00017360) > [Render] Done loading NVAPI
+22:31:27:252 (00017360) > [Render] 	Adapter 1:
+22:31:27:252 (00017360) > [Monitor] 		Description             : Microsoft Basic Render Driver
+22:31:27:252 (00017360) > [Monitor] 		Vendor                  : Unknown (1414)
+22:31:27:252 (00017360) > [Monitor] 		Device                  : 8c
+22:31:27:252 (00017360) > [Monitor] 		Sub system              : 0
+22:31:27:252 (00017360) > [Monitor] 		Revision                : 0
+22:31:27:252 (00017360) > [Monitor] 		Dedicated Video Memory  : 0000 MB
+22:31:27:252 (00017360) > [Monitor] 		Dedicated System Memory : 0000 MB
+22:31:27:252 (00017360) > [Monitor] 		Shared System Memory    : 8145 MB
+22:31:27:252 (00017360) > [Monitor] 
+22:31:27:252 (00017360) > [Render] Enumerating monitors:
+22:31:27:253 (00017360) > [Render] 	Monitor 0: handle = 0000000000010001, aspect = 1.78, rounded aspect = 1.78
+22:31:27:253 (00017360) > [Render] 
+22:31:27:253 (00017360) > [Render] 	Monitor handle = 0000000000010001, pixel aspect ratio = 1.00
+22:31:27:253 (00017360) > [SwapChain] Successfully initialized.
+22:31:27:253 (00017360) > [Render] Enumerating Display Modes:
+22:31:27:254 (00017360) > [Render] Querying NVAPI for Surround modes
+22:31:27:299 (00017360) > [Render] NvAPI_Mosaic_GetDisplayViewportsByResolution() - no surround modes detected
+22:31:27:299 (00017360) > [Render] 	Monitor '1 (NVIDIA GeForce RTX 2060(1))' (0000000000010001):
+22:31:27:299 (00017360) > [Render] 		- Mode  0 :  800 x  600 @  60 Hz, stereo = 0, hdr = 0
+22:31:27:299 (00017360) > [Render] 		- Mode  1 :  800 x  600 @  60 Hz, stereo = 0, hdr = 0
+22:31:27:299 (00017360) > [Render] 		- Mode  2 : 1024 x  768 @  60 Hz, stereo = 0, hdr = 0
+22:31:27:299 (00017360) > [Render] 		- Mode  3 : 1024 x  768 @  60 Hz, stereo = 0, hdr = 0
+22:31:27:299 (00017360) > [Render] 		- Mode  4 : 1280 x  720 @  60 Hz, stereo = 0, hdr = 0
+22:31:27:299 (00017360) > [Render] 		- Mode  5 : 1280 x  720 @  60 Hz, stereo = 0, hdr = 0
+22:31:27:299 (00017360) > [Render] 		- Mode  6 : 1280 x  768 @  60 Hz, stereo = 0, hdr = 0
+22:31:27:299 (00017360) > [Render] 		- Mode  7 : 1280 x  768 @  60 Hz, stereo = 0, hdr = 0
+22:31:27:299 (00017360) > [Render] 		- Mode  8 : 1280 x  800 @  60 Hz, stereo = 0, hdr = 0
+22:31:27:299 (00017360) > [Render] 		- Mode  9 : 1280 x  800 @  60 Hz, stereo = 0, hdr = 0
+22:31:27:299 (00017360) > [Render] 		- Mode 10 : 1280 x 1024 @  60 Hz, stereo = 0, hdr = 0
+22:31:27:299 (00017360) > [Render] 		- Mode 11 : 1280 x 1024 @  60 Hz, stereo = 0, hdr = 0
+22:31:27:299 (00017360) > [Render] 		- Mode 12 : 1360 x  768 @  60 Hz, stereo = 0, hdr = 0
+22:31:27:299 (00017360) > [Render] 		- Mode 13 : 1360 x  768 @  60 Hz, stereo = 0, hdr = 0
+22:31:27:299 (00017360) > [Render] 		- Mode 14 : 1366 x  768 @  60 Hz, stereo = 0, hdr = 0
+22:31:27:299 (00017360) > [Render] 		- Mode 15 : 1366 x  768 @  60 Hz, stereo = 0, hdr = 0
+22:31:27:299 (00017360) > [Render] 		- Mode 16 : 1440 x 1080 @  60 Hz, stereo = 0, hdr = 0
+22:31:27:299 (00017360) > [Render] 		- Mode 17 : 1440 x 1080 @  60 Hz, stereo = 0, hdr = 0
+22:31:27:299 (00017360) > [Render] 		- Mode 18 : 1680 x 1050 @  60 Hz, stereo = 0, hdr = 0
+22:31:27:299 (00017360) > [Render] 		- Mode 19 : 1680 x 1050 @  60 Hz, stereo = 0, hdr = 0
+22:31:27:299 (00017360) > [Render] 		- Mode 20 : 1920 x 1080 @  60 Hz, stereo = 0, hdr = 0
+22:31:27:299 (00017360) > [Render] ***** Additional Monitor Output Info *****
+22:31:27:299 (00017360) > [Render] 		BitsPerColor: 8
+22:31:27:299 (00017360) > [Render] 		Primaries: R=0.6396;0.3301  G=0.2998;0.5996  B=0.1504;0.0596  White-Point=0.3135;0.3291
+22:31:27:299 (00017360) > [Render] 		HDR: No (Color Space: DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709)
+22:31:27:299 (00017360) > [Render] 		Luminance: Min=0.5000 Max=270.0000 MaxFullFrame=270.0000
+22:31:27:299 (00017360) > [Render] ******************************************
+22:31:27:299 (00017360) > [Render] 
+22:31:27:663 (00017360) > [NxApp] RAY TRACING ENABLED: Ray Tracing Tier 1.1 support detected
+22:31:27:701 (00017360) > [NxReflex] Reflex support result:Result::eOk
+22:31:27:701 (00017360) > [NxReflex] DLSSG support result:Result::eErrorOSDisabledHWS
+22:31:27:703 (00017360) > [D3D] Max supported feature level: 11.0
+22:31:27:703 (00017360) > [Render] Disabled D3D12 experimentals
+22:31:27:960 (00017360) > [Render] VMEM Budget: 5187 MB
+22:31:27:960 (00017360) > [Render] VMEM Avaialbe: 5180 MB
+22:31:29:601 (00017360) > [Render] GPU node count: 1
+22:31:29:636 (00017360) > [NxReflex] Reflex support result:Result::eOk
+22:31:29:636 (00017360) > [NxApp] PreInit successful.
+22:31:29:641 (00017360) > [NxUpscaler] SL DLSS support: Result::eOk
+22:31:29:711 (00017360) > [NxUpscaler] XeSS init, code = 0
+22:31:29:713 (00017360) > [NxApp] Querying GPU Driver Info...
+22:31:29:713 (00017360) > [NxApp] Enumerating available display adapters:
+22:31:29:747 (00017360) > [NxApp] 		NVIDIA GeForce RTX 2060 (active)
+22:31:29:747 (00017360) > [NxApp] 		NVIDIA GeForce RTX 2060
+22:31:29:747 (00017360) > [NxApp] Successfully found GPU Driver Info
+22:31:29:758 (00017360) > [Input] Keyboard language: "中文(简体，中国)" (id: 2052)
+22:31:29:759 (00017360) > [Input] Keyboard physical layout: "Chinese (Simplified) - US Keyboard" (id: 00000804)
+22:31:29:759 (00017360) > [Input] Human Input Device  "HID-compliant touch pad"   product 12678 vendor 1267 version 2 usage 5 usagePage 13
+22:31:29:759 (00017360) > [Input] Joystick            ""   product 49408 vendor 1165 version 4096 usage 12 usagePage 1 xinput no
+22:31:29:759 (00017360) > [Input] Joystick            ""   product 49408 vendor 1165 version 4096 usage 1 usagePage 12 xinput no
+22:31:29:759 (00017360) > [Input] Joystick            ""   product 4742 vendor 6392 version 256 usage 1 usagePage 65280 xinput no
+22:31:29:759 (00017360) > [Input] Joystick            ""   product 4742 vendor 6392 version 256 usage 1 usagePage 12 xinput no
+22:31:29:759 (00017360) > [Input] Human Input Device  "Microsoft Input Configuration Device"   product 0 vendor 0 version 0 usage 0 usagePage 0
+22:31:29:759 (00017360) > [Input] Keyboard            "Standard PS/2 Keyboard"   type 7 subType 0 mode 1 function 12 indicators 3 total 101
+22:31:29:759 (00017360) > [Input] Keyboard            "HID Keyboard Device"   type 81 subType 0 mode 1 function 12 indicators 3 total 488
+22:31:29:759 (00017360) > [Input] Keyboard            "HID Keyboard Device"   type 81 subType 0 mode 1 function 12 indicators 3 total 240
+22:31:29:759 (00017360) > [Input] Mouse               "HID-compliant mouse"   id 256 buttons 2 sampleRate 0 horizontalWheel no
+22:31:29:760 (00017360) > [Input] Mouse               "HID-compliant mouse"   id 256 buttons 5 sampleRate 0 horizontalWheel no
+22:31:29:775 (00017360) > [Input] Using LibScePad
+22:31:29:782 (00017360) > [XInput] Enumerating available xusb hid devices:
+
+22:33:03:475 (00017360) > [NxReflex] Reflex support result:Result::eOk
+22:33:03:475 (00017360) > [NxReflex] DLSSG support result:Result::eErrorOSDisabledHWS
+22:33:03:476 (00017360) > [NxApp] Querying GPU Driver Info...
+22:33:03:476 (00017360) > [NxApp] Enumerating available display adapters:
+22:33:03:525 (00017360) > [NxApp] 		NVIDIA GeForce RTX 2060 (active)
+22:33:03:525 (00017360) > [NxApp] 		NVIDIA GeForce RTX 2060
+22:33:03:525 (00017360) > [NxApp] Successfully found GPU Driver Info
+22:33:03:525 (00017360) > [NxApp] Driver Desc: NVIDIA GeForce RTX 2060
+22:33:03:525 (00017360) > [NxApp] Driver Version: 596.36
+22:33:03:525 (00017360) > [**************************************************Display + Graphics Settings**************************************************] 
+22:33:03:525 (00017360) > [Settings] DirectX Version: 12
+22:33:03:525 (00017360) > [Settings] Window mode: Fullscreen
+22:33:03:525 (00017360) > [Settings] Fullscreen display mode:
+22:33:03:525 (00017360) > [Settings] 	Displaying on monitor: 0
+22:33:03:525 (00017360) > [Settings] 	Resolution: 1920x1080
+22:33:03:525 (00017360) > [Settings] 	HDR: Off
+22:33:03:525 (00017360) > [Settings] 	OS reported Refresh rate: 60
+22:33:03:525 (00017360) > [Settings] 	VSync: On
+22:33:03:525 (00017360) > [Settings] 	Reflex: Off
+22:33:03:525 (00017360) > [Settings] 	Frame generation: None
+22:33:03:525 (00017360) > [Settings] 	Resolution modifier 1.000000
+22:33:03:525 (00017360) > [Settings] 	Dynamic resolution FPS target: 60
+22:33:03:525 (00017360) > [Settings] Anti aliasing: TAA
+
+22:33:03:525 (00017360) > [Settings] Upscale method: DLSS
+
+22:33:03:525 (00017360) > [Settings] Upscale quality: Quality
+
+22:33:03:525 (00017360) > [Settings] Upscale sharpen value: 0.500000
+
+22:33:03:525 (00017360) > [Settings] Graphics Options:
+22:33:03:525 (00017360) > [Settings] 	Preset: High
+22:33:03:525 (00017360) > [Settings] 	RT Reflections: Off
+22:33:03:525 (00017360) > [Settings] 	Texture Quality: High
+22:33:03:525 (00017360) > [Settings] 	Texture Filtering: Anisotropic4x
+22:33:03:525 (00017360) > [Settings] 	Shadow Quality: High
+22:33:03:525 (00017360) > [Settings] 	Depth of Field: High
+22:33:03:525 (00017360) > [Settings] 	Level of Detail: High
+22:33:03:525 (00017360) > [Settings] 	Vehicle Detail: High
+22:33:03:525 (00017360) > [Settings] 	Crowd Detail: High
+22:33:03:525 (00017360) > [Settings] 	Hair Quality: High
+22:33:03:525 (00017360) > [Settings] 	Ambient Occlusion: SSAO
+22:33:03:525 (00017360) > [Settings] 	Screen Space Reflections: Normal
+22:33:03:525 (00017360) > [Settings] 	Particle Lighting: High
+
+22:33:03:525 (00017360) > [Settings] 	Bloom: On
+22:33:03:525 (00017360) > [Settings] 	Vignette: On
+22:33:03:525 (00017360) > [Settings] 	Chromatic Aberration: On
+22:33:03:525 (00017360) > [Settings] 	Motion Blur: 1.000000
+22:33:03:525 (00017360) > [Settings] 	FOV Correction: 1.000000
+22:33:03:525 (00017360) > [Settings] 	Film Grain Strength: 1.000000
+22:33:03:525 (00017360) > [Settings] 	Sharpness: 1.000000
+22:33:03:525 (00017360) > [Settings] 	Lens Flares: On
+22:33:03:525 (00017360) > [Settings] 	Screen Effects: On
+22:33:03:525 (00017360) > [**************************************************Display + Graphics Settings**************************************************] 
+22:33:03:525 (00017360) > [NxApp] Creating window...
+22:33:03:529 (00018448) > [GameWindow] UpdateState bVisible true
+22:33:03:545 (00017360) > [NxApp] Window created.
+22:33:03:545 (00017360) > [NxApp] Initializing swapchain...
+22:33:03:545 (00015288) > [SwapChain] Creating...
+22:33:03:545 (00015288) > [NxSwapChainImpl] Swapchain native backbuffer (windows) resolution: 1920x1080
+22:33:03:574 (00015288) > [DXGI] Created swapchain.
+22:33:03:591 (00015288) > [SwapChain] Successfully created.
+22:33:03:591 (00015288) > [NxSwapChainImpl] Swapchain native backbuffer (windows) resolution: 1920x1080
+22:33:03:591 (00017360) > [NxApp] Swapchain initialized
+22:33:03:591 (00017360) > [NxApp] Initializing renderer...
+22:33:03:591 (00017360) > [NxApp] Renderer initialized
+22:33:03:592 (00017360) > [NxProcessorInfo] Custom affinity 0 selected.
+22:33:03:592 (00017360) > [NxProcessorInfo] Processor info:
+22:33:03:592 (00017360) > [NxProcessorInfo] 	Physical Core:     	4
+22:33:03:592 (00017360) > [NxProcessorInfo] 	Logical  Core:     	8
+22:33:03:592 (00017360) > [NxProcessorInfo] 	Distinct L3 Cache: 	1
+22:33:03:592 (00017360) > [NxProcessorInfo] 	Family:            	6
+22:33:03:592 (00017360) > [NxProcessorInfo] 	Model:             	165
+22:33:03:592 (00017360) > [NxProcessorInfo] 	Name:              	Intel(R) Core(TM) i5-10200H CPU @ 2.40GHz
+22:33:03:592 (00017360) > [NxProcessorInfo] 	NormalAffinity(auto)
+22:33:03:656 (00017360) > [Render] File cache.pso contains 10937 pipelines and 0 duplicates
+22:33:03:656 (00017360) > [Render] File C:\Users\<username>\AppData\Roaming\Insomniac Games\Marvel's Spider-Man Remastered\\cache.pso contains 2 pipelines and 0 duplicates
+22:33:03:656 (00017360) > [Render] Support for Shader Model 6.6: Yes
+22:33:03:656 (00017360) > [Render] Is UMA: No Is Cache Coherent: No
+22:33:03:656 (00017360) > [Render] Using Cpu Buffer Optimize: No
+22:33:08:272 (00020496) > [Audio] 
+22:33:08:305 (00012092) > [Save] Request type 3 failed with code 0x00000002
+22:33:08:332 (00012092) > [Save] Request type 3 failed with code 0x00000002
+22:33:08:551 (00002460) > [PSN] AuthenticationRequest: 200
+22:33:08:770 (00010000) > [PSN] GetConfigData: 200
+22:33:08:770 (00022980) > [PSN]     registration: enabled
+22:33:09:137 (00002460) > [PSN] GetRegisteredAccount: 200
+22:33:10:123 (00017360) > [Save] Request load save type -1, control 128, target -1
+22:33:10:124 (00012092) > [Save] Request type 3 failed with code 0x00000002
+22:33:10:157 (00012092) > [Save] Request type 3 failed with code 0x00000002
+22:33:10:200 (00017360) > [Save] Request load save type 0, control 128, target -1
+22:33:10:229 (00017360) > [Save] Request load save type 0, control 128, target -1
+22:33:10:263 (00017360) > [Save] Request load save type 0, control 128, target -1
+22:33:10:296 (00017360) > [Save] Request load save type 0, control 128, target -1
+22:33:10:331 (00017360) > [Save] Request load save type 0, control 128, target -1
+22:33:35:618 (00017360) > [Save] Request load save type 0, control 128, target -1
+22:33:51:221 (00020496) > [Audio] 
+22:33:51:221 (00020496) > [Audio] Device removed 0x0
+22:33:51:245 (00020496) > [Audio] 
+22:34:07:452 (00017096) > [Render] Working set: 3210MB Page file: 10275MB Video Budget: 5187MB Video Usage: 3327MB Sys Budget: 7482MB Sys Usage: 380MB Tex Usage: 894MB Tex Budget: 3000MB BVH heaps: 80MB BVH size: 78MB Demoted: 0MB fps: 58.933338
+22:34:58:678 (00017360) > [Save] Request save type 2, control 0
+22:35:03:982 (00010768) > [D3D] device->GetD3D12Device()->CreateGraphicsPipelineState(&desc, __uuidof(**(&pso)), IID_PPV_ARGS_Helper(&pso)) failed with HRESULT 2147942414 (0x8007000e)
+22:35:03:983 (00017092) > [D3D] device->GetD3D12Device()->CreateGraphicsPipelineState(&desc, __uuidof(**(&pso)), IID_PPV_ARGS_Helper(&pso)) failed with HRESULT 2147942414 (0x8007000e)
+22:35:03:993 (00011612) > [D3D] device->GetD3D12Device()->CreateGraphicsPipelineState(&desc, __uuidof(**(&pso)), IID_PPV_ARGS_Helper(&pso)) failed with HRESULT 2147942414 (0x8007000e)
+22:35:04:016 (00021796) > [D3D] device->GetD3D12Device()->CreateGraphicsPipelineState(&desc, __uuidof(**(&pso)), IID_PPV_ARGS_Helper(&pso)) failed with HRESULT 2147942414 (0x8007000e)
+22:35:04:017 (00013888) > [D3D] device->GetD3D12Device()->CreateGraphicsPipelineState(&desc, __uuidof(**(&pso)), IID_PPV_ARGS_Helper(&pso)) failed with HRESULT 2147942414 (0x8007000e)
+22:35:04:139 (00006524) > [D3D] device->GetD3D12Device()->CreateGraphicsPipelineState(&desc, __uuidof(**(&pso)), IID_PPV_ARGS_Helper(&pso)) failed with HRESULT 2147942414 (0x8007000e)
+22:35:04:187 (00017360) > [D3D] m_Device->CreateHeap(&desc, __uuidof(**(&dx12_heap)), IID_PPV_ARGS_Helper(&dx12_heap)) failed with HRESULT 2147942414 (0x8007000e)

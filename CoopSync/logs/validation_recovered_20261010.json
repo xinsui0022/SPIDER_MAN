@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "date_local": "2026-10-10",
+  "status": "passed",
+  "execution": "validate.cmd followed by targeted cinematic probe recheck after its final changes",
+  "compiler": "MSVC x64 C++17 /EHsc /O2 /MT /W4 /WX",
+  "checks": {
+    "coordinator_cases": 16,
+    "wire_tcp_checks": 186,
+    "offline_fake_adapter_cases": 14,
+    "native_two_process_network_scenarios": 5,
+    "session_fault_scenarios": 10,
+    "mission_reader_self_check": "passed",
+    "cinematic_mock_memory_checks": 15,
+    "overlay_ui_mock_memory_checks": 9,
+    "synthetic_runtime_analysis_cases": 11
+  },
+  "runtime_evidence": [
+    "runtime_three_observers_20261010/manifest.json",
+    "runtime_final_baseline_20261010/manifest.json"
+  ],
+  "runtime_evidence_scope": "Read-only baseline from PID 25612; no observed manual cutscene test",
+  "game_control_operations_performed": false,
+  "real_game_backend_implemented": false,
+  "verified_callable_interfaces": [],
+  "scene_ready_verified": false,
+  "native_skip_verified": false,
+  "door_collision_sync_verified": false,
+  "enemy_sync_verified": false,
+  "cross_computer_coop_verified": false
+}

@@ -1,0 +1,2 @@
+{"record_type":"runtime_lifecycle","event":"starting","pid":15720,"monotonic_ms":2011500,"error_code":0,"sample_count":0,"mode":"read_only_diagnostic","game_operations":false,"scene_ready_verified":false,"world_sync_verified":false,"verified_callable_interfaces":[]}
+{"record_type":"offline_fake_session","game_operations":false}

@@ -1,0 +1,736 @@
+{
+  "game_sha256": "e297d4d94f1ffe4febf289745e79e7b6fa233a788e7a00f480fc77c55db81ad1",
+  "pid": 37700,
+  "base": "0x7ff6239a0000",
+  "difference_bytes": 541,
+  "patch_regions": [
+    {
+      "rva": "0x2bc000",
+      "context_rva": "0x2bbff8",
+      "difference_bytes": 5,
+      "original": "7b 20 49 8b e3 5d c3 cc 48 89 5c 24 08 48 89 74 24 10 48 89 7c 24 18 4c 89 74 24 20 55",
+      "loaded": "7b 20 49 8b e3 5d c3 cc e9 8e 4f d3 ff 48 89 74 24 10 48 89 7c 24 18 4c 89 74 24 20 55"
+    },
+    {
+      "rva": "0x2c5570",
+      "context_rva": "0x2c5568",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 40 57 48 83 ec 40 48 83 79 18 00 48 8b f9 75 0d e8 5b f8 ff ff",
+      "loaded": "cc cc cc cc cc cc cc cc e9 df b7 d1 ff 40 48 83 79 18 00 48 8b f9 75 0d e8 5b f8 ff ff"
+    },
+    {
+      "rva": "0x2c7600",
+      "context_rva": "0x2c75f8",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 40 55 57 48 8d ac 24 d8 fe ff ff 48 81 ec 28 02 00 00 48 83 79",
+      "loaded": "cc cc cc cc cc cc cc cc e9 14 97 d1 ff ac 24 d8 fe ff ff 48 81 ec 28 02 00 00 48 83 79"
+    },
+    {
+      "rva": "0x2d7520",
+      "context_rva": "0x2d7518",
+      "difference_bytes": 5,
+      "original": "00 01 00 00 5d c3 cc cc 4c 8b dc 55 53 56 57 41 56 49 8d 6b 98 48 81 ec 40 01 00 00 48",
+      "loaded": "00 01 00 00 5d c3 cc cc e9 6e 98 d0 ff 56 57 41 56 49 8d 6b 98 48 81 ec 40 01 00 00 48"
+    },
+    {
+      "rva": "0x314c70",
+      "context_rva": "0x314c68",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 48 89 54 24 10 55 57 41 54 41 55 41 57 48 8d ac 24 f0 fe ff ff",
+      "loaded": "cc cc cc cc cc cc cc cc e9 de bf cc ff 55 57 41 54 41 55 41 57 48 8d ac 24 f0 fe ff ff"
+    },
+    {
+      "rva": "0x3e0670",
+      "context_rva": "0x3e0668",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 40 53 48 83 ec 20 8b 02 48 8b d9 89 41 4c 8b 42 04 89 41 50 0f",
+      "loaded": "cc cc cc cc cc cc cc cc e9 5f 06 c0 ff 20 8b 02 48 8b d9 89 41 4c 8b 42 04 89 41 50 0f"
+    },
+    {
+      "rva": "0x3e0890",
+      "context_rva": "0x3e0888",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 40 53 56 57 48 83 ec 40 48 8b f9 0f 29 74 24 30 48 83 c1 48 0f",
+      "loaded": "cc cc cc cc cc cc cc cc e9 01 04 c0 ff 83 ec 40 48 8b f9 0f 29 74 24 30 48 83 c1 48 0f"
+    },
+    {
+      "rva": "0x479330",
+      "context_rva": "0x479328",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 40 55 41 57 48 83 ec 68 80 b9 04 09 00 00 00 48 8b e9 0f 85 06",
+      "loaded": "cc cc cc cc cc cc cc cc e9 a1 74 b6 ff 83 ec 68 80 b9 04 09 00 00 00 48 8b e9 0f 85 06"
+    },
+    {
+      "rva": "0x5f8fe0",
+      "context_rva": "0x5f8fd8",
+      "difference_bytes": 5,
+      "original": "03 03 e9 ff fc ff ff cc 40 53 55 41 54 48 81 ec 30 01 00 00 8b 42 2c 48 8b e9 48 81 c1",
+      "loaded": "03 03 e9 ff fc ff ff cc e9 ee 7f 9e ff 48 81 ec 30 01 00 00 8b 42 2c 48 8b e9 48 81 c1"
+    },
+    {
+      "rva": "0x6452c2",
+      "context_rva": "0x6452ba",
+      "difference_bytes": 9,
+      "original": "00 00 0f 84 41 03 00 00 4d 85 ed 0f 84 38 03 00 00 80 bf 74 01 00 00 01 0f 84 2b 03 00 00 80 bf 56",
+      "loaded": "00 00 0f 84 41 03 00 00 90 90 90 90 90 90 90 90 90 80 bf 74 01 00 00 01 0f 84 2b 03 00 00 80 bf 56"
+    },
+    {
+      "rva": "0x645690",
+      "context_rva": "0x645688",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 40 53 55 56 57 41 54 41 56 41 57 48 81 ec 80 02 00 00 0f 29 b4",
+      "loaded": "cc cc cc cc cc cc cc cc e9 3e b5 99 ff 41 54 41 56 41 57 48 81 ec 80 02 00 00 0f 29 b4"
+    },
+    {
+      "rva": "0x6a2757",
+      "context_rva": "0x6a274f",
+      "difference_bytes": 4,
+      "original": "48 8b c8 e8 e9 b8 ef 00 84 c0 74 54 48 8b cb e8 9d f7 ff ff 48 8b 4b 08 48 8d 15 52",
+      "loaded": "48 8b c8 e8 e9 b8 ef 00 90 90 90 90 48 8b cb e8 9d f7 ff ff 48 8b 4b 08 48 8d 15 52"
+    },
+    {
+      "rva": "0x6c83c3",
+      "context_rva": "0x6c83bb",
+      "difference_bytes": 6,
+      "original": "4c 8b 00 33 d2 48 8b c8 41 ff 90 a0 01 00 00 48 8d 4b 48 e8 1d 15 fb 00 48 85 c0 75 0a 33 d2",
+      "loaded": "4c 8b 00 33 d2 48 8b c8 90 90 90 90 90 90 90 48 8d 4b 48 e8 1d 15 fb 00 48 85 c0 75 0a 33 d2"
+    },
+    {
+      "rva": "0x706fc0",
+      "context_rva": "0x706fb8",
+      "difference_bytes": 5,
+      "original": "41 18 48 89 41 20 c3 cc 40 53 55 56 41 55 48 83 ec 38 4c 8b ea 0f 29 74 24 20 48 8b d9",
+      "loaded": "41 18 48 89 41 20 c3 cc e9 cf 98 8d ff 55 48 83 ec 38 4c 8b ea 0f 29 74 24 20 48 8b d9"
+    },
+    {
+      "rva": "0x724540",
+      "context_rva": "0x724538",
+      "difference_bytes": 5,
+      "original": "83 c4 20 5b c3 cc cc cc 40 53 48 81 ec 90 00 00 00 80 3d e1 aa ca 06 00 48 8b d9 0f 29",
+      "loaded": "83 c4 20 5b c3 cc cc cc e9 92 bc 8c ff 90 00 00 00 80 3d e1 aa ca 06 00 48 8b d9 0f 29"
+    },
+    {
+      "rva": "0x7309d0",
+      "context_rva": "0x7309c8",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 40 57 48 83 ec 30 48 83 79 20 00 48 8d 79 20 0f 85 ed 00 00 00",
+      "loaded": "cc cc cc cc cc cc cc cc e9 3f 00 8c ff 30 48 83 79 20 00 48 8d 79 20 0f 85 ed 00 00 00"
+    },
+    {
+      "rva": "0x78e940",
+      "context_rva": "0x78e938",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 48 89 5c 24 08 48 89 6c 24 10 48 89 74 24 18 48 89 7c 24 20 41",
+      "loaded": "cc cc cc cc cc cc cc cc e9 0e 20 86 ff 48 89 6c 24 10 48 89 74 24 18 48 89 7c 24 20 41"
+    },
+    {
+      "rva": "0x799520",
+      "context_rva": "0x799518",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 48 89 5c 24 10 48 89 6c 24 18 57 48 83 ec 20 48 63 fa 49 8b e8",
+      "loaded": "cc cc cc cc cc cc cc cc e9 ee 73 85 ff 48 89 6c 24 18 57 48 83 ec 20 48 63 fa 49 8b e8"
+    },
+    {
+      "rva": "0x79a1b0",
+      "context_rva": "0x79a1a8",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 41 83 f8 01 0f 87 31 02 00 00 48 89 5c 24 10 56 48 81 ec b0 00",
+      "loaded": "cc cc cc cc cc cc cc cc e9 ed 67 85 ff 87 31 02 00 00 48 89 5c 24 10 56 48 81 ec b0 00"
+    },
+    {
+      "rva": "0x7aa7a0",
+      "context_rva": "0x7aa798",
+      "difference_bytes": 5,
+      "original": "e3 5d c3 cc cc cc cc cc 48 89 5c 24 10 48 89 74 24 18 48 89 7c 24 20 48 89 4c 24 08 55",
+      "loaded": "e3 5d c3 cc cc cc cc cc e9 2e 67 84 ff 48 89 74 24 18 48 89 7c 24 20 48 89 4c 24 08 55"
+    },
+    {
+      "rva": "0x83cc20",
+      "context_rva": "0x83cc18",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 40 53 48 83 ec 20 48 8b d9 e8 82 a2 ff ff 48 8b 43 08 48 8d 0d",
+      "loaded": "cc cc cc cc cc cc cc cc e9 6f 40 7b ff 20 48 8b d9 e8 82 a2 ff ff 48 8b 43 08 48 8d 0d"
+    },
+    {
+      "rva": "0x83cf70",
+      "context_rva": "0x83cf68",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 85 d2 0f 8e bf 00 00 00 41 56 48 83 ec 20 48 89 74 24 38 4c 8b",
+      "loaded": "cc cc cc cc cc cc cc cc e9 ab 3e 7a ff 00 00 00 41 56 48 83 ec 20 48 89 74 24 38 4c 8b"
+    },
+    {
+      "rva": "0x84cc30",
+      "context_rva": "0x84cc28",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 85 d2 7e 6d 57 48 83 ec 20 48 89 5c 24 30 48 8b f9 48 89 74 24",
+      "loaded": "cc cc cc cc cc cc cc cc e9 ec 42 79 ff 48 83 ec 20 48 89 5c 24 30 48 8b f9 48 89 74 24"
+    },
+    {
+      "rva": "0x860610",
+      "context_rva": "0x860608",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 40 53 48 83 ec 20 48 8b d9 48 81 c1 9c 01 00 00 e8 3b ff d3 00",
+      "loaded": "cc cc cc cc cc cc cc cc e9 ff 04 79 ff 20 48 8b d9 48 81 c1 9c 01 00 00 e8 3b ff d3 00"
+    },
+    {
+      "rva": "0x877120",
+      "context_rva": "0x877118",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 48 8b c4 48 89 58 10 48 89 70 18 57 48 81 ec 90 00 00 00 48 89",
+      "loaded": "cc cc cc cc cc cc cc cc e9 b0 8f 77 ff 58 10 48 89 70 18 57 48 81 ec 90 00 00 00 48 89"
+    },
+    {
+      "rva": "0x87abc0",
+      "context_rva": "0x87abb8",
+      "difference_bytes": 5,
+      "original": "5d c3 cc cc cc cc cc cc 40 53 48 83 ec 20 80 b9 81 00 00 00 00 ba 01 00 00 00 48 8b d9",
+      "loaded": "5d c3 cc cc cc cc cc cc e9 cf 54 77 ff 20 80 b9 81 00 00 00 00 ba 01 00 00 00 48 8b d9"
+    },
+    {
+      "rva": "0x8841f0",
+      "context_rva": "0x8841e8",
+      "difference_bytes": 5,
+      "original": "20 5b c3 cc cc cc cc cc 40 53 48 83 ec 20 48 8b d9 48 8d 15 50 ef f8 06 48 8b 49 08 66",
+      "loaded": "20 5b c3 cc cc cc cc cc e9 5f c9 76 ff 20 48 8b d9 48 8d 15 50 ef f8 06 48 8b 49 08 66"
+    },
+    {
+      "rva": "0x88c550",
+      "context_rva": "0x88c548",
+      "difference_bytes": 5,
+      "original": "41 5e 5f 5d c3 cc cc cc 40 53 48 83 ec 20 ba 01 00 00 00 c6 81 74 03 00 00 01 48 8b d9",
+      "loaded": "41 5e 5f 5d c3 cc cc cc e9 ff 3a 76 ff 20 ba 01 00 00 00 c6 81 74 03 00 00 01 48 8b d9"
+    },
+    {
+      "rva": "0x8b0070",
+      "context_rva": "0x8b0068",
+      "difference_bytes": 5,
+      "original": "48 83 c4 20 5f c3 cc cc 40 56 48 81 ec 80 00 00 00 83 b9 c0 00 00 00 00 48 8b f1 75 0b",
+      "loaded": "48 83 c4 20 5f c3 cc cc e9 22 01 74 ff 80 00 00 00 83 b9 c0 00 00 00 00 48 8b f1 75 0b"
+    },
+    {
+      "rva": "0x8f2a30",
+      "context_rva": "0x8f2a28",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 40 53 56 41 56 48 83 ec 50 8b 82 a8 01 00 00 48 8b f1 48 8d 4c",
+      "loaded": "cc cc cc cc cc cc cc cc e9 1e da 6f ff 48 83 ec 50 8b 82 a8 01 00 00 48 8b f1 48 8d 4c"
+    },
+    {
+      "rva": "0x8f3f80",
+      "context_rva": "0x8f3f78",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 48 89 5c 24 20 56 41 54 41 57 48 83 ec 60 48 8b d9 45 0f b6 e0",
+      "loaded": "cc cc cc cc cc cc cc cc e9 4e cb 6f ff 56 41 54 41 57 48 83 ec 60 48 8b d9 45 0f b6 e0"
+    },
+    {
+      "rva": "0x8fd300",
+      "context_rva": "0x8fd2f8",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 48 8b c4 48 89 58 10 48 89 70 18 48 89 78 20 55 48 8d 68 a1 48",
+      "loaded": "cc cc cc cc cc cc cc cc e9 d0 38 6f ff 58 10 48 89 70 18 48 89 78 20 55 48 8d 68 a1 48"
+    },
+    {
+      "rva": "0x8fd760",
+      "context_rva": "0x8fd758",
+      "difference_bytes": 5,
+      "original": "73 f0 49 8b e3 5d c3 cc 48 89 5c 24 08 57 48 83 ec 20 48 8b d9 e8 5e 88 d7 00 48 8b 4b",
+      "loaded": "73 f0 49 8b e3 5d c3 cc e9 2e 34 6f ff 57 48 83 ec 20 48 8b d9 e8 5e 88 d7 00 48 8b 4b"
+    },
+    {
+      "rva": "0x8fece0",
+      "context_rva": "0x8fecd8",
+      "difference_bytes": 5,
+      "original": "91 38 c4 00 00 c3 cc cc 48 89 5c 24 10 48 89 6c 24 18 48 89 7c 24 20 41 56 48 83 ec 40",
+      "loaded": "91 38 c4 00 00 c3 cc cc e9 ee 18 6f ff 48 89 6c 24 18 48 89 7c 24 20 41 56 48 83 ec 40"
+    },
+    {
+      "rva": "0x941790",
+      "context_rva": "0x941788",
+      "difference_bytes": 5,
+      "original": "90 02 00 00 5f 5e 5d c3 48 89 5c 24 10 48 89 74 24 18 57 41 56 41 57 48 83 ec 20 f6 81",
+      "loaded": "90 02 00 00 5f 5e 5d c3 e9 7e f4 69 ff 48 89 74 24 18 57 41 56 41 57 48 83 ec 20 f6 81"
+    },
+    {
+      "rva": "0x994db0",
+      "context_rva": "0x994da8",
+      "difference_bytes": 5,
+      "original": "ff 01 c3 41 0f b6 c3 c3 48 8b c4 55 57 41 55 48 8d a8 f8 fe ff ff 48 81 ec f0 01 00 00",
+      "loaded": "ff 01 c3 41 0f b6 c3 c3 e9 5e be 65 ff 41 55 48 8d a8 f8 fe ff ff 48 81 ec f0 01 00 00"
+    },
+    {
+      "rva": "0x9c5660",
+      "context_rva": "0x9c5658",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 48 89 5c 24 08 57 48 83 ec 20 48 8b d9 48 8b fa 48 8b 49 08 48",
+      "loaded": "cc cc cc cc cc cc cc cc e9 2e ae 62 ff 57 48 83 ec 20 48 8b d9 48 8b fa 48 8b 49 08 48"
+    },
+    {
+      "rva": "0x9ce600",
+      "context_rva": "0x9ce5f8",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 48 89 5c 24 10 57 48 81 ec 80 00 00 00 0f 29 74 24 70 48 8b d9",
+      "loaded": "cc cc cc cc cc cc cc cc e9 0e 1f 62 ff 57 48 81 ec 80 00 00 00 0f 29 74 24 70 48 8b d9"
+    },
+    {
+      "rva": "0xa020c0",
+      "context_rva": "0xa020b8",
+      "difference_bytes": 5,
+      "original": "5e 5d c3 cc cc cc cc cc 48 89 5c 24 18 55 56 57 41 56 41 57 48 83 ec 70 0f 29 74 24 60",
+      "loaded": "5e 5d c3 cc cc cc cc cc e9 ce e6 5e ff 55 56 57 41 56 41 57 48 83 ec 70 0f 29 74 24 60"
+    },
+    {
+      "rva": "0xa049a0",
+      "context_rva": "0xa04998",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 48 8b c4 48 89 58 10 48 89 70 18 48 89 78 20 55 41 56 41 57 48",
+      "loaded": "cc cc cc cc cc cc cc cc e9 b0 bd 5e ff 58 10 48 89 70 18 48 89 78 20 55 41 56 41 57 48"
+    },
+    {
+      "rva": "0xa499b0",
+      "context_rva": "0xa499a8",
+      "difference_bytes": 5,
+      "original": "a7 00 00 cc cc cc cc cc 48 89 5c 24 10 57 48 83 ec 60 f6 81 fc 03 00 00 40 48 8b d9 0f",
+      "loaded": "a7 00 00 cc cc cc cc cc e9 9e 6b 5a ff 57 48 83 ec 60 f6 81 fc 03 00 00 40 48 8b d9 0f"
+    },
+    {
+      "rva": "0xa4c490",
+      "context_rva": "0xa4c488",
+      "difference_bytes": 5,
+      "original": "5b c3 cc cc cc cc cc cc 48 8b c4 53 48 83 ec 60 f3 0f 10 99 c4 03 00 00 48 8b d9 0f 29",
+      "loaded": "5b c3 cc cc cc cc cc cc e9 01 41 5a ff 83 ec 60 f3 0f 10 99 c4 03 00 00 48 8b d9 0f 29"
+    },
+    {
+      "rva": "0xabf850",
+      "context_rva": "0xabf848",
+      "difference_bytes": 5,
+      "original": "e3 5f c3 cc cc cc cc cc 48 8b c4 53 56 57 48 81 ec d0 00 00 00 0f 29 70 d8 48 8b fa 48",
+      "loaded": "e3 5f c3 cc cc cc cc cc e9 fe 0e 52 ff 57 48 81 ec d0 00 00 00 0f 29 70 d8 48 8b fa 48"
+    },
+    {
+      "rva": "0xac2200",
+      "context_rva": "0xac21f8",
+      "difference_bytes": 5,
+      "original": "94 c0 c3 cc cc cc cc cc 4c 8b dc 49 89 5b 18 49 89 73 20 57 48 81 ec b0 00 00 00 41 0f",
+      "loaded": "94 c0 c3 cc cc cc cc cc e9 90 e5 51 ff 5b 18 49 89 73 20 57 48 81 ec b0 00 00 00 41 0f"
+    },
+    {
+      "rva": "0xb39720",
+      "context_rva": "0xb39718",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 48 89 5c 24 10 55 48 8d ac 24 60 fc ff ff 48 81 ec a0 04 00 00",
+      "loaded": "cc cc cc cc cc cc cc cc e9 ee 70 4b ff 55 48 8d ac 24 60 fc ff ff 48 81 ec a0 04 00 00"
+    },
+    {
+      "rva": "0xb68ab0",
+      "context_rva": "0xb68aa8",
+      "difference_bytes": 5,
+      "original": "01 cc cc cc cc cc cc cc 40 53 48 83 ec 30 ba 85 59 2d bc 41 b8 0c 00 00 00 48 8b d9 e8",
+      "loaded": "01 cc cc cc cc cc cc cc e9 1f 7c 48 ff 30 ba 85 59 2d bc 41 b8 0c 00 00 00 48 8b d9 e8"
+    },
+    {
+      "rva": "0xb6b670",
+      "context_rva": "0xb6b668",
+      "difference_bytes": 4,
+      "original": "a0 49 8b e3 5b c3 cc cc 48 8b c4 48 89 58 08 48 89 70 10 48 89 78 18 4c 89 60 20 55 41",
+      "loaded": "a0 49 8b e3 5b c3 cc cc e9 e0 55 48 ff 58 08 48 89 70 10 48 89 78 18 4c 89 60 20 55 41"
+    },
+    {
+      "rva": "0xb70800",
+      "context_rva": "0xb707f8",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 48 89 5c 24 10 48 89 74 24 18 57 48 83 ec 30 f3 0f 10 15 49 d9",
+      "loaded": "cc cc cc cc cc cc cc cc e9 4e fe 47 ff 48 89 74 24 18 57 48 83 ec 30 f3 0f 10 15 49 d9"
+    },
+    {
+      "rva": "0xb70960",
+      "context_rva": "0xb70958",
+      "difference_bytes": 5,
+      "original": "48 83 c4 30 5f c3 cc cc 48 89 5c 24 08 57 48 83 ec 20 48 8b f9 48 8b da 48 8b 0a ba be",
+      "loaded": "48 83 c4 30 5f c3 cc cc e9 2e fd 47 ff 57 48 83 ec 20 48 8b f9 48 8b da 48 8b 0a ba be"
+    },
+    {
+      "rva": "0xbd02b0",
+      "context_rva": "0xbd02a8",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 48 89 5c 24 08 48 89 74 24 10 57 48 83 ec 20 48 8b d9 48 8b fa",
+      "loaded": "cc cc cc cc cc cc cc cc e9 5e 0a 42 ff 48 89 74 24 10 57 48 83 ec 20 48 8b d9 48 8b fa"
+    },
+    {
+      "rva": "0xbf91c0",
+      "context_rva": "0xbf91b8",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 48 89 5c 24 08 44 89 4c 24 20 55 56 57 48 83 ec 20 41 0f b6 d8",
+      "loaded": "cc cc cc cc cc cc cc cc e9 ce 76 3f ff 44 89 4c 24 20 55 56 57 48 83 ec 20 41 0f b6 d8"
+    },
+    {
+      "rva": "0xc027f2",
+      "context_rva": "0xc027ea",
+      "difference_bytes": 7,
+      "original": "48 8b cb e8 fe 42 3a 01 3d d9 bf d9 5e 75 2b 8b 54 24 48 48 8b cb e8 4b 6f 3a 01 84 c0 74 2d",
+      "loaded": "48 8b cb e8 fe 42 3a 01 90 90 90 90 90 90 90 8b 54 24 48 48 8b cb e8 4b 6f 3a 01 84 c0 74 2d"
+    },
+    {
+      "rva": "0xc21c50",
+      "context_rva": "0xc21c48",
+      "difference_bytes": 5,
+      "original": "c3 cc cc cc cc cc cc cc 40 53 57 48 83 ec 28 48 8b f9 48 8b da 48 8d 0d 6c b9 cc 02 e8",
+      "loaded": "c3 cc cc cc cc cc cc cc e9 40 e6 3c ff ec 28 48 8b f9 48 8b da 48 8d 0d 6c b9 cc 02 e8"
+    },
+    {
+      "rva": "0xc24d40",
+      "context_rva": "0xc24d38",
+      "difference_bytes": 5,
+      "original": "00 00 00 e9 e0 90 37 01 48 89 5c 24 08 4c 89 44 24 18 55 56 57 41 54 41 55 41 56 41 57",
+      "loaded": "00 00 00 e9 e0 90 37 01 e9 ce b5 3c ff 4c 89 44 24 18 55 56 57 41 54 41 55 41 56 41 57"
+    },
+    {
+      "rva": "0xc25441",
+      "context_rva": "0xc25439",
+      "difference_bytes": 13,
+      "original": "00 00 41 8b d8 48 8b f9 e8 9a ac 2d 01 84 c0 0f 84 e9 03 00 00 83 fb ff 0f 84 e0 03 00 00 48 89 b4 24 a0 04 00",
+      "loaded": "00 00 41 8b d8 48 8b f9 90 90 90 90 90 90 90 90 90 90 90 90 90 83 fb ff 0f 84 e0 03 00 00 48 89 b4 24 a0 04 00"
+    },
+    {
+      "rva": "0xc26760",
+      "context_rva": "0xc26758",
+      "difference_bytes": 5,
+      "original": "5b c3 cc cc cc cc cc cc 89 54 24 10 4c 8b dc 53 56 57 48 81 ec 60 04 00 00 48 8b b1 e8",
+      "loaded": "5b c3 cc cc cc cc cc cc e9 30 9c 3c ff 8b dc 53 56 57 48 81 ec 60 04 00 00 48 8b b1 e8"
+    },
+    {
+      "rva": "0xc271c0",
+      "context_rva": "0xc271b8",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 48 89 54 24 10 55 41 55 41 56 48 81 ec 80 00 00 00 49 8b 00 4c",
+      "loaded": "cc cc cc cc cc cc cc cc e9 4e 92 3c ff 55 41 55 41 56 48 81 ec 80 00 00 00 49 8b 00 4c"
+    },
+    {
+      "rva": "0xc2a260",
+      "context_rva": "0xc2a258",
+      "difference_bytes": 5,
+      "original": "c3 cc cc cc cc cc cc cc 48 89 5c 24 18 48 89 74 24 20 57 41 54 41 56 48 83 ec 20 48 8b",
+      "loaded": "c3 cc cc cc cc cc cc cc e9 6e 66 3b ff 48 89 74 24 20 57 41 54 41 56 48 83 ec 20 48 8b"
+    },
+    {
+      "rva": "0xc2b8e0",
+      "context_rva": "0xc2b8d8",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 40 55 41 54 41 55 48 8d ac 24 60 f4 ff ff 48 81 ec a0 0c 00 00",
+      "loaded": "cc cc cc cc cc cc cc cc e9 ef 49 3c ff 55 48 8d ac 24 60 f4 ff ff 48 81 ec a0 0c 00 00"
+    },
+    {
+      "rva": "0xc2cda0",
+      "context_rva": "0xc2cd98",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 48 89 5c 24 08 48 89 74 24 10 57 48 83 ec 20 48 63 f1 48 8d 0d",
+      "loaded": "cc cc cc cc cc cc cc cc e9 ae 3b 3b ff 48 89 74 24 10 57 48 83 ec 20 48 63 f1 48 8d 0d"
+    },
+    {
+      "rva": "0xc2cf60",
+      "context_rva": "0xc2cf58",
+      "difference_bytes": 5,
+      "original": "20 5f c3 cc cc cc cc cc 4c 8b dc 53 55 56 48 81 ec 80 00 00 00 8b 82 38 01 00 00 48 8b",
+      "loaded": "20 5f c3 cc cc cc cc cc e9 ee 3a 3b ff 56 48 81 ec 80 00 00 00 8b 82 38 01 00 00 48 8b"
+    },
+    {
+      "rva": "0xc2d340",
+      "context_rva": "0xc2d338",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 4c 8b dc 53 55 56 48 83 ec 70 8b 82 38 01 00 00 48 8b f1 49 8d",
+      "loaded": "cc cc cc cc cc cc cc cc e9 ce 36 3b ff 56 48 83 ec 70 8b 82 38 01 00 00 48 8b f1 49 8d"
+    },
+    {
+      "rva": "0xc2df80",
+      "context_rva": "0xc2df78",
+      "difference_bytes": 5,
+      "original": "00 48 83 c4 68 5f 5e c3 48 89 5c 24 08 48 89 6c 24 10 48 89 74 24 18 57 48 81 ec 90 00",
+      "loaded": "00 48 83 c4 68 5f 5e c3 e9 4e 2a 3b ff 48 89 6c 24 10 48 89 74 24 18 57 48 81 ec 90 00"
+    },
+    {
+      "rva": "0xc2e260",
+      "context_rva": "0xc2e258",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 48 89 5c 24 08 48 89 74 24 10 57 48 81 ec 40 02 00 00 8b d9 0f",
+      "loaded": "cc cc cc cc cc cc cc cc e9 2e 27 3b ff 48 89 74 24 10 57 48 81 ec 40 02 00 00 8b d9 0f"
+    },
+    {
+      "rva": "0xc368a0",
+      "context_rva": "0xc36898",
+      "difference_bytes": 5,
+      "original": "31 b1 00 eb dc cc cc cc 44 89 4c 24 20 56 57 41 54 41 55 41 56 48 83 ec 40 4c 8b ac 24",
+      "loaded": "31 b1 00 eb dc cc cc cc e9 ae 9a 3b ff 56 57 41 54 41 55 41 56 48 83 ec 40 4c 8b ac 24"
+    },
+    {
+      "rva": "0xc6a750",
+      "context_rva": "0xc6a748",
+      "difference_bytes": 5,
+      "original": "c3 cc cc cc cc cc cc cc 45 85 c9 0f 84 cd 01 00 00 48 8b c4 89 50 10 48 89 48 08 56 57",
+      "loaded": "c3 cc cc cc cc cc cc cc e9 8c 5c 38 ff cd 01 00 00 48 8b c4 89 50 10 48 89 48 08 56 57"
+    },
+    {
+      "rva": "0xc89230",
+      "context_rva": "0xc89228",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 40 53 48 81 ec 90 00 00 00 48 8b da 0f b6 4a 04 83 e9 01 74 17",
+      "loaded": "cc cc cc cc cc cc cc cc e9 62 78 36 ff 90 00 00 00 48 8b da 0f b6 4a 04 83 e9 01 74 17"
+    },
+    {
+      "rva": "0xcf22e0",
+      "context_rva": "0xcf22d8",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 48 8b c4 55 41 56 48 8d 68 a1 48 81 ec c8 00 00 00 4c 8b f1 81",
+      "loaded": "cc cc cc cc cc cc cc cc e9 6f df 2f ff 56 48 8d 68 a1 48 81 ec c8 00 00 00 4c 8b f1 81"
+    },
+    {
+      "rva": "0xd55f10",
+      "context_rva": "0xd55f08",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 48 89 5c 24 10 57 48 81 ec a0 00 00 00 0f 29 b4 24 90 00 00 00",
+      "loaded": "cc cc cc cc cc cc cc cc e9 3e a9 29 ff 57 48 81 ec a0 00 00 00 0f 29 b4 24 90 00 00 00"
+    },
+    {
+      "rva": "0xd97730",
+      "context_rva": "0xd97728",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 48 89 5c 24 08 48 89 74 24 10 57 48 83 ec 20 48 8b f9 48 8d 15",
+      "loaded": "cc cc cc cc cc cc cc cc e9 de 89 25 ff 48 89 74 24 10 57 48 83 ec 20 48 8b f9 48 8d 15"
+    },
+    {
+      "rva": "0x162f570",
+      "context_rva": "0x162f568",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 40 53 55 48 83 ec 68 48 8b 01 48 8b ea 48 8b d9 ff 50 30 84 c0",
+      "loaded": "cc cc cc cc cc cc cc cc e9 e0 19 9b fe ec 68 48 8b 01 48 8b ea 48 8b d9 ff 50 30 84 c0"
+    },
+    {
+      "rva": "0x167bbd0",
+      "context_rva": "0x167bbc8",
+      "difference_bytes": 5,
+      "original": "48 83 c4 20 5b c3 cc cc 48 8b 05 99 26 df 05 48 85 c0 74 07 48 89 81 88 00 00 00 ff 05",
+      "loaded": "48 83 c4 20 5b c3 cc cc e9 80 52 97 fe df 05 48 85 c0 74 07 48 89 81 88 00 00 00 ff 05"
+    },
+    {
+      "rva": "0x16885e0",
+      "context_rva": "0x16885d8",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 4c 8b dc 49 89 5b 10 4d 89 4b 20 49 89 4b 08 55 56 57 41 54 41",
+      "loaded": "cc cc cc cc cc cc cc cc e9 f0 87 95 fe 5b 10 4d 89 4b 20 49 89 4b 08 55 56 57 41 54 41"
+    },
+    {
+      "rva": "0x1694080",
+      "context_rva": "0x1694078",
+      "difference_bytes": 5,
+      "original": "41 5d 41 5c 5f c3 cc cc 41 54 41 56 48 83 ec 58 4c 8b f2 48 81 c1 20 01 00 00 48 8b 52",
+      "loaded": "41 5d 41 5c 5f c3 cc cc e9 d1 ca 94 fe 83 ec 58 4c 8b f2 48 81 c1 20 01 00 00 48 8b 52"
+    },
+    {
+      "rva": "0x169e920",
+      "context_rva": "0x169e918",
+      "difference_bytes": 5,
+      "original": "28 c3 cc cc cc cc cc cc 4c 8b dc 48 83 ec 58 48 8b 49 18 49 8d 43 08 45 33 c9 41 83 c0",
+      "loaded": "28 c3 cc cc cc cc cc cc e9 b0 21 94 fe ec 58 48 8b 49 18 49 8d 43 08 45 33 c9 41 83 c0"
+    },
+    {
+      "rva": "0x169e970",
+      "context_rva": "0x169e968",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 4c 8b dc 48 83 ec 58 48 8b 49 18 49 8d 43 08 45 33 c9 45 89 4b",
+      "loaded": "cc cc cc cc cc cc cc cc e9 20 21 94 fe ec 58 48 8b 49 18 49 8d 43 08 45 33 c9 45 89 4b"
+    },
+    {
+      "rva": "0x16d7710",
+      "context_rva": "0x16d7708",
+      "difference_bytes": 5,
+      "original": "48 8b c1 c3 cc cc cc cc 48 89 5c 24 08 57 48 83 ec 20 48 8b da 48 8b f9 48 8b cb ba a9",
+      "loaded": "48 8b c1 c3 cc cc cc cc e9 fe 93 90 fe 57 48 83 ec 20 48 8b da 48 8b f9 48 8b cb ba a9"
+    },
+    {
+      "rva": "0x1702000",
+      "context_rva": "0x1701ff8",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 4c 8b c1 85 d2 78 2d 3b 51 34 7d 28 48 63 c2 48 8d 14 c0 48 8b",
+      "loaded": "cc cc cc cc cc cc cc cc e9 4e ee 8d fe 78 2d 3b 51 34 7d 28 48 63 c2 48 8d 14 c0 48 8b"
+    },
+    {
+      "rva": "0x1759a60",
+      "context_rva": "0x1759a58",
+      "difference_bytes": 4,
+      "original": "89 01 c3 cc cc cc cc cc 44 8b 89 88 08 00 00 41 81 f9 00 02 00 00 73 21 41 8d 41 01 89",
+      "loaded": "89 01 c3 cc cc cc cc cc e9 30 75 88 fe 00 00 41 81 f9 00 02 00 00 73 21 41 8d 41 01 89"
+    },
+    {
+      "rva": "0x190a8a0",
+      "context_rva": "0x190a898",
+      "difference_bytes": 5,
+      "original": "24 50 48 83 c4 40 5f c3 48 89 5c 24 08 57 48 81 ec 70 0c 00 00 48 63 da 48 8b f9 33 d2",
+      "loaded": "24 50 48 83 c4 40 5f c3 e9 ee 62 6d fe 57 48 81 ec 70 0c 00 00 48 63 da 48 8b f9 33 d2"
+    },
+    {
+      "rva": "0x1983b60",
+      "context_rva": "0x1983b58",
+      "difference_bytes": 5,
+      "original": "50 48 83 c4 40 5f c3 cc 48 8b 05 f9 27 0e 06 ff 05 fb 27 0e 06 48 89 01 48 8b c1 48 89",
+      "loaded": "50 48 83 c4 40 5f c3 cc e9 b0 d2 66 fe 0e 06 ff 05 fb 27 0e 06 48 89 01 48 8b c1 48 89"
+    },
+    {
+      "rva": "0x19c5120",
+      "context_rva": "0x19c5118",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 48 89 5c 24 08 57 48 81 ec 00 01 00 00 f6 82 3c 03 00 00 01 48",
+      "loaded": "cc cc cc cc cc cc cc cc e9 ae b8 62 fe 57 48 81 ec 00 01 00 00 f6 82 3c 03 00 00 01 48"
+    },
+    {
+      "rva": "0x1c845e0",
+      "context_rva": "0x1c845d8",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 48 89 5c 24 20 57 48 83 ec 50 c7 44 24 38 01 00 00 00 48 8d 3d",
+      "loaded": "cc cc cc cc cc cc cc cc e9 ee c7 36 fe 57 48 83 ec 50 c7 44 24 38 01 00 00 00 48 8d 3d"
+    },
+    {
+      "rva": "0x1d25e40",
+      "context_rva": "0x1d25e38",
+      "difference_bytes": 5,
+      "original": "10 cc cc cc cc cc cc cc 48 89 5c 24 08 57 48 81 ec 40 02 00 00 48 8b fa 4c 8b 0d 49 da",
+      "loaded": "10 cc cc cc cc cc cc cc e9 0e b1 2c fe 57 48 81 ec 40 02 00 00 48 8b fa 4c 8b 0d 49 da"
+    },
+    {
+      "rva": "0x1d286a0",
+      "context_rva": "0x1d28698",
+      "difference_bytes": 5,
+      "original": "00 e9 32 4b 48 01 cc cc 48 89 5c 24 08 48 89 6c 24 18 48 89 74 24 20 48 89 54 24 10 57",
+      "loaded": "00 e9 32 4b 48 01 cc cc e9 6e 88 2c fe 48 89 6c 24 18 48 89 74 24 20 48 89 54 24 10 57"
+    },
+    {
+      "rva": "0x1de77c0",
+      "context_rva": "0x1de77b8",
+      "difference_bytes": 5,
+      "original": "0f 94 c0 48 83 c4 28 c3 40 53 48 83 ec 20 48 8b d9 e8 02 ee ff ff 48 8b cb e8 ca 62 2f",
+      "loaded": "0f 94 c0 48 83 c4 28 c3 e9 0f 8d 20 fe 20 48 8b d9 e8 02 ee ff ff 48 8b cb e8 ca 62 2f"
+    },
+    {
+      "rva": "0x1e309d0",
+      "context_rva": "0x1e309c8",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 40 55 56 48 8d 6c 24 b1 48 81 ec c8 00 00 00 48 8b f1 48 8b 49",
+      "loaded": "cc cc cc cc cc cc cc cc e9 41 f8 1b fe 6c 24 b1 48 81 ec c8 00 00 00 48 8b f1 48 8b 49"
+    },
+    {
+      "rva": "0x1ed27f0",
+      "context_rva": "0x1ed27e8",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 48 89 5c 24 08 48 89 6c 24 18 56 57 41 56 48 83 ec 40 49 8b 40",
+      "loaded": "cc cc cc cc cc cc cc cc e9 de e4 11 fe 48 89 6c 24 18 56 57 41 56 48 83 ec 40 49 8b 40"
+    },
+    {
+      "rva": "0x1ef6710",
+      "context_rva": "0x1ef6708",
+      "difference_bytes": 5,
+      "original": "28 c3 48 83 c4 28 c3 cc 40 53 48 83 ec 20 8b 15 88 3d d3 05 8b d9 85 d2 75 0b e8 29 02",
+      "loaded": "28 c3 48 83 c4 28 c3 cc e9 3f a6 0f fe 20 8b 15 88 3d d3 05 8b d9 85 d2 75 0b e8 29 02"
+    },
+    {
+      "rva": "0x1efeba0",
+      "context_rva": "0x1efeb98",
+      "difference_bytes": 5,
+      "original": "73 28 49 8b e3 5f c3 cc 89 54 24 10 53 48 81 ec 40 02 00 00 48 8b 01 48 8b d9 ff 50 30",
+      "loaded": "73 28 49 8b e3 5f c3 cc e9 ee 21 0f fe 48 81 ec 40 02 00 00 48 8b 01 48 8b d9 ff 50 30"
+    },
+    {
+      "rva": "0x1f01170",
+      "context_rva": "0x1f01168",
+      "difference_bytes": 5,
+      "original": "c3 cc cc cc cc cc cc cc 48 89 5c 24 08 57 48 83 ec 20 8d 41 ff 48 8b fa 8b d9 83 f8 06",
+      "loaded": "c3 cc cc cc cc cc cc cc e9 9e f7 0d fe 57 48 83 ec 20 8d 41 ff 48 8b fa 8b d9 83 f8 06"
+    },
+    {
+      "rva": "0x1f07800",
+      "context_rva": "0x1f077f8",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 48 8b c4 48 89 58 08 44 89 40 18 55 56 57 41 54 41 55 41 56 41",
+      "loaded": "cc cc cc cc cc cc cc cc e9 d0 90 0e fe 58 08 44 89 40 18 55 56 57 41 54 41 55 41 56 41"
+    },
+    {
+      "rva": "0x1f23710",
+      "context_rva": "0x1f23708",
+      "difference_bytes": 5,
+      "original": "c4 20 5f c3 cc cc cc cc 41 56 48 83 ec 40 48 89 5c 24 50 4c 8b c9 48 8b 0d b3 d0 d0 05",
+      "loaded": "c4 20 5f c3 cc cc cc cc e9 bf d7 0b fe 40 48 89 5c 24 50 4c 8b c9 48 8b 0d b3 d0 d0 05"
+    },
+    {
+      "rva": "0x1f652c0",
+      "context_rva": "0x1f652b8",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 4c 8b 05 c9 23 cd 05 49 8b c0 4d 85 c0 74 12 48 8b 51 10 48 39",
+      "loaded": "cc cc cc cc cc cc cc cc e9 90 b7 08 fe cd 05 49 8b c0 4d 85 c0 74 12 48 8b 51 10 48 39"
+    },
+    {
+      "rva": "0x1f73120",
+      "context_rva": "0x1f73118",
+      "difference_bytes": 5,
+      "original": "00 c3 cc cc cc cc cc cc 48 89 5c 24 08 57 48 83 ec 20 48 8b 01 48 8b d9 ff 90 28 02 00",
+      "loaded": "00 c3 cc cc cc cc cc cc e9 ae de 07 fe 57 48 83 ec 20 48 8b 01 48 8b d9 ff 90 28 02 00"
+    },
+    {
+      "rva": "0x1f83e60",
+      "context_rva": "0x1f83e58",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 40 53 56 57 48 81 ec 50 01 00 00 48 8b d9 48 8d 4c 24 40 e8 68",
+      "loaded": "cc cc cc cc cc cc cc cc e9 34 d0 05 fe 81 ec 50 01 00 00 48 8b d9 48 8d 4c 24 40 e8 68"
+    },
+    {
+      "rva": "0x1f9e170",
+      "context_rva": "0x1f9e168",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 4c 8b dc 45 89 4b 20 89 54 24 10 53 55 56 41 54 41 55 48 81 ec",
+      "loaded": "cc cc cc cc cc cc cc cc e9 e0 1f 05 fe 4b 20 89 54 24 10 53 55 56 41 54 41 55 48 81 ec"
+    },
+    {
+      "rva": "0x1fb7350",
+      "context_rva": "0x1fb7348",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 48 89 5c 24 10 55 56 57 41 56 41 57 48 83 ec 60 49 8b f9 41 8b",
+      "loaded": "cc cc cc cc cc cc cc cc e9 3e 9b 03 fe 55 56 57 41 56 41 57 48 83 ec 60 49 8b f9 41 8b"
+    },
+    {
+      "rva": "0x20d2f40",
+      "context_rva": "0x20d2f38",
+      "difference_bytes": 5,
+      "original": "a0 00 00 00 5f c3 cc cc 48 8b c4 48 89 58 10 48 89 70 18 48 89 78 20 41 56 48 81 ec a0",
+      "loaded": "a0 00 00 00 5f c3 cc cc e9 10 d9 f0 fd 58 10 48 89 70 18 48 89 78 20 41 56 48 81 ec a0"
+    },
+    {
+      "rva": "0x20dc130",
+      "context_rva": "0x20dc128",
+      "difference_bytes": 5,
+      "original": "83 c4 20 5f c3 cc cc cc 40 56 41 57 48 83 ec 38 4c 8b f9 48 83 c1 60 e8 ac d7 59 ff 48",
+      "loaded": "83 c4 20 5f c3 cc cc cc e9 e1 46 f0 fd 83 ec 38 4c 8b f9 48 83 c1 60 e8 ac d7 59 ff 48"
+    },
+    {
+      "rva": "0x20dc3b0",
+      "context_rva": "0x20dc3a8",
+      "difference_bytes": 5,
+      "original": "cc cc cc cc cc cc cc cc 40 53 48 83 ec 20 48 8b d9 e8 22 a6 59 ff 33 c0 f2 0f 11 83 d8",
+      "loaded": "cc cc cc cc cc cc cc cc e9 5f 43 f1 fd 20 48 8b d9 e8 22 a6 59 ff 33 c0 f2 0f 11 83 d8"
+    },
+    {
+      "rva": "0x20e09d0",
+      "context_rva": "0x20e09c8",
+      "difference_bytes": 5,
+      "original": "5b c3 cc cc cc cc cc cc 40 53 48 83 ec 20 f3 0f 10 81 00 01 00 00 48 8b da 0f 2e 05 54",
+      "loaded": "5b c3 cc cc cc cc cc cc e9 3f fc f0 fd 20 f3 0f 10 81 00 01 00 00 48 8b da 0f 2e 05 54"
+    },
+    {
+      "rva": "0x20e1930",
+      "context_rva": "0x20e1928",
+      "difference_bytes": 5,
+      "original": "5f 5e 5d c3 cc cc cc cc 48 8b c4 48 89 58 10 48 89 70 18 48 89 78 20 55 48 8d 68 a1 48",
+      "loaded": "5f 5e 5d c3 cc cc cc cc e9 a0 ee f0 fd 58 10 48 89 70 18 48 89 78 20 55 48 8d 68 a1 48"
+    },
+    {
+      "rva": "0x320c9d0",
+      "context_rva": "0x320c9c8",
+      "difference_bytes": 14,
+      "original": "c3 cc cc cc cc cc cc cc 48 89 5c 24 08 57 48 83 ec 30 48 8b 41 10 48 8b fa 48 8b d9 48 83 78 10 00 75 30 48 8b 49",
+      "loaded": "c3 cc cc cc cc cc cc cc 68 10 69 61 7b c7 44 24 04 97 01 00 00 c3 48 8b fa 48 8b d9 48 83 78 10 00 75 30 48 8b 49"
+    }
+  ]
+}

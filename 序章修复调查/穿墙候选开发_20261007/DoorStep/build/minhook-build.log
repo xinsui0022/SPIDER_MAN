@@ -1,0 +1,14 @@
+buffer.c
+vendor\minhook\src\buffer.c(49): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+hook.c
+vendor\minhook\src\hook.c(419): warning C4310: 类型强制转换截断常量值
+vendor\minhook\src\hook.c(435): warning C4244: “=”: 从“BOOL”转换到“UINT8”，可能丢失数据
+vendor\minhook\src\hook.c(436): warning C4244: “=”: 从“BOOL”转换到“UINT8”，可能丢失数据
+vendor\minhook\src\hook.c(612): warning C4244: “=”: 从“BOOL”转换到“UINT8”，可能丢失数据
+vendor\minhook\src\hook.c(796): warning C4244: “=”: 从“BOOL”转换到“UINT8”，可能丢失数据
+vendor\minhook\src\hook.c(803): warning C4244: “=”: 从“BOOL”转换到“UINT8”，可能丢失数据
+trampoline.c
+vendor\minhook\src\trampoline.c(286): warning C4244: “+=”: 从“UINT”转换到“UINT8”，可能丢失数据
+hde64.c
+正在生成代码...
+C:\Users\xinsui\Desktop\游戏\蜘蛛侠联机mod\序章修复调查\穿墙候选开发_20261007\DoorStep\vendor\minhook\src\hde\hde64.c(59) : warning C4701: 使用了可能未初始化的局部变量“c”

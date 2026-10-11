@@ -1,0 +1,1589 @@
+[
+  {
+    "name": ".?AVDoor@@",
+    "type_descriptor": {
+      "rva": "0x6c41c78",
+      "preferred_va": "0x146c41c78",
+      "file_offset": "0x6c40e78",
+      "section": ".data"
+    },
+    "complete_object_locator": {
+      "rva": "0x56f05c8",
+      "preferred_va": "0x1456f05c8",
+      "file_offset": "0x56efbc8",
+      "section": ".rdata"
+    },
+    "object_offset": "0x0",
+    "constructor_displacement": "0x0",
+    "class_hierarchy_rva": "0x56f05f0",
+    "vtable": {
+      "rva": "0x4f67720",
+      "preferred_va": "0x144f67720",
+      "file_offset": "0x4f66d20",
+      "section": ".rdata"
+    },
+    "methods": [
+      {
+        "slot": 0,
+        "slot_offset": "0x0",
+        "target_rva": "0x1f308f0",
+        "function": {
+          "begin_rva": "0x1f308f0",
+          "end_rva": "0x1f30c50",
+          "unwind_rva": "0x5adad50",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 1,
+        "slot_offset": "0x8",
+        "target_rva": "0x1f30780",
+        "function": {
+          "begin_rva": "0x1f30780",
+          "end_rva": "0x1f30865",
+          "unwind_rva": "0x5adaca8",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 2,
+        "slot_offset": "0x10",
+        "target_rva": "0x1f30870",
+        "function": {
+          "begin_rva": "0x1f30870",
+          "end_rva": "0x1f308ee",
+          "unwind_rva": "0x5adace4",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 3,
+        "slot_offset": "0x18",
+        "target_rva": "0x1f30dc0",
+        "function": {
+          "begin_rva": "0x1f30dc0",
+          "end_rva": "0x1f30df8",
+          "unwind_rva": "0x5adada8",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 4,
+        "slot_offset": "0x20",
+        "target_rva": "0x2bf350",
+        "function": null
+      },
+      {
+        "slot": 5,
+        "slot_offset": "0x28",
+        "target_rva": "0x1f31170",
+        "function": {
+          "begin_rva": "0x1f31170",
+          "end_rva": "0x1f311a4",
+          "unwind_rva": "0x5adb1a0",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 6,
+        "slot_offset": "0x30",
+        "target_rva": "0x1675fc0",
+        "function": null
+      },
+      {
+        "slot": 7,
+        "slot_offset": "0x38",
+        "target_rva": "0x1f30c50",
+        "function": {
+          "begin_rva": "0x1f30c50",
+          "end_rva": "0x1f30d47",
+          "unwind_rva": "0x5adad90",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 8,
+        "slot_offset": "0x40",
+        "target_rva": "0x1f30d50",
+        "function": {
+          "begin_rva": "0x1f30d50",
+          "end_rva": "0x1f30dbc",
+          "unwind_rva": "0x5adad9c",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 9,
+        "slot_offset": "0x48",
+        "target_rva": "0x1f30770",
+        "function": null
+      },
+      {
+        "slot": 10,
+        "slot_offset": "0x50",
+        "target_rva": "0x1f30e00",
+        "function": null
+      },
+      {
+        "slot": 11,
+        "slot_offset": "0x58",
+        "target_rva": "0x1f30e10",
+        "function": null
+      },
+      {
+        "slot": 12,
+        "slot_offset": "0x60",
+        "target_rva": "0x1f30e20",
+        "function": null
+      },
+      {
+        "slot": 13,
+        "slot_offset": "0x68",
+        "target_rva": "0x1f30e30",
+        "function": null
+      },
+      {
+        "slot": 14,
+        "slot_offset": "0x70",
+        "target_rva": "0x1f30e40",
+        "function": null
+      },
+      {
+        "slot": 15,
+        "slot_offset": "0x78",
+        "target_rva": "0x1f30e50",
+        "function": {
+          "begin_rva": "0x1f30e50",
+          "end_rva": "0x1f30ebf",
+          "unwind_rva": "0x5adae3c",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 16,
+        "slot_offset": "0x80",
+        "target_rva": "0x1f31030",
+        "function": {
+          "begin_rva": "0x1f31030",
+          "end_rva": "0x1f31168",
+          "unwind_rva": "0x5adae9c",
+          "source": ".pdata"
+        }
+      }
+    ],
+    "note": "RTTI validates class association; slot semantics and runtime object lifetime remain unknown."
+  },
+  {
+    "name": ".?AVDoorAnimated@@",
+    "type_descriptor": {
+      "rva": "0x6c41c98",
+      "preferred_va": "0x146c41c98",
+      "file_offset": "0x6c40e98",
+      "section": ".data"
+    },
+    "complete_object_locator": {
+      "rva": "0x56f0648",
+      "preferred_va": "0x1456f0648",
+      "file_offset": "0x56efc48",
+      "section": ".rdata"
+    },
+    "object_offset": "0x0",
+    "constructor_displacement": "0x0",
+    "class_hierarchy_rva": "0x56f0670",
+    "vtable": {
+      "rva": "0x4f677c8",
+      "preferred_va": "0x144f677c8",
+      "file_offset": "0x4f66dc8",
+      "section": ".rdata"
+    },
+    "methods": [
+      {
+        "slot": 0,
+        "slot_offset": "0x0",
+        "target_rva": "0x1f33440",
+        "function": {
+          "begin_rva": "0x1f33440",
+          "end_rva": "0x1f334ce",
+          "unwind_rva": "0x5adb308",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 1,
+        "slot_offset": "0x8",
+        "target_rva": "0x1f332d0",
+        "function": {
+          "begin_rva": "0x1f332d0",
+          "end_rva": "0x1f333b5",
+          "unwind_rva": "0x5adb270",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 2,
+        "slot_offset": "0x10",
+        "target_rva": "0x1f333c0",
+        "function": {
+          "begin_rva": "0x1f333c0",
+          "end_rva": "0x1f3343e",
+          "unwind_rva": "0x5adb2ac",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 3,
+        "slot_offset": "0x18",
+        "target_rva": "0x1f30dc0",
+        "function": {
+          "begin_rva": "0x1f30dc0",
+          "end_rva": "0x1f30df8",
+          "unwind_rva": "0x5adada8",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 4,
+        "slot_offset": "0x20",
+        "target_rva": "0x2bf350",
+        "function": null
+      },
+      {
+        "slot": 5,
+        "slot_offset": "0x28",
+        "target_rva": "0x1f33dc0",
+        "function": {
+          "begin_rva": "0x1f33dc0",
+          "end_rva": "0x1f33df4",
+          "unwind_rva": "0x5adb498",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 6,
+        "slot_offset": "0x30",
+        "target_rva": "0x1675fc0",
+        "function": null
+      },
+      {
+        "slot": 7,
+        "slot_offset": "0x38",
+        "target_rva": "0x1f334d0",
+        "function": {
+          "begin_rva": "0x1f334d0",
+          "end_rva": "0x1f3359b",
+          "unwind_rva": "0x5adb314",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 8,
+        "slot_offset": "0x40",
+        "target_rva": "0x1f30d50",
+        "function": {
+          "begin_rva": "0x1f30d50",
+          "end_rva": "0x1f30dbc",
+          "unwind_rva": "0x5adad9c",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 9,
+        "slot_offset": "0x48",
+        "target_rva": "0x1f332c0",
+        "function": null
+      },
+      {
+        "slot": 10,
+        "slot_offset": "0x50",
+        "target_rva": "0x1f335a0",
+        "function": {
+          "begin_rva": "0x1f335a0",
+          "end_rva": "0x1f335b4",
+          "unwind_rva": "0x5adb320",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 11,
+        "slot_offset": "0x58",
+        "target_rva": "0x1f33730",
+        "function": {
+          "begin_rva": "0x1f33730",
+          "end_rva": "0x1f33741",
+          "unwind_rva": "0x5adb37c",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 12,
+        "slot_offset": "0x60",
+        "target_rva": "0x1f33880",
+        "function": {
+          "begin_rva": "0x1f33880",
+          "end_rva": "0x1f33894",
+          "unwind_rva": "0x5adb3d0",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 13,
+        "slot_offset": "0x68",
+        "target_rva": "0x1f33ad0",
+        "function": {
+          "begin_rva": "0x1f33ad0",
+          "end_rva": "0x1f33ae1",
+          "unwind_rva": "0x5adb434",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 14,
+        "slot_offset": "0x70",
+        "target_rva": "0x1f30e40",
+        "function": null
+      },
+      {
+        "slot": 15,
+        "slot_offset": "0x78",
+        "target_rva": "0x1f33c90",
+        "function": {
+          "begin_rva": "0x1f33c90",
+          "end_rva": "0x1f33d13",
+          "unwind_rva": "0x5adb488",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 16,
+        "slot_offset": "0x80",
+        "target_rva": "0x1f33d20",
+        "function": {
+          "begin_rva": "0x1f33d20",
+          "end_rva": "0x1f33dbf",
+          "unwind_rva": "0x5adb490",
+          "source": ".pdata"
+        }
+      }
+    ],
+    "note": "RTTI validates class association; slot semantics and runtime object lifetime remain unknown."
+  },
+  {
+    "name": ".?AVDoorSlide@@",
+    "type_descriptor": {
+      "rva": "0x6c41d70",
+      "preferred_va": "0x146c41d70",
+      "file_offset": "0x6c40f70",
+      "section": ".data"
+    },
+    "complete_object_locator": {
+      "rva": "0x56f08e0",
+      "preferred_va": "0x1456f08e0",
+      "file_offset": "0x56efee0",
+      "section": ".rdata"
+    },
+    "object_offset": "0x0",
+    "constructor_displacement": "0x0",
+    "class_hierarchy_rva": "0x56f0908",
+    "vtable": {
+      "rva": "0x4f67bb8",
+      "preferred_va": "0x144f67bb8",
+      "file_offset": "0x4f671b8",
+      "section": ".rdata"
+    },
+    "methods": [
+      {
+        "slot": 0,
+        "slot_offset": "0x0",
+        "target_rva": "0x1f35de0",
+        "function": {
+          "begin_rva": "0x1f35de0",
+          "end_rva": "0x1f35e93",
+          "unwind_rva": "0x5adbbb4",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 1,
+        "slot_offset": "0x8",
+        "target_rva": "0x1f35c70",
+        "function": {
+          "begin_rva": "0x1f35c70",
+          "end_rva": "0x1f35d55",
+          "unwind_rva": "0x5adbb1c",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 2,
+        "slot_offset": "0x10",
+        "target_rva": "0x1f35d60",
+        "function": {
+          "begin_rva": "0x1f35d60",
+          "end_rva": "0x1f35dde",
+          "unwind_rva": "0x5adbb58",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 3,
+        "slot_offset": "0x18",
+        "target_rva": "0x1f30dc0",
+        "function": {
+          "begin_rva": "0x1f30dc0",
+          "end_rva": "0x1f30df8",
+          "unwind_rva": "0x5adada8",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 4,
+        "slot_offset": "0x20",
+        "target_rva": "0x2bf350",
+        "function": null
+      },
+      {
+        "slot": 5,
+        "slot_offset": "0x28",
+        "target_rva": "0x1f36330",
+        "function": {
+          "begin_rva": "0x1f36330",
+          "end_rva": "0x1f36364",
+          "unwind_rva": "0x5adbc6c",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 6,
+        "slot_offset": "0x30",
+        "target_rva": "0x1675fc0",
+        "function": null
+      },
+      {
+        "slot": 7,
+        "slot_offset": "0x38",
+        "target_rva": "0x1f30c50",
+        "function": {
+          "begin_rva": "0x1f30c50",
+          "end_rva": "0x1f30d47",
+          "unwind_rva": "0x5adad90",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 8,
+        "slot_offset": "0x40",
+        "target_rva": "0x1f30d50",
+        "function": {
+          "begin_rva": "0x1f30d50",
+          "end_rva": "0x1f30dbc",
+          "unwind_rva": "0x5adad9c",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 9,
+        "slot_offset": "0x48",
+        "target_rva": "0x1f35c60",
+        "function": null
+      },
+      {
+        "slot": 10,
+        "slot_offset": "0x50",
+        "target_rva": "0x1f35ea0",
+        "function": {
+          "begin_rva": "0x1f35ea0",
+          "end_rva": "0x1f35f5b",
+          "unwind_rva": "0x5adbbc0",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 11,
+        "slot_offset": "0x58",
+        "target_rva": "0x1f35f60",
+        "function": {
+          "begin_rva": "0x1f35f60",
+          "end_rva": "0x1f36085",
+          "unwind_rva": "0x5adbbd0",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 12,
+        "slot_offset": "0x60",
+        "target_rva": "0x1f36090",
+        "function": {
+          "begin_rva": "0x1f36090",
+          "end_rva": "0x1f36143",
+          "unwind_rva": "0x5adbbe8",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 13,
+        "slot_offset": "0x68",
+        "target_rva": "0x1f36150",
+        "function": {
+          "begin_rva": "0x1f36150",
+          "end_rva": "0x1f36276",
+          "unwind_rva": "0x5adbbf8",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 14,
+        "slot_offset": "0x70",
+        "target_rva": "0x1f30e40",
+        "function": null
+      },
+      {
+        "slot": 15,
+        "slot_offset": "0x78",
+        "target_rva": "0x1f36280",
+        "function": {
+          "begin_rva": "0x1f36280",
+          "end_rva": "0x1f362d2",
+          "unwind_rva": "0x5adbc10",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 16,
+        "slot_offset": "0x80",
+        "target_rva": "0x1f362e0",
+        "function": {
+          "begin_rva": "0x1f362e0",
+          "end_rva": "0x1f3632d",
+          "unwind_rva": "0x5adbc18",
+          "source": ".pdata"
+        }
+      }
+    ],
+    "note": "RTTI validates class association; slot semantics and runtime object lifetime remain unknown."
+  },
+  {
+    "name": ".?AVDoorScriptAction@@",
+    "type_descriptor": {
+      "rva": "0x6c41d18",
+      "preferred_va": "0x146c41d18",
+      "file_offset": "0x6c40f18",
+      "section": ".data"
+    },
+    "complete_object_locator": {
+      "rva": "0x56f07e0",
+      "preferred_va": "0x1456f07e0",
+      "file_offset": "0x56efde0",
+      "section": ".rdata"
+    },
+    "object_offset": "0x0",
+    "constructor_displacement": "0x0",
+    "class_hierarchy_rva": "0x56f0808",
+    "vtable": {
+      "rva": "0x4f67ab8",
+      "preferred_va": "0x144f67ab8",
+      "file_offset": "0x4f670b8",
+      "section": ".rdata"
+    },
+    "methods": [
+      {
+        "slot": 0,
+        "slot_offset": "0x0",
+        "target_rva": "0x1f350a0",
+        "function": {
+          "begin_rva": "0x1f350a0",
+          "end_rva": "0x1f355a6",
+          "unwind_rva": "0x5adb984",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 1,
+        "slot_offset": "0x8",
+        "target_rva": "0x1f34f70",
+        "function": {
+          "begin_rva": "0x1f34f70",
+          "end_rva": "0x1f3503e",
+          "unwind_rva": "0x5adb918",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 2,
+        "slot_offset": "0x10",
+        "target_rva": "0x1f35040",
+        "function": {
+          "begin_rva": "0x1f35040",
+          "end_rva": "0x1f350a0",
+          "unwind_rva": "0x5adb950",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 3,
+        "slot_offset": "0x18",
+        "target_rva": "0x19230f0",
+        "function": {
+          "begin_rva": "0x19230f0",
+          "end_rva": "0x192311e",
+          "unwind_rva": "0x5a24690",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 4,
+        "slot_offset": "0x20",
+        "target_rva": "0x2bf350",
+        "function": null
+      },
+      {
+        "slot": 5,
+        "slot_offset": "0x28",
+        "target_rva": "0x1f357a0",
+        "function": {
+          "begin_rva": "0x1f357a0",
+          "end_rva": "0x1f357d4",
+          "unwind_rva": "0x5adba74",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 6,
+        "slot_offset": "0x30",
+        "target_rva": "0x1675fc0",
+        "function": null
+      },
+      {
+        "slot": 7,
+        "slot_offset": "0x38",
+        "target_rva": "0x1f35710",
+        "function": {
+          "begin_rva": "0x1f35710",
+          "end_rva": "0x1f3572c",
+          "unwind_rva": "0x5adba14",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 8,
+        "slot_offset": "0x40",
+        "target_rva": "0x1675fe0",
+        "function": null
+      },
+      {
+        "slot": 9,
+        "slot_offset": "0x48",
+        "target_rva": "0x1f34f60",
+        "function": null
+      },
+      {
+        "slot": 10,
+        "slot_offset": "0x50",
+        "target_rva": "0x1f355b0",
+        "function": {
+          "begin_rva": "0x1f355b0",
+          "end_rva": "0x1f355d9",
+          "unwind_rva": "0x5adb9ac",
+          "source": ".pdata"
+        }
+      }
+    ],
+    "note": "RTTI validates class association; slot semantics and runtime object lifetime remain unknown."
+  },
+  {
+    "name": ".?AVPhysicsComponent@@",
+    "type_descriptor": {
+      "rva": "0x6c26190",
+      "preferred_va": "0x146c26190",
+      "file_offset": "0x6c25390",
+      "section": ".data"
+    },
+    "complete_object_locator": {
+      "rva": "0x56ad210",
+      "preferred_va": "0x1456ad210",
+      "file_offset": "0x56ac810",
+      "section": ".rdata"
+    },
+    "object_offset": "0x0",
+    "constructor_displacement": "0x0",
+    "class_hierarchy_rva": "0x56ad238",
+    "vtable": {
+      "rva": "0x3d0a460",
+      "preferred_va": "0x143d0a460",
+      "file_offset": "0x3d09a60",
+      "section": ".rdata"
+    },
+    "methods": [
+      {
+        "slot": 0,
+        "slot_offset": "0x0",
+        "target_rva": "0x180ea70",
+        "function": {
+          "begin_rva": "0x180ea70",
+          "end_rva": "0x180eed8",
+          "unwind_rva": "0x5a0a8f0",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 1,
+        "slot_offset": "0x8",
+        "target_rva": "0x180e8b0",
+        "function": {
+          "begin_rva": "0x180e8b0",
+          "end_rva": "0x180e9bb",
+          "unwind_rva": "0x5a0a858",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 2,
+        "slot_offset": "0x10",
+        "target_rva": "0x180e9c0",
+        "function": {
+          "begin_rva": "0x180e9c0",
+          "end_rva": "0x180ea6a",
+          "unwind_rva": "0x5a0a894",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 3,
+        "slot_offset": "0x18",
+        "target_rva": "0x180eee0",
+        "function": {
+          "begin_rva": "0x180eee0",
+          "end_rva": "0x180ef21",
+          "unwind_rva": "0x5a0a90c",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 4,
+        "slot_offset": "0x20",
+        "target_rva": "0x2bf350",
+        "function": null
+      },
+      {
+        "slot": 5,
+        "slot_offset": "0x28",
+        "target_rva": "0x180f040",
+        "function": {
+          "begin_rva": "0x180f040",
+          "end_rva": "0x180f083",
+          "unwind_rva": "0x5a0ac50",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 6,
+        "slot_offset": "0x30",
+        "target_rva": "0x1675fc0",
+        "function": null
+      },
+      {
+        "slot": 7,
+        "slot_offset": "0x38",
+        "target_rva": "0x180ef30",
+        "function": {
+          "begin_rva": "0x180ef30",
+          "end_rva": "0x180f00d",
+          "unwind_rva": "0x5a0a96c",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 8,
+        "slot_offset": "0x40",
+        "target_rva": "0x180f010",
+        "function": {
+          "begin_rva": "0x180f010",
+          "end_rva": "0x180f040",
+          "unwind_rva": "0x5a0a978",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 9,
+        "slot_offset": "0x48",
+        "target_rva": "0x180e8a0",
+        "function": null
+      }
+    ],
+    "note": "RTTI validates class association; slot semantics and runtime object lifetime remain unknown."
+  },
+  {
+    "name": ".?AVPhysicsCollisionAction@@",
+    "type_descriptor": {
+      "rva": "0x6c46318",
+      "preferred_va": "0x146c46318",
+      "file_offset": "0x6c45518",
+      "section": ".data"
+    },
+    "complete_object_locator": {
+      "rva": "0x56fbb18",
+      "preferred_va": "0x1456fbb18",
+      "file_offset": "0x56fb118",
+      "section": ".rdata"
+    },
+    "object_offset": "0x0",
+    "constructor_displacement": "0x0",
+    "class_hierarchy_rva": "0x56fbb40",
+    "vtable": {
+      "rva": "0x4f772e0",
+      "preferred_va": "0x144f772e0",
+      "file_offset": "0x4f768e0",
+      "section": ".rdata"
+    },
+    "methods": [
+      {
+        "slot": 0,
+        "slot_offset": "0x0",
+        "target_rva": "0x2c24d0",
+        "function": null
+      },
+      {
+        "slot": 1,
+        "slot_offset": "0x8",
+        "target_rva": "0x2037bc0",
+        "function": {
+          "begin_rva": "0x2037bc0",
+          "end_rva": "0x2037c8e",
+          "unwind_rva": "0x5afd310",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 2,
+        "slot_offset": "0x10",
+        "target_rva": "0x2037c90",
+        "function": {
+          "begin_rva": "0x2037c90",
+          "end_rva": "0x2037cf0",
+          "unwind_rva": "0x5afd348",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 3,
+        "slot_offset": "0x18",
+        "target_rva": "0x19230f0",
+        "function": {
+          "begin_rva": "0x19230f0",
+          "end_rva": "0x192311e",
+          "unwind_rva": "0x5a24690",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 4,
+        "slot_offset": "0x20",
+        "target_rva": "0x2bf350",
+        "function": null
+      },
+      {
+        "slot": 5,
+        "slot_offset": "0x28",
+        "target_rva": "0x2037dd0",
+        "function": {
+          "begin_rva": "0x2037dd0",
+          "end_rva": "0x2037e04",
+          "unwind_rva": "0x5afd3b0",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 6,
+        "slot_offset": "0x30",
+        "target_rva": "0x1675fc0",
+        "function": null
+      },
+      {
+        "slot": 7,
+        "slot_offset": "0x38",
+        "target_rva": "0x1675fd0",
+        "function": null
+      },
+      {
+        "slot": 8,
+        "slot_offset": "0x40",
+        "target_rva": "0x1675fe0",
+        "function": null
+      },
+      {
+        "slot": 9,
+        "slot_offset": "0x48",
+        "target_rva": "0x2037bb0",
+        "function": null
+      },
+      {
+        "slot": 10,
+        "slot_offset": "0x50",
+        "target_rva": "0x2037cf0",
+        "function": {
+          "begin_rva": "0x2037cf0",
+          "end_rva": "0x2037d1b",
+          "unwind_rva": "0x5afd37c",
+          "source": ".pdata"
+        }
+      }
+    ],
+    "note": "RTTI validates class association; slot semantics and runtime object lifetime remain unknown."
+  },
+  {
+    "name": ".?AVCollisionObject@@",
+    "type_descriptor": {
+      "rva": "0x6c461f8",
+      "preferred_va": "0x146c461f8",
+      "file_offset": "0x6c453f8",
+      "section": ".data"
+    },
+    "complete_object_locator": {
+      "rva": "0x56fb808",
+      "preferred_va": "0x1456fb808",
+      "file_offset": "0x56fae08",
+      "section": ".rdata"
+    },
+    "object_offset": "0x0",
+    "constructor_displacement": "0x0",
+    "class_hierarchy_rva": "0x56fb830",
+    "vtable": {
+      "rva": "0x4f76fd8",
+      "preferred_va": "0x144f76fd8",
+      "file_offset": "0x4f765d8",
+      "section": ".rdata"
+    },
+    "methods": [
+      {
+        "slot": 0,
+        "slot_offset": "0x0",
+        "target_rva": "0x2036670",
+        "function": null
+      },
+      {
+        "slot": 1,
+        "slot_offset": "0x8",
+        "target_rva": "0x2036550",
+        "function": {
+          "begin_rva": "0x2036550",
+          "end_rva": "0x2036606",
+          "unwind_rva": "0x5afcdb4",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 2,
+        "slot_offset": "0x10",
+        "target_rva": "0x2036610",
+        "function": {
+          "begin_rva": "0x2036610",
+          "end_rva": "0x2036670",
+          "unwind_rva": "0x5afcde8",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 3,
+        "slot_offset": "0x18",
+        "target_rva": "0x1675fb0",
+        "function": null
+      },
+      {
+        "slot": 4,
+        "slot_offset": "0x20",
+        "target_rva": "0x2bf350",
+        "function": null
+      },
+      {
+        "slot": 5,
+        "slot_offset": "0x28",
+        "target_rva": "0x20366b0",
+        "function": {
+          "begin_rva": "0x20366b0",
+          "end_rva": "0x20366e4",
+          "unwind_rva": "0x5afce1c",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 6,
+        "slot_offset": "0x30",
+        "target_rva": "0x1675fc0",
+        "function": null
+      },
+      {
+        "slot": 7,
+        "slot_offset": "0x38",
+        "target_rva": "0x2036690",
+        "function": null
+      },
+      {
+        "slot": 8,
+        "slot_offset": "0x40",
+        "target_rva": "0x1675fe0",
+        "function": null
+      },
+      {
+        "slot": 9,
+        "slot_offset": "0x48",
+        "target_rva": "0x20366f0",
+        "function": null
+      }
+    ],
+    "note": "RTTI validates class association; slot semantics and runtime object lifetime remain unknown."
+  },
+  {
+    "name": ".?AVHealth@@",
+    "type_descriptor": {
+      "rva": "0x6baa978",
+      "preferred_va": "0x146baa978",
+      "file_offset": "0x6ba9b78",
+      "section": ".data"
+    },
+    "complete_object_locator": {
+      "rva": "0x5568550",
+      "preferred_va": "0x145568550",
+      "file_offset": "0x5567b50",
+      "section": ".rdata"
+    },
+    "object_offset": "0x0",
+    "constructor_displacement": "0x0",
+    "class_hierarchy_rva": "0x5568578",
+    "vtable": {
+      "rva": "0x3839e08",
+      "preferred_va": "0x143839e08",
+      "file_offset": "0x3839408",
+      "section": ".rdata"
+    },
+    "methods": [
+      {
+        "slot": 0,
+        "slot_offset": "0x0",
+        "target_rva": "0x1f15740",
+        "function": {
+          "begin_rva": "0x1f15740",
+          "end_rva": "0x1f15978",
+          "unwind_rva": "0x5ad5fd8",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 1,
+        "slot_offset": "0x8",
+        "target_rva": "0x1f155d0",
+        "function": {
+          "begin_rva": "0x1f155d0",
+          "end_rva": "0x1f156ae",
+          "unwind_rva": "0x5ad5ef8",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 2,
+        "slot_offset": "0x10",
+        "target_rva": "0x1f156b0",
+        "function": {
+          "begin_rva": "0x1f156b0",
+          "end_rva": "0x1f15734",
+          "unwind_rva": "0x5ad5f30",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 3,
+        "slot_offset": "0x18",
+        "target_rva": "0x1f15980",
+        "function": {
+          "begin_rva": "0x1f15980",
+          "end_rva": "0x1f15a04",
+          "unwind_rva": "0x5ad5ff4",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 4,
+        "slot_offset": "0x20",
+        "target_rva": "0x2bf350",
+        "function": null
+      },
+      {
+        "slot": 5,
+        "slot_offset": "0x28",
+        "target_rva": "0x32ea00",
+        "function": {
+          "begin_rva": "0x32ea00",
+          "end_rva": "0x32ea34",
+          "unwind_rva": "0x5792210",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 6,
+        "slot_offset": "0x30",
+        "target_rva": "0x1675fc0",
+        "function": null
+      },
+      {
+        "slot": 7,
+        "slot_offset": "0x38",
+        "target_rva": "0x1675fd0",
+        "function": null
+      },
+      {
+        "slot": 8,
+        "slot_offset": "0x40",
+        "target_rva": "0x1675fe0",
+        "function": null
+      },
+      {
+        "slot": 9,
+        "slot_offset": "0x48",
+        "target_rva": "0x1f155c0",
+        "function": null
+      },
+      {
+        "slot": 10,
+        "slot_offset": "0x50",
+        "target_rva": "0x1f15a10",
+        "function": {
+          "begin_rva": "0x1f15a10",
+          "end_rva": "0x1f15ad8",
+          "unwind_rva": "0x5ad6094",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 11,
+        "slot_offset": "0x58",
+        "target_rva": "0x1f15c30",
+        "function": {
+          "begin_rva": "0x1f15c30",
+          "end_rva": "0x1f15c4c",
+          "unwind_rva": "0x5ad60d0",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 12,
+        "slot_offset": "0x60",
+        "target_rva": "0x32e940",
+        "function": null
+      },
+      {
+        "slot": 13,
+        "slot_offset": "0x68",
+        "target_rva": "0x1f15d40",
+        "function": null
+      },
+      {
+        "slot": 14,
+        "slot_offset": "0x70",
+        "target_rva": "0x1f15d70",
+        "function": {
+          "begin_rva": "0x1f15d70",
+          "end_rva": "0x1f15d85",
+          "unwind_rva": "0x5ad61ac",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 15,
+        "slot_offset": "0x78",
+        "target_rva": "0x32e950",
+        "function": null
+      },
+      {
+        "slot": 16,
+        "slot_offset": "0x80",
+        "target_rva": "0x32e960",
+        "function": null
+      }
+    ],
+    "note": "RTTI validates class association; slot semantics and runtime object lifetime remain unknown."
+  },
+  {
+    "name": ".?AVBotHealth@@",
+    "type_descriptor": {
+      "rva": "0x6baa9f8",
+      "preferred_va": "0x146baa9f8",
+      "file_offset": "0x6ba9bf8",
+      "section": ".data"
+    },
+    "complete_object_locator": {
+      "rva": "0x55686c8",
+      "preferred_va": "0x1455686c8",
+      "file_offset": "0x5567cc8",
+      "section": ".rdata"
+    },
+    "object_offset": "0x0",
+    "constructor_displacement": "0x0",
+    "class_hierarchy_rva": "0x55686f0",
+    "vtable": {
+      "rva": "0x3839e98",
+      "preferred_va": "0x143839e98",
+      "file_offset": "0x3839498",
+      "section": ".rdata"
+    },
+    "methods": [
+      {
+        "slot": 0,
+        "slot_offset": "0x0",
+        "target_rva": "0x3ce670",
+        "function": {
+          "begin_rva": "0x3ce670",
+          "end_rva": "0x3ce724",
+          "unwind_rva": "0x57a8ad0",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 1,
+        "slot_offset": "0x8",
+        "target_rva": "0x3ce4f0",
+        "function": {
+          "begin_rva": "0x3ce4f0",
+          "end_rva": "0x3ce5db",
+          "unwind_rva": "0x57a8a64",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 2,
+        "slot_offset": "0x10",
+        "target_rva": "0x3ce5e0",
+        "function": {
+          "begin_rva": "0x3ce5e0",
+          "end_rva": "0x3ce66e",
+          "unwind_rva": "0x57a8a9c",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 3,
+        "slot_offset": "0x18",
+        "target_rva": "0x1f15980",
+        "function": {
+          "begin_rva": "0x1f15980",
+          "end_rva": "0x1f15a04",
+          "unwind_rva": "0x5ad5ff4",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 4,
+        "slot_offset": "0x20",
+        "target_rva": "0x2bf350",
+        "function": null
+      },
+      {
+        "slot": 5,
+        "slot_offset": "0x28",
+        "target_rva": "0x32ea40",
+        "function": {
+          "begin_rva": "0x32ea40",
+          "end_rva": "0x32ea74",
+          "unwind_rva": "0x579221c",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 6,
+        "slot_offset": "0x30",
+        "target_rva": "0x1675fc0",
+        "function": null
+      },
+      {
+        "slot": 7,
+        "slot_offset": "0x38",
+        "target_rva": "0x1675fd0",
+        "function": null
+      },
+      {
+        "slot": 8,
+        "slot_offset": "0x40",
+        "target_rva": "0x1675fe0",
+        "function": null
+      },
+      {
+        "slot": 9,
+        "slot_offset": "0x48",
+        "target_rva": "0x3ce4e0",
+        "function": null
+      },
+      {
+        "slot": 10,
+        "slot_offset": "0x50",
+        "target_rva": "0x1f15a10",
+        "function": {
+          "begin_rva": "0x1f15a10",
+          "end_rva": "0x1f15ad8",
+          "unwind_rva": "0x5ad6094",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 11,
+        "slot_offset": "0x58",
+        "target_rva": "0x1f15c30",
+        "function": {
+          "begin_rva": "0x1f15c30",
+          "end_rva": "0x1f15c4c",
+          "unwind_rva": "0x5ad60d0",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 12,
+        "slot_offset": "0x60",
+        "target_rva": "0x32e940",
+        "function": null
+      },
+      {
+        "slot": 13,
+        "slot_offset": "0x68",
+        "target_rva": "0x1f15d40",
+        "function": null
+      },
+      {
+        "slot": 14,
+        "slot_offset": "0x70",
+        "target_rva": "0x1f15d70",
+        "function": {
+          "begin_rva": "0x1f15d70",
+          "end_rva": "0x1f15d85",
+          "unwind_rva": "0x5ad61ac",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 15,
+        "slot_offset": "0x78",
+        "target_rva": "0x32e950",
+        "function": null
+      },
+      {
+        "slot": 16,
+        "slot_offset": "0x80",
+        "target_rva": "0x32e960",
+        "function": null
+      }
+    ],
+    "note": "RTTI validates class association; slot semantics and runtime object lifetime remain unknown."
+  },
+  {
+    "name": ".?AVGameStateRegistry@@",
+    "type_descriptor": {
+      "rva": "0x6c40c68",
+      "preferred_va": "0x146c40c68",
+      "file_offset": "0x6c3fe68",
+      "section": ".data"
+    },
+    "complete_object_locator": {
+      "rva": "0x56eda70",
+      "preferred_va": "0x1456eda70",
+      "file_offset": "0x56ed070",
+      "section": ".rdata"
+    },
+    "object_offset": "0x0",
+    "constructor_displacement": "0x0",
+    "class_hierarchy_rva": "0x56eda98",
+    "vtable": {
+      "rva": "0x4f643a8",
+      "preferred_va": "0x144f643a8",
+      "file_offset": "0x4f639a8",
+      "section": ".rdata"
+    },
+    "methods": [
+      {
+        "slot": 0,
+        "slot_offset": "0x0",
+        "target_rva": "0x1f029c0",
+        "function": {
+          "begin_rva": "0x1f029c0",
+          "end_rva": "0x1f029eb",
+          "unwind_rva": "0x5ad3b98",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 1,
+        "slot_offset": "0x8",
+        "target_rva": "0x1f02a20",
+        "function": null
+      },
+      {
+        "slot": 2,
+        "slot_offset": "0x10",
+        "target_rva": "0x1f02a10",
+        "function": null
+      },
+      {
+        "slot": 3,
+        "slot_offset": "0x18",
+        "target_rva": "0x1f02a30",
+        "function": null
+      },
+      {
+        "slot": 4,
+        "slot_offset": "0x20",
+        "target_rva": "0x1f02bb0",
+        "function": null
+      },
+      {
+        "slot": 5,
+        "slot_offset": "0x28",
+        "target_rva": "0x1f02bc0",
+        "function": null
+      },
+      {
+        "slot": 6,
+        "slot_offset": "0x30",
+        "target_rva": "0x1f02bd0",
+        "function": null
+      },
+      {
+        "slot": 7,
+        "slot_offset": "0x38",
+        "target_rva": "0x7168f0",
+        "function": null
+      },
+      {
+        "slot": 8,
+        "slot_offset": "0x40",
+        "target_rva": "0x1f02c00",
+        "function": {
+          "begin_rva": "0x1f02c00",
+          "end_rva": "0x1f02c44",
+          "unwind_rva": "0x5ad3bf0",
+          "source": ".pdata"
+        }
+      }
+    ],
+    "note": "RTTI validates class association; slot semantics and runtime object lifetime remain unknown."
+  },
+  {
+    "name": ".?AVGameStateSystem@@",
+    "type_descriptor": {
+      "rva": "0x6c40c40",
+      "preferred_va": "0x146c40c40",
+      "file_offset": "0x6c3fe40",
+      "section": ".data"
+    },
+    "complete_object_locator": {
+      "rva": "0x56ed9f0",
+      "preferred_va": "0x1456ed9f0",
+      "file_offset": "0x56ecff0",
+      "section": ".rdata"
+    },
+    "object_offset": "0x0",
+    "constructor_displacement": "0x0",
+    "class_hierarchy_rva": "0x56eda18",
+    "vtable": {
+      "rva": "0x4f64320",
+      "preferred_va": "0x144f64320",
+      "file_offset": "0x4f63920",
+      "section": ".rdata"
+    },
+    "methods": [
+      {
+        "slot": 0,
+        "slot_offset": "0x0",
+        "target_rva": "0x1f02990",
+        "function": {
+          "begin_rva": "0x1f02990",
+          "end_rva": "0x1f029bb",
+          "unwind_rva": "0x5ad3b90",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 1,
+        "slot_offset": "0x8",
+        "target_rva": "0x1f02910",
+        "function": {
+          "begin_rva": "0x1f02910",
+          "end_rva": "0x1f02984",
+          "unwind_rva": "0x5ad3b70",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 2,
+        "slot_offset": "0x10",
+        "target_rva": "0x2b9aa0",
+        "function": null
+      },
+      {
+        "slot": 3,
+        "slot_offset": "0x18",
+        "target_rva": "0x2b9ab0",
+        "function": null
+      },
+      {
+        "slot": 4,
+        "slot_offset": "0x20",
+        "target_rva": "0x2b9ac0",
+        "function": null
+      },
+      {
+        "slot": 5,
+        "slot_offset": "0x28",
+        "target_rva": "0x2b9ad0",
+        "function": null
+      },
+      {
+        "slot": 6,
+        "slot_offset": "0x30",
+        "target_rva": "0x2b9ae0",
+        "function": null
+      },
+      {
+        "slot": 7,
+        "slot_offset": "0x38",
+        "target_rva": "0x2b9af0",
+        "function": null
+      },
+      {
+        "slot": 8,
+        "slot_offset": "0x40",
+        "target_rva": "0x2b9b00",
+        "function": null
+      },
+      {
+        "slot": 9,
+        "slot_offset": "0x48",
+        "target_rva": "0x2b9b10",
+        "function": null
+      },
+      {
+        "slot": 10,
+        "slot_offset": "0x50",
+        "target_rva": "0x2b9b20",
+        "function": null
+      },
+      {
+        "slot": 11,
+        "slot_offset": "0x58",
+        "target_rva": "0x2b9b30",
+        "function": null
+      },
+      {
+        "slot": 12,
+        "slot_offset": "0x60",
+        "target_rva": "0x1f02820",
+        "function": {
+          "begin_rva": "0x1f02820",
+          "end_rva": "0x1f0290a",
+          "unwind_rva": "0x5ad3b68",
+          "source": ".pdata"
+        }
+      },
+      {
+        "slot": 13,
+        "slot_offset": "0x68",
+        "target_rva": "0x2b9b50",
+        "function": null
+      }
+    ],
+    "note": "RTTI validates class association; slot semantics and runtime object lifetime remain unknown."
+  }
+]

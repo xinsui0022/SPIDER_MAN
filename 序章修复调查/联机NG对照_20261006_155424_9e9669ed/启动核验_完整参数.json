@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-06T08:01:58.647022+00:00",
+  "pid": 23692,
+  "launch_arguments": "-nolauncher -mp",
+  "smt_loaded": true,
+  "ordinary_save_restored": true,
+  "smt_original_backup_matches": true,
+  "test_slot3_sha256": "a8364131cb6cc9d8aa35301e043431aefc160f688c883b721d9bfe842edd64c3",
+  "frozen_source_sha256": "a8364131cb6cc9d8aa35301e043431aefc160f688c883b721d9bfe842edd64c3",
+  "result": "启动尚未出现窗口；不能算存档载入失败",
+  "user_native_report": "任务提示出现，仍在菲斯克大楼"
+}

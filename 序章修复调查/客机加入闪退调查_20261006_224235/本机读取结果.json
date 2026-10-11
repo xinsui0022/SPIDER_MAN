@@ -1,0 +1,50 @@
+{
+  "time_hong_kong": "2026-10-06T22:42:35.740112+08:00",
+  "scope": "仅本机主机读取；尚无哥哥客机日志或转储",
+  "user_report": {
+    "client_stage": "连接或载入中，还没看到角色",
+    "host_status": "正常，只有哥哥闪退"
+  },
+  "host_log": {
+    "source": "C:\\Users\\xinsui\\Documents\\Marvel's Spider-Man Remastered\\Marvel's Spider-Man Remastered.log",
+    "snapshot_bytes": 34240,
+    "sha256": "97b83e7a10750b8ee08b33b614cc7cac06f70a1d118fc00bda0dc43f7c9589d7",
+    "live_process_note": "日志来源为仍在运行的主机，快照不代表正常关闭或完整会话"
+  },
+  "mod_log_directory_entries": [],
+  "binaries": {
+    "game": {
+      "path": "D:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\Spider-Man.exe",
+      "sha256": "e297d4d94f1ffe4febf289745e79e7b6fa233a788e7a00f480fc77c55db81ad1",
+      "expected": "e297d4d94f1ffe4febf289745e79e7b6fa233a788e7a00f480fc77c55db81ad1",
+      "matches": true,
+      "file_version": "4.630.0.0"
+    },
+    "mod": {
+      "path": "D:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\SMT\\Scripts\\smt.dll",
+      "sha256": "b7ab575100f2346af25180d74bf9641e24ce09bf549ce47446be09c3462606c7",
+      "expected": "b7ab575100f2346af25180d74bf9641e24ce09bf549ce47446be09c3462606c7",
+      "matches": true
+    },
+    "winmm": {
+      "path": "D:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\winmm.dll",
+      "sha256": "ec59e8537eb9c6ec144897f64ccd8a79618309dd1bb3a62b65ad70b308bcab85",
+      "expected": "ec59e8537eb9c6ec144897f64ccd8a79618309dd1bb3a62b65ad70b308bcab85",
+      "matches": true
+    }
+  },
+  "observed_local_crash": {
+    "app": "crs-video.exe",
+    "pid": 43512,
+    "time_hong_kong": "2026-10-06 22:33:44",
+    "module": "游戏目录 winmm.dll",
+    "module_rva": "0x7F16",
+    "exception": "0xC0000005",
+    "finding": "现有dump属于CRS辅助进程；不能归因哥哥的JOIN闪退"
+  },
+  "no_game_save_config_or_runtime_changes": true,
+  "required_client_evidence": [
+    "文档/Marvel's Spider-Man Remastered/Marvel's Spider-Man Remastered.log",
+    "游戏目录/SMT/Logs/闪退对应时间crash_*.log以及配套crash_*.dmp（若有）"
+  ]
+}

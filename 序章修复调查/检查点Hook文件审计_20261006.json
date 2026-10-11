@@ -1,0 +1,2538 @@
+[
+  {
+    "game_rva": "0x2bc000",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990f93",
+    "target_module": "smt.dll",
+    "target_rva": "0xccc0",
+    "game_function": [
+      "0x2bc000",
+      "0x2bcad9"
+    ],
+    "game_string_candidates": [
+      {
+        "rva": "0x2bc796",
+        "target": "0x382d530",
+        "text": "0.38-jburns: reworked traffic to include intersection data"
+      },
+      {
+        "rva": "0x2bc7ff",
+        "target": "0x382d570",
+        "text": "Prefab: 2.3-cedwards: fix builder determinism issue with curves that have no points, Builder: 0.3-arichter-remove-disableopts-fr"
+      },
+      {
+        "rva": "0x2bc80e",
+        "target": "0x382d570",
+        "text": "Prefab: 2.3-cedwards: fix builder determinism issue with curves that have no points, Builder: 0.3-arichter-remove-disableopts-fr"
+      },
+      {
+        "rva": "0x2bc82b",
+        "target": "0x382d680",
+        "text": "Prefab: 2.3-cedwards: fix builder determinism issue with curves that have no points, Builder: 0.1-dchristo-separated-version-num"
+      },
+      {
+        "rva": "0x2bc83a",
+        "target": "0x382d680",
+        "text": "Prefab: 2.3-cedwards: fix builder determinism issue with curves that have no points, Builder: 0.1-dchristo-separated-version-num"
+      },
+      {
+        "rva": "0x2bc857",
+        "target": "0x382d680",
+        "text": "Prefab: 2.3-cedwards: fix builder determinism issue with curves that have no points, Builder: 0.1-dchristo-separated-version-num"
+      },
+      {
+        "rva": "0x2bc866",
+        "target": "0x382d680",
+        "text": "Prefab: 2.3-cedwards: fix builder determinism issue with curves that have no points, Builder: 0.1-dchristo-separated-version-num"
+      },
+      {
+        "rva": "0x2bc87e",
+        "target": "0x382d780",
+        "text": "0.59-pkao add kSablePatrol ped type"
+      },
+      {
+        "rva": "0x2bc89c",
+        "target": "0x382d280",
+        "text": "0.05-rmcintosh: added manual pad to make sure struct sizes are the same pc vs ps4"
+      },
+      {
+        "rva": "0x2bc8ba",
+        "target": "0x382d7b0",
+        "text": "0.08-bwilcox: increase the build version to force builders to run (ambient breakables weren't turning off ledgepaths when broken"
+      },
+      {
+        "rva": "0x2bc8d8",
+        "target": "0x382d850",
+        "text": "5-cstangle: Memory-ready SceneObjectBuilt <-> SceneObject. FOO_037"
+      },
+      {
+        "rva": "0x2bc8f6",
+        "target": "0x382d898",
+        "text": "0.01-philey: Initial setup"
+      },
+      {
+        "rva": "0x2bc914",
+        "target": "0x382d8b8",
+        "text": "1.0-dchristo-added-flock-builder"
+      },
+      {
+        "rva": "0x2bc932",
+        "target": "0x382d2e0",
+        "text": "0.03 - rmcintosh: added manual pad to make sure struct sizes are the same pc vs ps4"
+      },
+      {
+        "rva": "0x2bc950",
+        "target": "0x382d338",
+        "text": "SimpleEnterVolume 0.05 - rmcintosh: fixed flyby subtype"
+      },
+      {
+        "rva": "0x2bc96e",
+        "target": "0x382d468",
+        "text": "0.01-jburns: parking space built data"
+      }
+    ],
+    "core_function": [
+      "0xccc0",
+      "0xcd7e"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "48 89 5c 24 10 48 89 74 24 18 57 48 83 ec 70 48 8b 05 aa d6 0a 00 48 33 c4 48 89 44 24 60 48 8b"
+  },
+  {
+    "game_rva": "0x2c5570",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980d54",
+    "target_module": "smt.dll",
+    "target_rva": "0x30610",
+    "game_function": [
+      "0x2c5570",
+      "0x2c558d"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x30610",
+      "0x30670"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x30667",
+        "target": "0x7b060",
+        "text": "8B 11 85 D2 79 ?? 8B C2 48 8D 0D ?? ?? ?? ?? C1 E8 0C C1 EA 14 44 0F B6 C0 0F B6 D2 E9"
+      }
+    ],
+    "core_first_bytes": "c2 00 00 cc cc cc cc cc cc cc cc cc cc cc cc cc 48 8b 05 09 09 09 00 48 ff e0 cc cc cc cc cc cc"
+  },
+  {
+    "game_rva": "0x2c7600",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980d19",
+    "target_module": "smt.dll",
+    "target_rva": "0x30610",
+    "game_function": [
+      "0x2c7600",
+      "0x2c7629"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x30610",
+      "0x30670"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x30667",
+        "target": "0x7b060",
+        "text": "8B 11 85 D2 79 ?? 8B C2 48 8D 0D ?? ?? ?? ?? C1 E8 0C C1 EA 14 44 0F B6 C0 0F B6 D2 E9"
+      }
+    ],
+    "core_first_bytes": "c2 00 00 cc cc cc cc cc cc cc cc cc cc cc cc cc 48 8b 05 09 09 09 00 48 ff e0 cc cc cc cc cc cc"
+  },
+  {
+    "game_rva": "0x2d7520",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980d93",
+    "target_module": "smt.dll",
+    "target_rva": "0x30610",
+    "game_function": [
+      "0x2d7520",
+      "0x2d7589"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x30610",
+      "0x30670"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x30667",
+        "target": "0x7b060",
+        "text": "8B 11 85 D2 79 ?? 8B C2 48 8D 0D ?? ?? ?? ?? C1 E8 0C C1 EA 14 44 0F B6 C0 0F B6 D2 E9"
+      }
+    ],
+    "core_first_bytes": "c2 00 00 cc cc cc cc cc cc cc cc cc cc cc cc cc 48 8b 05 09 09 09 00 48 ff e0 cc cc cc cc cc cc"
+  },
+  {
+    "game_rva": "0x314c70",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980c53",
+    "target_module": "smt.dll",
+    "target_rva": "0x55230",
+    "game_function": [
+      "0x314c70",
+      "0x314ce3"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x55230",
+      "0x55296"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "48 89 5c 24 10 48 89 74 24 18 57 48 83 ec 20 8b 81 a4 00 00 00 48 8b f9 48 8d 4c 24 30 89 44 24"
+  },
+  {
+    "game_rva": "0x3e0670",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980cd4",
+    "target_module": "smt.dll",
+    "target_rva": "0x558a0",
+    "game_function": [
+      "0x3e0670",
+      "0x3e06e6"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x558a0",
+      "0x558eb"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x558bd",
+        "target": "0x7f170",
+        "text": "HeroTransitionManager"
+      }
+    ],
+    "core_first_bytes": "48 89 5c 24 08 57 48 83 ec 20 48 8b f9 48 8b da 48 8b ca e8 c8 03 fd ff 48 85 c0 74 17 48 8d 15"
+  },
+  {
+    "game_rva": "0x3e0890",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980c96",
+    "target_module": "smt.dll",
+    "target_rva": "0x558f0",
+    "game_function": [
+      "0x3e0890",
+      "0x3e08f5"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x558f0",
+      "0x55945"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x55917",
+        "target": "0x7f170",
+        "text": "HeroTransitionManager"
+      }
+    ],
+    "core_first_bytes": "40 53 48 83 ec 30 8b 41 4c 48 8b d9 0f 29 74 24 20 48 8d 4c 24 40 0f 28 f1 89 44 24 40 e8 6e 03"
+  },
+  {
+    "game_rva": "0x479330",
+    "difference_bytes": 5,
+    "relay": "0x7ff6239807d6",
+    "target_module": "smt.dll",
+    "target_rva": "0x63750",
+    "game_function": [
+      "0x479330",
+      "0x479348"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x63750",
+      "0x6379a"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "40 53 48 83 ec 20 48 8b d9 e8 c2 fe ff ff 48 8b cb 84 c0 74 29 c6 83 04 09 00 00 00 c7 83 3c 09"
+  },
+  {
+    "game_rva": "0x5f8fe0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980fd3",
+    "target_module": "smt.dll",
+    "target_rva": "0x59670",
+    "game_function": [
+      "0x5f8fe0",
+      "0x5f901d"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x59670",
+      "0x596e2"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x59696",
+        "target": "0x81c90",
+        "text": "HeroCameraManager"
+      }
+    ],
+    "core_first_bytes": "48 89 5c 24 08 57 48 83 ec 20 8b 42 2c 48 8b d9 48 8d 4c 24 38 89 44 24 38 48 8b fa e8 ef c5 fc"
+  },
+  {
+    "game_rva": "0x6452c2",
+    "difference_bytes": 9,
+    "modified_bytes": "90 90 90 90 90 90 90 90 90 80 bf 74 01 00 00 01",
+    "game_function": [
+      "0x6451b0",
+      "0x645683"
+    ],
+    "game_string_candidates": [
+      {
+        "rva": "0x645532",
+        "target": "0x3831298",
+        "text": "I20_Stealth_Meter"
+      },
+      {
+        "rva": "0x645660",
+        "target": "0x3831298",
+        "text": "I20_Stealth_Meter"
+      }
+    ]
+  },
+  {
+    "game_rva": "0x645690",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980bd3",
+    "target_module": "smt.dll",
+    "target_rva": "0x1c310",
+    "game_function": [
+      "0x645690",
+      "0x6457d7"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x1c310",
+      "0x1c3ae"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "48 89 5c 24 20 57 48 81 ec f0 02 00 00 48 8b 05 5c e0 09 00 48 33 c4 48 89 84 24 e0 02 00 00 41"
+  },
+  {
+    "game_rva": "0x6a2757",
+    "difference_bytes": 4,
+    "modified_bytes": "90 90 90 90 48 8b cb e8 9d f7 ff ff 48 8b 4b 08",
+    "game_function": [
+      "0x6a2730",
+      "0x6a27b5"
+    ],
+    "game_string_candidates": []
+  },
+  {
+    "game_rva": "0x6c83c3",
+    "difference_bytes": 6,
+    "modified_bytes": "90 90 90 90 90 90 90 48 8d 4b 48 e8 1d 15 fb 00",
+    "game_function": [
+      "0x6c837d",
+      "0x6c83f7"
+    ],
+    "game_string_candidates": []
+  },
+  {
+    "game_rva": "0x706fc0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980894",
+    "target_module": "smt.dll",
+    "target_rva": "0x631e0",
+    "game_function": [
+      "0x706fc0",
+      "0x707037"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x631e0",
+      "0x6325a"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "40 53 48 83 ec 50 8b 84 24 88 00 00 00 41 8b d8 4c 8b 15 61 08 06 00 89 44 24 28 8b 84 24 80 00"
+  },
+  {
+    "game_rva": "0x724540",
+    "difference_bytes": 5,
+    "relay": "0x7ff6239901d7",
+    "target_module": "smt.dll",
+    "target_rva": "0x54910",
+    "game_function": [
+      "0x724540",
+      "0x72456b"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x54910",
+      "0x54962"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "40 53 48 83 ec 70 48 8b 05 c3 d2 06 00 48 8b d9 f3 0f 10 81 68 01 00 00 0f 29 74 24 60 0f 28 f1"
+  },
+  {
+    "game_rva": "0x7309d0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990a14",
+    "target_module": "smt.dll",
+    "target_rva": "0x5cfe0",
+    "game_function": [
+      "0x7309d0",
+      "0x7309e5"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5cfe0",
+      "0x5d012"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "40 53 48 83 ec 20 48 8b d9 ff 15 09 68 06 00 80 3d f2 67 06 00 00 75 14 48 8b 4b 20 48 83 c1 28"
+  },
+  {
+    "game_rva": "0x78e940",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990953",
+    "target_module": "smt.dll",
+    "target_rva": "0x5dbe0",
+    "game_function": [
+      "0x78e940",
+      "0x78ebab"
+    ],
+    "game_string_candidates": [
+      {
+        "rva": "0x78ea27",
+        "target": "0x3896d90",
+        "text": "OnPingPOIComplete"
+      },
+      {
+        "rva": "0x78eae5",
+        "target": "0x3896da8",
+        "text": "PingPOIs"
+      }
+    ],
+    "core_function": [
+      "0x5dbe0",
+      "0x5dbfe"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "40 53 48 83 ec 20 48 8b d9 ff 15 39 5c 06 00 48 8b cb 48 83 c4 20 5b 48 ff 25 3a 1c 06 00 cc cc"
+  },
+  {
+    "game_rva": "0x799520",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990913",
+    "target_module": "smt.dll",
+    "target_rva": "0x5db60",
+    "game_function": [
+      "0x799520",
+      "0x799548"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5db60",
+      "0x5dbd9"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "48 89 5c 24 08 48 89 74 24 10 57 48 83 ec 20 80 3d 8a c4 05 00 00 49 8b f8 8b f2 48 8b d9 75 3b"
+  },
+  {
+    "game_rva": "0x79a1b0",
+    "difference_bytes": 5,
+    "relay": "0x7ff6239909a2",
+    "target_module": "smt.dll",
+    "target_rva": "0x5dad0",
+    "game_function": [
+      "0x79a1b0",
+      "0x79a1c7"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5dad0",
+      "0x5db5c"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x5db0b",
+        "target": "0x83098",
+        "text": "POIAlly"
+      }
+    ],
+    "core_first_bytes": "48 89 5c 24 08 48 89 6c 24 10 48 89 74 24 18 48 89 7c 24 20 41 56 48 83 ec 30 48 8b 01 49 8b e9"
+  },
+  {
+    "game_rva": "0x7aa7a0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990ed3",
+    "target_module": "smt.dll",
+    "target_rva": "0x505b0",
+    "game_function": [
+      "0x7aa7a0",
+      "0x7aa9c9"
+    ],
+    "game_string_candidates": [
+      {
+        "rva": "0x7aa84a",
+        "target": "0x3895224",
+        "text": "Object"
+      },
+      {
+        "rva": "0x7aa914",
+        "target": "0x38968f8",
+        "text": "previewImage"
+      }
+    ],
+    "core_function": [
+      "0x505b0",
+      "0x507c0"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x50660",
+        "target": "0x7f2b8",
+        "text": "Object"
+      },
+      {
+        "rva": "0x506b7",
+        "target": "0x7f338",
+        "text": "label"
+      },
+      {
+        "rva": "0x5071b",
+        "target": "0x7fd80",
+        "text": "previewImage"
+      },
+      {
+        "rva": "0x5074d",
+        "target": "0x7f3a8",
+        "text": "command"
+      }
+    ],
+    "core_first_bytes": "48 8b c4 48 89 58 08 48 89 70 18 48 89 78 20 48 89 50 10 55 41 54 41 55 41 56 41 57 48 8d 68 a1"
+  },
+  {
+    "game_rva": "0x83cc20",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990c94",
+    "target_module": "smt.dll",
+    "target_rva": "0x57740",
+    "game_function": [
+      "0x83cc20",
+      "0x83cce4"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x57740",
+      "0x57a4e"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x57753",
+        "target": "0x811e8",
+        "text": "HeroAimManagerLocal"
+      },
+      {
+        "rva": "0x57768",
+        "target": "0x811e8",
+        "text": "HeroAimManagerLocal"
+      },
+      {
+        "rva": "0x57788",
+        "target": "0x81200",
+        "text": "HeroDodgeManager"
+      },
+      {
+        "rva": "0x5779d",
+        "target": "0x81200",
+        "text": "HeroDodgeManager"
+      },
+      {
+        "rva": "0x577bd",
+        "target": "0x81218",
+        "text": "SwingPointHunter"
+      },
+      {
+        "rva": "0x577d2",
+        "target": "0x81218",
+        "text": "SwingPointHunter"
+      },
+      {
+        "rva": "0x577f2",
+        "target": "0x81230",
+        "text": "HeroEnvironmentManagerLocal"
+      },
+      {
+        "rva": "0x57807",
+        "target": "0x81230",
+        "text": "HeroEnvironmentManagerLocal"
+      },
+      {
+        "rva": "0x57827",
+        "target": "0x81250",
+        "text": "HeroTraversalTargeting"
+      },
+      {
+        "rva": "0x5783c",
+        "target": "0x81250",
+        "text": "HeroTraversalTargeting"
+      },
+      {
+        "rva": "0x5785c",
+        "target": "0x81268",
+        "text": "HeroRangedTargetProcessor"
+      },
+      {
+        "rva": "0x57871",
+        "target": "0x81268",
+        "text": "HeroRangedTargetProcessor"
+      },
+      {
+        "rva": "0x57891",
+        "target": "0x81288",
+        "text": "AimAngleGeneratorLocal"
+      },
+      {
+        "rva": "0x578a6",
+        "target": "0x81288",
+        "text": "AimAngleGeneratorLocal"
+      },
+      {
+        "rva": "0x578c6",
+        "target": "0x812a0",
+        "text": "HeroStealthAttackManager"
+      },
+      {
+        "rva": "0x578db",
+        "target": "0x812a0",
+        "text": "HeroStealthAttackManager"
+      },
+      {
+        "rva": "0x578fb",
+        "target": "0x812c0",
+        "text": "MeleeSwingPointHunter"
+      },
+      {
+        "rva": "0x57910",
+        "target": "0x812c0",
+        "text": "MeleeSwingPointHunter"
+      },
+      {
+        "rva": "0x57930",
+        "target": "0x812d8",
+        "text": "HeroFreeRunTargeting"
+      },
+      {
+        "rva": "0x57945",
+        "target": "0x812d8",
+        "text": "HeroFreeRunTargeting"
+      },
+      {
+        "rva": "0x57965",
+        "target": "0x812f0",
+        "text": "HeroEffectsComponent"
+      },
+      {
+        "rva": "0x57982",
+        "target": "0x81308",
+        "text": "HeroOrderedAsync"
+      },
+      {
+        "rva": "0x5799f",
+        "target": "0x81320",
+        "text": "HeroRangedTargetCollider"
+      },
+      {
+        "rva": "0x579bc",
+        "target": "0x81340",
+        "text": "HeroTargetTrackerGame"
+      },
+      {
+        "rva": "0x579d9",
+        "target": "0x81358",
+        "text": "HeroOfferProcessor"
+      },
+      {
+        "rva": "0x579f6",
+        "target": "0x81370",
+        "text": "WallContourProbe"
+      },
+      {
+        "rva": "0x57a13",
+        "target": "0x81388",
+        "text": "LedgePathHunter"
+      },
+      {
+        "rva": "0x57a30",
+        "target": "0x81398",
+        "text": "WallRunSteeringAssistant"
+      }
+    ],
+    "core_first_bytes": "40 53 48 83 ec 20 48 8b d9 ff 15 d1 ba 06 00 48 8b 4b 08 48 8d 15 8e 9a 02 00 e8 c1 dd fc ff 48"
+  },
+  {
+    "game_rva": "0x83cf70",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980e20",
+    "target_module": "smt.dll",
+    "target_rva": "0x30610",
+    "game_function": [
+      "0x83cf70",
+      "0x83cf7e"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x30610",
+      "0x30670"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x30667",
+        "target": "0x7b060",
+        "text": "8B 11 85 D2 79 ?? 8B C2 48 8D 0D ?? ?? ?? ?? C1 E8 0C C1 EA 14 44 0F B6 C0 0F B6 D2 E9"
+      }
+    ],
+    "core_first_bytes": "c2 00 00 cc cc cc cc cc cc cc cc cc cc cc cc cc 48 8b 05 09 09 09 00 48 ff e0 cc cc cc cc cc cc"
+  },
+  {
+    "game_rva": "0x84cc30",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980f21",
+    "target_module": "smt.dll",
+    "target_rva": "0x57450",
+    "game_function": [
+      "0x84cc30",
+      "0x84cc39"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x57450",
+      "0x5745e"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "85 d2 0f 8e 9b 00 00 00 41 56 48 83 ec 20 48 89 6c 24 38 4c 8b f1 48 63 ea 85 d2 74 7b 48 89 5c"
+  },
+  {
+    "game_rva": "0x860610",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990b14",
+    "target_module": "smt.dll",
+    "target_rva": "0x57b00",
+    "game_function": [
+      "0x860610",
+      "0x860656"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x57b00",
+      "0x57b60"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x57b58",
+        "target": "0x81100",
+        "text": "40 53 48 83 EC 20 48 8B D9 E8 ?? ?? ?? ?? 48 8B 43 ?? 48 8D 0D ?? ?? ?? ?? 41 B8 01 00 00 00 0F B7 50 ?? 8B 40 ?? 81 E2 FF 07 00"
+      }
+    ],
+    "core_first_bytes": "48 85 c9 75 03 b0 01 c3 48 8b 05 89 b7 06 00 48 ff e0 cc cc cc cc cc cc cc cc cc cc cc cc cc cc"
+  },
+  {
+    "game_rva": "0x877120",
+    "difference_bytes": 5,
+    "relay": "0x7ff6239900d5",
+    "target_module": "smt.dll",
+    "target_rva": "0x5a1e0",
+    "game_function": [
+      "0x877120",
+      "0x877133"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5a1e0",
+      "0x5a213"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x5a1e9",
+        "target": "0x7fbe8",
+        "text": "HeroRemote"
+      }
+    ],
+    "core_first_bytes": "40 53 48 83 ec 20 48 8b d9 48 8d 15 f8 59 02 00 48 8b 49 08 e8 27 b3 fc ff 48 85 c0 75 0f 48 8b"
+  },
+  {
+    "game_rva": "0x87abc0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990094",
+    "target_module": "smt.dll",
+    "target_rva": "0x5a220",
+    "game_function": [
+      "0x87abc0",
+      "0x87ac09"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5a220",
+      "0x5a25c"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x5a229",
+        "target": "0x7fbe8",
+        "text": "HeroRemote"
+      }
+    ],
+    "core_first_bytes": "40 53 48 83 ec 20 48 8b d9 48 8d 15 b8 59 02 00 48 8b 49 08 e8 e7 b2 fc ff 48 8b cb 48 85 c0 74"
+  },
+  {
+    "game_rva": "0x8841f0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990b54",
+    "target_module": "smt.dll",
+    "target_rva": "0x58420",
+    "game_function": [
+      "0x8841f0",
+      "0x884306"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x58420",
+      "0x5845c"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x58429",
+        "target": "0x7fbe8",
+        "text": "HeroRemote"
+      }
+    ],
+    "core_first_bytes": "40 53 48 83 ec 20 48 8b d9 48 8d 15 b8 77 02 00 48 8b 49 08 e8 e7 d0 fc ff 48 8b cb 48 85 c0 74"
+  },
+  {
+    "game_rva": "0x88c550",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990054",
+    "target_module": "smt.dll",
+    "target_rva": "0x5a260",
+    "game_function": [
+      "0x88c550",
+      "0x88c57c"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5a260",
+      "0x5a29c"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x5a269",
+        "target": "0x7fbe8",
+        "text": "HeroRemote"
+      }
+    ],
+    "core_first_bytes": "40 53 48 83 ec 20 48 8b d9 48 8d 15 78 59 02 00 48 8b 49 08 e8 a7 b2 fc ff 48 8b cb 48 85 c0 74"
+  },
+  {
+    "game_rva": "0x8b0070",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990197",
+    "target_module": "smt.dll",
+    "target_rva": "0x59f30",
+    "game_function": [
+      "0x8b0070",
+      "0x8b0090"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x59f30",
+      "0x59f74"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "48 89 5c 24 10 57 48 83 ec 20 8b 81 c4 00 00 00 48 8b fa 48 8b d9 85 c0 74 1f 48 8d 4c 24 30 89"
+  },
+  {
+    "game_rva": "0x8f2a30",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990453",
+    "target_module": "smt.dll",
+    "target_rva": "0x5a9c0",
+    "game_function": [
+      "0x8f2a30",
+      "0x8f2a6e"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5a9c0",
+      "0x5a9f0"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "48 89 5c 24 08 57 48 83 ec 20 48 8b da 48 8b f9 e8 3b 9d ff ff 84 c0 74 0c 48 8b d3 48 8b cf ff"
+  },
+  {
+    "game_rva": "0x8f3f80",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990ad3",
+    "target_module": "smt.dll",
+    "target_rva": "0x57640",
+    "game_function": [
+      "0x8f3f80",
+      "0x8f3fc5"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x57640",
+      "0x576a0"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x57659",
+        "target": "0x7fbe8",
+        "text": "HeroRemote"
+      }
+    ],
+    "core_first_bytes": "48 85 c9 74 07 48 ff 25 5c bc 06 00 c3 cc cc cc 40 53 48 83 ec 20 48 8b d9 48 8d 15 88 85 02 00"
+  },
+  {
+    "game_rva": "0x8fd300",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990bd5",
+    "target_module": "smt.dll",
+    "target_rva": "0x57650",
+    "game_function": [
+      "0x8fd300",
+      "0x8fd75f"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x57650",
+      "0x57683"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x57659",
+        "target": "0x7fbe8",
+        "text": "HeroRemote"
+      }
+    ],
+    "core_first_bytes": "40 53 48 83 ec 20 48 8b d9 48 8d 15 88 85 02 00 48 8b 49 08 e8 b7 de fc ff 48 85 c0 75 0f 48 8b"
+  },
+  {
+    "game_rva": "0x8fd760",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990b93",
+    "target_module": "smt.dll",
+    "target_rva": "0x57690",
+    "game_function": [
+      "0x8fd760",
+      "0x8fd7eb"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x57690",
+      "0x576c3"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x57699",
+        "target": "0x7fbe8",
+        "text": "HeroRemote"
+      }
+    ],
+    "core_first_bytes": "40 53 48 83 ec 20 48 8b d9 48 8d 15 48 85 02 00 48 8b 49 08 e8 77 de fc ff 48 85 c0 75 0f 48 8b"
+  },
+  {
+    "game_rva": "0x8fece0",
+    "difference_bytes": 5,
+    "relay": "0x7ff6239905d3",
+    "target_module": "smt.dll",
+    "target_rva": "0x5a9f0",
+    "game_function": [
+      "0x8fece0",
+      "0x8fed00"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5a9f0",
+      "0x5aa4c"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x5aa0a",
+        "target": "0x7fbe8",
+        "text": "HeroRemote"
+      }
+    ],
+    "core_first_bytes": "48 89 5c 24 08 48 89 74 24 10 57 48 83 ec 30 48 8b f2 0f 29 74 24 20 48 8b d9 48 8d 15 d7 51 02"
+  },
+  {
+    "game_rva": "0x941790",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980c13",
+    "target_module": "smt.dll",
+    "target_rva": "0x55300",
+    "game_function": [
+      "0x941790",
+      "0x941a93"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x55300",
+      "0x55389"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x55325",
+        "target": "0x7fbe8",
+        "text": "HeroRemote"
+      },
+      {
+        "rva": "0x55359",
+        "target": "0x7b578",
+        "text": "Health"
+      }
+    ],
+    "core_first_bytes": "48 89 5c 24 10 57 48 83 ec 20 8b 81 90 00 00 00 48 8b d9 48 8d 4c 24 30 89 44 24 30 e8 ff b2 fd"
+  },
+  {
+    "game_rva": "0x994db0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990c13",
+    "target_module": "smt.dll",
+    "target_rva": "0x57ac0",
+    "game_function": [
+      "0x994db0",
+      "0x994ddc"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x57ac0",
+      "0x57afd"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x57ad2",
+        "target": "0x7fbe8",
+        "text": "HeroRemote"
+      }
+    ],
+    "core_first_bytes": "40 53 48 83 ec 30 48 8b d9 0f 29 74 24 20 48 8b 49 08 48 8d 15 0f 81 02 00 0f 28 f1 e8 3f da fc"
+  },
+  {
+    "game_rva": "0x9c5660",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990493",
+    "target_module": "smt.dll",
+    "target_rva": "0x5c520",
+    "game_function": [
+      "0x9c5660",
+      "0x9c56ca"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5c520",
+      "0x5c54e"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x5c534",
+        "target": "0x82170",
+        "text": "HeroCharacter"
+      }
+    ],
+    "core_first_bytes": "48 89 74 24 10 57 48 83 ec 20 48 8b fa 48 8b f1 48 8b 49 08 48 8d 15 35 5c 02 00 e8 e0 8f fc ff"
+  },
+  {
+    "game_rva": "0x9ce600",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990513",
+    "target_module": "smt.dll",
+    "target_rva": "0x5ab10",
+    "game_function": [
+      "0x9ce600",
+      "0x9ce7ee"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5ab10",
+      "0x5ab5f"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x5ab23",
+        "target": "0x7fbe8",
+        "text": "HeroRemote"
+      }
+    ],
+    "core_first_bytes": "40 53 48 83 ec 20 48 8b d9 ff 15 c1 89 06 00 48 8b 4b 08 48 8d 15 be 50 02 00 e8 f1 a9 fc ff 48"
+  },
+  {
+    "game_rva": "0xa020c0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990793",
+    "target_module": "smt.dll",
+    "target_rva": "0x5aa80",
+    "game_function": [
+      "0xa020c0",
+      "0xa024af"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5aa80",
+      "0x5ab0e"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x5aa94",
+        "target": "0x7fbe8",
+        "text": "HeroRemote"
+      },
+      {
+        "rva": "0x5aad0",
+        "target": "0x81de8",
+        "text": "AnimControllerComponent"
+      }
+    ],
+    "core_first_bytes": "48 89 5c 24 08 57 48 83 ec 20 0f b6 fa 48 8b d9 48 8b 49 08 48 8d 15 4d 51 02 00 e8 80 aa fc ff"
+  },
+  {
+    "game_rva": "0xa049a0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990755",
+    "target_module": "smt.dll",
+    "target_rva": "0x5aa50",
+    "game_function": [
+      "0xa049a0",
+      "0xa04ebb"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5aa50",
+      "0x5aa78"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "40 53 48 83 ec 20 48 8b d9 ff 15 f1 8a 06 00 83 bb b4 01 00 00 00 75 0a c7 83 b4 01 00 00 ca c8"
+  },
+  {
+    "game_rva": "0xa499b0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990553",
+    "target_module": "smt.dll",
+    "target_rva": "0x5b1a0",
+    "game_function": [
+      "0xa499b0",
+      "0xa49a6c"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5b1a0",
+      "0x5b23f"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x5b1b2",
+        "target": "0x7fbe8",
+        "text": "HeroRemote"
+      }
+    ],
+    "core_first_bytes": "40 53 48 83 ec 30 48 8b d9 0f 29 74 24 20 48 8b 49 08 48 8d 15 2f 4a 02 00 0f 28 f1 e8 5f a3 fc"
+  },
+  {
+    "game_rva": "0xa4c490",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990596",
+    "target_module": "smt.dll",
+    "target_rva": "0x5b100",
+    "game_function": [
+      "0xa4c490",
+      "0xa4c4c7"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5b100",
+      "0x5b19f"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x5b112",
+        "target": "0x7fbe8",
+        "text": "HeroRemote"
+      }
+    ],
+    "core_first_bytes": "40 53 48 83 ec 30 48 8b d9 0f 29 74 24 20 48 8b 49 08 48 8d 15 cf 4a 02 00 0f 28 f1 e8 ff a3 fc"
+  },
+  {
+    "game_rva": "0xabf850",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980753",
+    "target_module": "smt.dll",
+    "target_rva": "0x66480",
+    "game_function": [
+      "0xabf850",
+      "0xabf898"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x66480",
+      "0x66526"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "48 89 5c 24 08 48 89 6c 24 10 48 89 74 24 18 57 48 83 ec 40 49 8b f9 49 8b f0 48 8b ea 48 8b d9"
+  },
+  {
+    "game_rva": "0xac2200",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980795",
+    "target_module": "smt.dll",
+    "target_rva": "0x668d0",
+    "game_function": [
+      "0xac2200",
+      "0xac248f"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x668d0",
+      "0x668fc"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "40 53 48 83 ec 20 48 8b d9 e8 32 f9 ff ff 84 c0 74 12 48 8b 05 2f d2 05 00 48 8b cb 48 83 c4 20"
+  },
+  {
+    "game_rva": "0xb39720",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990813",
+    "target_module": "smt.dll",
+    "target_rva": "0x5ab60",
+    "game_function": [
+      "0xb39720",
+      "0xb39738"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5ab60",
+      "0x5abc3"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x5ab72",
+        "target": "0x82158",
+        "text": "HeroMoverManager"
+      }
+    ],
+    "core_first_bytes": "40 53 48 83 ec 30 48 8b d9 0f 29 74 24 20 48 8b 49 08 48 8d 15 df 75 02 00 0f 28 f1 e8 9f a9 fc"
+  },
+  {
+    "game_rva": "0xb68ab0",
+    "difference_bytes": 5,
+    "relay": "0x7ff6239906d4",
+    "target_module": "smt.dll",
+    "target_rva": "0x5c2a0",
+    "game_function": [
+      "0xb68ab0",
+      "0xb68b36"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5c2a0",
+      "0x5c2e4"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "40 53 48 83 ec 20 48 8b d9 ff 15 b1 72 06 00 41 b0 04 ba d0 1b af 0f 48 8b cb e8 f1 e3 fc ff 41"
+  },
+  {
+    "game_rva": "0xb6b670",
+    "difference_bytes": 4,
+    "relay": "0x7ff623990c55",
+    "target_module": "smt.dll",
+    "target_rva": "0x576d0",
+    "game_function": [
+      "0xb6b670",
+      "0xb6be58"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x576d0",
+      "0x5773d"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x576ea",
+        "target": "0x7fbe8",
+        "text": "HeroRemote"
+      }
+    ],
+    "core_first_bytes": "48 89 5c 24 08 48 89 74 24 10 57 48 83 ec 40 48 8b fa 0f 29 74 24 30 48 8b d9 48 8d 15 f7 84 02"
+  },
+  {
+    "game_rva": "0xb70800",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990653",
+    "target_module": "smt.dll",
+    "target_rva": "0x5ac40",
+    "game_function": [
+      "0xb70800",
+      "0xb7095e"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5ac40",
+      "0x5ad38"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "48 89 74 24 18 57 48 83 ec 20 4c 8b 41 08 48 8b fa 4c 8b 15 98 40 06 00 48 8b f1 41 0f b7 40 10"
+  },
+  {
+    "game_rva": "0xb70960",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990693",
+    "target_module": "smt.dll",
+    "target_rva": "0x5ad40",
+    "game_function": [
+      "0xb70960",
+      "0xb709a9"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5ad40",
+      "0x5adc7"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "40 53 56 48 83 ec 58 48 8b 05 32 f6 05 00 48 33 c4 48 89 44 24 48 4c 8b 0d 93 3f 06 00 48 8b f1"
+  },
+  {
+    "game_rva": "0xbd02b0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990d13",
+    "target_module": "smt.dll",
+    "target_rva": "0x5a7a0",
+    "game_function": [
+      "0xbd02b0",
+      "0xbd0327"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5a7a0",
+      "0x5a822"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "48 89 5c 24 08 48 89 6c 24 10 48 89 74 24 18 57 48 83 ec 20 48 8b e9 48 8b fa b9 04 00 00 00 e8"
+  },
+  {
+    "game_rva": "0xbf91c0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990893",
+    "target_module": "smt.dll",
+    "target_rva": "0x1cc00",
+    "game_function": [
+      "0xbf91c0",
+      "0xbf9334"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x1cc00",
+      "0x1cc60"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "b0 01 c3 cc cc cc cc cc cc cc cc cc cc cc cc cc 48 89 74 24 20 41 56 48 83 ec 20 48 89 6c 24 38"
+  },
+  {
+    "game_rva": "0xc027f2",
+    "difference_bytes": 7,
+    "modified_bytes": "90 90 90 90 90 90 90 8b 54 24 48 48 8b cb e8 4b",
+    "game_function": [
+      "0xc027b0",
+      "0xc02859"
+    ],
+    "game_string_candidates": []
+  },
+  {
+    "game_rva": "0xc21c50",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990295",
+    "target_module": "smt.dll",
+    "target_rva": "0x56960",
+    "game_function": [
+      "0xc21c50",
+      "0xc21c7b"
+    ],
+    "game_string_candidates": [
+      {
+        "rva": "0xc21c5d",
+        "target": "0x38ed5d0",
+        "text": "PrefabSysSyncComplete"
+      }
+    ],
+    "core_function": [
+      "0x56960",
+      "0x56988"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x56973",
+        "target": "0x7b560",
+        "text": "RandomCrimeSystem2"
+      }
+    ],
+    "core_first_bytes": "40 53 56 48 83 ec 28 48 8b f2 48 8b d9 ff 15 95 c7 06 00 48 8d 0d e6 4b 02 00 e8 51 cd fd ff 48"
+  },
+  {
+    "game_rva": "0xc24d40",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990313",
+    "target_module": "smt.dll",
+    "target_rva": "0x56af0",
+    "game_function": [
+      "0xc24d40",
+      "0xc2541e"
+    ],
+    "game_string_candidates": [
+      {
+        "rva": "0xc253ab",
+        "target": "0x38ed650",
+        "text": "PrefabSysInstatiateAllActorsAction"
+      }
+    ],
+    "core_function": [
+      "0x56af0",
+      "0x56c21"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x56b05",
+        "target": "0x7b560",
+        "text": "RandomCrimeSystem2"
+      }
+    ],
+    "core_first_bytes": "48 89 5c 24 10 48 89 6c 24 18 56 48 83 ec 20 48 8b d9 49 8b e8 48 8d 0d 54 4a 02 00 48 8b f2 e8"
+  },
+  {
+    "game_rva": "0xc25441",
+    "difference_bytes": 13,
+    "modified_bytes": "90 90 90 90 90 90 90 90 90 90 90 90 90 83 fb ff",
+    "game_function": [
+      "0xc25420",
+      "0xc25457"
+    ],
+    "game_string_candidates": []
+  },
+  {
+    "game_rva": "0xc26760",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990395",
+    "target_module": "smt.dll",
+    "target_rva": "0x56d80",
+    "game_function": [
+      "0xc26760",
+      "0xc26792"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x56d80",
+      "0x56daa"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x56d95",
+        "target": "0x7b560",
+        "text": "RandomCrimeSystem2"
+      }
+    ],
+    "core_first_bytes": "48 89 5c 24 18 57 48 83 ec 20 8b fa 48 8b d9 ff 15 db c2 06 00 48 8d 0d c4 47 02 00 e8 2f c9 fd"
+  },
+  {
+    "game_rva": "0xc271c0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990413",
+    "target_module": "smt.dll",
+    "target_rva": "0x56620",
+    "game_function": [
+      "0xc271c0",
+      "0xc27216"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x56620",
+      "0x56662"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x56637",
+        "target": "0x7b560",
+        "text": "RandomCrimeSystem2"
+      }
+    ],
+    "core_first_bytes": "48 89 54 24 10 48 89 4c 24 08 53 41 57 48 83 ec 48 48 8b d9 4d 8b f8 48 8d 0d 22 4f 02 00 e8 8d"
+  },
+  {
+    "game_rva": "0xc2a260",
+    "difference_bytes": 5,
+    "relay": "0x7ff6239808d3",
+    "target_module": "smt.dll",
+    "target_rva": "0x5f3d0",
+    "game_function": [
+      "0xc2a260",
+      "0xc2a367"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5f3d0",
+      "0x5f450"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x5f3df",
+        "target": "0x7b560",
+        "text": "RandomCrimeSystem2"
+      }
+    ],
+    "core_first_bytes": "40 53 48 83 ec 20 48 8b d9 ff 15 99 44 06 00 48 8d 0d 7a c1 01 00 e8 e5 42 fd ff 48 3b d8 75 5a"
+  },
+  {
+    "game_rva": "0xc2b8e0",
+    "difference_bytes": 5,
+    "relay": "0x7ff6239902d4",
+    "target_module": "smt.dll",
+    "target_rva": "0x56c30",
+    "game_function": [
+      "0xc2b8e0",
+      "0xc2b915"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x56c30",
+      "0x56cb0"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x56c39",
+        "target": "0x7b560",
+        "text": "RandomCrimeSystem2"
+      }
+    ],
+    "core_first_bytes": "40 53 48 83 ec 20 48 8b d9 48 8d 0d 20 49 02 00 e8 8b ca fd ff 48 3b d8 75 57 48 63 05 47 29 06"
+  },
+  {
+    "game_rva": "0xc2cda0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980953",
+    "target_module": "smt.dll",
+    "target_rva": "0x31d00",
+    "game_function": [
+      "0xc2cda0",
+      "0xc2ce07"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x31d00",
+      "0x31d60"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "48 63 c1 48 6b c8 15 48 63 c2 48 03 c8 48 8d 05 70 69 08 00 f3 0f 10 04 88 c3 cc cc cc cc cc cc"
+  },
+  {
+    "game_rva": "0xc2cf60",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980a53",
+    "target_module": "smt.dll",
+    "target_rva": "0x31d20",
+    "game_function": [
+      "0xc2cf60",
+      "0xc2cfa3"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x31d20",
+      "0x31d4e"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "40 55 48 81 ec 80 00 00 00 48 8b ea e8 df 29 02 00 84 c0 0f 84 6d 03 00 00 8b 85 38 01 00 00 48"
+  },
+  {
+    "game_rva": "0xc2d340",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980a13",
+    "target_module": "smt.dll",
+    "target_rva": "0x320b0",
+    "game_function": [
+      "0xc2d340",
+      "0xc2d380"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x320b0",
+      "0x320de"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "40 55 48 81 ec 80 00 00 00 48 8b ea e8 4f 26 02 00 84 c0 0f 84 a6 03 00 00 8b 85 38 01 00 00 48"
+  },
+  {
+    "game_rva": "0xc2df80",
+    "difference_bytes": 5,
+    "relay": "0x7ff6239809d3",
+    "target_module": "smt.dll",
+    "target_rva": "0x325b0",
+    "game_function": [
+      "0xc2df80",
+      "0xc2e0fb"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x325b0",
+      "0x32683"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "48 89 5c 24 18 57 48 81 ec a0 01 00 00 48 8b 05 bc 7d 08 00 48 33 c4 48 89 84 24 90 01 00 00 0f"
+  },
+  {
+    "game_rva": "0xc2e260",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980993",
+    "target_module": "smt.dll",
+    "target_rva": "0x32480",
+    "game_function": [
+      "0xc2e260",
+      "0xc2e3a2"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x32480",
+      "0x325ac"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "48 89 5c 24 18 57 48 81 ec a0 01 00 00 48 8b 05 ec 7e 08 00 48 33 c4 48 89 84 24 90 01 00 00 0f"
+  },
+  {
+    "game_rva": "0xc368a0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990353",
+    "target_module": "smt.dll",
+    "target_rva": "0x56ed0",
+    "game_function": [
+      "0xc368a0",
+      "0xc36903"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x56ed0",
+      "0x56f10"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "48 89 5c 24 08 57 48 83 ec 30 48 8b 5c 24 68 48 8b 7c 24 60 48 89 5c 24 28 48 89 7c 24 20 ff 15"
+  },
+  {
+    "game_rva": "0xc6a750",
+    "difference_bytes": 5,
+    "relay": "0x7ff6239903e1",
+    "target_module": "smt.dll",
+    "target_rva": "0x559e0",
+    "game_function": [
+      "0xc6a750",
+      "0xc6a76b"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x559e0",
+      "0x55a77"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "48 89 5c 24 08 48 89 6c 24 18 56 57 41 54 41 56 41 57 48 83 ec 20 33 db 45 8b f9 4d 8b e0 8b ea"
+  },
+  {
+    "game_rva": "0xc89230",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990a97",
+    "target_module": "smt.dll",
+    "target_rva": "0x1d160",
+    "game_function": [
+      "0xc89230",
+      "0xc8932d"
+    ],
+    "game_string_candidates": [
+      {
+        "rva": "0xc8924a",
+        "target": "0x38f7038",
+        "text": "It's a tie!"
+      },
+      {
+        "rva": "0xc89253",
+        "target": "0x38f7008",
+        "text": "Miles Morales is the Superior Spider-Man!"
+      },
+      {
+        "rva": "0xc8925c",
+        "target": "0x38f6fd8",
+        "text": "Peter Parker is the Superior Spider-Man!"
+      },
+      {
+        "rva": "0xc8930a",
+        "target": "0x38f7048",
+        "text": "Superior_Spider-Man_Winner_Message"
+      }
+    ],
+    "core_function": [
+      "0x1d160",
+      "0x1d1c0"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "33 c0 c3 cc cc cc cc cc cc cc cc cc cc cc cc cc 48 89 6c 24 18 48 89 7c 24 20 41 56 48 83 ec 30"
+  },
+  {
+    "game_rva": "0xcf22e0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990254",
+    "target_module": "smt.dll",
+    "target_rva": "0x30610",
+    "game_function": [
+      "0xcf22e0",
+      "0xcf2318"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x30610",
+      "0x30670"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x30667",
+        "target": "0x7b060",
+        "text": "8B 11 85 D2 79 ?? 8B C2 48 8D 0D ?? ?? ?? ?? C1 E8 0C C1 EA 14 44 0F B6 C0 0F B6 D2 E9"
+      }
+    ],
+    "core_first_bytes": "c2 00 00 cc cc cc cc cc cc cc cc cc cc cc cc cc 48 8b 05 09 09 09 00 48 ff e0 cc cc cc cc cc cc"
+  },
+  {
+    "game_rva": "0xd55f10",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990853",
+    "target_module": "smt.dll",
+    "target_rva": "0x5dc50",
+    "game_function": [
+      "0xd55f10",
+      "0xd56040"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5dc50",
+      "0x5dc88"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x5dc59",
+        "target": "0x7fbe8",
+        "text": "HeroRemote"
+      }
+    ],
+    "core_first_bytes": "40 53 48 83 ec 20 48 8b d9 48 8d 15 88 1f 02 00 48 8b 49 08 e8 b7 78 fc ff 48 85 c0 74 08 33 c0"
+  },
+  {
+    "game_rva": "0xd97730",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990113",
+    "target_module": "smt.dll",
+    "target_rva": "0x5a150",
+    "game_function": [
+      "0xd97730",
+      "0xd9781d"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5a150",
+      "0x5a1dc"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x5a16e",
+        "target": "0x81de8",
+        "text": "AnimControllerComponent"
+      },
+      {
+        "rva": "0x5a1ae",
+        "target": "0x81de8",
+        "text": "AnimControllerComponent"
+      }
+    ],
+    "core_first_bytes": "40 53 48 81 ec 90 00 00 00 48 8b 05 20 02 06 00 48 33 c4 48 89 84 24 80 00 00 00 48 8b d9 48 8d"
+  },
+  {
+    "game_rva": "0x162f570",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980f55",
+    "target_module": "smt.dll",
+    "target_rva": "0x594f0",
+    "game_function": [
+      "0x162f570",
+      "0x162f58b"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x594f0",
+      "0x59669"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "48 89 5c 24 08 57 48 83 ec 20 48 8b 01 48 8b fa 48 8b d9 ff 50 30 84 c0 0f 85 50 01 00 00 8b 8b"
+  },
+  {
+    "game_rva": "0x167bbd0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990e55",
+    "target_module": "smt.dll",
+    "target_rva": "0x30eb0",
+    "game_function": [
+      "0x167bbd0",
+      "0x167bc30"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x30eb0",
+      "0x30ec2"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "40 56 48 83 ec 20 80 3d 63 02 09 00 00 48 8b f1 75 41 48 89 5c 24 30 48 8b 1d 3a 02 09 00 48 89"
+  },
+  {
+    "game_rva": "0x16885e0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980dd5",
+    "target_module": "smt.dll",
+    "target_rva": "0x5c980",
+    "game_function": [
+      "0x16885e0",
+      "0x16889be"
+    ],
+    "game_string_candidates": [
+      {
+        "rva": "0x1688835",
+        "target": "0x3cf3990",
+        "text": "material"
+      },
+      {
+        "rva": "0x16888e4",
+        "target": "0x3872e20",
+        "text": "Unknown"
+      },
+      {
+        "rva": "0x16888f3",
+        "target": "0x3cf5e60",
+        "text": "Conduit %s on actor %s"
+      }
+    ],
+    "core_function": [
+      "0x5c980",
+      "0x5c9ef"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x5c99a",
+        "target": "0x82f30",
+        "text": "hero_damage_sfx.conduit"
+      }
+    ],
+    "core_first_bytes": "48 89 5c 24 08 48 89 6c 24 10 48 89 74 24 18 57 48 83 ec 20 48 8b da 48 8b e9 48 8d 15 8f 65 02"
+  },
+  {
+    "game_rva": "0x1694080",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980b56",
+    "target_module": "smt.dll",
+    "target_rva": "0x1ab00",
+    "game_function": [
+      "0x1694080",
+      "0x16940ab"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x1ab00",
+      "0x1ac84"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x1ac31",
+        "target": "0x757d8",
+        "text": "player_icon"
+      }
+    ],
+    "core_first_bytes": "48 89 5c 24 08 48 89 6c 24 10 48 89 74 24 18 57 48 83 ec 20 4c 8b 4a 30 41 0f b6 f0 48 8b fa 48"
+  },
+  {
+    "game_rva": "0x169e920",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980ad5",
+    "target_module": "smt.dll",
+    "target_rva": "0x19c10",
+    "game_function": [
+      "0x169e920",
+      "0x169e967"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x19c10",
+      "0x19c70"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "33 c9 49 8d 40 e4 49 83 f8 1c 48 0f 46 c1 c3 cc 49 8d 40 1c c3 cc cc cc cc cc cc cc cc cc cc cc"
+  },
+  {
+    "game_rva": "0x169e970",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980a95",
+    "target_module": "smt.dll",
+    "target_rva": "0x19c20",
+    "game_function": [
+      "0x169e970",
+      "0x169e9bb"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x19c20",
+      "0x19c80"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "49 8d 40 1c c3 cc cc cc cc cc cc cc cc cc cc cc 48 89 5c 24 08 57 48 83 ec 20 48 8b da 48 8b f9"
+  },
+  {
+    "game_rva": "0x16d7710",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980b13",
+    "target_module": "smt.dll",
+    "target_rva": "0x1c630",
+    "game_function": [
+      "0x16d7710",
+      "0x16d786f"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x1c630",
+      "0x1c66a"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "48 89 5c 24 08 57 48 83 ec 20 48 8b 05 57 23 0a 00 48 8b f9 ff d0 48 8d 0d f3 c5 09 00 48 89 3d"
+  },
+  {
+    "game_rva": "0x1702000",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980e53",
+    "target_module": "smt.dll",
+    "target_rva": "0x58f20",
+    "game_function": [
+      "0x1702000",
+      "0x1702060"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x58f20",
+      "0x59042"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "48 83 ec 38 ff 15 9e a3 06 00 0f b6 d0 4c 8b c0 48 89 44 24 50 49 b9 b3 01 00 00 00 01 00 00 48"
+  },
+  {
+    "game_rva": "0x1759a60",
+    "difference_bytes": 4,
+    "relay": "0x7ff623980f95",
+    "target_module": "smt.dll",
+    "target_rva": "0x30610",
+    "game_function": [
+      "0x1759a60",
+      "0x1759ac0"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x30610",
+      "0x30670"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x30667",
+        "target": "0x7b060",
+        "text": "8B 11 85 D2 79 ?? 8B C2 48 8D 0D ?? ?? ?? ?? C1 E8 0C C1 EA 14 44 0F B6 C0 0F B6 D2 E9"
+      }
+    ],
+    "core_first_bytes": "c2 00 00 cc cc cc cc cc cc cc cc cc cc cc cc cc 48 8b 05 09 09 09 00 48 ff e0 cc cc cc cc cc cc"
+  },
+  {
+    "game_rva": "0x190a8a0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980b93",
+    "target_module": "smt.dll",
+    "target_rva": "0x1adb0",
+    "game_function": [
+      "0x190a8a0",
+      "0x190a9ac"
+    ],
+    "game_string_candidates": [
+      {
+        "rva": "0x190a971",
+        "target": "0x4e5ccb8",
+        "text": "Failed to create root directory for savegames %ls"
+      },
+      {
+        "rva": "0x190a978",
+        "target": "0x4e5ccf0",
+        "text": "LocalSave"
+      }
+    ],
+    "core_function": [
+      "0x1adb0",
+      "0x1adf8"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x1add3",
+        "target": "0x74ec0",
+        "text": "SMT/Save/"
+      }
+    ],
+    "core_first_bytes": "48 89 5c 24 08 48 89 74 24 10 57 48 83 ec 20 48 8b 05 a2 3b 0a 00 48 8b f1 48 63 fa 8b d7 ff d0"
+  },
+  {
+    "game_rva": "0x1983b60",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990e15",
+    "target_module": "smt.dll",
+    "target_rva": "0x30fc0",
+    "game_function": [
+      "0x1983b60",
+      "0x1983bc0"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x30fc0",
+      "0x30fd3"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "48 83 ec 28 ff 15 36 01 09 00 80 3d 50 01 09 00 00 75 48 48 89 5c 24 30 48 8b 1d 49 01 09 00 48"
+  },
+  {
+    "game_rva": "0x19c5120",
+    "difference_bytes": 5,
+    "relay": "0x7ff6239909d3",
+    "target_module": "smt.dll",
+    "target_rva": "0x5dc00",
+    "game_function": [
+      "0x19c5120",
+      "0x19c5286"
+    ],
+    "game_string_candidates": [
+      {
+        "rva": "0x19c5229",
+        "target": "0x4e9e5a8",
+        "text": "%s.%d.%d"
+      }
+    ],
+    "core_function": [
+      "0x5dc00",
+      "0x5dc60"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "48 8b 05 f9 5b 06 00 c6 00 01 48 ff 25 ff 5b 06 00 cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc"
+  },
+  {
+    "game_rva": "0x1c845e0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990dd3",
+    "target_module": "smt.dll",
+    "target_rva": "0x5a750",
+    "game_function": [
+      "0x1c845e0",
+      "0x1c845fb"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5a750",
+      "0x5a79b"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "48 83 ec 28 ff 15 a6 8c 06 00 48 8b 05 1f 5d 06 00 66 c7 80 9c 00 00 00 d5 1d 48 8b 05 0f 5d 06"
+  },
+  {
+    "game_rva": "0x1d25e40",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990f53",
+    "target_module": "smt.dll",
+    "target_rva": "0x503d0",
+    "game_function": [
+      "0x1d25e40",
+      "0x1d26122"
+    ],
+    "game_string_candidates": [
+      {
+        "rva": "0x1d25e67",
+        "target": "0x3cf9afc",
+        "text": "%s\\%s"
+      },
+      {
+        "rva": "0x1d25ecb",
+        "target": "0x4f45570",
+        "text": "GetCacheFile"
+      },
+      {
+        "rva": "0x1d25f6b",
+        "target": "0x4f45580",
+        "text": "GetCacheFile failure"
+      }
+    ],
+    "core_function": [
+      "0x503d0",
+      "0x50400"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "40 56 57 41 54 41 55 41 56 41 57 48 83 ec 68 48 8b 05 9a 9f 06 00 48 33 c4 48 89 44 24 50 4c 8b"
+  },
+  {
+    "game_rva": "0x1d286a0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990f13",
+    "target_module": "smt.dll",
+    "target_rva": "0x4f8b0",
+    "game_function": [
+      "0x1d286a0",
+      "0x1d2893d"
+    ],
+    "game_string_candidates": [
+      {
+        "rva": "0x1d286e9",
+        "target": "0x4f46258",
+        "text": "EI: %s( "
+      },
+      {
+        "rva": "0x1d28716",
+        "target": "0x4f46268",
+        "text": "[Function Closure]"
+      },
+      {
+        "rva": "0x1d2874b",
+        "target": "0x4f46280",
+        "text": "%s%s%s "
+      },
+      {
+        "rva": "0x1d287a6",
+        "target": "0x4f46280",
+        "text": "%s%s%s "
+      }
+    ],
+    "core_function": [
+      "0x4f8b0",
+      "0x4fa5e"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "40 53 55 56 57 41 56 48 81 ec 90 00 00 00 48 8b 05 bb aa 06 00 48 33 c4 48 89 84 24 80 00 00 00"
+  },
+  {
+    "game_rva": "0x1de77c0",
+    "difference_bytes": 5,
+    "relay": "0x7ff6239904d4",
+    "target_module": "smt.dll",
+    "target_rva": "0x5a970",
+    "game_function": [
+      "0x1de77c0",
+      "0x1de7818"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5a970",
+      "0x5a9b3"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "40 53 48 83 ec 20 48 8b d9 ff 15 71 8b 06 00 e8 8c 9d ff ff 84 c0 75 25 48 8b 43 18 0f b7 48 10"
+  },
+  {
+    "game_rva": "0x1e309d0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990216",
+    "target_module": "smt.dll",
+    "target_rva": "0x55950",
+    "game_function": [
+      "0x1e309d0",
+      "0x1e30a9b"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x55950",
+      "0x559d6"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x5598e",
+        "target": "0x80cf8",
+        "text": "CAMERA_THUGSOUTSIDE"
+      },
+      {
+        "rva": "0x559a8",
+        "target": "0x80d10",
+        "text": "CAMERA_DUALSPLINEPROX_STOREFRONTCRIME_P1"
+      }
+    ],
+    "core_first_bytes": "48 89 5c 24 10 48 89 74 24 18 57 48 83 ec 20 8b f2 c7 44 24 30 00 00 00 00 48 8b d9 48 8d 54 24"
+  },
+  {
+    "game_rva": "0x1ed27f0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990cd3",
+    "target_module": "smt.dll",
+    "target_rva": "0x56f10",
+    "game_function": [
+      "0x1ed27f0",
+      "0x1ed2907"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x56f10",
+      "0x56f70"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x56f57",
+        "target": "0x80d40",
+        "text": "48 89 5C 24 ?? 48 89 6C 24 ?? 56 57 41 56 48 83 EC 40 49 8B 40"
+      }
+    ],
+    "core_first_bytes": "49 81 60 08 ff bf fb ff 48 ff 25 31 c2 06 00 cc 40 53 48 81 ec c0 00 00 00 48 8b 05 50 34 06 00"
+  },
+  {
+    "game_rva": "0x1ef6710",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990d54",
+    "target_module": "smt.dll",
+    "target_rva": "0x5a320",
+    "game_function": [
+      "0x1ef6710",
+      "0x1ef676c"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5a320",
+      "0x5a380"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x5a368",
+        "target": "0x81f30",
+        "text": "48 89 5C 24 ?? 57 48 83 EC 50 C7 44 24 ?? 01 00 00 00"
+      }
+    ],
+    "core_first_bytes": "b8 10 00 00 00 c3 cc cc cc cc cc cc cc cc cc cc 48 89 5c 24 08 55 48 8d 6c 24 a9 48 81 ec c0 00"
+  },
+  {
+    "game_rva": "0x1efeba0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990d93",
+    "target_module": "smt.dll",
+    "target_rva": "0x5a310",
+    "game_function": [
+      "0x1efeba0",
+      "0x1efec0d"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5a310",
+      "0x5a370"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x5a368",
+        "target": "0x81f30",
+        "text": "48 89 5C 24 ?? 57 48 83 EC 50 C7 44 24 ?? 01 00 00 00"
+      }
+    ],
+    "core_first_bytes": "ba 01 00 00 00 48 ff 25 f4 90 06 00 cc cc cc cc b8 10 00 00 00 c3 cc cc cc cc cc cc cc cc cc cc"
+  },
+  {
+    "game_rva": "0x1f01170",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980913",
+    "target_module": "smt.dll",
+    "target_rva": "0x48cf0",
+    "game_function": [
+      "0x1f01170",
+      "0x1f01240"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x48cf0",
+      "0x48d11"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "40 53 48 83 ec 20 8b d9 ff 15 ba 89 07 00 8b d3 48 8d 0d b9 00 07 00 48 83 c4 20 5b e9 af 00 00"
+  },
+  {
+    "game_rva": "0x1f07800",
+    "difference_bytes": 5,
+    "relay": "0x7ff6239908d5",
+    "target_module": "smt.dll",
+    "target_rva": "0x5d420",
+    "game_function": [
+      "0x1f07800",
+      "0x1f094b7"
+    ],
+    "game_string_candidates": [
+      {
+        "rva": "0x1f07f97",
+        "target": "0x38a02a0",
+        "text": "AddPOI"
+      },
+      {
+        "rva": "0x1f080bc",
+        "target": "0x4f646e0",
+        "text": "ClearPOI"
+      },
+      {
+        "rva": "0x1f08362",
+        "target": "0x4f64700",
+        "text": "void __cdecl GUI::POIBase::SendPOIData(struct GUI::POIData *,int,struct GUI::POIBase::UpdateHUDCachedParams *)"
+      },
+      {
+        "rva": "0x1f09338",
+        "target": "0x38a0408",
+        "text": "UpdatePOI"
+      },
+      {
+        "rva": "0x1f09437",
+        "target": "0x4f64770",
+        "text": "POISetButton"
+      }
+    ],
+    "core_function": [
+      "0x5d420",
+      "0x5d49b"
+    ],
+    "core_string_candidates": [
+      {
+        "rva": "0x5d451",
+        "target": "0x83098",
+        "text": "POIAlly"
+      }
+    ],
+    "core_first_bytes": "48 89 5c 24 08 48 89 6c 24 10 48 89 74 24 18 48 89 7c 24 20 41 56 48 83 ec 20 48 8b 01 49 8b e9"
+  },
+  {
+    "game_rva": "0x1f23710",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980ed4",
+    "target_module": "smt.dll",
+    "target_rva": "0x57060",
+    "game_function": [
+      "0x1f23710",
+      "0x1f23716"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x57060",
+      "0x570b4"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "40 53 48 83 ec 20 48 8b 05 13 c1 06 00 ff d0 48 8b 0d 7a 7c 06 00 48 8b d8 48 8b 81 58 01 00 00"
+  },
+  {
+    "game_rva": "0x1f652c0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990a55",
+    "target_module": "smt.dll",
+    "target_rva": "0x5c640",
+    "game_function": [
+      "0x1f652c0",
+      "0x1f65320"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5c640",
+      "0x5c66f"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "48 83 ec 28 ff 15 16 71 06 00 80 3d 17 71 06 00 00 75 17 48 8d 0d 06 d8 05 00 c6 05 07 71 06 00"
+  },
+  {
+    "game_rva": "0x1f73120",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990fd3",
+    "target_module": "smt.dll",
+    "target_rva": "0xcd80",
+    "game_function": [
+      "0x1f73120",
+      "0x1f731e4"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0xcd80",
+      "0xd07b"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "48 89 5c 24 10 48 89 4c 24 08 57 48 83 ec 60 0f 57 c0 f3 0f 7f 44 24 30 0f 57 c9 f3 0f 7f 4c 24"
+  },
+  {
+    "game_rva": "0x1f83e60",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980e99",
+    "target_module": "smt.dll",
+    "target_rva": "0x59050",
+    "game_function": [
+      "0x1f83e60",
+      "0x1f83fdb"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x59050",
+      "0x592ff"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "48 89 5c 24 10 48 89 74 24 18 48 89 7c 24 20 55 41 54 41 55 41 56 41 57 48 8d ac 24 70 fc ff ff"
+  },
+  {
+    "game_rva": "0x1f9e170",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990155",
+    "target_module": "smt.dll",
+    "target_rva": "0x59f80",
+    "game_function": [
+      "0x1f9e170",
+      "0x1f9e1a9"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x59f80",
+      "0x59fb3"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "48 85 c9 0f 84 ba 01 00 00 4c 8b dc 41 54 41 56 48 81 ec f8 00 00 00 48 8b 05 e2 03 06 00 48 33"
+  },
+  {
+    "game_rva": "0x1fb7350",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990e93",
+    "target_module": "smt.dll",
+    "target_rva": "0x33570",
+    "game_function": [
+      "0x1fb7350",
+      "0x1fb74ba"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x33570",
+      "0x33586"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "40 53 56 57 41 54 41 55 48 83 ec 30 48 8b 1d 55 de 08 00 4d 8b e1 4c 89 7c 24 78 4c 8b fa 4c 8b"
+  },
+  {
+    "game_rva": "0x20d2f40",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980855",
+    "target_module": "smt.dll",
+    "target_rva": "0x64520",
+    "game_function": [
+      "0x20d2f40",
+      "0x20d32a2"
+    ],
+    "game_string_candidates": [
+      {
+        "rva": "0x20d2f77",
+        "target": "0x4f83930",
+        "text": "Spawner: Factory Actors"
+      },
+      {
+        "rva": "0x20d2fea",
+        "target": "0x4f83948",
+        "text": "Spawner: Template Actors"
+      },
+      {
+        "rva": "0x20d3061",
+        "target": "0x4f83968",
+        "text": "Spawner: Spawn Locations"
+      }
+    ],
+    "core_function": [
+      "0x64520",
+      "0x64580"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "48 ff 25 41 f5 05 00 cc cc cc cc cc cc cc cc cc 48 8d 05 f9 fb 01 00 48 89 02 48 8b 41 08 48 89"
+  },
+  {
+    "game_rva": "0x20dc130",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980816",
+    "target_module": "smt.dll",
+    "target_rva": "0x63fa0",
+    "game_function": [
+      "0x20dc130",
+      "0x20dc165"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x63fa0",
+      "0x63fdd"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "48 89 4c 24 08 55 53 41 55 48 8d 6c 24 b9 48 81 ec 90 00 00 00 8b 41 60 48 8b d9 48 8d 4d 77 89"
+  },
+  {
+    "game_rva": "0x20dc3b0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990714",
+    "target_module": "smt.dll",
+    "target_rva": "0x5c5b0",
+    "game_function": [
+      "0x20dc3b0",
+      "0x20dc3fb"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5c5b0",
+      "0x5c5e9"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "40 53 48 83 ec 20 48 8b d9 ff 15 d9 6e 06 00 48 8b 03 48 8b cb ff 50 48 81 78 7c a9 1b 90 f6 75"
+  },
+  {
+    "game_rva": "0x20e09d0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990614",
+    "target_module": "smt.dll",
+    "target_rva": "0x5c2f0",
+    "game_function": [
+      "0x20e09d0",
+      "0x20e0a4b"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5c2f0",
+      "0x5c4bb"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "48 89 5c 24 20 57 48 83 ec 60 0f 29 74 24 50 48 8b 05 7a e0 05 00 48 33 c4 48 89 44 24 48 48 8b"
+  },
+  {
+    "game_rva": "0x20e1930",
+    "difference_bytes": 5,
+    "relay": "0x7ff6239907d5",
+    "target_module": "smt.dll",
+    "target_rva": "0x5c4c0",
+    "game_function": [
+      "0x20e1930",
+      "0x20e197c"
+    ],
+    "game_string_candidates": [],
+    "core_function": [
+      "0x5c4c0",
+      "0x5c518"
+    ],
+    "core_string_candidates": [],
+    "core_first_bytes": "48 89 5c 24 08 57 48 83 ec 30 48 8b 01 48 8b fa 0f 29 74 24 20 48 8b d9 0f 28 f2 ff 50 48 8b 48"
+  },
+  {
+    "game_rva": "0x320c9d0",
+    "difference_bytes": 14,
+    "relay": "0x1977b616910",
+    "target_address": "0x1977b616910",
+    "game_function": [
+      "0x320c9d0",
+      "0x320ca66"
+    ],
+    "game_string_candidates": [
+      {
+        "rva": "0x320ca02",
+        "target": "0x5366540",
+        "text": "Loader failed to open '%s', FileOpener not installe"
+      }
+    ]
+  }
+]

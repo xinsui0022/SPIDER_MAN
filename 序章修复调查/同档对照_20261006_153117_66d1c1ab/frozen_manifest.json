@@ -1,0 +1,17 @@
+{
+  "files": {
+    "-userprefs.save": {
+      "size": 1460,
+      "sha256": "51fdd8617ea4b97218b9cb8dbedbd01312cedd0b7b90f1152e22730bde875670"
+    },
+    "slot0-s.save": {
+      "size": 94782,
+      "sha256": "0b8dcafbd883ad6f4dd98789078e344e967929d4cac3c16239b694e231ab374e"
+    },
+    "steam_autocloud.vdf": {
+      "size": 53,
+      "sha256": "3e1bbbba9e4c92f2392e6c5e97d12b73002f8ede29289d13d06f65f2e9714a6d"
+    }
+  },
+  "directories": []
+}

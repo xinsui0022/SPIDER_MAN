@@ -1,0 +1,99 @@
+{
+  "snapshot_utc": "2026-10-05T20:38:42.132554+00:00",
+  "files": [
+    {
+      "path": "C:\\Users\\xinsui\\Documents\\Marvel's Spider-Man Remastered\\76561199372553531\\slot1-s.save",
+      "size": 141492,
+      "sha256": "6fe681b2331d038047081b42edadd8a8b80be9e3d3460b49f72c6f4ea0e106ea",
+      "mtime_utc": "2026-10-05T20:34:01.788018+00:00",
+      "DAT1_sections": 28,
+      "objects": [
+        {
+          "file_offset": "0x14094",
+          "fields": {
+            "CurrentLevel": -1,
+            "CurrentCheckpoint": 0,
+            "CurrentCheckpointId": 8898936940653795004,
+            "CurrentLightingMode": "kOvercast",
+            "CurrentLightingModeValid": true,
+            "PlaythroughSegmentId": 813151840
+          }
+        },
+        {
+          "file_offset": "0x14118",
+          "fields": {
+            "PlayerLevel": 50,
+            "GamePercent": 0,
+            "NewGamePlus": true,
+            "NewGamePlusNewGame": false,
+            "NewGamePlusUnlocked": false,
+            "ActiveMissionHash": 923129643,
+            "LocationHash": 2400438793,
+            "LastSaveTime": 2125082914,
+            "SlotDifficulty": 3,
+            "LowestDifficultyEverSet": 3,
+            "TotalPlayTime": 0
+          }
+        },
+        {
+          "file_offset": "0x15e18",
+          "fields": {
+            "CurrentLevel": -1,
+            "CurrentCheckpoint": 0,
+            "CurrentCheckpointId": 8898936940653795004,
+            "CurrentLightingMode": "kOvercast",
+            "CurrentLightingModeValid": true,
+            "PlaythroughSegmentId": 813151840
+          }
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\同档对照_20261006_040620_c7c352da\\frozen_smt_save\\slot1-s.save",
+      "size": 141502,
+      "sha256": "e88daa5f89a56e37662e82845ebccb980c4fe704dad1ee2eebccfdbdc80c8658",
+      "mtime_utc": "2026-10-05T18:48:14.250485+00:00",
+      "DAT1_sections": 28,
+      "objects": [
+        {
+          "file_offset": "0xa4e4",
+          "fields": {
+            "CurrentLevel": -1,
+            "CurrentCheckpoint": 0,
+            "CurrentCheckpointId": 8898936940653795004,
+            "CurrentLightingMode": "kOvercast",
+            "CurrentLightingModeValid": true,
+            "PlaythroughSegmentId": 813151840
+          }
+        },
+        {
+          "file_offset": "0xa568",
+          "fields": {
+            "PlayerLevel": 50,
+            "GamePercent": 0,
+            "NewGamePlus": true,
+            "NewGamePlusNewGame": false,
+            "NewGamePlusUnlocked": false,
+            "ActiveMissionHash": 923129643,
+            "LocationHash": 2400438793,
+            "LastSaveTime": 2125082800,
+            "SlotDifficulty": 3,
+            "LowestDifficultyEverSet": 3,
+            "TotalPlayTime": 0
+          }
+        },
+        {
+          "file_offset": "0xc268",
+          "fields": {
+            "CurrentLevel": -1,
+            "CurrentCheckpoint": 0,
+            "CurrentCheckpointId": 8898936940653795004,
+            "CurrentLightingMode": "kOvercast",
+            "CurrentLightingModeValid": true,
+            "PlaythroughSegmentId": 813151840
+          }
+        }
+      ]
+    }
+  ]
+}

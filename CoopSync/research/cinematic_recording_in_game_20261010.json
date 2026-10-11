@@ -1,0 +1,941 @@
+{
+  "schema": 1,
+  "generated_utc": "2026-10-10T09:01:51.258964+00:00",
+  "recording_directory": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\CoopSync\\logs\\runtime_manual_skip_20261010_in_game",
+  "manifest": {
+    "schema": 1,
+    "utc": "2026-10-10T08:55:33.595778+00:00",
+    "seconds_requested": 300,
+    "label": "manual-skip",
+    "label_is_test_intent_only": true,
+    "mode": "read_only_observation",
+    "game_operations": false,
+    "game_launched_by_tool": false,
+    "status": "observations_recorded",
+    "child_exit_codes": {
+      "cinematic": 0,
+      "missions": 0,
+      "ui_skip": 0
+    },
+    "all_observers_ready": true,
+    "observer_pids": {
+      "missions": 25612,
+      "cinematic": 25612,
+      "ui_skip": 25612
+    }
+  },
+  "source_prefixes": [
+    {
+      "path": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\CoopSync\\logs\\runtime_manual_skip_20261010_in_game\\cinematic.jsonl",
+      "captured_bytes": 3810049,
+      "captured_sha256": "859677aa815316a1b58870839eda4a45b3cfc71cb6c5cc9abcdcbc63405b0743",
+      "complete_records": 2984,
+      "partial_trailing_line_omitted": false
+    },
+    {
+      "path": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\CoopSync\\logs\\runtime_manual_skip_20261010_in_game\\missions.jsonl",
+      "captured_bytes": 9288,
+      "captured_sha256": "f556279651366e330724fac95c1a259ae990411a91da3fead1249e0a4aa9e0a1",
+      "complete_records": 4,
+      "partial_trailing_line_omitted": false
+    },
+    {
+      "path": "logs\\runtime_manual_skip_20261010_returned\\human_reports.jsonl",
+      "captured_bytes": 712,
+      "captured_sha256": "3c7fba90f3a83637e384f15636855a6f4413a370226402e576161ba7fece4e5c",
+      "complete_records": 2,
+      "partial_trailing_line_omitted": false
+    },
+    {
+      "path": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\CoopSync\\logs\\runtime_manual_skip_20261010_in_game\\human_reports.jsonl",
+      "captured_bytes": 1290,
+      "captured_sha256": "c40badd1c81e1460a2d9940c1880c0d0b9d24ccd0a80da5d527e9702b9584577",
+      "complete_records": 3,
+      "partial_trailing_line_omitted": false
+    }
+  ],
+  "human_reports": [
+    {
+      "source": "logs\\runtime_manual_skip_20261010_returned\\human_reports.jsonl",
+      "schema": 1,
+      "record_type": "human_report",
+      "receipt_utc": "2026-10-10T08:53:53.651388+00:00",
+      "receipt_monotonic_ms": 65627453,
+      "game_operations": false,
+      "skip_verified": false,
+      "report": "用户刚接手兄弟的开发工作，不熟悉旧测试流程；此前界面为主菜单或未打开游戏",
+      "event_time_status": "reported retrospectively; exact event time unknown"
+    },
+    {
+      "source": "logs\\runtime_manual_skip_20261010_returned\\human_reports.jsonl",
+      "schema": 1,
+      "record_type": "human_report",
+      "receipt_utc": "2026-10-10T08:53:53.651388+00:00",
+      "receipt_monotonic_ms": 65627453,
+      "game_operations": false,
+      "skip_verified": false,
+      "report": "已选择继续进入关卡，主要任务显示：阻止倒数",
+      "event_time_status": "receipt only; no exact load timestamp or skip claim"
+    },
+    {
+      "source": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\CoopSync\\logs\\runtime_manual_skip_20261010_in_game\\human_reports.jsonl",
+      "schema": 1,
+      "record_type": "human_report",
+      "receipt_utc": "2026-10-10T08:57:08.816656+00:00",
+      "receipt_monotonic_ms": 65822609,
+      "report": "用户明确：我现在正在剧情中。已指导按游戏提示跳过，无提示则自然播完；尚未确认完成。",
+      "event_time_status": "receipt only; exact cinematic start unknown",
+      "game_operations": false,
+      "skip_verified": false
+    },
+    {
+      "source": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\CoopSync\\logs\\runtime_manual_skip_20261010_in_game\\human_reports.jsonl",
+      "schema": 1,
+      "record_type": "human_report",
+      "receipt_utc": "2026-10-10T08:58:17.420031+00:00",
+      "receipt_monotonic_ms": 65891218,
+      "report": "用户已过完该段剧情；没有跳过剧情选项，随后重新进入战斗。",
+      "event_time_status": "retrospective natural-end report; exact start/end time unknown",
+      "human_reported_outcome": "natural_end_without_skip_option",
+      "manual_skip_performed": false,
+      "game_operations": false,
+      "skip_verified": false
+    },
+    {
+      "source": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\CoopSync\\logs\\runtime_manual_skip_20261010_in_game\\human_reports.jsonl",
+      "schema": 1,
+      "record_type": "human_report",
+      "receipt_utc": "2026-10-10T09:00:32.768303+00:00",
+      "receipt_monotonic_ms": 66026562,
+      "report": "战斗后屏幕提示战斗专注；用户确认机房门可以通过，已走到外面。",
+      "event_time_status": "retrospective receipt; exact traversal time unknown",
+      "door_traversal_reported": true,
+      "door_entity_observed_by_probe": false,
+      "game_operations": false,
+      "full_world_sync_verified": false
+    }
+  ],
+  "human_reported_outcomes": [
+    "natural_end_without_skip_option"
+  ],
+  "human_receipt_windows": [
+    {
+      "receipt_monotonic_ms": 65627453,
+      "window_radius_ms": 1000,
+      "samples": 0,
+      "status_counts": {},
+      "slot_value_counts": {},
+      "limitation": "receipt adjacency only; retrospective exact gameplay event time is unknown"
+    },
+    {
+      "receipt_monotonic_ms": 65627453,
+      "window_radius_ms": 1000,
+      "samples": 0,
+      "status_counts": {},
+      "slot_value_counts": {},
+      "limitation": "receipt adjacency only; retrospective exact gameplay event time is unknown"
+    },
+    {
+      "receipt_monotonic_ms": 65822609,
+      "window_radius_ms": 1000,
+      "samples": 19,
+      "status_counts": {
+        "object_identities_match_no_flagged_component": 19
+      },
+      "slot_value_counts": {
+        "0x0": 19
+      },
+      "limitation": "receipt adjacency only; retrospective exact gameplay event time is unknown"
+    },
+    {
+      "receipt_monotonic_ms": 65891218,
+      "window_radius_ms": 1000,
+      "samples": 19,
+      "status_counts": {
+        "object_identities_match_no_flagged_component": 19
+      },
+      "slot_value_counts": {
+        "0x0": 19
+      },
+      "limitation": "receipt adjacency only; retrospective exact gameplay event time is unknown"
+    },
+    {
+      "receipt_monotonic_ms": 66026562,
+      "window_radius_ms": 1000,
+      "samples": 20,
+      "status_counts": {
+        "object_identities_match_no_flagged_component": 20
+      },
+      "slot_value_counts": {
+        "0x0": 20
+      },
+      "limitation": "receipt adjacency only; retrospective exact gameplay event time is unknown"
+    }
+  ],
+  "capture_complete": true,
+  "pid": 25612,
+  "game_sha256": "e297d4d94f1ffe4febf289745e79e7b6fa233a788e7a00f480fc77c55db81ad1",
+  "component_end_record": {
+    "schema": 2,
+    "record_type": "end",
+    "status": "object_identities_match_no_flagged_component",
+    "samples_emitted": 2982,
+    "elapsed_ms": 300014,
+    "reason": "duration_limit",
+    "verified_callable_interfaces": []
+  },
+  "quality_problems": [],
+  "snapshots": 2982,
+  "stable_component_samples": 85,
+  "status_counts": {
+    "object_identities_match_no_flagged_component": 2886,
+    "component_identity_match_raw_state_only": 85,
+    "component_changed_during_reads": 11
+  },
+  "selection_slot_value_counts": {
+    "0x0": 2888,
+    "0x20880492dd0": 94
+  },
+  "component_time_span_ms": 299921,
+  "sampling_intervals_ms": {
+    "minimum": 77,
+    "maximum": 110,
+    "over_250ms": 0
+  },
+  "unstable_samples": [
+    27,
+    54,
+    105,
+    141,
+    222,
+    267,
+    307,
+    521,
+    728,
+    762,
+    786
+  ],
+  "component_groups": [
+    {
+      "component_pointer": "0x20880492dd0",
+      "stable_samples": 85,
+      "first_observed": {
+        "sample": 8,
+        "monotonic_ms": 65728702,
+        "component_pointer": "0x20880492dd0",
+        "actual_vtable": "0x7ff7c4fc4100",
+        "raw_fields": {
+          "0x58": 10,
+          "0x5c": 10,
+          "0xc0": 0,
+          "0xc7": 1,
+          "0xc9": 0,
+          "0xca": 0
+        }
+      },
+      "last_observed": {
+        "sample": 809,
+        "monotonic_ms": 65809312,
+        "component_pointer": "0x20880492dd0",
+        "actual_vtable": "0x7ff7c4fc4100",
+        "raw_fields": {
+          "0x58": 10,
+          "0x5c": 10,
+          "0xc0": 0,
+          "0xc7": 1,
+          "0xc9": 0,
+          "0xca": 0
+        }
+      },
+      "raw_value_sets": {
+        "0x58": [
+          10
+        ],
+        "0x5c": [
+          10
+        ],
+        "0xc0": [
+          0
+        ],
+        "0xc7": [
+          1
+        ],
+        "0xc9": [
+          0
+        ],
+        "0xca": [
+          0
+        ]
+      }
+    }
+  ],
+  "owner_stability_not_rechecked_samples": [
+    54
+  ],
+  "raw_state_changes": [],
+  "observed_component_address_changes": [],
+  "repeated_raw_transition_patterns": [],
+  "task_observations": [
+    {
+      "monotonic_ms": 65727859,
+      "utc": "2026-10-10T08:55:34.066943+00:00",
+      "task_subset_sha256": "bc42929dab21d56f316be070361ecb5bcc06921b5400802dbda45dd7ea3e2091",
+      "tasks": [
+        {
+          "mission_id_raw": "0xD3665CA4",
+          "mission_name_raw": "GP_A1_FISK",
+          "objectives": [
+            {
+              "name_raw": "GP_A1_FISK_START",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_ATRIUM",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_ATRIUM_02",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_COPS_ARRIVED_CIN",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_ELEVATOR_LOBBY",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_SHAFT_CLIMB_FIGHT",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_POST_SKILL_POINT",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_SECURITY_ROOM",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_SECURITY_COUNTDOWN",
+              "state_raw": 1
+            },
+            {
+              "name_raw": "GP_A1_FISK_HACK_CIN2",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_POP_UP_TUT",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_FIRST_EXPLOSION",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_SWAT_INTRO",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_HELP_CIVS",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_INVESTIGATE_VENT",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_NEW_BOMB",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_LOCATE_SWAT",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_INVESTIGATE_SCENE",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_FIGHT_SWAT_CIN",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_FIGHT_SWAT",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_INTRO_FISK_CIN",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_TURRETS",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_DESK_SMASH_CIN",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_BOSS_2",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_WALL_BASH_CIN",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_BOSS_3",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_FALL",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_OUTRO_CINE",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_SKILL_TUT",
+              "state_raw": 0
+            }
+          ],
+          "state_raw": 2
+        }
+      ]
+    },
+    {
+      "monotonic_ms": 65728875,
+      "utc": "2026-10-10T08:55:35.085913+00:00",
+      "task_subset_sha256": "c9147e42891c9f27cf9989a2fe219a4047ec0c6e358e50df130780a4eb177e73",
+      "tasks": [
+        {
+          "mission_id_raw": "0xD3665CA4",
+          "mission_name_raw": "GP_A1_FISK",
+          "objectives": [
+            {
+              "name_raw": "GP_A1_FISK_START",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_ATRIUM",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_ATRIUM_02",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_COPS_ARRIVED_CIN",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_ELEVATOR_LOBBY",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_SHAFT_CLIMB_FIGHT",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_POST_SKILL_POINT",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_SECURITY_ROOM",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_SECURITY_COUNTDOWN",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_HACK_CIN2",
+              "state_raw": 1
+            },
+            {
+              "name_raw": "GP_A1_FISK_POP_UP_TUT",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_FIRST_EXPLOSION",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_SWAT_INTRO",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_HELP_CIVS",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_INVESTIGATE_VENT",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_NEW_BOMB",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_LOCATE_SWAT",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_INVESTIGATE_SCENE",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_FIGHT_SWAT_CIN",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_FIGHT_SWAT",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_INTRO_FISK_CIN",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_TURRETS",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_DESK_SMASH_CIN",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_BOSS_2",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_WALL_BASH_CIN",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_BOSS_3",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_FALL",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_OUTRO_CINE",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_SKILL_TUT",
+              "state_raw": 0
+            }
+          ],
+          "state_raw": 2
+        }
+      ]
+    },
+    {
+      "monotonic_ms": 65809375,
+      "utc": "2026-10-10T08:56:55.582654+00:00",
+      "task_subset_sha256": "697fe5deacc896568d78acdca12f39eef1f89ef5df8ee52d88404138fdbe19de",
+      "tasks": [
+        {
+          "mission_id_raw": "0xD3665CA4",
+          "mission_name_raw": "GP_A1_FISK",
+          "objectives": [
+            {
+              "name_raw": "GP_A1_FISK_START",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_ATRIUM",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_ATRIUM_02",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_COPS_ARRIVED_CIN",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_ELEVATOR_LOBBY",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_SHAFT_CLIMB_FIGHT",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_POST_SKILL_POINT",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_SECURITY_ROOM",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_SECURITY_COUNTDOWN",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_HACK_CIN2",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_POP_UP_TUT",
+              "state_raw": 1
+            },
+            {
+              "name_raw": "GP_A1_FISK_FIRST_EXPLOSION",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_SWAT_INTRO",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_HELP_CIVS",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_INVESTIGATE_VENT",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_NEW_BOMB",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_LOCATE_SWAT",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_INVESTIGATE_SCENE",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_FIGHT_SWAT_CIN",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_FIGHT_SWAT",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_INTRO_FISK_CIN",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_TURRETS",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_DESK_SMASH_CIN",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_BOSS_2",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_WALL_BASH_CIN",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_BOSS_3",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_FALL",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_OUTRO_CINE",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_SKILL_TUT",
+              "state_raw": 0
+            }
+          ],
+          "state_raw": 2
+        }
+      ]
+    },
+    {
+      "monotonic_ms": 65978281,
+      "utc": "2026-10-10T08:59:44.489047+00:00",
+      "task_subset_sha256": "0f7f46d0af8ddca9f12aa26403e481b348becdef970d003727a1058334e04993",
+      "tasks": [
+        {
+          "mission_id_raw": "0xD3665CA4",
+          "mission_name_raw": "GP_A1_FISK",
+          "objectives": [
+            {
+              "name_raw": "GP_A1_FISK_START",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_ATRIUM",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_ATRIUM_02",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_COPS_ARRIVED_CIN",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_ELEVATOR_LOBBY",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_SHAFT_CLIMB_FIGHT",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_POST_SKILL_POINT",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_SECURITY_ROOM",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_SECURITY_COUNTDOWN",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_HACK_CIN2",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_POP_UP_TUT",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_FIRST_EXPLOSION",
+              "state_raw": 1
+            },
+            {
+              "name_raw": "GP_A1_FISK_SWAT_INTRO",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_HELP_CIVS",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_INVESTIGATE_VENT",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_NEW_BOMB",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_LOCATE_SWAT",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_INVESTIGATE_SCENE",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_FIGHT_SWAT_CIN",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_FIGHT_SWAT",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_INTRO_FISK_CIN",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_TURRETS",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_DESK_SMASH_CIN",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_BOSS_2",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_WALL_BASH_CIN",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_BOSS_3",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_FALL",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_OUTRO_CINE",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_SKILL_TUT",
+              "state_raw": 0
+            }
+          ],
+          "state_raw": 2
+        }
+      ]
+    }
+  ],
+  "task_changes": [
+    {
+      "monotonic_ms": 65728875,
+      "changed_items": [
+        {
+          "mission_id_raw": "0xD3665CA4",
+          "mission_name_raw": "GP_A1_FISK",
+          "objective_name_raw": "GP_A1_FISK_HACK_CIN2",
+          "before_raw": 0,
+          "after_raw": 1
+        },
+        {
+          "mission_id_raw": "0xD3665CA4",
+          "mission_name_raw": "GP_A1_FISK",
+          "objective_name_raw": "GP_A1_FISK_SECURITY_COUNTDOWN",
+          "before_raw": 1,
+          "after_raw": 2
+        }
+      ],
+      "stable_component_before": {
+        "sample": 8,
+        "monotonic_ms": 65728702,
+        "component_pointer": "0x20880492dd0",
+        "actual_vtable": "0x7ff7c4fc4100",
+        "raw_fields": {
+          "0x58": 10,
+          "0x5c": 10,
+          "0xc0": 0,
+          "0xc7": 1,
+          "0xc9": 0,
+          "0xca": 0
+        }
+      },
+      "stable_component_after": {
+        "sample": 11,
+        "monotonic_ms": 65729015,
+        "component_pointer": "0x20880492dd0",
+        "actual_vtable": "0x7ff7c4fc4100",
+        "raw_fields": {
+          "0x58": 10,
+          "0x5c": 10,
+          "0xc0": 0,
+          "0xc7": 1,
+          "0xc9": 0,
+          "0xca": 0
+        }
+      },
+      "before_distance_ms": 173,
+      "after_distance_ms": 140,
+      "meaning": "time ordering with explicit distances only; no causal skip/end claim"
+    },
+    {
+      "monotonic_ms": 65809375,
+      "changed_items": [
+        {
+          "mission_id_raw": "0xD3665CA4",
+          "mission_name_raw": "GP_A1_FISK",
+          "objective_name_raw": "GP_A1_FISK_HACK_CIN2",
+          "before_raw": 1,
+          "after_raw": 2
+        },
+        {
+          "mission_id_raw": "0xD3665CA4",
+          "mission_name_raw": "GP_A1_FISK",
+          "objective_name_raw": "GP_A1_FISK_POP_UP_TUT",
+          "before_raw": 0,
+          "after_raw": 1
+        }
+      ],
+      "stable_component_before": {
+        "sample": 809,
+        "monotonic_ms": 65809312,
+        "component_pointer": "0x20880492dd0",
+        "actual_vtable": "0x7ff7c4fc4100",
+        "raw_fields": {
+          "0x58": 10,
+          "0x5c": 10,
+          "0xc0": 0,
+          "0xc7": 1,
+          "0xc9": 0,
+          "0xca": 0
+        }
+      },
+      "stable_component_after": null,
+      "before_distance_ms": 63,
+      "after_distance_ms": null,
+      "meaning": "time ordering with explicit distances only; no causal skip/end claim"
+    },
+    {
+      "monotonic_ms": 65978281,
+      "changed_items": [
+        {
+          "mission_id_raw": "0xD3665CA4",
+          "mission_name_raw": "GP_A1_FISK",
+          "objective_name_raw": "GP_A1_FISK_FIRST_EXPLOSION",
+          "before_raw": 0,
+          "after_raw": 1
+        },
+        {
+          "mission_id_raw": "0xD3665CA4",
+          "mission_name_raw": "GP_A1_FISK",
+          "objective_name_raw": "GP_A1_FISK_POP_UP_TUT",
+          "before_raw": 1,
+          "after_raw": 2
+        }
+      ],
+      "stable_component_before": {
+        "sample": 809,
+        "monotonic_ms": 65809312,
+        "component_pointer": "0x20880492dd0",
+        "actual_vtable": "0x7ff7c4fc4100",
+        "raw_fields": {
+          "0x58": 10,
+          "0x5c": 10,
+          "0xc0": 0,
+          "0xc7": 1,
+          "0xc9": 0,
+          "0xca": 0
+        }
+      },
+      "stable_component_after": null,
+      "before_distance_ms": 168969,
+      "after_distance_ms": null,
+      "meaning": "time ordering with explicit distances only; no causal skip/end claim"
+    }
+  ],
+  "verified_callable_interfaces": [],
+  "skip_verified": false,
+  "cinematic_start_end_verified": false,
+  "stable_cinematic_id_verified": false,
+  "scene_ready_verified": false,
+  "full_world_sync_verified": false,
+  "limitations": [
+    "manual-skip is recording intent; no confirmed manual skip or visual playback event is embedded here",
+    "human reports describe earlier menu/uncertain launch and later loaded objective; receipt timestamps are not exact event times",
+    "retained SECURITY_COUNTDOWN task data before human load confirmation does not prove a currently loaded scene",
+    "zero/nonzero selection slot is not a start/end signal; absent selected component creates an observation gap",
+    "same address does not prove one lifetime or stable ID; raw before/after candidates can cross gaps",
+    "missions observer emits changes only at one-second polling; unchanged live state and observer liveness need separate evidence",
+    "task subset digest is not complete world state; time adjacency is not causality"
+  ]
+}

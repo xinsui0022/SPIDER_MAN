@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "utc": "2026-10-10T16:17:28.994058+00:00",
+  "action": "attach",
+  "pid": 17652,
+  "dll": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\CoopSync\\build\\CoopSyncRuntime.dll",
+  "dll_sha256": "b92dda455a79b86d5f50c5173744aa5d17cf9d409c56ffac79bc151eb7a2360e",
+  "game_sha256": "e297d4d94f1ffe4febf289745e79e7b6fa233a788e7a00f480fc77c55db81ad1",
+  "engine_functions_called": false,
+  "game_code_patched": false,
+  "saves_modified": false,
+  "world_replication_enabled": false,
+  "output_directory": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\CoopSync\\logs\\native_runtime_20261011_menu_verified",
+  "dll_loaded_this_call": true,
+  "loaded_dll_identity_verified": true,
+  "module_base": "0x7ffb7ee60000",
+  "start_result": 0,
+  "runtime_status": {
+    "size": 40,
+    "version": 1,
+    "phase": 1,
+    "last_error": 0,
+    "sample_count": 0,
+    "game_operations": 0,
+    "world_sync": 0,
+    "callables": 0,
+    "reserved": 0
+  },
+  "status": "diagnostic_export_returned"
+}

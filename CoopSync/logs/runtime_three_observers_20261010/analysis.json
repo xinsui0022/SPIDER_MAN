@@ -1,0 +1,219 @@
+{
+  "schema": 1,
+  "quality": "incomplete_or_ambiguous",
+  "snapshots": 31,
+  "observed_pids": [
+    25612
+  ],
+  "observed_statuses": [
+    "component_changed_during_reads",
+    "object_identities_match_no_flagged_component",
+    "component_identity_match_raw_state_only"
+  ],
+  "raw_component_episodes": [
+    {
+      "component_pointer": "0x208807e7c30",
+      "first_observed_ms": 64716203,
+      "last_observed_ms": 64716312,
+      "observation_end": "selection_slot_became_zero",
+      "raw_states": [
+        {
+          "monotonic_ms": 64716203,
+          "fields": [
+            {
+              "offset": "0x58",
+              "size": 4,
+              "raw_hex": "0a000000",
+              "unsigned_value": 10,
+              "static_evidence": "dispatcher 0x166A320 branches on/writes this value",
+              "semantic_status": "raw field only, full state meaning unverified"
+            },
+            {
+              "offset": "0x5c",
+              "size": 4,
+              "raw_hex": "0a000000",
+              "unsigned_value": 10,
+              "static_evidence": "SetToEnd branch 0x166A497 writes this value",
+              "semantic_status": "raw field only, full state meaning unverified"
+            },
+            {
+              "offset": "0xc0",
+              "size": 4,
+              "raw_hex": "00000000",
+              "unsigned_value": 0,
+              "static_evidence": "SetToEnd/SetToEndAndHide branches 0x166A475/48B write this value",
+              "semantic_status": "raw field only, full state meaning unverified"
+            },
+            {
+              "offset": "0xc7",
+              "size": 1,
+              "raw_hex": "01",
+              "unsigned_value": 1,
+              "static_evidence": "System update 0x167325F tests this byte before selecting this component",
+              "semantic_status": "raw field only, full state meaning unverified"
+            },
+            {
+              "offset": "0xc9",
+              "size": 1,
+              "raw_hex": "00",
+              "unsigned_value": 0,
+              "static_evidence": "Hide/Show branches 0x166A4F4/5A8 write this byte",
+              "semantic_status": "raw field only, full state meaning unverified"
+            },
+            {
+              "offset": "0xca",
+              "size": 1,
+              "raw_hex": "00",
+              "unsigned_value": 0,
+              "static_evidence": "Cinematic2Action handler 0x167008C writes this byte",
+              "semantic_status": "raw field only, full state meaning unverified"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "task_changes": [
+    {
+      "monotonic_ms": 64714234,
+      "utc": "2026-10-10T08:38:40.439411+00:00",
+      "pid": 25612,
+      "status": "task_observation_available",
+      "tasks": [
+        {
+          "mission_id_raw": "0xD3665CA4",
+          "mission_name_raw": "GP_A1_FISK",
+          "objectives": [
+            {
+              "name_raw": "GP_A1_FISK_START",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_ATRIUM",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_ATRIUM_02",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_COPS_ARRIVED_CIN",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_ELEVATOR_LOBBY",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_SHAFT_CLIMB_FIGHT",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_POST_SKILL_POINT",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_SECURITY_ROOM",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_SECURITY_COUNTDOWN",
+              "state_raw": 1
+            },
+            {
+              "name_raw": "GP_A1_FISK_HACK_CIN2",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_POP_UP_TUT",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_FIRST_EXPLOSION",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_SWAT_INTRO",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_HELP_CIVS",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_INVESTIGATE_VENT",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_NEW_BOMB",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_LOCATE_SWAT",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_INVESTIGATE_SCENE",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_FIGHT_SWAT_CIN",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_FIGHT_SWAT",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_INTRO_FISK_CIN",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_TURRETS",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_DESK_SMASH_CIN",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_BOSS_2",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_WALL_BASH_CIN",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_BOSS_3",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_FALL",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_OUTRO_CINE",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_SKILL_TUT",
+              "state_raw": 0
+            }
+          ],
+          "state_raw": 2
+        }
+      ],
+      "task_subset_sha256": "bc42929dab21d56f316be070361ecb5bcc06921b5400802dbda45dd7ea3e2091"
+    }
+  ],
+  "problems": [
+    "component_changed_during_reads"
+  ],
+  "game_operations": false,
+  "verified_callable_interfaces": [],
+  "scene_ready_verified": false,
+  "skip_verified": false,
+  "full_world_sync_verified": false,
+  "limitations": "Raw component selection and task subset only. Slot becoming zero does not prove cinematic completion or skipping."
+}

@@ -1,0 +1,216 @@
+{
+  "schema": 1,
+  "quality": "incomplete_or_ambiguous",
+  "snapshots": 21,
+  "observed_pids": [
+    25612
+  ],
+  "observed_statuses": [
+    "object_identities_match_no_flagged_component",
+    "component_changed_during_reads"
+  ],
+  "raw_component_episodes": [],
+  "task_changes": [
+    {
+      "monotonic_ms": 64966062,
+      "utc": "2026-10-10T08:42:52.268544+00:00",
+      "pid": 25612,
+      "status": "task_observation_available",
+      "tasks": [
+        {
+          "mission_id_raw": "0xD3665CA4",
+          "mission_name_raw": "GP_A1_FISK",
+          "objectives": [
+            {
+              "name_raw": "GP_A1_FISK_START",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_ATRIUM",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_ATRIUM_02",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_COPS_ARRIVED_CIN",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_ELEVATOR_LOBBY",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_SHAFT_CLIMB_FIGHT",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_POST_SKILL_POINT",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_SECURITY_ROOM",
+              "state_raw": 2
+            },
+            {
+              "name_raw": "GP_A1_FISK_SECURITY_COUNTDOWN",
+              "state_raw": 1
+            },
+            {
+              "name_raw": "GP_A1_FISK_HACK_CIN2",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_POP_UP_TUT",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_FIRST_EXPLOSION",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_SWAT_INTRO",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_HELP_CIVS",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_INVESTIGATE_VENT",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_NEW_BOMB",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_LOCATE_SWAT",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_INVESTIGATE_SCENE",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_FIGHT_SWAT_CIN",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_FIGHT_SWAT",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_INTRO_FISK_CIN",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_TURRETS",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_DESK_SMASH_CIN",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_BOSS_2",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_WALL_BASH_CIN",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_BOSS_3",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_FALL",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_OUTRO_CINE",
+              "state_raw": 0
+            },
+            {
+              "name_raw": "GP_A1_FISK_SKILL_TUT",
+              "state_raw": 0
+            }
+          ],
+          "state_raw": 2
+        }
+      ],
+      "task_subset_sha256": "bc42929dab21d56f316be070361ecb5bcc06921b5400802dbda45dd7ea3e2091"
+    }
+  ],
+  "problems": [
+    "component_changed_during_reads"
+  ],
+  "game_operations": false,
+  "verified_callable_interfaces": [],
+  "scene_ready_verified": false,
+  "skip_verified": false,
+  "full_world_sync_verified": false,
+  "limitations": "Raw component selection and task subset only. Slot becoming zero does not prove cinematic completion or skipping.",
+  "ui_skip_raw": {
+    "schema": 1,
+    "quality": "no_nonzero_ui_slots_observed",
+    "sessions": 1,
+    "snapshots": 21,
+    "accepted_raw_snapshots": 21,
+    "rejected_snapshots": 0,
+    "observed_pids": [
+      25612
+    ],
+    "session_pids": [
+      25612
+    ],
+    "first_snapshot_ms": 64966140,
+    "last_snapshot_ms": 64968156,
+    "status_counts": {
+      "overlay_identity_match_slots_stable_raw_only": 21
+    },
+    "nonzero_callback_samples": 0,
+    "nonzero_context_samples": 0,
+    "raw_slot_pair_changes": 0,
+    "raw_nonzero_slot_episodes": [],
+    "raw_flag_changes": [
+      {
+        "monotonic_ms": 64966140,
+        "raw_value": 0,
+        "change": "baseline_or_after_observation_gap"
+      }
+    ],
+    "raw_elapsed_summary": {
+      "finite_samples": 21,
+      "nonfinite_samples": 0,
+      "raw_value_changes": 0,
+      "first_value": 0.0,
+      "last_value": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "transitions": {
+        "increasing": 0,
+        "decreasing": 0,
+        "unchanged": 20,
+        "nonfinite": 0
+      }
+    },
+    "raw_elapsed_trends": [
+      {
+        "raw_direction": "unchanged",
+        "first_observed_ms": 64966140,
+        "last_observed_ms": 64968156,
+        "comparisons": 20
+      }
+    ],
+    "problems": [],
+    "problem_counts": {},
+    "game_operations": false,
+    "verified_callable_interfaces": [],
+    "playing_verified": false,
+    "skip_verified": false,
+    "limitations": "Stable raw UI slots and sampled changes only. A nonzero callback or flag, a timer change, or slots becoming zero do not prove cinematic playback, a callable ABI, or skipping. Context pointers are never dereferenced."
+  }
+}

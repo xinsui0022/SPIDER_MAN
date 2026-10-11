@@ -1,0 +1,23 @@
+
+=== CRASH REPORT ===
+Time: 2026-10-06_22-27-02
+Exception code: 0xc0000005
+Exception address: 0x00007FF654F0BD80
+
+=== STACK TRACE ===
+Frame 0: Spider-Man.exe+0x1cbbd80
+
+Frame 1: Spider-Man.exe+0x1cb8a9a
+
+Frame 2: Spider-Man.exe+0x18e27aa
+
+Frame 3: Spider-Man.exe+0x188f27f
+
+Frame 4: Spider-Man.exe+0x18963bd
+
+Frame 5: KERNEL32.DLL+0x17374
+Function: BaseThreadInitThunk+0x14
+
+Frame 6: ntdll.dll+0x4cc91
+Function: RtlUserThreadStart+0x21
+=== END CRASH REPORT ===

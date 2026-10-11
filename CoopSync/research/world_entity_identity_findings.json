@@ -1,0 +1,1626 @@
+{
+  "format": 1,
+  "scope": "entity raw key candidate; stability unknown",
+  "game_path": "D:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\Spider-Man.exe",
+  "game_sha256": "e297d4d94f1ffe4febf289745e79e7b6fa233a788e7a00f480fc77c55db81ad1",
+  "process_access": false,
+  "game_calls": false,
+  "game_writes": false,
+  "stable_network_identity_verified": false,
+  "actor_uid_metadata": {
+    "rva": "0x4fd4678",
+    "preferred_va": "0x144fd4678",
+    "file_offset": "0x4fd3c78",
+    "section": ".rdata"
+  },
+  "entity_key_accessor": {
+    "rva": "0x159da80",
+    "bytes": "8b 51 0c 48 8b 05 c6 c9 4a 06 48 8b 04 d0 c3",
+    "layout": "qword *(game+0x7A4A450)[DWORD(entity+0xC)]",
+    "array_capacity_unknown": true,
+    "key_producer_unknown": true,
+    "cross_reload_or_cross_peer_stability_unknown": true
+  },
+  "shot_base_descriptor_proof": {
+    "name": "ShotBase",
+    "vtable_rva": "0x38388e8",
+    "rtti_type_descriptor_rva": "0x6baa5e8",
+    "rtti_name": ".?AVShotBase@@",
+    "col_rva": "0x5567a70",
+    "col_object_offset": 0,
+    "col_constructor_displacement": 0,
+    "class_hierarchy_rva": "0x5567a98",
+    "engine_descriptor_getter_rva": "0x207fcc0",
+    "engine_descriptor_getter_slot": "0x48",
+    "engine_descriptor_getter_bytes": "48 8d 05 b9 51 bd 05 c3",
+    "engine_descriptor_rva": "0x7c54e80",
+    "constructor_rva": "0x0",
+    "rtti_and_engine_descriptor_are_distinct": true,
+    "association_verified_in_pinned_file": true,
+    "live_instance_verified": false
+  },
+  "health_inheritance": [
+    {
+      "class": "Health",
+      "hierarchy_rva": "0x5568578",
+      "signature": 0,
+      "attributes": 0,
+      "base_array_rva": "0x5568590",
+      "bases": [
+        {
+          "name": ".?AVHealth@@",
+          "descriptor_rva": "0x55685a8",
+          "rtti_type_descriptor_rva": "0x6baa978",
+          "contained_bases": 1,
+          "member_displacement": 0,
+          "vbtable_displacement": -1,
+          "vbase_displacement": 0,
+          "attributes": 64
+        },
+        {
+          "name": ".?AVComponent@@",
+          "descriptor_rva": "0x555fc48",
+          "rtti_type_descriptor_rva": "0x6ba7858",
+          "contained_bases": 0,
+          "member_displacement": 0,
+          "vbtable_displacement": -1,
+          "vbase_displacement": 0,
+          "attributes": 64
+        }
+      ]
+    },
+    {
+      "class": "BotHealth",
+      "hierarchy_rva": "0x55686f0",
+      "signature": 0,
+      "attributes": 0,
+      "base_array_rva": "0x5568708",
+      "bases": [
+        {
+          "name": ".?AVBotHealth@@",
+          "descriptor_rva": "0x5568728",
+          "rtti_type_descriptor_rva": "0x6baa9f8",
+          "contained_bases": 2,
+          "member_displacement": 0,
+          "vbtable_displacement": -1,
+          "vbase_displacement": 0,
+          "attributes": 64
+        },
+        {
+          "name": ".?AVHealth@@",
+          "descriptor_rva": "0x55685a8",
+          "rtti_type_descriptor_rva": "0x6baa978",
+          "contained_bases": 1,
+          "member_displacement": 0,
+          "vbtable_displacement": -1,
+          "vbase_displacement": 0,
+          "attributes": 64
+        },
+        {
+          "name": ".?AVComponent@@",
+          "descriptor_rva": "0x555fc48",
+          "rtti_type_descriptor_rva": "0x6ba7858",
+          "contained_bases": 0,
+          "member_displacement": 0,
+          "vbtable_displacement": -1,
+          "vbase_displacement": 0,
+          "attributes": 64
+        }
+      ]
+    }
+  ],
+  "saved_live_raw_candidate_observation": {
+    "path": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\CoopSync\\research\\world_entity_identity_runtime_20261011_10516_level.json",
+    "sha256": "b641a6fe94af921a7c274c404441311236d5d4f2795d1644e528f5cee62b1454",
+    "pid": 10516,
+    "utc": "2026-10-11T15:32:07.709466+00:00",
+    "status": "accepted_raw_candidate_keys_only",
+    "counts": {
+      "DoorAnimated": 1,
+      "Health": 15
+    },
+    "accepted": 16,
+    "gaps": 0,
+    "distinct_raw_keys_in_this_small_window": 16,
+    "high_bit_set": 15,
+    "budget": {
+      "read_calls": 199,
+      "read_bytes": 1143,
+      "max_read_calls": 512,
+      "max_read_bytes": 4096
+    },
+    "global_headers_unchanged": true,
+    "source_prefix": {
+      "path": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\CoopSync\\logs\\native_runtime_20261011_cinematic_combat_10516\\CoopSyncRuntime_10516_85445656_0.jsonl",
+      "complete_prefix_bytes": 8516827,
+      "complete_prefix_sha256": "7e5dfbb158bd27af731fe445148386c5cab32c986c2473bf293944cb053770b5",
+      "complete_lines": 2772,
+      "file_changed_during_source_read": true,
+      "source_recording_may_be_active": true,
+      "candidates_selected": 16
+    },
+    "peer_id_verified": false,
+    "cross_reload_stability_verified": false,
+    "cross_peer_stability_verified": false
+  },
+  "evidence_ranges": [
+    {
+      "label": "Entity qword key array accessor",
+      "start_rva": "0x159da80",
+      "end_rva": "0x159da8f",
+      "entry_runtime_function_fragment": null,
+      "instructions": [
+        {
+          "rva": "0x159da80",
+          "bytes": "8b 51 0c",
+          "instruction": "mov    edx,DWORD PTR [rcx+0xc]"
+        },
+        {
+          "rva": "0x159da83",
+          "bytes": "48 8b 05 c6 c9 4a 06",
+          "instruction": "mov    rax,QWORD PTR [rip+0x64ac9c6]        # 0x147a4a450",
+          "rip_target_rva": "0x7a4a450"
+        },
+        {
+          "rva": "0x159da8a",
+          "bytes": "48 8b 04 d0",
+          "instruction": "mov    rax,QWORD PTR [rax+rdx*8]"
+        },
+        {
+          "rva": "0x159da8e",
+          "bytes": "c3",
+          "instruction": "ret"
+        }
+      ],
+      "note": "Linear bounded static decode. .pdata entries can be unwind fragments; decoded lines alone do not prove reachability."
+    },
+    {
+      "label": "Entity-to-opaque-key wrapper",
+      "start_rva": "0x1f7b550",
+      "end_rva": "0x1f7b567",
+      "entry_runtime_function_fragment": {
+        "begin_rva": "0x1f7b550",
+        "end_rva": "0x1f7b567",
+        "unwind_rva": "0x5ae6238",
+        "source": ".pdata"
+      },
+      "instructions": [
+        {
+          "rva": "0x1f7b550",
+          "bytes": "40 53",
+          "instruction": "rex push rbx"
+        },
+        {
+          "rva": "0x1f7b552",
+          "bytes": "48 83 ec 20",
+          "instruction": "sub    rsp,0x20"
+        },
+        {
+          "rva": "0x1f7b556",
+          "bytes": "48 8b d9",
+          "instruction": "mov    rbx,rcx"
+        },
+        {
+          "rva": "0x1f7b559",
+          "bytes": "e8 82 03 00 00",
+          "instruction": "call   0x141f7b8e0",
+          "direct_target_rva": "0x1f7b8e0"
+        },
+        {
+          "rva": "0x1f7b55e",
+          "bytes": "48 8b c3",
+          "instruction": "mov    rax,rbx"
+        },
+        {
+          "rva": "0x1f7b561",
+          "bytes": "48 83 c4 20",
+          "instruction": "add    rsp,0x20"
+        },
+        {
+          "rva": "0x1f7b565",
+          "bytes": "5b",
+          "instruction": "pop    rbx"
+        },
+        {
+          "rva": "0x1f7b566",
+          "bytes": "c3",
+          "instruction": "ret"
+        }
+      ],
+      "note": "Linear bounded static decode. .pdata entries can be unwind fragments; decoded lines alone do not prove reachability."
+    },
+    {
+      "label": "Entity-to-tagged-opaque-key builder",
+      "start_rva": "0x1f7b8e0",
+      "end_rva": "0x1f7b97b",
+      "entry_runtime_function_fragment": {
+        "begin_rva": "0x1f7b8e0",
+        "end_rva": "0x1f7b97b",
+        "unwind_rva": "0x5ae6250",
+        "source": ".pdata"
+      },
+      "instructions": [
+        {
+          "rva": "0x1f7b8e0",
+          "bytes": "48 89 5c 24 08",
+          "instruction": "mov    QWORD PTR [rsp+0x8],rbx"
+        },
+        {
+          "rva": "0x1f7b8e5",
+          "bytes": "57",
+          "instruction": "push   rdi"
+        },
+        {
+          "rva": "0x1f7b8e6",
+          "bytes": "48 83 ec 20",
+          "instruction": "sub    rsp,0x20"
+        },
+        {
+          "rva": "0x1f7b8ea",
+          "bytes": "33 c0",
+          "instruction": "xor    eax,eax"
+        },
+        {
+          "rva": "0x1f7b8ec",
+          "bytes": "48 8b fa",
+          "instruction": "mov    rdi,rdx"
+        },
+        {
+          "rva": "0x1f7b8ef",
+          "bytes": "48 89 01",
+          "instruction": "mov    QWORD PTR [rcx],rax"
+        },
+        {
+          "rva": "0x1f7b8f2",
+          "bytes": "48 8b d9",
+          "instruction": "mov    rbx,rcx"
+        },
+        {
+          "rva": "0x1f7b8f5",
+          "bytes": "48 85 d2",
+          "instruction": "test   rdx,rdx"
+        },
+        {
+          "rva": "0x1f7b8f8",
+          "bytes": "74 76",
+          "instruction": "je     0x141f7b970"
+        },
+        {
+          "rva": "0x1f7b8fa",
+          "bytes": "48 8d 8a a8 00 00 00",
+          "instruction": "lea    rcx,[rdx+0xa8]"
+        },
+        {
+          "rva": "0x1f7b901",
+          "bytes": "e8 fa 8a a0 ff",
+          "instruction": "call   0x141984400",
+          "direct_target_rva": "0x1984400"
+        },
+        {
+          "rva": "0x1f7b906",
+          "bytes": "48 85 c0",
+          "instruction": "test   rax,rax"
+        },
+        {
+          "rva": "0x1f7b909",
+          "bytes": "74 0f",
+          "instruction": "je     0x141f7b91a"
+        },
+        {
+          "rva": "0x1f7b90b",
+          "bytes": "8b 40 04",
+          "instruction": "mov    eax,DWORD PTR [rax+0x4]"
+        },
+        {
+          "rva": "0x1f7b90e",
+          "bytes": "48 b9 00 00 00 00 00 00 01 00",
+          "instruction": "movabs rcx,0x1000000000000"
+        },
+        {
+          "rva": "0x1f7b918",
+          "bytes": "eb 4a",
+          "instruction": "jmp    0x141f7b964"
+        },
+        {
+          "rva": "0x1f7b91a",
+          "bytes": "48 8b cf",
+          "instruction": "mov    rcx,rdi"
+        },
+        {
+          "rva": "0x1f7b91d",
+          "bytes": "e8 5e 21 62 ff",
+          "instruction": "call   0x14159da80",
+          "direct_target_rva": "0x159da80"
+        },
+        {
+          "rva": "0x1f7b922",
+          "bytes": "48 85 c0",
+          "instruction": "test   rax,rax"
+        },
+        {
+          "rva": "0x1f7b925",
+          "bytes": "78 40",
+          "instruction": "js     0x141f7b967"
+        },
+        {
+          "rva": "0x1f7b927",
+          "bytes": "66 83 bf 88 00 00 00 00",
+          "instruction": "cmp    WORD PTR [rdi+0x88],0x0"
+        },
+        {
+          "rva": "0x1f7b92f",
+          "bytes": "48 8d 15 4a 95 cd 05",
+          "instruction": "lea    rdx,[rip+0x5cd954a]        # 0x147c54e80",
+          "rip_target_rva": "0x7c54e80"
+        },
+        {
+          "rva": "0x1f7b936",
+          "bytes": "76 0e",
+          "instruction": "jbe    0x141f7b946"
+        },
+        {
+          "rva": "0x1f7b938",
+          "bytes": "48 8d 8f 80 00 00 00",
+          "instruction": "lea    rcx,[rdi+0x80]"
+        },
+        {
+          "rva": "0x1f7b93f",
+          "bytes": "e8 5c e0 6f ff",
+          "instruction": "call   0x1416799a0",
+          "direct_target_rva": "0x16799a0"
+        },
+        {
+          "rva": "0x1f7b944",
+          "bytes": "eb 09",
+          "instruction": "jmp    0x141f7b94f"
+        },
+        {
+          "rva": "0x1f7b946",
+          "bytes": "48 8d 4f 58",
+          "instruction": "lea    rcx,[rdi+0x58]"
+        },
+        {
+          "rva": "0x1f7b94a",
+          "bytes": "e8 f1 f1 6f ff",
+          "instruction": "call   0x14167ab40",
+          "direct_target_rva": "0x167ab40"
+        },
+        {
+          "rva": "0x1f7b94f",
+          "bytes": "48 85 c0",
+          "instruction": "test   rax,rax"
+        },
+        {
+          "rva": "0x1f7b952",
+          "bytes": "74 1c",
+          "instruction": "je     0x141f7b970"
+        },
+        {
+          "rva": "0x1f7b954",
+          "bytes": "8b 80 04 01 00 00",
+          "instruction": "mov    eax,DWORD PTR [rax+0x104]"
+        },
+        {
+          "rva": "0x1f7b95a",
+          "bytes": "48 b9 00 00 00 00 00 00 02 00",
+          "instruction": "movabs rcx,0x2000000000000"
+        },
+        {
+          "rva": "0x1f7b964",
+          "bytes": "48 0b c1",
+          "instruction": "or     rax,rcx"
+        },
+        {
+          "rva": "0x1f7b967",
+          "bytes": "89 03",
+          "instruction": "mov    DWORD PTR [rbx],eax"
+        },
+        {
+          "rva": "0x1f7b969",
+          "bytes": "48 c1 e8 20",
+          "instruction": "shr    rax,0x20"
+        },
+        {
+          "rva": "0x1f7b96d",
+          "bytes": "89 43 04",
+          "instruction": "mov    DWORD PTR [rbx+0x4],eax"
+        },
+        {
+          "rva": "0x1f7b970",
+          "bytes": "48 8b 5c 24 30",
+          "instruction": "mov    rbx,QWORD PTR [rsp+0x30]"
+        },
+        {
+          "rva": "0x1f7b975",
+          "bytes": "48 83 c4 20",
+          "instruction": "add    rsp,0x20"
+        },
+        {
+          "rva": "0x1f7b979",
+          "bytes": "5f",
+          "instruction": "pop    rdi"
+        },
+        {
+          "rva": "0x1f7b97a",
+          "bytes": "c3",
+          "instruction": "ret"
+        }
+      ],
+      "note": "Linear bounded static decode. .pdata entries can be unwind fragments; decoded lines alone do not prove reachability."
+    },
+    {
+      "label": "Local entity-handle-to-opaque-key builder",
+      "start_rva": "0x1f7b330",
+      "end_rva": "0x1f7b433",
+      "entry_runtime_function_fragment": {
+        "begin_rva": "0x1f7b330",
+        "end_rva": "0x1f7b433",
+        "unwind_rva": "0x5ae6284",
+        "source": ".pdata"
+      },
+      "instructions": [
+        {
+          "rva": "0x1f7b330",
+          "bytes": "48 89 5c 24 08",
+          "instruction": "mov    QWORD PTR [rsp+0x8],rbx"
+        },
+        {
+          "rva": "0x1f7b335",
+          "bytes": "56",
+          "instruction": "push   rsi"
+        },
+        {
+          "rva": "0x1f7b336",
+          "bytes": "57",
+          "instruction": "push   rdi"
+        },
+        {
+          "rva": "0x1f7b337",
+          "bytes": "41 56",
+          "instruction": "push   r14"
+        },
+        {
+          "rva": "0x1f7b339",
+          "bytes": "48 83 ec 20",
+          "instruction": "sub    rsp,0x20"
+        },
+        {
+          "rva": "0x1f7b33d",
+          "bytes": "41 8b 00",
+          "instruction": "mov    eax,DWORD PTR [r8]"
+        },
+        {
+          "rva": "0x1f7b340",
+          "bytes": "48 8d 4c 24 48",
+          "instruction": "lea    rcx,[rsp+0x48]"
+        },
+        {
+          "rva": "0x1f7b345",
+          "bytes": "89 44 24 48",
+          "instruction": "mov    DWORD PTR [rsp+0x48],eax"
+        },
+        {
+          "rva": "0x1f7b349",
+          "bytes": "4c 8b f2",
+          "instruction": "mov    r14,rdx"
+        },
+        {
+          "rva": "0x1f7b34c",
+          "bytes": "e8 0f 52 62 ff",
+          "instruction": "call   0x1415a0560",
+          "direct_target_rva": "0x15a0560"
+        },
+        {
+          "rva": "0x1f7b351",
+          "bytes": "33 ff",
+          "instruction": "xor    edi,edi"
+        },
+        {
+          "rva": "0x1f7b353",
+          "bytes": "48 8b f0",
+          "instruction": "mov    rsi,rax"
+        },
+        {
+          "rva": "0x1f7b356",
+          "bytes": "48 89 7c 24 50",
+          "instruction": "mov    QWORD PTR [rsp+0x50],rdi"
+        },
+        {
+          "rva": "0x1f7b35b",
+          "bytes": "8b df",
+          "instruction": "mov    ebx,edi"
+        },
+        {
+          "rva": "0x1f7b35d",
+          "bytes": "48 85 c0",
+          "instruction": "test   rax,rax"
+        },
+        {
+          "rva": "0x1f7b360",
+          "bytes": "0f 84 86 00 00 00",
+          "instruction": "je     0x141f7b3ec"
+        },
+        {
+          "rva": "0x1f7b366",
+          "bytes": "48 8d 88 a8 00 00 00",
+          "instruction": "lea    rcx,[rax+0xa8]"
+        },
+        {
+          "rva": "0x1f7b36d",
+          "bytes": "e8 8e 90 a0 ff",
+          "instruction": "call   0x141984400",
+          "direct_target_rva": "0x1984400"
+        },
+        {
+          "rva": "0x1f7b372",
+          "bytes": "48 85 c0",
+          "instruction": "test   rax,rax"
+        },
+        {
+          "rva": "0x1f7b375",
+          "bytes": "74 0f",
+          "instruction": "je     0x141f7b386"
+        },
+        {
+          "rva": "0x1f7b377",
+          "bytes": "8b 78 04",
+          "instruction": "mov    edi,DWORD PTR [rax+0x4]"
+        },
+        {
+          "rva": "0x1f7b37a",
+          "bytes": "48 b8 00 00 00 00 00 00 01 00",
+          "instruction": "movabs rax,0x1000000000000"
+        },
+        {
+          "rva": "0x1f7b384",
+          "bytes": "eb 54",
+          "instruction": "jmp    0x141f7b3da"
+        },
+        {
+          "rva": "0x1f7b386",
+          "bytes": "48 8b ce",
+          "instruction": "mov    rcx,rsi"
+        },
+        {
+          "rva": "0x1f7b389",
+          "bytes": "e8 f2 26 62 ff",
+          "instruction": "call   0x14159da80",
+          "direct_target_rva": "0x159da80"
+        },
+        {
+          "rva": "0x1f7b38e",
+          "bytes": "48 8b d8",
+          "instruction": "mov    rbx,rax"
+        },
+        {
+          "rva": "0x1f7b391",
+          "bytes": "48 85 c0",
+          "instruction": "test   rax,rax"
+        },
+        {
+          "rva": "0x1f7b394",
+          "bytes": "79 05",
+          "instruction": "jns    0x141f7b39b"
+        },
+        {
+          "rva": "0x1f7b396",
+          "bytes": "48 8b f8",
+          "instruction": "mov    rdi,rax"
+        },
+        {
+          "rva": "0x1f7b399",
+          "bytes": "eb 45",
+          "instruction": "jmp    0x141f7b3e0"
+        },
+        {
+          "rva": "0x1f7b39b",
+          "bytes": "48 8d 15 de 9a cd 05",
+          "instruction": "lea    rdx,[rip+0x5cd9ade]        # 0x147c54e80",
+          "rip_target_rva": "0x7c54e80"
+        },
+        {
+          "rva": "0x1f7b3a2",
+          "bytes": "66 39 be 88 00 00 00",
+          "instruction": "cmp    WORD PTR [rsi+0x88],di"
+        },
+        {
+          "rva": "0x1f7b3a9",
+          "bytes": "76 0e",
+          "instruction": "jbe    0x141f7b3b9"
+        },
+        {
+          "rva": "0x1f7b3ab",
+          "bytes": "48 8d 8e 80 00 00 00",
+          "instruction": "lea    rcx,[rsi+0x80]"
+        },
+        {
+          "rva": "0x1f7b3b2",
+          "bytes": "e8 e9 e5 6f ff",
+          "instruction": "call   0x1416799a0",
+          "direct_target_rva": "0x16799a0"
+        },
+        {
+          "rva": "0x1f7b3b7",
+          "bytes": "eb 09",
+          "instruction": "jmp    0x141f7b3c2"
+        },
+        {
+          "rva": "0x1f7b3b9",
+          "bytes": "48 8d 4e 58",
+          "instruction": "lea    rcx,[rsi+0x58]"
+        },
+        {
+          "rva": "0x1f7b3bd",
+          "bytes": "e8 7e f7 6f ff",
+          "instruction": "call   0x14167ab40",
+          "direct_target_rva": "0x167ab40"
+        },
+        {
+          "rva": "0x1f7b3c2",
+          "bytes": "48 8b df",
+          "instruction": "mov    rbx,rdi"
+        },
+        {
+          "rva": "0x1f7b3c5",
+          "bytes": "48 85 c0",
+          "instruction": "test   rax,rax"
+        },
+        {
+          "rva": "0x1f7b3c8",
+          "bytes": "74 22",
+          "instruction": "je     0x141f7b3ec"
+        },
+        {
+          "rva": "0x1f7b3ca",
+          "bytes": "8b b8 04 01 00 00",
+          "instruction": "mov    edi,DWORD PTR [rax+0x104]"
+        },
+        {
+          "rva": "0x1f7b3d0",
+          "bytes": "48 b8 00 00 00 00 00 00 02 00",
+          "instruction": "movabs rax,0x2000000000000"
+        },
+        {
+          "rva": "0x1f7b3da",
+          "bytes": "48 0b f8",
+          "instruction": "or     rdi,rax"
+        },
+        {
+          "rva": "0x1f7b3dd",
+          "bytes": "48 8b df",
+          "instruction": "mov    rbx,rdi"
+        },
+        {
+          "rva": "0x1f7b3e0",
+          "bytes": "89 5c 24 50",
+          "instruction": "mov    DWORD PTR [rsp+0x50],ebx"
+        },
+        {
+          "rva": "0x1f7b3e4",
+          "bytes": "48 c1 eb 20",
+          "instruction": "shr    rbx,0x20"
+        },
+        {
+          "rva": "0x1f7b3e8",
+          "bytes": "89 5c 24 54",
+          "instruction": "mov    DWORD PTR [rsp+0x54],ebx"
+        },
+        {
+          "rva": "0x1f7b3ec",
+          "bytes": "48 8d 4c 24 48",
+          "instruction": "lea    rcx,[rsp+0x48]"
+        },
+        {
+          "rva": "0x1f7b3f1",
+          "bytes": "e8 6a 51 62 ff",
+          "instruction": "call   0x1415a0560",
+          "direct_target_rva": "0x15a0560"
+        },
+        {
+          "rva": "0x1f7b3f6",
+          "bytes": "48 85 c0",
+          "instruction": "test   rax,rax"
+        },
+        {
+          "rva": "0x1f7b3f9",
+          "bytes": "74 0a",
+          "instruction": "je     0x141f7b405"
+        },
+        {
+          "rva": "0x1f7b3fb",
+          "bytes": "48 8d 4c 24 50",
+          "instruction": "lea    rcx,[rsp+0x50]"
+        },
+        {
+          "rva": "0x1f7b400",
+          "bytes": "e8 5b 03 00 00",
+          "instruction": "call   0x141f7b760",
+          "direct_target_rva": "0x1f7b760"
+        },
+        {
+          "rva": "0x1f7b405",
+          "bytes": "48 c1 e3 20",
+          "instruction": "shl    rbx,0x20"
+        },
+        {
+          "rva": "0x1f7b409",
+          "bytes": "48 8d 4c 24 58",
+          "instruction": "lea    rcx,[rsp+0x58]"
+        },
+        {
+          "rva": "0x1f7b40e",
+          "bytes": "8b c7",
+          "instruction": "mov    eax,edi"
+        },
+        {
+          "rva": "0x1f7b410",
+          "bytes": "48 0b d8",
+          "instruction": "or     rbx,rax"
+        },
+        {
+          "rva": "0x1f7b413",
+          "bytes": "48 89 5c 24 58",
+          "instruction": "mov    QWORD PTR [rsp+0x58],rbx"
+        },
+        {
+          "rva": "0x1f7b418",
+          "bytes": "e8 a3 b9 c3 ff",
+          "instruction": "call   0x141bb6dc0",
+          "direct_target_rva": "0x1bb6dc0"
+        },
+        {
+          "rva": "0x1f7b41d",
+          "bytes": "48 8b 44 24 58",
+          "instruction": "mov    rax,QWORD PTR [rsp+0x58]"
+        },
+        {
+          "rva": "0x1f7b422",
+          "bytes": "48 8b 5c 24 40",
+          "instruction": "mov    rbx,QWORD PTR [rsp+0x40]"
+        },
+        {
+          "rva": "0x1f7b427",
+          "bytes": "49 89 06",
+          "instruction": "mov    QWORD PTR [r14],rax"
+        },
+        {
+          "rva": "0x1f7b42a",
+          "bytes": "48 83 c4 20",
+          "instruction": "add    rsp,0x20"
+        },
+        {
+          "rva": "0x1f7b42e",
+          "bytes": "41 5e",
+          "instruction": "pop    r14"
+        },
+        {
+          "rva": "0x1f7b430",
+          "bytes": "5f",
+          "instruction": "pop    rdi"
+        },
+        {
+          "rva": "0x1f7b431",
+          "bytes": "5e",
+          "instruction": "pop    rsi"
+        },
+        {
+          "rva": "0x1f7b432",
+          "bytes": "c3",
+          "instruction": "ret"
+        }
+      ],
+      "note": "Linear bounded static decode. .pdata entries can be unwind fragments; decoded lines alone do not prove reachability."
+    },
+    {
+      "label": "Tagged opaque-key reverse resolver",
+      "start_rva": "0x1f7b760",
+      "end_rva": "0x1f7b845",
+      "entry_runtime_function_fragment": {
+        "begin_rva": "0x1f7b760",
+        "end_rva": "0x1f7b845",
+        "unwind_rva": "0x5ae626c",
+        "source": ".pdata"
+      },
+      "instructions": [
+        {
+          "rva": "0x1f7b760",
+          "bytes": "40 53",
+          "instruction": "rex push rbx"
+        },
+        {
+          "rva": "0x1f7b762",
+          "bytes": "48 83 ec 20",
+          "instruction": "sub    rsp,0x20"
+        },
+        {
+          "rva": "0x1f7b766",
+          "bytes": "8b 59 04",
+          "instruction": "mov    ebx,DWORD PTR [rcx+0x4]"
+        },
+        {
+          "rva": "0x1f7b769",
+          "bytes": "8b 01",
+          "instruction": "mov    eax,DWORD PTR [rcx]"
+        },
+        {
+          "rva": "0x1f7b76b",
+          "bytes": "48 c1 e3 20",
+          "instruction": "shl    rbx,0x20"
+        },
+        {
+          "rva": "0x1f7b76f",
+          "bytes": "48 0b d8",
+          "instruction": "or     rbx,rax"
+        },
+        {
+          "rva": "0x1f7b772",
+          "bytes": "0f 84 c5 00 00 00",
+          "instruction": "je     0x141f7b83d"
+        },
+        {
+          "rva": "0x1f7b778",
+          "bytes": "48 85 db",
+          "instruction": "test   rbx,rbx"
+        },
+        {
+          "rva": "0x1f7b77b",
+          "bytes": "79 34",
+          "instruction": "jns    0x141f7b7b1"
+        },
+        {
+          "rva": "0x1f7b77d",
+          "bytes": "48 8b d3",
+          "instruction": "mov    rdx,rbx"
+        },
+        {
+          "rva": "0x1f7b780",
+          "bytes": "48 8d 0d d1 ec ac 05",
+          "instruction": "lea    rcx,[rip+0x5acecd1]        # 0x147a4a458",
+          "rip_target_rva": "0x7a4a458"
+        },
+        {
+          "rva": "0x1f7b787",
+          "bytes": "e8 a4 3d c5 ff",
+          "instruction": "call   0x141bcf530",
+          "direct_target_rva": "0x1bcf530"
+        },
+        {
+          "rva": "0x1f7b78c",
+          "bytes": "48 85 c0",
+          "instruction": "test   rax,rax"
+        },
+        {
+          "rva": "0x1f7b78f",
+          "bytes": "0f 84 a8 00 00 00",
+          "instruction": "je     0x141f7b83d"
+        },
+        {
+          "rva": "0x1f7b795",
+          "bytes": "48 8b 00",
+          "instruction": "mov    rax,QWORD PTR [rax]"
+        },
+        {
+          "rva": "0x1f7b798",
+          "bytes": "48 85 c0",
+          "instruction": "test   rax,rax"
+        },
+        {
+          "rva": "0x1f7b79b",
+          "bytes": "0f 84 9c 00 00 00",
+          "instruction": "je     0x141f7b83d"
+        },
+        {
+          "rva": "0x1f7b7a1",
+          "bytes": "f6 40 08 06",
+          "instruction": "test   BYTE PTR [rax+0x8],0x6"
+        },
+        {
+          "rva": "0x1f7b7a5",
+          "bytes": "0f 84 92 00 00 00",
+          "instruction": "je     0x141f7b83d"
+        },
+        {
+          "rva": "0x1f7b7ab",
+          "bytes": "48 83 c4 20",
+          "instruction": "add    rsp,0x20"
+        },
+        {
+          "rva": "0x1f7b7af",
+          "bytes": "5b",
+          "instruction": "pop    rbx"
+        },
+        {
+          "rva": "0x1f7b7b0",
+          "bytes": "c3",
+          "instruction": "ret"
+        },
+        {
+          "rva": "0x1f7b7b1",
+          "bytes": "48 b9 00 00 00 00 00 00 01 80",
+          "instruction": "movabs rcx,0x8001000000000000"
+        },
+        {
+          "rva": "0x1f7b7bb",
+          "bytes": "48 8b c3",
+          "instruction": "mov    rax,rbx"
+        },
+        {
+          "rva": "0x1f7b7be",
+          "bytes": "48 23 c1",
+          "instruction": "and    rax,rcx"
+        },
+        {
+          "rva": "0x1f7b7c1",
+          "bytes": "48 b9 00 00 00 00 00 00 01 00",
+          "instruction": "movabs rcx,0x1000000000000"
+        },
+        {
+          "rva": "0x1f7b7cb",
+          "bytes": "48 3b c1",
+          "instruction": "cmp    rax,rcx"
+        },
+        {
+          "rva": "0x1f7b7ce",
+          "bytes": "75 27",
+          "instruction": "jne    0x141f7b7f7"
+        },
+        {
+          "rva": "0x1f7b7d0",
+          "bytes": "48 8d 4c 24 30",
+          "instruction": "lea    rcx,[rsp+0x30]"
+        },
+        {
+          "rva": "0x1f7b7d5",
+          "bytes": "e8 86 8b a0 ff",
+          "instruction": "call   0x141984360",
+          "direct_target_rva": "0x1984360"
+        },
+        {
+          "rva": "0x1f7b7da",
+          "bytes": "48 8d 4c 24 30",
+          "instruction": "lea    rcx,[rsp+0x30]"
+        },
+        {
+          "rva": "0x1f7b7df",
+          "bytes": "89 5c 24 30",
+          "instruction": "mov    DWORD PTR [rsp+0x30],ebx"
+        },
+        {
+          "rva": "0x1f7b7e3",
+          "bytes": "e8 18 8c a0 ff",
+          "instruction": "call   0x141984400",
+          "direct_target_rva": "0x1984400"
+        },
+        {
+          "rva": "0x1f7b7e8",
+          "bytes": "48 85 c0",
+          "instruction": "test   rax,rax"
+        },
+        {
+          "rva": "0x1f7b7eb",
+          "bytes": "74 50",
+          "instruction": "je     0x141f7b83d"
+        },
+        {
+          "rva": "0x1f7b7ed",
+          "bytes": "48 8b c8",
+          "instruction": "mov    rcx,rax"
+        },
+        {
+          "rva": "0x1f7b7f0",
+          "bytes": "e8 6b 4d 62 ff",
+          "instruction": "call   0x1415a0560",
+          "direct_target_rva": "0x15a0560"
+        },
+        {
+          "rva": "0x1f7b7f5",
+          "bytes": "eb a1",
+          "instruction": "jmp    0x141f7b798"
+        },
+        {
+          "rva": "0x1f7b7f7",
+          "bytes": "48 b9 00 00 00 00 00 00 02 80",
+          "instruction": "movabs rcx,0x8002000000000000"
+        },
+        {
+          "rva": "0x1f7b801",
+          "bytes": "48 8b c3",
+          "instruction": "mov    rax,rbx"
+        },
+        {
+          "rva": "0x1f7b804",
+          "bytes": "48 23 c1",
+          "instruction": "and    rax,rcx"
+        },
+        {
+          "rva": "0x1f7b807",
+          "bytes": "48 b9 00 00 00 00 00 00 02 00",
+          "instruction": "movabs rcx,0x2000000000000"
+        },
+        {
+          "rva": "0x1f7b811",
+          "bytes": "48 3b c1",
+          "instruction": "cmp    rax,rcx"
+        },
+        {
+          "rva": "0x1f7b814",
+          "bytes": "75 27",
+          "instruction": "jne    0x141f7b83d"
+        },
+        {
+          "rva": "0x1f7b816",
+          "bytes": "44 8b c3",
+          "instruction": "mov    r8d,ebx"
+        },
+        {
+          "rva": "0x1f7b819",
+          "bytes": "48 8d 54 24 30",
+          "instruction": "lea    rdx,[rsp+0x30]"
+        },
+        {
+          "rva": "0x1f7b81e",
+          "bytes": "48 8d 0d cb 21 5f 04",
+          "instruction": "lea    rcx,[rip+0x45f21cb]        # 0x14656d9f0",
+          "rip_target_rva": "0x656d9f0"
+        },
+        {
+          "rva": "0x1f7b825",
+          "bytes": "e8 d6 38 1e 00",
+          "instruction": "call   0x14215f100",
+          "direct_target_rva": "0x215f100"
+        },
+        {
+          "rva": "0x1f7b82a",
+          "bytes": "48 8b c8",
+          "instruction": "mov    rcx,rax"
+        },
+        {
+          "rva": "0x1f7b82d",
+          "bytes": "e8 2e 4d 62 ff",
+          "instruction": "call   0x1415a0560",
+          "direct_target_rva": "0x15a0560"
+        },
+        {
+          "rva": "0x1f7b832",
+          "bytes": "48 85 c0",
+          "instruction": "test   rax,rax"
+        },
+        {
+          "rva": "0x1f7b835",
+          "bytes": "74 06",
+          "instruction": "je     0x141f7b83d"
+        },
+        {
+          "rva": "0x1f7b837",
+          "bytes": "f6 40 08 06",
+          "instruction": "test   BYTE PTR [rax+0x8],0x6"
+        },
+        {
+          "rva": "0x1f7b83b",
+          "bytes": "75 02",
+          "instruction": "jne    0x141f7b83f"
+        },
+        {
+          "rva": "0x1f7b83d",
+          "bytes": "33 c0",
+          "instruction": "xor    eax,eax"
+        },
+        {
+          "rva": "0x1f7b83f",
+          "bytes": "48 83 c4 20",
+          "instruction": "add    rsp,0x20"
+        },
+        {
+          "rva": "0x1f7b843",
+          "bytes": "5b",
+          "instruction": "pop    rbx"
+        },
+        {
+          "rva": "0x1f7b844",
+          "bytes": "c3",
+          "instruction": "ret"
+        }
+      ],
+      "note": "Linear bounded static decode. .pdata entries can be unwind fragments; decoded lines alone do not prove reachability."
+    },
+    {
+      "label": "Native state local handle resolver",
+      "start_rva": "0x1984400",
+      "end_rva": "0x1984442",
+      "entry_runtime_function_fragment": {
+        "begin_rva": "0x1984400",
+        "end_rva": "0x1984442",
+        "unwind_rva": "0x5a33e54",
+        "source": ".pdata"
+      },
+      "instructions": [
+        {
+          "rva": "0x1984400",
+          "bytes": "40 53",
+          "instruction": "rex push rbx"
+        },
+        {
+          "rva": "0x1984402",
+          "bytes": "48 83 ec 20",
+          "instruction": "sub    rsp,0x20"
+        },
+        {
+          "rva": "0x1984406",
+          "bytes": "8b 19",
+          "instruction": "mov    ebx,DWORD PTR [rcx]"
+        },
+        {
+          "rva": "0x1984408",
+          "bytes": "83 fb ff",
+          "instruction": "cmp    ebx,0xffffffff"
+        },
+        {
+          "rva": "0x198440b",
+          "bytes": "74 2d",
+          "instruction": "je     0x14198443a"
+        },
+        {
+          "rva": "0x198440d",
+          "bytes": "0f b7 cb",
+          "instruction": "movzx  ecx,bx"
+        },
+        {
+          "rva": "0x1984410",
+          "bytes": "b8 ff 3f 00 00",
+          "instruction": "mov    eax,0x3fff"
+        },
+        {
+          "rva": "0x1984415",
+          "bytes": "66 23 c8",
+          "instruction": "and    cx,ax"
+        },
+        {
+          "rva": "0x1984418",
+          "bytes": "e8 53 d3 ff ff",
+          "instruction": "call   0x141981770",
+          "direct_target_rva": "0x1981770"
+        },
+        {
+          "rva": "0x198441d",
+          "bytes": "48 8b c8",
+          "instruction": "mov    rcx,rax"
+        },
+        {
+          "rva": "0x1984420",
+          "bytes": "48 85 c0",
+          "instruction": "test   rax,rax"
+        },
+        {
+          "rva": "0x1984423",
+          "bytes": "74 15",
+          "instruction": "je     0x14198443a"
+        },
+        {
+          "rva": "0x1984425",
+          "bytes": "33 c0",
+          "instruction": "xor    eax,eax"
+        },
+        {
+          "rva": "0x1984427",
+          "bytes": "c1 eb 0e",
+          "instruction": "shr    ebx,0xe"
+        },
+        {
+          "rva": "0x198442a",
+          "bytes": "38 99 1d 01 00 00",
+          "instruction": "cmp    BYTE PTR [rcx+0x11d],bl"
+        },
+        {
+          "rva": "0x1984430",
+          "bytes": "48 0f 44 c1",
+          "instruction": "cmove  rax,rcx"
+        },
+        {
+          "rva": "0x1984434",
+          "bytes": "48 83 c4 20",
+          "instruction": "add    rsp,0x20"
+        },
+        {
+          "rva": "0x1984438",
+          "bytes": "5b",
+          "instruction": "pop    rbx"
+        },
+        {
+          "rva": "0x1984439",
+          "bytes": "c3",
+          "instruction": "ret"
+        },
+        {
+          "rva": "0x198443a",
+          "bytes": "33 c0",
+          "instruction": "xor    eax,eax"
+        },
+        {
+          "rva": "0x198443c",
+          "bytes": "48 83 c4 20",
+          "instruction": "add    rsp,0x20"
+        },
+        {
+          "rva": "0x1984440",
+          "bytes": "5b",
+          "instruction": "pop    rbx"
+        },
+        {
+          "rva": "0x1984441",
+          "bytes": "c3",
+          "instruction": "ret"
+        }
+      ],
+      "note": "Linear bounded static decode. .pdata entries can be unwind fragments; decoded lines alone do not prove reachability."
+    },
+    {
+      "label": "Native state local pointer pool getter",
+      "start_rva": "0x1981770",
+      "end_rva": "0x198178c",
+      "entry_runtime_function_fragment": null,
+      "instructions": [
+        {
+          "rva": "0x1981770",
+          "bytes": "b8 e0 2e 00 00",
+          "instruction": "mov    eax,0x2ee0"
+        },
+        {
+          "rva": "0x1981775",
+          "bytes": "66 3b c8",
+          "instruction": "cmp    cx,ax"
+        },
+        {
+          "rva": "0x1981778",
+          "bytes": "73 0f",
+          "instruction": "jae    0x141981789"
+        },
+        {
+          "rva": "0x198177a",
+          "bytes": "48 8b 05 7f 47 0e 06",
+          "instruction": "mov    rax,QWORD PTR [rip+0x60e477f]        # 0x147a65f00",
+          "rip_target_rva": "0x7a65f00"
+        },
+        {
+          "rva": "0x1981781",
+          "bytes": "0f b7 c9",
+          "instruction": "movzx  ecx,cx"
+        },
+        {
+          "rva": "0x1981784",
+          "bytes": "48 8b 04 c8",
+          "instruction": "mov    rax,QWORD PTR [rax+rcx*8]"
+        },
+        {
+          "rva": "0x1981788",
+          "bytes": "c3",
+          "instruction": "ret"
+        },
+        {
+          "rva": "0x1981789",
+          "bytes": "33 c0",
+          "instruction": "xor    eax,eax"
+        },
+        {
+          "rva": "0x198178b",
+          "bytes": "c3",
+          "instruction": "ret"
+        }
+      ],
+      "note": "Linear bounded static decode. .pdata entries can be unwind fragments; decoded lines alone do not prove reachability."
+    },
+    {
+      "label": "Entity key dictionary lookup",
+      "start_rva": "0x1bcf530",
+      "end_rva": "0x1bcf5af",
+      "entry_runtime_function_fragment": {
+        "begin_rva": "0x1bcf530",
+        "end_rva": "0x1bcf5ab",
+        "unwind_rva": "0x5a69d30",
+        "source": ".pdata"
+      },
+      "instructions": [
+        {
+          "rva": "0x1bcf530",
+          "bytes": "48 89 5c 24 08",
+          "instruction": "mov    QWORD PTR [rsp+0x8],rbx"
+        },
+        {
+          "rva": "0x1bcf535",
+          "bytes": "4c 8b d2",
+          "instruction": "mov    r10,rdx"
+        },
+        {
+          "rva": "0x1bcf538",
+          "bytes": "4c 8b c9",
+          "instruction": "mov    r9,rcx"
+        },
+        {
+          "rva": "0x1bcf53b",
+          "bytes": "48 85 d2",
+          "instruction": "test   rdx,rdx"
+        },
+        {
+          "rva": "0x1bcf53e",
+          "bytes": "74 63",
+          "instruction": "je     0x141bcf5a3"
+        },
+        {
+          "rva": "0x1bcf540",
+          "bytes": "4c 8b 19",
+          "instruction": "mov    r11,QWORD PTR [rcx]"
+        },
+        {
+          "rva": "0x1bcf543",
+          "bytes": "4d 85 db",
+          "instruction": "test   r11,r11"
+        },
+        {
+          "rva": "0x1bcf546",
+          "bytes": "74 5b",
+          "instruction": "je     0x141bcf5a3"
+        },
+        {
+          "rva": "0x1bcf548",
+          "bytes": "8b 59 14",
+          "instruction": "mov    ebx,DWORD PTR [rcx+0x14]"
+        },
+        {
+          "rva": "0x1bcf54b",
+          "bytes": "4c 8b c2",
+          "instruction": "mov    r8,rdx"
+        },
+        {
+          "rva": "0x1bcf54e",
+          "bytes": "b8 b1 79 37 9e",
+          "instruction": "mov    eax,0x9e3779b1"
+        },
+        {
+          "rva": "0x1bcf553",
+          "bytes": "33 d2",
+          "instruction": "xor    edx,edx"
+        },
+        {
+          "rva": "0x1bcf555",
+          "bytes": "4c 0f af c0",
+          "instruction": "imul   r8,rax"
+        },
+        {
+          "rva": "0x1bcf559",
+          "bytes": "49 8b c0",
+          "instruction": "mov    rax,r8"
+        },
+        {
+          "rva": "0x1bcf55c",
+          "bytes": "48 c1 e8 20",
+          "instruction": "shr    rax,0x20"
+        },
+        {
+          "rva": "0x1bcf560",
+          "bytes": "41 33 c0",
+          "instruction": "xor    eax,r8d"
+        },
+        {
+          "rva": "0x1bcf563",
+          "bytes": "f7 f3",
+          "instruction": "div    ebx"
+        },
+        {
+          "rva": "0x1bcf565",
+          "bytes": "48 63 c2",
+          "instruction": "movsxd rax,edx"
+        },
+        {
+          "rva": "0x1bcf568",
+          "bytes": "49 8b 0c c3",
+          "instruction": "mov    rcx,QWORD PTR [r11+rax*8]"
+        },
+        {
+          "rva": "0x1bcf56c",
+          "bytes": "49 3b ca",
+          "instruction": "cmp    rcx,r10"
+        },
+        {
+          "rva": "0x1bcf56f",
+          "bytes": "74 1d",
+          "instruction": "je     0x141bcf58e"
+        },
+        {
+          "rva": "0x1bcf571",
+          "bytes": "48 85 c9",
+          "instruction": "test   rcx,rcx"
+        },
+        {
+          "rva": "0x1bcf574",
+          "bytes": "74 2d",
+          "instruction": "je     0x141bcf5a3"
+        },
+        {
+          "rva": "0x1bcf576",
+          "bytes": "8d 4a 01",
+          "instruction": "lea    ecx,[rdx+0x1]"
+        },
+        {
+          "rva": "0x1bcf579",
+          "bytes": "8b d1",
+          "instruction": "mov    edx,ecx"
+        },
+        {
+          "rva": "0x1bcf57b",
+          "bytes": "2b d3",
+          "instruction": "sub    edx,ebx"
+        },
+        {
+          "rva": "0x1bcf57d",
+          "bytes": "3b cb",
+          "instruction": "cmp    ecx,ebx"
+        },
+        {
+          "rva": "0x1bcf57f",
+          "bytes": "0f 4c d1",
+          "instruction": "cmovl  edx,ecx"
+        },
+        {
+          "rva": "0x1bcf582",
+          "bytes": "48 63 c2",
+          "instruction": "movsxd rax,edx"
+        },
+        {
+          "rva": "0x1bcf585",
+          "bytes": "49 8b 0c c3",
+          "instruction": "mov    rcx,QWORD PTR [r11+rax*8]"
+        },
+        {
+          "rva": "0x1bcf589",
+          "bytes": "49 3b ca",
+          "instruction": "cmp    rcx,r10"
+        },
+        {
+          "rva": "0x1bcf58c",
+          "bytes": "75 e3",
+          "instruction": "jne    0x141bcf571"
+        },
+        {
+          "rva": "0x1bcf58e",
+          "bytes": "85 d2",
+          "instruction": "test   edx,edx"
+        },
+        {
+          "rva": "0x1bcf590",
+          "bytes": "78 11",
+          "instruction": "js     0x141bcf5a3"
+        },
+        {
+          "rva": "0x1bcf592",
+          "bytes": "41 0f af 51 20",
+          "instruction": "imul   edx,DWORD PTR [r9+0x20]"
+        },
+        {
+          "rva": "0x1bcf597",
+          "bytes": "8b c2",
+          "instruction": "mov    eax,edx"
+        },
+        {
+          "rva": "0x1bcf599",
+          "bytes": "49 03 41 08",
+          "instruction": "add    rax,QWORD PTR [r9+0x8]"
+        },
+        {
+          "rva": "0x1bcf59d",
+          "bytes": "48 8b 5c 24 08",
+          "instruction": "mov    rbx,QWORD PTR [rsp+0x8]"
+        },
+        {
+          "rva": "0x1bcf5a2",
+          "bytes": "c3",
+          "instruction": "ret"
+        },
+        {
+          "rva": "0x1bcf5a3",
+          "bytes": "48 8b 5c 24 08",
+          "instruction": "mov    rbx,QWORD PTR [rsp+0x8]"
+        },
+        {
+          "rva": "0x1bcf5a8",
+          "bytes": "33 c0",
+          "instruction": "xor    eax,eax"
+        },
+        {
+          "rva": "0x1bcf5aa",
+          "bytes": "c3",
+          "instruction": "ret"
+        },
+        {
+          "rva": "0x1bcf5ab",
+          "bytes": "cc",
+          "instruction": "int3"
+        },
+        {
+          "rva": "0x1bcf5ac",
+          "bytes": "cc",
+          "instruction": "int3"
+        },
+        {
+          "rva": "0x1bcf5ad",
+          "bytes": "cc",
+          "instruction": "int3"
+        },
+        {
+          "rva": "0x1bcf5ae",
+          "bytes": "cc",
+          "instruction": "int3"
+        }
+      ],
+      "note": "Linear bounded static decode. .pdata entries can be unwind fragments; decoded lines alone do not prove reachability."
+    },
+    {
+      "label": "ShotBase engine descriptor getter",
+      "start_rva": "0x207fcc0",
+      "end_rva": "0x207fcc8",
+      "entry_runtime_function_fragment": null,
+      "instructions": [
+        {
+          "rva": "0x207fcc0",
+          "bytes": "48 8d 05 b9 51 bd 05",
+          "instruction": "lea    rax,[rip+0x5bd51b9]        # 0x147c54e80",
+          "rip_target_rva": "0x7c54e80"
+        },
+        {
+          "rva": "0x207fcc7",
+          "bytes": "c3",
+          "instruction": "ret"
+        }
+      ],
+      "note": "Linear bounded static decode. .pdata entries can be unwind fragments; decoded lines alone do not prove reachability."
+    },
+    {
+      "label": "Door action obtains source actor key",
+      "start_rva": "0x1f3563a",
+      "end_rva": "0x1f35654",
+      "entry_runtime_function_fragment": {
+        "begin_rva": "0x1f355d9",
+        "end_rva": "0x1f35703",
+        "unwind_rva": "0x5adb9b8",
+        "source": ".pdata"
+      },
+      "instructions": [
+        {
+          "rva": "0x1f3563a",
+          "bytes": "49 8b 56 08",
+          "instruction": "mov    rdx,QWORD PTR [r14+0x8]"
+        },
+        {
+          "rva": "0x1f3563e",
+          "bytes": "48 8d 4c 24 58",
+          "instruction": "lea    rcx,[rsp+0x58]"
+        },
+        {
+          "rva": "0x1f35643",
+          "bytes": "e8 08 5f 04 00",
+          "instruction": "call   0x141f7b550",
+          "direct_target_rva": "0x1f7b550"
+        },
+        {
+          "rva": "0x1f35648",
+          "bytes": "8b 50 04",
+          "instruction": "mov    edx,DWORD PTR [rax+0x4]"
+        },
+        {
+          "rva": "0x1f3564b",
+          "bytes": "8b 00",
+          "instruction": "mov    eax,DWORD PTR [rax]"
+        },
+        {
+          "rva": "0x1f3564d",
+          "bytes": "48 c1 e2 20",
+          "instruction": "shl    rdx,0x20"
+        },
+        {
+          "rva": "0x1f35651",
+          "bytes": "48 0b d0",
+          "instruction": "or     rdx,rax"
+        }
+      ],
+      "note": "Linear bounded static decode. .pdata entries can be unwind fragments; decoded lines alone do not prove reachability."
+    }
+  ]
+}

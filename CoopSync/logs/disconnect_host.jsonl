@@ -1,0 +1,6 @@
+{"build_version":"0.1","monotonic_ms":87653890,"mode":"simulation","game_operations":false,"role":"host","event":"simulation_only","epoch":0,"detail":"TCP and coordinator test; Spider-Man is not controlled","port":0}
+{"build_version":"0.1","monotonic_ms":87653890,"mode":"simulation","game_operations":false,"role":"host","event":"listening","epoch":0,"detail":"127.0.0.1","port":4249}
+{"build_version":"0.1","monotonic_ms":87653953,"mode":"simulation","game_operations":false,"role":"host","event":"prepare_sent","epoch":1,"detail":"","port":0}
+{"build_version":"0.1","monotonic_ms":87653953,"mode":"simulation","game_operations":false,"role":"host","event":"gather_local_simulated","epoch":1,"detail":"","port":0}
+{"build_version":"0.1","monotonic_ms":87653953,"mode":"simulation","game_operations":false,"role":"host","event":"transport_error","epoch":1,"detail":"Peer closed the TCP connection","port":0}
+{"build_version":"0.1","monotonic_ms":87653953,"mode":"simulation","game_operations":false,"role":"host","event":"blocked","epoch":1,"detail":"Peer communication failed","port":0}

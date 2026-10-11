@@ -1,0 +1,93 @@
+{
+  "repository": "https://github.com/TsudaKageyu/minhook",
+  "release": "v1.3.4",
+  "commit": "c3fcafdc10146beb5919319d0683e44e3c30d537",
+  "retrieved_utc": "2026-10-07",
+  "method": "Official raw GitHub source downloads pinned to commit; no upstream scripts or binaries executed.",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/TsudaKageyu/minhook/c3fcafdc10146beb5919319d0683e44e3c30d537/LICENSE.txt",
+      "bytes": 4365,
+      "sha256": "d5c2224982b0b95a16b098a561335fa93f3eaf4d0aa964b7843edb986df78dc8"
+    },
+    {
+      "path": "AUTHORS.txt",
+      "url": "https://raw.githubusercontent.com/TsudaKageyu/minhook/c3fcafdc10146beb5919319d0683e44e3c30d537/AUTHORS.txt",
+      "bytes": 214,
+      "sha256": "073b4e8b0a5a0cd9f4dfa838369f4fc7a4f47151d930b4e1fd891644060a897f"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/TsudaKageyu/minhook/c3fcafdc10146beb5919319d0683e44e3c30d537/README.md",
+      "bytes": 4489,
+      "sha256": "66f55334357ca5e76ffb2fa5075ef839346981b4ed6137730bda8c65e8c38d7b"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/TsudaKageyu/minhook/c3fcafdc10146beb5919319d0683e44e3c30d537/CMakeLists.txt",
+      "bytes": 4204,
+      "sha256": "ff59c571f60eb3f8fdee11b199cbe0ffd7477386f0e145da87691b1233e3cdc6"
+    },
+    {
+      "path": "include/MinHook.h",
+      "url": "https://raw.githubusercontent.com/TsudaKageyu/minhook/c3fcafdc10146beb5919319d0683e44e3c30d537/include/MinHook.h",
+      "bytes": 7530,
+      "sha256": "62dff05e63155c6bf8135c36a0d79dedbdcaaede9da26fe38daf0bea34323e38"
+    },
+    {
+      "path": "src/buffer.c",
+      "url": "https://raw.githubusercontent.com/TsudaKageyu/minhook/c3fcafdc10146beb5919319d0683e44e3c30d537/src/buffer.c",
+      "bytes": 9814,
+      "sha256": "0ab484d7870c3a8e7a3a1ee61e2070072cf445ed85b619d4c4207fed34356d99"
+    },
+    {
+      "path": "src/buffer.h",
+      "url": "https://raw.githubusercontent.com/TsudaKageyu/minhook/c3fcafdc10146beb5919319d0683e44e3c30d537/src/buffer.h",
+      "bytes": 1820,
+      "sha256": "9769702bd625249e59a19ede05c84365fcc7707e1fa0e5df08df42227cee13e3"
+    },
+    {
+      "path": "src/hook.c",
+      "url": "https://raw.githubusercontent.com/TsudaKageyu/minhook/c3fcafdc10146beb5919319d0683e44e3c30d537/src/hook.c",
+      "bytes": 26626,
+      "sha256": "edcce4c81985d7dd5b73feae96d6498c8f749b1bca4c3d2d9926ea9a17a84755"
+    },
+    {
+      "path": "src/trampoline.c",
+      "url": "https://raw.githubusercontent.com/TsudaKageyu/minhook/c3fcafdc10146beb5919319d0683e44e3c30d537/src/trampoline.c",
+      "bytes": 10718,
+      "sha256": "f13a169f803ff5a8e45c58ce668b4377a9878c0fc4452369b8a1325065186b2b"
+    },
+    {
+      "path": "src/trampoline.h",
+      "url": "https://raw.githubusercontent.com/TsudaKageyu/minhook/c3fcafdc10146beb5919319d0683e44e3c30d537/src/trampoline.h",
+      "bytes": 3759,
+      "sha256": "53ed9934492320617a27bfd952ffe7f5b7a4a1d09963d4512447082fe7b727b4"
+    },
+    {
+      "path": "src/hde/hde64.c",
+      "url": "https://raw.githubusercontent.com/TsudaKageyu/minhook/c3fcafdc10146beb5919319d0683e44e3c30d537/src/hde/hde64.c",
+      "bytes": 9507,
+      "sha256": "824eafa315322e6da105a7ce4ec1fc0e0adeee0106d32152fbb0b59e709bd15c"
+    },
+    {
+      "path": "src/hde/hde64.h",
+      "url": "https://raw.githubusercontent.com/TsudaKageyu/minhook/c3fcafdc10146beb5919319d0683e44e3c30d537/src/hde/hde64.h",
+      "bytes": 2602,
+      "sha256": "e99aa4997bda14b534c614c3d8cb78a72c4aca91a1212c8b03ec605d1d75e36e"
+    },
+    {
+      "path": "src/hde/table64.h",
+      "url": "https://raw.githubusercontent.com/TsudaKageyu/minhook/c3fcafdc10146beb5919319d0683e44e3c30d537/src/hde/table64.h",
+      "bytes": 3577,
+      "sha256": "b774446d2f110ce954fb0a710f4693c5562ddbd8d56fe84106f2ee80db8b50a2"
+    },
+    {
+      "path": "src/hde/pstdint.h",
+      "url": "https://raw.githubusercontent.com/TsudaKageyu/minhook/c3fcafdc10146beb5919319d0683e44e3c30d537/src/hde/pstdint.h",
+      "bytes": 1662,
+      "sha256": "604d1cdf45c5a95bc9cf1bbf39ca05ef83013541101d34971c5cd7577e3d5247"
+    }
+  ]
+}

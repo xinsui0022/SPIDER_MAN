@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "session_id": "20261006_035419_f3de51f6",
+  "known_hashes": {
+    "game": "4da38111d1fee9e9ad8951259cb8ce4849dfb699850067d736176710dd2d49c6",
+    "mod": "77aa34660e74d51e112c66b8d54044f70cbf7a35dd241c8748546abd12dbeb51",
+    "winmm": "1ffe161776add97105feca27417e1028739b4c2a6bc5898f067c25e2b7b9ca15"
+  },
+  "paths": {
+    "session": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\.source_check_8pdnh0a3\\smt\\diag\\同档对照_20261006_035419_f3de51f6",
+    "native": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\.source_check_8pdnh0a3\\smt\\native\\account",
+    "original": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\.source_check_8pdnh0a3\\smt\\native\\account.codex-original-20261006_035419_f3de51f6",
+    "disabled": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\.source_check_8pdnh0a3\\smt\\game\\winmm.dll.codex-disabled-20261006_035419_f3de51f6",
+    "freeze": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\.source_check_8pdnh0a3\\smt\\diag\\同档对照_20261006_035419_f3de51f6\\frozen_smt_save"
+  },
+  "source_kind": "smt",
+  "source_path": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\.source_check_8pdnh0a3\\smt\\game\\SMT\\Save",
+  "source_manifest": {
+    "files": {
+      "-userprefs.save": {
+        "size": 9,
+        "sha256": "e9277afa1e4bd5f23e47415e5bfbb835bdaa758ea5fa4432ae22e8b65e3ab207"
+      },
+      "slot1-s.save": {
+        "size": 9,
+        "sha256": "83a47084fbc3105d027cb5a0c64bdfb375c5e967d79071d1f73bf3856fe065da"
+      }
+    },
+    "directories": []
+  },
+  "native_original_manifest": {
+    "files": {
+      "-userprefs.save": {
+        "size": 12,
+        "sha256": "61974906e2cfbadbe4ab625bcd8389571df21474d96cde6ce5fd74a222a1b622"
+      },
+      "slot0-s.save": {
+        "size": 12,
+        "sha256": "aeac9008b698ab74d7f1c19d7c2795c7429271b9042c6bb05ba632e76b293e3d"
+      }
+    },
+    "directories": []
+  },
+  "purpose": "用 SMT 存档副本完全关闭 MOD 做单人对照；需核对槽位和任务阶段，不证明合作功能",
+  "smt_source_manifest": {
+    "files": {
+      "-userprefs.save": {
+        "size": 9,
+        "sha256": "e9277afa1e4bd5f23e47415e5bfbb835bdaa758ea5fa4432ae22e8b65e3ab207"
+      },
+      "slot1-s.save": {
+        "size": 9,
+        "sha256": "83a47084fbc3105d027cb5a0c64bdfb375c5e967d79071d1f73bf3856fe065da"
+      }
+    },
+    "directories": []
+  }
+}

@@ -1,0 +1,633 @@
+{
+  "snapshot_utc": "2026-10-06T07:03:20.200618+00:00",
+  "previous_0724_snapshot": {
+    "path": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\NG_reload_reload_20261006.dat1",
+    "size": 142350,
+    "sha256": "de29a47bfd6d4925069523e9f940eb1ecac0ebb6c9adac9962e9c0f364b7a0b7",
+    "mtime_utc": "2026-10-05T23:32:13.772398+00:00",
+    "DAT1_version": 8,
+    "DAT1_sections": 28,
+    "metadata_roots": [
+      {
+        "section_tag": "0xd436a987",
+        "file_offset": "0xa4e4",
+        "fields": {
+          "CurrentLightingMode": "kBlackout",
+          "CurrentCheckpointId": 10548525917104244791,
+          "CurrentCheckpoint": 3959482847,
+          "PlaythroughSegmentId": 3198264795,
+          "CurrentLightingModeValid": true,
+          "CurrentLevel": 0
+        }
+      },
+      {
+        "section_tag": "0xd436a987",
+        "file_offset": "0xa56c",
+        "fields": {
+          "LastPosition": {
+            "X": 1107.189697265625,
+            "Y": 45.762451171875,
+            "Z": 1288.1719970703125
+          },
+          "PerchForward": {
+            "X": 0,
+            "Y": 0,
+            "Z": 1
+          },
+          "PerchPosition": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "GamePercent": 0.0011396011104807258,
+          "ActiveMissionHash": 923129643,
+          "LocationHash": 2400438793,
+          "LastSaveTime": 2125083096,
+          "PerchUID": 0,
+          "SlotDifficulty": 3,
+          "LowestDifficultyEverSet": 3,
+          "PlayerLevel": 50,
+          "NewGamePlusUnlocked": false,
+          "NewGamePlus": true,
+          "NewGamePlusNewGame": false,
+          "TotalPlayTime": 0
+        }
+      },
+      {
+        "section_tag": "0xd436a987",
+        "file_offset": "0xc260",
+        "fields": {
+          "CurrentLightingMode": "kBlackout",
+          "CurrentCheckpointId": 10548525917104244791,
+          "CurrentCheckpoint": 3959482847,
+          "PlaythroughSegmentId": 3198264795,
+          "CurrentLightingModeValid": true,
+          "CurrentLevel": 0
+        }
+      }
+    ],
+    "prologue_objective_tables": [
+      {
+        "section_relative_offset": "0xdcb",
+        "stride": 24,
+        "rows": [
+          {
+            "runtime_label": "INTRO",
+            "objective_hash": "0x96ef1f34",
+            "words_raw": [
+              2532253492,
+              2,
+              2,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_label": "UNLOAD_APT",
+            "objective_hash": "0xee49fa3b",
+            "words_raw": [
+              3997825595,
+              2,
+              2,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "runtime_label": "START",
+            "objective_hash": "0x13938f9b",
+            "words_raw": [
+              328437659,
+              2,
+              2,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "runtime_label": "FIRST_STOP",
+            "objective_hash": "0x51d959a5",
+            "words_raw": [
+              1373198757,
+              2,
+              2,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "runtime_label": "FIRST_STOP_INTRO",
+            "objective_hash": "0x9c5bd5dc",
+            "words_raw": [
+              2623264220,
+              2,
+              2,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "runtime_label": "FIRST_STOP_MELEE",
+            "objective_hash": "0x49b96b5d",
+            "words_raw": [
+              1236888413,
+              2,
+              2,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "runtime_label": "FIRST_STOP_DODGE",
+            "objective_hash": "0x1731da72",
+            "words_raw": [
+              389143154,
+              2,
+              2,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "runtime_label": "FIRST_STOP_WEBSTRIKE",
+            "objective_hash": "0xad48a1ca",
+            "words_raw": [
+              2907218378,
+              2,
+              2,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "runtime_label": "SECOND_STOP",
+            "objective_hash": "0xb70583f4",
+            "words_raw": [
+              3070591988,
+              2,
+              2,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "runtime_label": "SECOND_STOP_FINISH",
+            "objective_hash": "0xf43e958c",
+            "words_raw": [
+              4097742220,
+              1,
+              1,
+              0,
+              1,
+              3408175609
+            ]
+          },
+          {
+            "runtime_label": "GET_TO_FISK",
+            "objective_hash": "0xab721a52",
+            "words_raw": [
+              2876381778,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "section_relative_offset": "0x2e98",
+        "stride": 20,
+        "rows": [
+          {
+            "runtime_label": "INTRO",
+            "objective_hash": "0x96ef1f34",
+            "words_raw": [
+              2532253492,
+              2,
+              2,
+              0,
+              0
+            ]
+          },
+          {
+            "runtime_label": "UNLOAD_APT",
+            "objective_hash": "0xee49fa3b",
+            "words_raw": [
+              3997825595,
+              2,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "runtime_label": "START",
+            "objective_hash": "0x13938f9b",
+            "words_raw": [
+              328437659,
+              2,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "runtime_label": "FIRST_STOP",
+            "objective_hash": "0x51d959a5",
+            "words_raw": [
+              1373198757,
+              2,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "runtime_label": "FIRST_STOP_INTRO",
+            "objective_hash": "0x9c5bd5dc",
+            "words_raw": [
+              2623264220,
+              2,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "runtime_label": "FIRST_STOP_MELEE",
+            "objective_hash": "0x49b96b5d",
+            "words_raw": [
+              1236888413,
+              2,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "runtime_label": "FIRST_STOP_DODGE",
+            "objective_hash": "0x1731da72",
+            "words_raw": [
+              389143154,
+              2,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "runtime_label": "FIRST_STOP_WEBSTRIKE",
+            "objective_hash": "0xad48a1ca",
+            "words_raw": [
+              2907218378,
+              2,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "runtime_label": "SECOND_STOP",
+            "objective_hash": "0xb70583f4",
+            "words_raw": [
+              3070591988,
+              2,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "runtime_label": "SECOND_STOP_FINISH",
+            "objective_hash": "0xf43e958c",
+            "words_raw": [
+              4097742220,
+              1,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "runtime_label": "GET_TO_FISK",
+            "objective_hash": "0xab721a52",
+            "words_raw": [
+              2876381778,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "section_sizes_and_hashes": {
+      "0xd0a9df": {
+        "size": 23672,
+        "sha256": "59cd316401288f6aa571ecf763ebcae4848882897bbdff00e781254ce13e06f4"
+      },
+      "0xd6f8fc": {
+        "size": 1356,
+        "sha256": "0a89d3728d168e6ddee3c86cae2c44b7ef742c3ad102e4955073aee6e4f9eccf"
+      },
+      "0x185f188": {
+        "size": 776,
+        "sha256": "bbe52dc91316e2fd1881ac03aef1f3218cd6402164108dfaf3a5d863347fb8b8"
+      },
+      "0x1cea6ceb": {
+        "size": 2528,
+        "sha256": "a5cc037b5f9a4e4e628198d74e72b34cb1f328916c9b348ea5de039bf807efc7"
+      },
+      "0x43e0a1be": {
+        "size": 8,
+        "sha256": "7c9fa136d4413fa6173637e883b6998d32e1d675f88cddff9dcbcf331820f4b8"
+      },
+      "0x4b2362cb": {
+        "size": 277,
+        "sha256": "9cf2c3c33745a5ea4b7afd1a4290c7cc3ac0566b27ff680648640b829e103136"
+      },
+      "0x4e217848": {
+        "size": 3664,
+        "sha256": "b77835291b044a1f7a31dc8d32b77017f4ab6409dccc4606c7609f95101635f4"
+      },
+      "0x52768c44": {
+        "size": 2756,
+        "sha256": "00d768afa97bd695feccb32a7f0d6037ac5c793493f5c042dbe9c52598b880cb"
+      },
+      "0x586e01a8": {
+        "size": 1755,
+        "sha256": "e3f59df06ba8356843a49fb1a0a77511e8fc939dcda7d6d98f787b012a223bef"
+      },
+      "0x6142f8dd": {
+        "size": 259,
+        "sha256": "412ecad429d79e230e56b383b16d3d293ef6beb5f641d7de6f910228119b7bf3"
+      },
+      "0x6d91265c": {
+        "size": 24,
+        "sha256": "d5039144208228e8bedb4cfbf5bf0222f0f457e7e52aa557840af7d717a863e2"
+      },
+      "0x82975026": {
+        "size": 948,
+        "sha256": "28d7295d725c410330d0a892c40ace6b2891da28f3f5c9bb1f149e23d9ab6146"
+      },
+      "0x8c2d0f2d": {
+        "size": 12805,
+        "sha256": "f21234d40e48ef3f7ebb8ab70e6fad87e1eaa6e79af9c8ccf91b2d28c2d3e6d9"
+      },
+      "0x8f4c99f1": {
+        "size": 199,
+        "sha256": "ad1dd1cf7df74c798c0376003cea08edbfb5fed357afcbe5a02fd2ae06711353"
+      },
+      "0x9d1b37dc": {
+        "size": 900,
+        "sha256": "ab11d275c030bdec47f581258f365ecfa943d5705c5e5520965ca19e4f2e1069"
+      },
+      "0xa026eedb": {
+        "size": 4284,
+        "sha256": "ecc696c7d74952811cb7299878e0b60939e1134fa287d4dde0e1f90bc5ad02dd"
+      },
+      "0xa2bed772": {
+        "size": 4123,
+        "sha256": "31725b1f84f1d8d2d33acfd8105f5efa5ce5bc3438e3dad970198f2ebfa8f77f"
+      },
+      "0xa806f448": {
+        "size": 23672,
+        "sha256": "d8cea43e8bb792477227dc23f9c58076c8f3c479d47c0569e7a3dfa678d79730"
+      },
+      "0xb5ee9aa1": {
+        "size": 990,
+        "sha256": "f78c5836d344e138613200ad60d1239e1789c5ef5b2a230b9e0808ea87866afd"
+      },
+      "0xc0174d02": {
+        "size": 4964,
+        "sha256": "2243cfc4aaf8df771093cd8aa524801eef0a88cab694a7863ca240e49889e282"
+      },
+      "0xc34cac48": {
+        "size": 2070,
+        "sha256": "c6eb87ec1e750634ced745e4f456ede2e266bf51e49efbd9c3845b4a290e2062"
+      },
+      "0xc82d7ab4": {
+        "size": 839,
+        "sha256": "6172b0db8cbfd6d52bf84c00113a9143db7637acd283121bea6a1b9fc0f07f17"
+      },
+      "0xcd3888a8": {
+        "size": 4320,
+        "sha256": "ae61977586d65172a5ae379509fb3fc38119a07f201e974d5c1bb03e7c08c4af"
+      },
+      "0xd436a987": {
+        "size": 7688,
+        "sha256": "f1b4a44caf6641ff1cd6b75c4ccb33487c16db08d0c091f6e1e2613076e8e326"
+      },
+      "0xe6e715e7": {
+        "size": 6,
+        "sha256": "cd41fef213afb1de08d204b0122e1053826da686335fe6260aa6ed620764f820"
+      },
+      "0xeb364589": {
+        "size": 12254,
+        "sha256": "e9173ac6c695490d9f412b57f4b32df25e477223e794f895ba5ff58908d5d5e5"
+      },
+      "0xeccba896": {
+        "size": 8452,
+        "sha256": "dd491b9fae9fb19593a13d90cc147756fe10701f847a3b83734af90e6bc98813"
+      },
+      "0xff391f3b": {
+        "size": 1033,
+        "sha256": "e84ecb0b7c14583a473a338109b6369a41d99abc6f068a1007166e6cc3814988"
+      }
+    }
+  },
+  "current_slot3": {
+    "path": "D:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\SMT\\Save\\slot3-s.save",
+    "size": 140686,
+    "sha256": "9053da24e454c62be622e8f040563e23ff9010a9041d030e3a742b367f067726",
+    "mtime_utc": "2026-10-06T06:56:22.720193+00:00",
+    "DAT1_version": 8,
+    "DAT1_sections": 28,
+    "metadata_roots": [
+      {
+        "section_tag": "0xd436a987",
+        "file_offset": "0xa174",
+        "fields": {
+          "CurrentLightingMode": "kBlackout",
+          "CurrentCheckpointId": 10548525917104244791,
+          "CurrentCheckpoint": 3959482847,
+          "PlaythroughSegmentId": 3198264795,
+          "CurrentLightingModeValid": true,
+          "CurrentLevel": 0
+        }
+      },
+      {
+        "section_tag": "0xd436a987",
+        "file_offset": "0xa1fc",
+        "fields": {
+          "PerchPosition": {
+            "X": 1013.419677734375,
+            "Y": 7.441680908203125,
+            "Z": 1283.2918701171875
+          },
+          "LastPosition": {
+            "X": 1006.0326538085938,
+            "Y": 2.0110065937042236,
+            "Z": 1284.2012939453125
+          },
+          "PerchForward": {
+            "X": 0,
+            "Y": 0,
+            "Z": 1
+          },
+          "PerchUID": 10722762562254265893,
+          "GamePercent": 0.0011396011104807258,
+          "ActiveMissionHash": 4294967295,
+          "LocationHash": 2400438793,
+          "LastSaveTime": 2125083576,
+          "SlotDifficulty": 3,
+          "LowestDifficultyEverSet": 3,
+          "PlayerLevel": 50,
+          "TotalPlayTime": 0,
+          "NewGamePlusUnlocked": false,
+          "NewGamePlus": true,
+          "NewGamePlusNewGame": false
+        }
+      },
+      {
+        "section_tag": "0xd436a987",
+        "file_offset": "0xbf00",
+        "fields": {
+          "CurrentLightingMode": "kBlackout",
+          "CurrentCheckpointId": 10548525917104244791,
+          "CurrentCheckpoint": 3959482847,
+          "PlaythroughSegmentId": 3198264795,
+          "CurrentLightingModeValid": true,
+          "CurrentLevel": 0
+        }
+      }
+    ],
+    "prologue_objective_tables": [],
+    "section_sizes_and_hashes": {
+      "0xd0a9df": {
+        "size": 23672,
+        "sha256": "f5809ebcc3499e3858acc4855f3eb7a26ed441c17c28a3d6b8304748efb5dc11"
+      },
+      "0xd6f8fc": {
+        "size": 1356,
+        "sha256": "fa855687088b6d471b2826c4df128679b20acb1c91afffa74e1f6416946be9f6"
+      },
+      "0x185f188": {
+        "size": 776,
+        "sha256": "bbe52dc91316e2fd1881ac03aef1f3218cd6402164108dfaf3a5d863347fb8b8"
+      },
+      "0x1cea6ceb": {
+        "size": 1884,
+        "sha256": "9f84aba373cf392eb8a856182671169a38a19434548de636d30e0d9f90525c4f"
+      },
+      "0x43e0a1be": {
+        "size": 8,
+        "sha256": "7c9fa136d4413fa6173637e883b6998d32e1d675f88cddff9dcbcf331820f4b8"
+      },
+      "0x4b2362cb": {
+        "size": 277,
+        "sha256": "9cf2c3c33745a5ea4b7afd1a4290c7cc3ac0566b27ff680648640b829e103136"
+      },
+      "0x4e217848": {
+        "size": 3664,
+        "sha256": "66ba8c0466bf19b62815d89ffd69aac56245eec6be0a68be7390f53c671f558e"
+      },
+      "0x52768c44": {
+        "size": 2772,
+        "sha256": "d47b7a72f6b201e5494dd1376e60aaaa43149f026803faead214229b0e7845fb"
+      },
+      "0x586e01a8": {
+        "size": 1755,
+        "sha256": "bdb9261bf3376b6d77ffdb07e25ea3c78f71d7af091af94213905790ee8d3f1a"
+      },
+      "0x6142f8dd": {
+        "size": 259,
+        "sha256": "412ecad429d79e230e56b383b16d3d293ef6beb5f641d7de6f910228119b7bf3"
+      },
+      "0x6d91265c": {
+        "size": 24,
+        "sha256": "d5039144208228e8bedb4cfbf5bf0222f0f457e7e52aa557840af7d717a863e2"
+      },
+      "0x82975026": {
+        "size": 948,
+        "sha256": "634addb1b900b6e678ed3d6ec4cc5d8ffa7fd193fda3c69ca02a85ef6c433808"
+      },
+      "0x8c2d0f2d": {
+        "size": 12805,
+        "sha256": "f21234d40e48ef3f7ebb8ab70e6fad87e1eaa6e79af9c8ccf91b2d28c2d3e6d9"
+      },
+      "0x8f4c99f1": {
+        "size": 199,
+        "sha256": "ad1dd1cf7df74c798c0376003cea08edbfb5fed357afcbe5a02fd2ae06711353"
+      },
+      "0x9d1b37dc": {
+        "size": 956,
+        "sha256": "1625a672cdd5a5a871dad34e4be8693b20379b072234fd6edea8b93a0b7afdd9"
+      },
+      "0xa026eedb": {
+        "size": 4284,
+        "sha256": "cd9956c131f160903a75dc1722999ece4551f1bc96af96a096c5c754d839a9e0"
+      },
+      "0xa2bed772": {
+        "size": 4155,
+        "sha256": "96c7e405af897a15d8cba2cd5a08eecbfc563b36e2085130814624851405f678"
+      },
+      "0xa806f448": {
+        "size": 23672,
+        "sha256": "f5809ebcc3499e3858acc4855f3eb7a26ed441c17c28a3d6b8304748efb5dc11"
+      },
+      "0xb5ee9aa1": {
+        "size": 990,
+        "sha256": "f78c5836d344e138613200ad60d1239e1789c5ef5b2a230b9e0808ea87866afd"
+      },
+      "0xc0174d02": {
+        "size": 4580,
+        "sha256": "fe50394e2815afae4c75b5d1b4dabc29f9f29801707705a1d5e58bf5b5d678db"
+      },
+      "0xc34cac48": {
+        "size": 2070,
+        "sha256": "1045d8f2f502cf443dd2990c360f1b2ac9c115885d56e422da60b1dd0b9c3d94"
+      },
+      "0xc82d7ab4": {
+        "size": 839,
+        "sha256": "6172b0db8cbfd6d52bf84c00113a9143db7637acd283121bea6a1b9fc0f07f17"
+      },
+      "0xcd3888a8": {
+        "size": 4320,
+        "sha256": "d77b27c9e29fb7ed160fff1e8b16b979a453e44738c95148e86ea3a93696fdeb"
+      },
+      "0xd436a987": {
+        "size": 7704,
+        "sha256": "560fd502ebee31965afde224c86e992720a952de20bc66c5340f361b79abbac9"
+      },
+      "0xe6e715e7": {
+        "size": 6,
+        "sha256": "cd41fef213afb1de08d204b0122e1053826da686335fe6260aa6ed620764f820"
+      },
+      "0xeb364589": {
+        "size": 11742,
+        "sha256": "5d842861ee161e41d75f905fc291c9d5fa63b8a4aa626a8127c5a12c9812d150"
+      },
+      "0xeccba896": {
+        "size": 8452,
+        "sha256": "25bbb266d1c909e237de6d2836230d53c26e40d5a7b73baedffa895b2484a1ab"
+      },
+      "0xff391f3b": {
+        "size": 1033,
+        "sha256": "e84ecb0b7c14583a473a338109b6369a41d99abc6f068a1007166e6cc3814988"
+      }
+    }
+  }
+}

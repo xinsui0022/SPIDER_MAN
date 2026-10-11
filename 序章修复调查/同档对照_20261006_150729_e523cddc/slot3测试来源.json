@@ -1,0 +1,9 @@
+{
+  "reason": "用户确认已取消任务，使用取消前仍有第二处战斗目标的故障快照；仅覆盖普通游戏测试副本slot3",
+  "source": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\同档对照_20261006_073225_a873a1e6\\frozen_smt_save\\slot3-s.save",
+  "sha256": "de29a47bfd6d4925069523e9f940eb1ecac0ebb6c9adac9962e9c0f364b7a0b7",
+  "test_destination": "C:\\Users\\xinsui\\Documents\\Marvel's Spider-Man Remastered\\76561199372553531\\slot3-s.save",
+  "current_MOD_slot3_preserved": true,
+  "current_MOD_slot3_sha256": "9053da24e454c62be622e8f040563e23ff9010a9041d030e3a742b367f067726",
+  "backup_of_replaced_test_file": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\同档对照_20261006_150729_e523cddc\\取消任务后的slot3-s.save"
+}

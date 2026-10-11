@@ -1,0 +1,6 @@
+{
+  "original_launch_options": "-nolauncher -mp",
+  "test_launch_options": "-nolauncher",
+  "source": "Observed Steam game properties and process command line",
+  "restore_pending": true
+}

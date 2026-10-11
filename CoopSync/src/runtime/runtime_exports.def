@@ -1,0 +1,6 @@
+LIBRARY CoopSyncRuntime
+EXPORTS
+    CoopSyncRuntimeStart
+    CoopSyncRuntimeStop
+    CoopSyncRuntimeGetStatus
+

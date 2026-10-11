@@ -1,0 +1,29 @@
+{
+  "checked_utc": "2026-10-06T06:45:25.852034+00:00",
+  "processes": [],
+  "all_comparisons_restored": true,
+  "SMT_original_progress_preserved": true,
+  "native_original_preserved": true,
+  "slot3_sha256": "de29a47bfd6d4925069523e9f940eb1ecac0ebb6c9adac9962e9c0f364b7a0b7",
+  "binary_report": {
+    "game": {
+      "path": "D:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\Spider-Man.exe",
+      "sha256": "e297d4d94f1ffe4febf289745e79e7b6fa233a788e7a00f480fc77c55db81ad1",
+      "expected": "e297d4d94f1ffe4febf289745e79e7b6fa233a788e7a00f480fc77c55db81ad1",
+      "matches": true,
+      "file_version": "4.630.0.0"
+    },
+    "mod": {
+      "path": "D:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\SMT\\Scripts\\smt.dll",
+      "sha256": "b7ab575100f2346af25180d74bf9641e24ce09bf549ce47446be09c3462606c7",
+      "expected": "b7ab575100f2346af25180d74bf9641e24ce09bf549ce47446be09c3462606c7",
+      "matches": true
+    },
+    "winmm": {
+      "path": "D:\\STEAM__\\steamapps\\common\\Marvel's Spider-Man Remastered\\winmm.dll",
+      "sha256": "ec59e8537eb9c6ec144897f64ccd8a79618309dd1bb3a62b65ad70b308bcab85",
+      "expected": "ec59e8537eb9c6ec144897f64ccd8a79618309dd1bb3a62b65ad70b308bcab85",
+      "matches": true
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "account_id": "76561199191371037",
+  "app_id": "1817070",
+  "original_launch_options": "-nolauncher -mp",
+  "test_launch_options": "-nolauncher",
+  "original_cloud_enabled": true,
+  "test_cloud_enabled": false,
+  "cloud_change_verified": "Steam游戏属性通用页：开关已由蓝色右侧改为灰色左侧",
+  "restore_pending": true,
+  "test_purpose": "联机重进FIRST_EXPLOSION出口门关闭，完整201自动档同档原版对照",
+  "prior_restore_verified": "100115 baseline恢复完成；原版普通3文件及winmm通过独立哈希核验；Steam属性曾显示-nolauncher -mp及蓝色右侧云存档开关",
+  "active_session": "同档对照_20261007_110827_188252fd",
+  "restore_order": "正常退出游戏；运行本目录 account_baseline_control.py restore；核验原版原档及winmm已恢复；最后在Steam属性恢复原启动选项与本游戏云同步开关"
+}

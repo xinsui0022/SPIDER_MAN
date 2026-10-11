@@ -1,0 +1,719 @@
+[
+  {
+    "game_rva": "0x2bc000",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990f93",
+    "target_module": "smt.dll",
+    "target_rva": "0xccc0"
+  },
+  {
+    "game_rva": "0x2c5570",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980d54",
+    "target_module": "smt.dll",
+    "target_rva": "0x30610"
+  },
+  {
+    "game_rva": "0x2c7600",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980d19",
+    "target_module": "smt.dll",
+    "target_rva": "0x30610"
+  },
+  {
+    "game_rva": "0x2d7520",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980d93",
+    "target_module": "smt.dll",
+    "target_rva": "0x30610"
+  },
+  {
+    "game_rva": "0x314c70",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980c53",
+    "target_module": "smt.dll",
+    "target_rva": "0x55230"
+  },
+  {
+    "game_rva": "0x3e0670",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980cd4",
+    "target_module": "smt.dll",
+    "target_rva": "0x558a0"
+  },
+  {
+    "game_rva": "0x3e0890",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980c96",
+    "target_module": "smt.dll",
+    "target_rva": "0x558f0"
+  },
+  {
+    "game_rva": "0x479330",
+    "difference_bytes": 5,
+    "relay": "0x7ff6239807d6",
+    "target_module": "smt.dll",
+    "target_rva": "0x63750"
+  },
+  {
+    "game_rva": "0x5f8fe0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980fd3",
+    "target_module": "smt.dll",
+    "target_rva": "0x59670"
+  },
+  {
+    "game_rva": "0x6452c2",
+    "difference_bytes": 9,
+    "modified_bytes": "90 90 90 90 90 90 90 90 90 80 bf 74 01 00 00 01"
+  },
+  {
+    "game_rva": "0x645690",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980bd3",
+    "target_module": "smt.dll",
+    "target_rva": "0x1c310"
+  },
+  {
+    "game_rva": "0x6a2757",
+    "difference_bytes": 4,
+    "modified_bytes": "90 90 90 90 48 8b cb e8 9d f7 ff ff 48 8b 4b 08"
+  },
+  {
+    "game_rva": "0x6c83c3",
+    "difference_bytes": 6,
+    "modified_bytes": "90 90 90 90 90 90 90 48 8d 4b 48 e8 1d 15 fb 00"
+  },
+  {
+    "game_rva": "0x706fc0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980894",
+    "target_module": "smt.dll",
+    "target_rva": "0x631e0"
+  },
+  {
+    "game_rva": "0x724540",
+    "difference_bytes": 5,
+    "relay": "0x7ff6239901d7",
+    "target_module": "smt.dll",
+    "target_rva": "0x54910"
+  },
+  {
+    "game_rva": "0x7309d0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990a14",
+    "target_module": "smt.dll",
+    "target_rva": "0x5cfe0"
+  },
+  {
+    "game_rva": "0x78e940",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990953",
+    "target_module": "smt.dll",
+    "target_rva": "0x5dbe0"
+  },
+  {
+    "game_rva": "0x799520",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990913",
+    "target_module": "smt.dll",
+    "target_rva": "0x5db60"
+  },
+  {
+    "game_rva": "0x79a1b0",
+    "difference_bytes": 5,
+    "relay": "0x7ff6239909a2",
+    "target_module": "smt.dll",
+    "target_rva": "0x5dad0"
+  },
+  {
+    "game_rva": "0x7aa7a0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990ed3",
+    "target_module": "smt.dll",
+    "target_rva": "0x505b0"
+  },
+  {
+    "game_rva": "0x83cc20",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990c94",
+    "target_module": "smt.dll",
+    "target_rva": "0x57740"
+  },
+  {
+    "game_rva": "0x83cf70",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980e20",
+    "target_module": "smt.dll",
+    "target_rva": "0x30610"
+  },
+  {
+    "game_rva": "0x84cc30",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980f21",
+    "target_module": "smt.dll",
+    "target_rva": "0x57450"
+  },
+  {
+    "game_rva": "0x860610",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990b14",
+    "target_module": "smt.dll",
+    "target_rva": "0x57b00"
+  },
+  {
+    "game_rva": "0x877120",
+    "difference_bytes": 5,
+    "relay": "0x7ff6239900d5",
+    "target_module": "smt.dll",
+    "target_rva": "0x5a1e0"
+  },
+  {
+    "game_rva": "0x87abc0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990094",
+    "target_module": "smt.dll",
+    "target_rva": "0x5a220"
+  },
+  {
+    "game_rva": "0x8841f0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990b54",
+    "target_module": "smt.dll",
+    "target_rva": "0x58420"
+  },
+  {
+    "game_rva": "0x88c550",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990054",
+    "target_module": "smt.dll",
+    "target_rva": "0x5a260"
+  },
+  {
+    "game_rva": "0x8b0070",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990197",
+    "target_module": "smt.dll",
+    "target_rva": "0x59f30"
+  },
+  {
+    "game_rva": "0x8f2a30",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990453",
+    "target_module": "smt.dll",
+    "target_rva": "0x5a9c0"
+  },
+  {
+    "game_rva": "0x8f3f80",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990ad3",
+    "target_module": "smt.dll",
+    "target_rva": "0x57640"
+  },
+  {
+    "game_rva": "0x8fd300",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990bd5",
+    "target_module": "smt.dll",
+    "target_rva": "0x57650"
+  },
+  {
+    "game_rva": "0x8fd760",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990b93",
+    "target_module": "smt.dll",
+    "target_rva": "0x57690"
+  },
+  {
+    "game_rva": "0x8fece0",
+    "difference_bytes": 5,
+    "relay": "0x7ff6239905d3",
+    "target_module": "smt.dll",
+    "target_rva": "0x5a9f0"
+  },
+  {
+    "game_rva": "0x941790",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980c13",
+    "target_module": "smt.dll",
+    "target_rva": "0x55300"
+  },
+  {
+    "game_rva": "0x994db0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990c13",
+    "target_module": "smt.dll",
+    "target_rva": "0x57ac0"
+  },
+  {
+    "game_rva": "0x9c5660",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990493",
+    "target_module": "smt.dll",
+    "target_rva": "0x5c520"
+  },
+  {
+    "game_rva": "0x9ce600",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990513",
+    "target_module": "smt.dll",
+    "target_rva": "0x5ab10"
+  },
+  {
+    "game_rva": "0xa020c0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990793",
+    "target_module": "smt.dll",
+    "target_rva": "0x5aa80"
+  },
+  {
+    "game_rva": "0xa049a0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990755",
+    "target_module": "smt.dll",
+    "target_rva": "0x5aa50"
+  },
+  {
+    "game_rva": "0xa499b0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990553",
+    "target_module": "smt.dll",
+    "target_rva": "0x5b1a0"
+  },
+  {
+    "game_rva": "0xa4c490",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990596",
+    "target_module": "smt.dll",
+    "target_rva": "0x5b100"
+  },
+  {
+    "game_rva": "0xabf850",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980753",
+    "target_module": "smt.dll",
+    "target_rva": "0x66480"
+  },
+  {
+    "game_rva": "0xac2200",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980795",
+    "target_module": "smt.dll",
+    "target_rva": "0x668d0"
+  },
+  {
+    "game_rva": "0xb39720",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990813",
+    "target_module": "smt.dll",
+    "target_rva": "0x5ab60"
+  },
+  {
+    "game_rva": "0xb68ab0",
+    "difference_bytes": 5,
+    "relay": "0x7ff6239906d4",
+    "target_module": "smt.dll",
+    "target_rva": "0x5c2a0"
+  },
+  {
+    "game_rva": "0xb6b670",
+    "difference_bytes": 4,
+    "relay": "0x7ff623990c55",
+    "target_module": "smt.dll",
+    "target_rva": "0x576d0"
+  },
+  {
+    "game_rva": "0xb70800",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990653",
+    "target_module": "smt.dll",
+    "target_rva": "0x5ac40"
+  },
+  {
+    "game_rva": "0xb70960",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990693",
+    "target_module": "smt.dll",
+    "target_rva": "0x5ad40"
+  },
+  {
+    "game_rva": "0xbd02b0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990d13",
+    "target_module": "smt.dll",
+    "target_rva": "0x5a7a0"
+  },
+  {
+    "game_rva": "0xbf91c0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990893",
+    "target_module": "smt.dll",
+    "target_rva": "0x1cc00"
+  },
+  {
+    "game_rva": "0xc027f2",
+    "difference_bytes": 7,
+    "modified_bytes": "90 90 90 90 90 90 90 8b 54 24 48 48 8b cb e8 4b"
+  },
+  {
+    "game_rva": "0xc21c50",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990295",
+    "target_module": "smt.dll",
+    "target_rva": "0x56960"
+  },
+  {
+    "game_rva": "0xc24d40",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990313",
+    "target_module": "smt.dll",
+    "target_rva": "0x56af0"
+  },
+  {
+    "game_rva": "0xc25441",
+    "difference_bytes": 13,
+    "modified_bytes": "90 90 90 90 90 90 90 90 90 90 90 90 90 83 fb ff"
+  },
+  {
+    "game_rva": "0xc26760",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990395",
+    "target_module": "smt.dll",
+    "target_rva": "0x56d80"
+  },
+  {
+    "game_rva": "0xc271c0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990413",
+    "target_module": "smt.dll",
+    "target_rva": "0x56620"
+  },
+  {
+    "game_rva": "0xc2a260",
+    "difference_bytes": 5,
+    "relay": "0x7ff6239808d3",
+    "target_module": "smt.dll",
+    "target_rva": "0x5f3d0"
+  },
+  {
+    "game_rva": "0xc2b8e0",
+    "difference_bytes": 5,
+    "relay": "0x7ff6239902d4",
+    "target_module": "smt.dll",
+    "target_rva": "0x56c30"
+  },
+  {
+    "game_rva": "0xc2cda0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980953",
+    "target_module": "smt.dll",
+    "target_rva": "0x31d00"
+  },
+  {
+    "game_rva": "0xc2cf60",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980a53",
+    "target_module": "smt.dll",
+    "target_rva": "0x31d20"
+  },
+  {
+    "game_rva": "0xc2d340",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980a13",
+    "target_module": "smt.dll",
+    "target_rva": "0x320b0"
+  },
+  {
+    "game_rva": "0xc2df80",
+    "difference_bytes": 5,
+    "relay": "0x7ff6239809d3",
+    "target_module": "smt.dll",
+    "target_rva": "0x325b0"
+  },
+  {
+    "game_rva": "0xc2e260",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980993",
+    "target_module": "smt.dll",
+    "target_rva": "0x32480"
+  },
+  {
+    "game_rva": "0xc368a0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990353",
+    "target_module": "smt.dll",
+    "target_rva": "0x56ed0"
+  },
+  {
+    "game_rva": "0xc6a750",
+    "difference_bytes": 5,
+    "relay": "0x7ff6239903e1",
+    "target_module": "smt.dll",
+    "target_rva": "0x559e0"
+  },
+  {
+    "game_rva": "0xc89230",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990a97",
+    "target_module": "smt.dll",
+    "target_rva": "0x1d160"
+  },
+  {
+    "game_rva": "0xcf22e0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990254",
+    "target_module": "smt.dll",
+    "target_rva": "0x30610"
+  },
+  {
+    "game_rva": "0xd55f10",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990853",
+    "target_module": "smt.dll",
+    "target_rva": "0x5dc50"
+  },
+  {
+    "game_rva": "0xd97730",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990113",
+    "target_module": "smt.dll",
+    "target_rva": "0x5a150"
+  },
+  {
+    "game_rva": "0x162f570",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980f55",
+    "target_module": "smt.dll",
+    "target_rva": "0x594f0"
+  },
+  {
+    "game_rva": "0x167bbd0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990e55",
+    "target_module": "smt.dll",
+    "target_rva": "0x30eb0"
+  },
+  {
+    "game_rva": "0x16885e0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980dd5",
+    "target_module": "smt.dll",
+    "target_rva": "0x5c980"
+  },
+  {
+    "game_rva": "0x1694080",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980b56",
+    "target_module": "smt.dll",
+    "target_rva": "0x1ab00"
+  },
+  {
+    "game_rva": "0x169e920",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980ad5",
+    "target_module": "smt.dll",
+    "target_rva": "0x19c10"
+  },
+  {
+    "game_rva": "0x169e970",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980a95",
+    "target_module": "smt.dll",
+    "target_rva": "0x19c20"
+  },
+  {
+    "game_rva": "0x16d7710",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980b13",
+    "target_module": "smt.dll",
+    "target_rva": "0x1c630"
+  },
+  {
+    "game_rva": "0x1702000",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980e53",
+    "target_module": "smt.dll",
+    "target_rva": "0x58f20"
+  },
+  {
+    "game_rva": "0x1759a60",
+    "difference_bytes": 4,
+    "relay": "0x7ff623980f95",
+    "target_module": "smt.dll",
+    "target_rva": "0x30610"
+  },
+  {
+    "game_rva": "0x190a8a0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980b93",
+    "target_module": "smt.dll",
+    "target_rva": "0x1adb0"
+  },
+  {
+    "game_rva": "0x1983b60",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990e15",
+    "target_module": "smt.dll",
+    "target_rva": "0x30fc0"
+  },
+  {
+    "game_rva": "0x19c5120",
+    "difference_bytes": 5,
+    "relay": "0x7ff6239909d3",
+    "target_module": "smt.dll",
+    "target_rva": "0x5dc00"
+  },
+  {
+    "game_rva": "0x1c845e0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990dd3",
+    "target_module": "smt.dll",
+    "target_rva": "0x5a750"
+  },
+  {
+    "game_rva": "0x1d25e40",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990f53",
+    "target_module": "smt.dll",
+    "target_rva": "0x503d0"
+  },
+  {
+    "game_rva": "0x1d286a0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990f13",
+    "target_module": "smt.dll",
+    "target_rva": "0x4f8b0"
+  },
+  {
+    "game_rva": "0x1de77c0",
+    "difference_bytes": 5,
+    "relay": "0x7ff6239904d4",
+    "target_module": "smt.dll",
+    "target_rva": "0x5a970"
+  },
+  {
+    "game_rva": "0x1e309d0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990216",
+    "target_module": "smt.dll",
+    "target_rva": "0x55950"
+  },
+  {
+    "game_rva": "0x1ed27f0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990cd3",
+    "target_module": "smt.dll",
+    "target_rva": "0x56f10"
+  },
+  {
+    "game_rva": "0x1ef6710",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990d54",
+    "target_module": "smt.dll",
+    "target_rva": "0x5a320"
+  },
+  {
+    "game_rva": "0x1efeba0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990d93",
+    "target_module": "smt.dll",
+    "target_rva": "0x5a310"
+  },
+  {
+    "game_rva": "0x1f01170",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980913",
+    "target_module": "smt.dll",
+    "target_rva": "0x48cf0"
+  },
+  {
+    "game_rva": "0x1f07800",
+    "difference_bytes": 5,
+    "relay": "0x7ff6239908d5",
+    "target_module": "smt.dll",
+    "target_rva": "0x5d420"
+  },
+  {
+    "game_rva": "0x1f23710",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980ed4",
+    "target_module": "smt.dll",
+    "target_rva": "0x57060"
+  },
+  {
+    "game_rva": "0x1f652c0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990a55",
+    "target_module": "smt.dll",
+    "target_rva": "0x5c640"
+  },
+  {
+    "game_rva": "0x1f73120",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990fd3",
+    "target_module": "smt.dll",
+    "target_rva": "0xcd80"
+  },
+  {
+    "game_rva": "0x1f83e60",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980e99",
+    "target_module": "smt.dll",
+    "target_rva": "0x59050"
+  },
+  {
+    "game_rva": "0x1f9e170",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990155",
+    "target_module": "smt.dll",
+    "target_rva": "0x59f80"
+  },
+  {
+    "game_rva": "0x1fb7350",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990e93",
+    "target_module": "smt.dll",
+    "target_rva": "0x33570"
+  },
+  {
+    "game_rva": "0x20d2f40",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980855",
+    "target_module": "smt.dll",
+    "target_rva": "0x64520"
+  },
+  {
+    "game_rva": "0x20dc130",
+    "difference_bytes": 5,
+    "relay": "0x7ff623980816",
+    "target_module": "smt.dll",
+    "target_rva": "0x63fa0"
+  },
+  {
+    "game_rva": "0x20dc3b0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990714",
+    "target_module": "smt.dll",
+    "target_rva": "0x5c5b0"
+  },
+  {
+    "game_rva": "0x20e09d0",
+    "difference_bytes": 5,
+    "relay": "0x7ff623990614",
+    "target_module": "smt.dll",
+    "target_rva": "0x5c2f0"
+  },
+  {
+    "game_rva": "0x20e1930",
+    "difference_bytes": 5,
+    "relay": "0x7ff6239907d5",
+    "target_module": "smt.dll",
+    "target_rva": "0x5c4c0"
+  },
+  {
+    "game_rva": "0x320c9d0",
+    "difference_bytes": 14,
+    "relay": "0x1977b616910",
+    "target_address": "0x1977b616910"
+  }
+]

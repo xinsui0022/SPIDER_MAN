@@ -1,0 +1,16 @@
+{"time_utc": "2026-10-05T19:54:54.656017+00:00", "event": "freeze_intent", "source_kind": "smt", "source_path": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\.source_check_pyzwgdnq\\smt\\game\\SMT\\Save"}
+{"time_utc": "2026-10-05T19:54:54.693014+00:00", "event": "freeze_verified"}
+{"time_utc": "2026-10-05T19:54:54.717461+00:00", "event": "native_backup_intent"}
+{"time_utc": "2026-10-05T19:54:54.728573+00:00", "event": "native_backed_up"}
+{"time_utc": "2026-10-05T19:54:54.733106+00:00", "event": "native_copy_intent"}
+{"time_utc": "2026-10-05T19:54:54.764274+00:00", "event": "native_copy_verified"}
+{"time_utc": "2026-10-05T19:54:54.769997+00:00", "event": "winmm_disable_intent"}
+{"time_utc": "2026-10-05T19:54:54.777995+00:00", "event": "winmm_disabled"}
+{"time_utc": "2026-10-05T19:54:54.791997+00:00", "event": "prepared"}
+{"time_utc": "2026-10-05T19:54:54.939311+00:00", "event": "preserve_test_intent", "destination": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\.source_check_pyzwgdnq\\smt\\diag\\同档对照_20261006_035454_b2924ebe\\native_test_save"}
+{"time_utc": "2026-10-05T19:54:54.947822+00:00", "event": "test_preserved", "destination": "C:\\Users\\xinsui\\Desktop\\游戏\\蜘蛛侠联机mod\\序章修复调查\\.source_check_pyzwgdnq\\smt\\diag\\同档对照_20261006_035454_b2924ebe\\native_test_save"}
+{"time_utc": "2026-10-05T19:54:54.952078+00:00", "event": "native_restore_intent"}
+{"time_utc": "2026-10-05T19:54:54.962076+00:00", "event": "native_restored"}
+{"time_utc": "2026-10-05T19:54:54.966076+00:00", "event": "winmm_restore_intent"}
+{"time_utc": "2026-10-05T19:54:54.976077+00:00", "event": "winmm_restored"}
+{"time_utc": "2026-10-05T19:54:54.981091+00:00", "event": "restored"}

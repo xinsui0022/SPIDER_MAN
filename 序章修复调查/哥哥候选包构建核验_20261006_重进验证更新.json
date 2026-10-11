@@ -1,0 +1,18 @@
+{
+  "current_zip_name": "哥哥安装候选包_20261006.zip",
+  "current_zip_bytes": 1760971,
+  "current_zip_sha256": "d7ce70d4aa9986fdebbf0869827b7487e60f7dca8f3b85034347a652d085c06c",
+  "old_zip_backup_name": "哥哥安装候选包_20261006_旧版_二次载入验证前.zip",
+  "old_zip_backup_sha256": "556ead7a57eb715f9a2b3680e14432808f4d09874daba3c8a35c1fccf8c90deb",
+  "files": 17,
+  "install_files": 14,
+  "all_14_install_file_hashes_unchanged": true,
+  "SHA256SUMS_all_entries_verified": true,
+  "zip_CRC_and_all_bytes_verified": true,
+  "empty_connections_verified": true,
+  "forbidden_items_absent": true,
+  "game_deployment_changed": false,
+  "sent_externally": false,
+  "verified_local_route": "Steam nolauncher -mp; original-game-initialized NG+; local host without client; Fisk ELEVATOR_LOBBY survived normal exit/reload",
+  "receiver_machine_and_ordinary_level1_and_coop_sync_unverified": true
+}

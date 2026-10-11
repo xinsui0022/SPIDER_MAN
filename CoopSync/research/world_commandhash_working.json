@@ -1,0 +1,2506 @@
+[
+  {
+    "hash": "0xa524d05",
+    "hits": 18,
+    "data_hits": [
+      {
+        "rva": "0x5e7dc54",
+        "context": "01 00 00 00 20 aa 8f 43 01 00 00 00 6c 24 66 38 b3 1b 27 ec ce 26 9b f3 f7 d0 96 25 14 43 e0 94 05 4d 52 0a a0 22 9f 43 01 00 00 00 48 e7 89 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43",
+        "ptr_candidates": [
+          {
+            "at": "0x5e7dc38",
+            "target": "0x38faa20",
+            "string": "Triangle"
+          },
+          {
+            "at": "0x5e7dc58",
+            "target": "0x39f22a0",
+            "string": "Open"
+          },
+          {
+            "at": "0x5e7dc60",
+            "target": "0x389e748",
+            "string": "Close"
+          },
+          {
+            "at": "0x5e7dc68",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5e7dc70",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5e7dc78",
+            "target": "0x382db24",
+            "string": "NONE"
+          }
+        ]
+      },
+      {
+        "rva": "0x5e7dc9c",
+        "context": "01 00 00 00 24 db 82 43 01 00 00 00 a0 22 9f 43 01 00 00 00 48 e7 89 43 01 00 00 00 14 43 e0 94 05 4d 52 0a 8d 41 33 5e 1b 71 34 29 a1 20 3d b0 bd 80 83 45 84 71 91 43 01 00 00 00 f0 e7 8c 43 01 00 00 00 70 2c 9f 43 01 00 00 00 24 db 82 43",
+        "ptr_candidates": [
+          {
+            "at": "0x5e7dc80",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5e7dc88",
+            "target": "0x39f22a0",
+            "string": "Open"
+          },
+          {
+            "at": "0x5e7dc90",
+            "target": "0x389e748",
+            "string": "Close"
+          },
+          {
+            "at": "0x5e7dcb0",
+            "target": "0x3917184",
+            "string": "X"
+          },
+          {
+            "at": "0x5e7dcb8",
+            "target": "0x38ce7f0",
+            "string": "Y"
+          },
+          {
+            "at": "0x5e7dcc0",
+            "target": "0x39f2c70",
+            "string": "Z"
+          }
+        ]
+      },
+      {
+        "rva": "0x6024f0c",
+        "context": "01 00 00 00 88 91 c8 43 01 00 00 00 7e 9f c5 0b a9 9b 65 4d a9 9b 65 4d 2a 79 ee 3d 14 43 e0 94 05 4d 52 0a 26 1f 97 d3 5c 9c 3b ed be 5b 1f b7 88 fe 9c 54 9b 0b 09 94 b1 19 9e 02 80 16 cd 43 01 00 00 00 a0 22 9f 43 01 00 00 00 48 e7 89 43",
+        "ptr_candidates": [
+          {
+            "at": "0x6024ef0",
+            "target": "0x3c89188",
+            "string": "kActor out"
+          },
+          {
+            "at": "0x6024f28",
+            "target": "0x3cd1680",
+            "string": "GetPart"
+          },
+          {
+            "at": "0x6024f30",
+            "target": "0x39f22a0",
+            "string": "Open"
+          }
+        ]
+      },
+      {
+        "rva": "0x6025034",
+        "context": "01 00 00 00 08 28 ca 43 01 00 00 00 54 55 89 43 01 00 00 00 5c 55 89 43 01 00 00 00 14 43 e0 94 05 4d 52 0a 26 1f 97 d3 5c 9c 3b ed be 5b 1f b7 88 fe 9c 54 9b 0b 09 94 b1 19 9e 02 e1 68 1c 75 bd b7 64 c7 11 9a 49 44 19 dc ee e0 4b 70 e3 56",
+        "ptr_candidates": [
+          {
+            "at": "0x6025018",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x6025020",
+            "target": "0x3895554",
+            "string": "Hide"
+          },
+          {
+            "at": "0x6025028",
+            "target": "0x389555c",
+            "string": "Show"
+          }
+        ]
+      },
+      {
+        "rva": "0x60274b4",
+        "context": "00 00 00 00 00 00 00 00 00 00 00 00 a0 26 cd 43 01 00 00 00 f0 26 cd 43 01 00 00 00 9b 11 3b 0d 05 4d 52 0a 80 25 af 43 01 00 00 00 48 e7 89 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43",
+        "ptr_candidates": [
+          {
+            "at": "0x60274a0",
+            "target": "0x3cd26a0",
+            "string": null
+          },
+          {
+            "at": "0x60274a8",
+            "target": "0x3cd26f0",
+            "string": null
+          },
+          {
+            "at": "0x60274b8",
+            "target": "0x3af2580",
+            "string": "Display"
+          },
+          {
+            "at": "0x60274c0",
+            "target": "0x389e748",
+            "string": "Close"
+          },
+          {
+            "at": "0x60274c8",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x60274d0",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x60274d8",
+            "target": "0x382db24",
+            "string": "NONE"
+          }
+        ]
+      },
+      {
+        "rva": "0x60274fc",
+        "context": "01 00 00 00 24 db 82 43 01 00 00 00 80 25 af 43 01 00 00 00 48 e7 89 43 01 00 00 00 9b 11 3b 0d 05 4d 52 0a 1f e3 4f 7c bd b7 64 c7 83 03 bf 3a 62 c3 05 b8 d0 3c c6 92 0e 4e 9e 1f 40 27 cd 43 01 00 00 00 c8 ff ca 43 01 00 00 00 4c 27 cd 43",
+        "ptr_candidates": [
+          {
+            "at": "0x60274e0",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x60274e8",
+            "target": "0x3af2580",
+            "string": "Display"
+          },
+          {
+            "at": "0x60274f0",
+            "target": "0x389e748",
+            "string": "Close"
+          },
+          {
+            "at": "0x6027518",
+            "target": "0x3cd2740",
+            "string": "OnDisplay"
+          },
+          {
+            "at": "0x6027520",
+            "target": "0x3caffc8",
+            "string": "OnClose"
+          }
+        ]
+      },
+      {
+        "rva": "0x6240784",
+        "context": "01 00 00 00 9c ee ec 44 01 00 00 00 48 e7 89 43 01 00 00 00 54 55 89 43 01 00 00 00 bb 88 60 fb 05 4d 52 0a 9b 0b 09 94 00 00 00 00 00 ee ec 44 01 00 00 00 67 b2 89 ed 00 00 00 00 00 00 00 00 40 00 00 00 04 00 00 00 00 00 00 00 00 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x6240768",
+            "target": "0x4ecee9c",
+            "string": "Keep"
+          },
+          {
+            "at": "0x6240770",
+            "target": "0x389e748",
+            "string": "Close"
+          },
+          {
+            "at": "0x6240778",
+            "target": "0x3895554",
+            "string": "Hide"
+          },
+          {
+            "at": "0x6240790",
+            "target": "0x4ecee00",
+            "string": "HoudiniMenuItem"
+          }
+        ]
+      },
+      {
+        "rva": "0x6259950",
+        "context": "d0 90 ef 44 01 00 00 00 b0 92 ef 44 01 00 00 00 00 93 ef 44 01 00 00 00 93 a3 84 6a 14 43 e0 94 05 4d 52 0a ec e3 92 1b 50 93 ef 44 01 00 00 00 68 77 a8 43 01 00 00 00 a0 22 9f 43 01 00 00 00 48 e7 89 43 01 00 00 00 10 5c ca 43 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x6259930",
+            "target": "0x4ef90d0",
+            "string": null
+          },
+          {
+            "at": "0x6259938",
+            "target": "0x4ef92b0",
+            "string": null
+          },
+          {
+            "at": "0x6259940",
+            "target": "0x4ef9300",
+            "string": null
+          },
+          {
+            "at": "0x6259958",
+            "target": "0x4ef9350",
+            "string": null
+          },
+          {
+            "at": "0x6259960",
+            "target": "0x3a87768",
+            "string": "In"
+          },
+          {
+            "at": "0x6259968",
+            "target": "0x39f22a0",
+            "string": "Open"
+          },
+          {
+            "at": "0x6259970",
+            "target": "0x389e748",
+            "string": "Close"
+          },
+          {
+            "at": "0x6259978",
+            "target": "0x3ca5c10",
+            "string": "Toggle"
+          }
+        ]
+      },
+      {
+        "rva": "0x62599e8",
+        "context": "a0 22 9f 43 01 00 00 00 48 e7 89 43 01 00 00 00 10 5c ca 43 01 00 00 00 93 a3 84 6a 14 43 e0 94 05 4d 52 0a ec e3 92 1b 50 44 bf 93 50 44 bf 93 70 77 a8 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 70 77 a8 43 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x62599c8",
+            "target": "0x39f22a0",
+            "string": "Open"
+          },
+          {
+            "at": "0x62599d0",
+            "target": "0x389e748",
+            "string": "Close"
+          },
+          {
+            "at": "0x62599d8",
+            "target": "0x3ca5c10",
+            "string": "Toggle"
+          },
+          {
+            "at": "0x62599f8",
+            "target": "0x3a87770",
+            "string": "Out"
+          },
+          {
+            "at": "0x6259a00",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x6259a08",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x6259a10",
+            "target": "0x3a87770",
+            "string": "Out"
+          }
+        ]
+      },
+      {
+        "rva": "0x6a4ccec",
+        "context": "01 00 00 00 60 e2 0a 45 01 00 00 00 b0 e2 0a 45 01 00 00 00 00 e3 0a 45 01 00 00 00 14 43 e0 94 05 4d 52 0a be 5b 1f b7 88 fe 9c 54 64 0c 09 79 9d cb e3 f3 a0 22 9f 43 01 00 00 00 48 e7 89 43 01 00 00 00 30 1d ca 43 01 00 00 00 08 28 ca 43",
+        "ptr_candidates": [
+          {
+            "at": "0x6a4ccd0",
+            "target": "0x50ae260",
+            "string": null
+          },
+          {
+            "at": "0x6a4ccd8",
+            "target": "0x50ae2b0",
+            "string": null
+          },
+          {
+            "at": "0x6a4cce0",
+            "target": "0x50ae300",
+            "string": null
+          },
+          {
+            "at": "0x6a4cd00",
+            "target": "0x39f22a0",
+            "string": "Open"
+          },
+          {
+            "at": "0x6a4cd08",
+            "target": "0x389e748",
+            "string": "Close"
+          },
+          {
+            "at": "0x6a4cd10",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          }
+        ]
+      },
+      {
+        "rva": "0x6a4cdc4",
+        "context": "01 00 00 00 08 28 ca 43 01 00 00 00 20 e2 0a 45 01 00 00 00 30 e2 0a 45 01 00 00 00 14 43 e0 94 05 4d 52 0a be 5b 1f b7 88 fe 9c 54 64 0c 09 79 9d cb e3 f3 e1 68 1c 75 bd b7 64 c7 c1 0a e3 cb 17 68 b4 fc 74 15 cd 43 01 00 00 00 c8 ff ca 43",
+        "ptr_candidates": [
+          {
+            "at": "0x6a4cda8",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x6a4cdb0",
+            "target": "0x50ae220",
+            "string": "SnapOpen"
+          },
+          {
+            "at": "0x6a4cdb8",
+            "target": "0x50ae230",
+            "string": "SnapClosed"
+          },
+          {
+            "at": "0x6a4cde8",
+            "target": "0x3cd1574",
+            "string": "OnOpen"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "0x549cfe88",
+    "hits": 37,
+    "data_hits": [
+      {
+        "rva": "0x5ff1dd4",
+        "context": "01 00 00 00 80 28 23 46 01 00 00 00 00 00 00 00 00 00 00 00 80 28 23 46 01 00 00 00 be 5b 1f b7 88 fe 9c 54 30 1d ca 43 01 00 00 00 08 28 ca 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43",
+        "ptr_candidates": [
+          {
+            "at": "0x5ff1db8",
+            "target": "0x6232880",
+            "string": null
+          },
+          {
+            "at": "0x5ff1dc8",
+            "target": "0x6232880",
+            "string": null
+          },
+          {
+            "at": "0x5ff1dd8",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          },
+          {
+            "at": "0x5ff1de0",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x5ff1de8",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5ff1df0",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5ff1df8",
+            "target": "0x382db24",
+            "string": "NONE"
+          }
+        ]
+      },
+      {
+        "rva": "0x5ff1e1c",
+        "context": "01 00 00 00 24 db 82 43 01 00 00 00 30 1d ca 43 01 00 00 00 08 28 ca 43 01 00 00 00 be 5b 1f b7 88 fe 9c 54 4b 70 e3 56 cc f3 eb 91 80 2b ca 43 01 00 00 00 88 2b ca 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43",
+        "ptr_candidates": [
+          {
+            "at": "0x5ff1e00",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5ff1e08",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          },
+          {
+            "at": "0x5ff1e10",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x5ff1e28",
+            "target": "0x3ca2b80",
+            "string": "OnLock"
+          },
+          {
+            "at": "0x5ff1e30",
+            "target": "0x3ca2b88",
+            "string": "OnUnlock"
+          },
+          {
+            "at": "0x5ff1e38",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5ff1e40",
+            "target": "0x382db24",
+            "string": "NONE"
+          }
+        ]
+      },
+      {
+        "rva": "0x5ff3db4",
+        "context": "01 00 00 00 24 db 82 43 01 00 00 00 88 91 c8 43 01 00 00 00 88 91 c8 43 01 00 00 00 be 5b 1f b7 88 fe 9c 54 30 1d ca 43 01 00 00 00 08 28 ca 43 01 00 00 00 f0 45 ca 43 01 00 00 00 10 46 ca 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43",
+        "ptr_candidates": [
+          {
+            "at": "0x5ff3d98",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5ff3da0",
+            "target": "0x3c89188",
+            "string": "kActor out"
+          },
+          {
+            "at": "0x5ff3da8",
+            "target": "0x3c89188",
+            "string": "kActor out"
+          },
+          {
+            "at": "0x5ff3db8",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          },
+          {
+            "at": "0x5ff3dc0",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x5ff3dc8",
+            "target": "0x3ca45f0",
+            "string": "Lock this fast travel point."
+          },
+          {
+            "at": "0x5ff3dd0",
+            "target": "0x3ca4610",
+            "string": "Unlock this fast travel point."
+          },
+          {
+            "at": "0x5ff3dd8",
+            "target": "0x382db24",
+            "string": "NONE"
+          }
+        ]
+      },
+      {
+        "rva": "0x5ff3dfc",
+        "context": "01 00 00 00 24 db 82 43 01 00 00 00 30 1d ca 43 01 00 00 00 08 28 ca 43 01 00 00 00 be 5b 1f b7 88 fe 9c 54 50 44 bf 93 50 44 bf 93 70 77 a8 43 01 00 00 00 30 46 ca 43 01 00 00 00 24 db 82 43 01 00 00 00 70 77 a8 43 01 00 00 00 48 f7 5e 88",
+        "ptr_candidates": [
+          {
+            "at": "0x5ff3de0",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5ff3de8",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          },
+          {
+            "at": "0x5ff3df0",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x5ff3e08",
+            "target": "0x3a87770",
+            "string": "Out"
+          },
+          {
+            "at": "0x5ff3e10",
+            "target": "0x3ca4630",
+            "string": "Signals when node receives ANY input signals."
+          },
+          {
+            "at": "0x5ff3e18",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5ff3e20",
+            "target": "0x3a87770",
+            "string": "Out"
+          }
+        ]
+      },
+      {
+        "rva": "0x5ff3e54",
+        "context": "01 00 00 00 60 46 ca 43 01 00 00 00 78 91 c8 43 01 00 00 00 78 91 c8 43 01 00 00 00 be 5b 1f b7 88 fe 9c 54 30 1d ca 43 01 00 00 00 08 28 ca 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43",
+        "ptr_candidates": [
+          {
+            "at": "0x5ff3e38",
+            "target": "0x3ca4660",
+            "string": "The fast travel point(s) to be locked or unlocked."
+          },
+          {
+            "at": "0x5ff3e40",
+            "target": "0x3c89178",
+            "string": "kActor in"
+          },
+          {
+            "at": "0x5ff3e48",
+            "target": "0x3c89178",
+            "string": "kActor in"
+          },
+          {
+            "at": "0x5ff3e58",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          },
+          {
+            "at": "0x5ff3e60",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x5ff3e68",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5ff3e70",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5ff3e78",
+            "target": "0x382db24",
+            "string": "NONE"
+          }
+        ]
+      },
+      {
+        "rva": "0x5ff3e9c",
+        "context": "01 00 00 00 24 db 82 43 01 00 00 00 30 1d ca 43 01 00 00 00 08 28 ca 43 01 00 00 00 be 5b 1f b7 88 fe 9c 54 1b b1 3c b0 61 ba 33 c7 c8 46 ca 43 01 00 00 00 d0 46 ca 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43",
+        "ptr_candidates": [
+          {
+            "at": "0x5ff3e80",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5ff3e88",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          },
+          {
+            "at": "0x5ff3e90",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x5ff3ea8",
+            "target": "0x3ca46c8",
+            "string": "OutLock"
+          },
+          {
+            "at": "0x5ff3eb0",
+            "target": "0x3ca46d0",
+            "string": "OutUnlock"
+          },
+          {
+            "at": "0x5ff3eb8",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5ff3ec0",
+            "target": "0x382db24",
+            "string": "NONE"
+          }
+        ]
+      },
+      {
+        "rva": "0x600ee44",
+        "context": "01 00 00 00 7e 5a af d6 ff cf 7c fe b8 a7 bb 14 93 a3 84 6a dd b9 67 4c 6a 8d 00 25 be 5b 1f b7 88 fe 9c 54 3d 50 bf 25 50 44 bf 93 80 38 88 43 01 00 00 00 78 66 c9 43 01 00 00 00 30 1d ca 43 01 00 00 00 08 28 ca 43 01 00 00 00 68 d4 cb 43",
+        "ptr_candidates": [
+          {
+            "at": "0x600ee50",
+            "target": "0x3883880",
+            "string": "Activate"
+          },
+          {
+            "at": "0x600ee58",
+            "target": "0x3c96678",
+            "string": "Deactivate"
+          },
+          {
+            "at": "0x600ee60",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          },
+          {
+            "at": "0x600ee68",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          }
+        ]
+      },
+      {
+        "rva": "0x600eefc",
+        "context": "01 00 00 00 08 28 ca 43 01 00 00 00 68 d4 cb 43 01 00 00 00 dd b9 67 4c 6a 8d 00 25 be 5b 1f b7 88 fe 9c 54 3d 50 bf 25 50 44 bf 93 9a d3 ad be 00 56 b7 5f b2 8b dd 11 ac 90 ae 11 5d 39 f2 ff 93 a3 84 6a 30 93 c9 43 01 00 00 00 80 d4 cb 43",
+        "ptr_candidates": [
+          {
+            "at": "0x600eee0",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x600eee8",
+            "target": "0x3cbd468",
+            "string": "ClearTempChanges"
+          },
+          {
+            "at": "0x600ef20",
+            "target": "0x3c99330",
+            "string": "OnActivated"
+          }
+        ]
+      },
+      {
+        "rva": "0x60145dc",
+        "context": "01 00 00 00 10 27 cc 43 01 00 00 00 60 27 cc 43 01 00 00 00 b0 27 cc 43 01 00 00 00 be 5b 1f b7 88 fe 9c 54 30 1d ca 43 01 00 00 00 08 28 ca 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43",
+        "ptr_candidates": [
+          {
+            "at": "0x60145c0",
+            "target": "0x3cc2710",
+            "string": null
+          },
+          {
+            "at": "0x60145c8",
+            "target": "0x3cc2760",
+            "string": null
+          },
+          {
+            "at": "0x60145d0",
+            "target": "0x3cc27b0",
+            "string": null
+          },
+          {
+            "at": "0x60145e0",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          },
+          {
+            "at": "0x60145e8",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x60145f0",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x60145f8",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x6014600",
+            "target": "0x382db24",
+            "string": "NONE"
+          }
+        ]
+      },
+      {
+        "rva": "0x6014624",
+        "context": "01 00 00 00 24 db 82 43 01 00 00 00 30 1d ca 43 01 00 00 00 08 28 ca 43 01 00 00 00 be 5b 1f b7 88 fe 9c 54 b2 8b dd 11 ac 90 ae 11 70 1e ca 43 01 00 00 00 90 d4 cb 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43",
+        "ptr_candidates": [
+          {
+            "at": "0x6014608",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x6014610",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          },
+          {
+            "at": "0x6014618",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x6014630",
+            "target": "0x3ca1e70",
+            "string": "OnLocked"
+          },
+          {
+            "at": "0x6014638",
+            "target": "0x3cbd490",
+            "string": "OnUnlocked"
+          },
+          {
+            "at": "0x6014640",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x6014648",
+            "target": "0x382db24",
+            "string": "NONE"
+          }
+        ]
+      },
+      {
+        "rva": "0x6024f1c",
+        "context": "a9 9b 65 4d a9 9b 65 4d 2a 79 ee 3d 14 43 e0 94 05 4d 52 0a 26 1f 97 d3 5c 9c 3b ed be 5b 1f b7 88 fe 9c 54 9b 0b 09 94 b1 19 9e 02 80 16 cd 43 01 00 00 00 a0 22 9f 43 01 00 00 00 48 e7 89 43 01 00 00 00 58 41 9f 43 01 00 00 00 38 15 cd 43",
+        "ptr_candidates": [
+          {
+            "at": "0x6024f28",
+            "target": "0x3cd1680",
+            "string": "GetPart"
+          },
+          {
+            "at": "0x6024f30",
+            "target": "0x39f22a0",
+            "string": "Open"
+          },
+          {
+            "at": "0x6024f38",
+            "target": "0x389e748",
+            "string": "Close"
+          },
+          {
+            "at": "0x6024f40",
+            "target": "0x39f4158",
+            "string": "Selectable"
+          }
+        ]
+      },
+      {
+        "rva": "0x6025044",
+        "context": "01 00 00 00 5c 55 89 43 01 00 00 00 14 43 e0 94 05 4d 52 0a 26 1f 97 d3 5c 9c 3b ed be 5b 1f b7 88 fe 9c 54 9b 0b 09 94 b1 19 9e 02 e1 68 1c 75 bd b7 64 c7 11 9a 49 44 19 dc ee e0 4b 70 e3 56 cc f3 eb 91 6e 20 f5 75 44 32 62 e3 74 15 cd 43",
+        "ptr_candidates": [
+          {
+            "at": "0x6025028",
+            "target": "0x389555c",
+            "string": "Show"
+          }
+        ]
+      },
+      {
+        "rva": "0x6025aec",
+        "context": "01 00 00 00 24 db 82 43 01 00 00 00 70 b0 c8 43 01 00 00 00 70 b0 c8 43 01 00 00 00 bc be ef e8 88 fe 9c 54 50 1f cd 43 01 00 00 00 08 28 ca 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43",
+        "ptr_candidates": [
+          {
+            "at": "0x6025ad0",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x6025ad8",
+            "target": "0x3c8b070",
+            "string": "kFloat out"
+          },
+          {
+            "at": "0x6025ae0",
+            "target": "0x3c8b070",
+            "string": "kFloat out"
+          },
+          {
+            "at": "0x6025af0",
+            "target": "0x3cd1f50",
+            "string": "Test"
+          },
+          {
+            "at": "0x6025af8",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x6025b00",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x6025b08",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x6025b10",
+            "target": "0x382db24",
+            "string": "NONE"
+          }
+        ]
+      },
+      {
+        "rva": "0x6025b34",
+        "context": "01 00 00 00 24 db 82 43 01 00 00 00 50 1f cd 43 01 00 00 00 08 28 ca 43 01 00 00 00 bc be ef e8 88 fe 9c 54 49 95 13 09 cc f3 eb 91 ab 8c 28 37 86 3f d2 07 cd 45 3f 41 40 7b 7d 7e 58 1f cd 43 01 00 00 00 88 2b ca 43 01 00 00 00 60 1f cd 43",
+        "ptr_candidates": [
+          {
+            "at": "0x6025b18",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x6025b20",
+            "target": "0x3cd1f50",
+            "string": "Test"
+          },
+          {
+            "at": "0x6025b28",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x6025b50",
+            "target": "0x3cd1f58",
+            "string": "OnTest"
+          },
+          {
+            "at": "0x6025b58",
+            "target": "0x3ca2b88",
+            "string": "OnUnlock"
+          }
+        ]
+      },
+      {
+        "rva": "0x60353f4",
+        "context": "01 00 00 00 80 ef cd 43 01 00 00 00 d0 ef cd 43 01 00 00 00 20 f0 cd 43 01 00 00 00 78 40 af 83 88 fe 9c 54 98 f1 cd 43 01 00 00 00 08 28 ca 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43",
+        "ptr_candidates": [
+          {
+            "at": "0x60353d8",
+            "target": "0x3cdef80",
+            "string": null
+          },
+          {
+            "at": "0x60353e0",
+            "target": "0x3cdefd0",
+            "string": null
+          },
+          {
+            "at": "0x60353e8",
+            "target": "0x3cdf020",
+            "string": null
+          },
+          {
+            "at": "0x60353f8",
+            "target": "0x3cdf198",
+            "string": "Screenshot"
+          },
+          {
+            "at": "0x6035400",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x6035408",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x6035410",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x6035418",
+            "target": "0x382db24",
+            "string": "NONE"
+          }
+        ]
+      },
+      {
+        "rva": "0x603543c",
+        "context": "01 00 00 00 24 db 82 43 01 00 00 00 98 f1 cd 43 01 00 00 00 08 28 ca 43 01 00 00 00 78 40 af 83 88 fe 9c 54 0e 09 d2 1f 61 ba 33 c7 a8 f1 cd 43 01 00 00 00 d0 46 ca 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43",
+        "ptr_candidates": [
+          {
+            "at": "0x6035420",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x6035428",
+            "target": "0x3cdf198",
+            "string": "Screenshot"
+          },
+          {
+            "at": "0x6035430",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x6035448",
+            "target": "0x3cdf1a8",
+            "string": "OutScreenshot"
+          },
+          {
+            "at": "0x6035450",
+            "target": "0x3ca46d0",
+            "string": "OutUnlock"
+          },
+          {
+            "at": "0x6035458",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x6035460",
+            "target": "0x382db24",
+            "string": "NONE"
+          }
+        ]
+      },
+      {
+        "rva": "0x6252ee0",
+        "context": "80 28 23 46 01 00 00 00 28 15 25 46 01 00 00 00 e0 3a ef 44 01 00 00 00 30 3b ef 44 01 00 00 00 88 fe 9c 54 88 fe 9c 54 08 28 ca 43 01 00 00 00 c8 3a ef 44 01 00 00 00 24 db 82 43 01 00 00 00 08 28 ca 43 01 00 00 00 67 a3 0a fb 67 a3 0a fb",
+        "ptr_candidates": [
+          {
+            "at": "0x6252ec0",
+            "target": "0x6232880",
+            "string": null
+          },
+          {
+            "at": "0x6252ec8",
+            "target": "0x6251528",
+            "string": null
+          },
+          {
+            "at": "0x6252ed0",
+            "target": "0x4ef3ae0",
+            "string": null
+          },
+          {
+            "at": "0x6252ed8",
+            "target": "0x4ef3b30",
+            "string": null
+          },
+          {
+            "at": "0x6252ee8",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x6252ef0",
+            "target": "0x4ef3ac8",
+            "string": "Unlock the award"
+          },
+          {
+            "at": "0x6252ef8",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x6252f00",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          }
+        ]
+      },
+      {
+        "rva": "0x6252ee4",
+        "context": "01 00 00 00 28 15 25 46 01 00 00 00 e0 3a ef 44 01 00 00 00 30 3b ef 44 01 00 00 00 88 fe 9c 54 88 fe 9c 54 08 28 ca 43 01 00 00 00 c8 3a ef 44 01 00 00 00 24 db 82 43 01 00 00 00 08 28 ca 43 01 00 00 00 67 a3 0a fb 67 a3 0a fb f8 be 8f 43",
+        "ptr_candidates": [
+          {
+            "at": "0x6252ec8",
+            "target": "0x6251528",
+            "string": null
+          },
+          {
+            "at": "0x6252ed0",
+            "target": "0x4ef3ae0",
+            "string": null
+          },
+          {
+            "at": "0x6252ed8",
+            "target": "0x4ef3b30",
+            "string": null
+          },
+          {
+            "at": "0x6252ee8",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x6252ef0",
+            "target": "0x4ef3ac8",
+            "string": "Unlock the award"
+          },
+          {
+            "at": "0x6252ef8",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x6252f00",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          }
+        ]
+      },
+      {
+        "rva": "0x69a7200",
+        "context": "bc 53 9b 43 01 00 00 00 c8 53 9b 43 01 00 00 00 24 9c 86 43 01 00 00 00 00 00 00 00 00 00 00 00 88 fe 9c 54 21 ff 49 3e 08 28 ca 43 01 00 00 00 48 7d f9 44 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x69a71e0",
+            "target": "0x39b53bc",
+            "string": "Active"
+          },
+          {
+            "at": "0x69a71e8",
+            "target": "0x39b53c8",
+            "string": "Complete"
+          },
+          {
+            "at": "0x69a71f0",
+            "target": "0x3869c24",
+            "string": "Failed"
+          },
+          {
+            "at": "0x69a7208",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x69a7210",
+            "target": "0x4f97d48",
+            "string": "Relock"
+          },
+          {
+            "at": "0x69a7218",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x69a7220",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x69a7228",
+            "target": "0x382db24",
+            "string": "NONE"
+          }
+        ]
+      },
+      {
+        "rva": "0x69a7248",
+        "context": "24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 08 28 ca 43 01 00 00 00 48 7d f9 44 01 00 00 00 88 fe 9c 54 21 ff 49 3e 82 84 2e 2b 21 bf 11 b0 65 a5 d6 ba 98 5e c2 52 f0 7d f9 44 01 00 00 00 00 7e f9 44 01 00 00 00 10 7e f9 44 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x69a7228",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x69a7230",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x69a7238",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x69a7240",
+            "target": "0x4f97d48",
+            "string": "Relock"
+          },
+          {
+            "at": "0x69a7260",
+            "target": "0x4f97df0",
+            "string": "OnAvailable"
+          },
+          {
+            "at": "0x69a7268",
+            "target": "0x4f97e00",
+            "string": "OnActive"
+          },
+          {
+            "at": "0x69a7270",
+            "target": "0x4f97e10",
+            "string": "OnCleanup"
+          }
+        ]
+      },
+      {
+        "rva": "0x6a4ccf4",
+        "context": "01 00 00 00 b0 e2 0a 45 01 00 00 00 00 e3 0a 45 01 00 00 00 14 43 e0 94 05 4d 52 0a be 5b 1f b7 88 fe 9c 54 64 0c 09 79 9d cb e3 f3 a0 22 9f 43 01 00 00 00 48 e7 89 43 01 00 00 00 30 1d ca 43 01 00 00 00 08 28 ca 43 01 00 00 00 20 e2 0a 45",
+        "ptr_candidates": [
+          {
+            "at": "0x6a4ccd8",
+            "target": "0x50ae2b0",
+            "string": null
+          },
+          {
+            "at": "0x6a4cce0",
+            "target": "0x50ae300",
+            "string": null
+          },
+          {
+            "at": "0x6a4cd00",
+            "target": "0x39f22a0",
+            "string": "Open"
+          },
+          {
+            "at": "0x6a4cd08",
+            "target": "0x389e748",
+            "string": "Close"
+          },
+          {
+            "at": "0x6a4cd10",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          },
+          {
+            "at": "0x6a4cd18",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          }
+        ]
+      },
+      {
+        "rva": "0x6a4cdcc",
+        "context": "01 00 00 00 20 e2 0a 45 01 00 00 00 30 e2 0a 45 01 00 00 00 14 43 e0 94 05 4d 52 0a be 5b 1f b7 88 fe 9c 54 64 0c 09 79 9d cb e3 f3 e1 68 1c 75 bd b7 64 c7 c1 0a e3 cb 17 68 b4 fc 74 15 cd 43 01 00 00 00 c8 ff ca 43 01 00 00 00 50 e3 0a 45",
+        "ptr_candidates": [
+          {
+            "at": "0x6a4cdb0",
+            "target": "0x50ae220",
+            "string": "SnapOpen"
+          },
+          {
+            "at": "0x6a4cdb8",
+            "target": "0x50ae230",
+            "string": "SnapClosed"
+          },
+          {
+            "at": "0x6a4cde8",
+            "target": "0x3cd1574",
+            "string": "OnOpen"
+          },
+          {
+            "at": "0x6a4cdf0",
+            "target": "0x3caffc8",
+            "string": "OnClose"
+          }
+        ]
+      },
+      {
+        "rva": "0x6a4da54",
+        "context": "01 00 00 00 00 ed 0a 45 01 00 00 00 50 ed 0a 45 01 00 00 00 55 86 d8 cd 69 2e af 4e be 5b 1f b7 88 fe 9c 54 46 1a ec 11 e7 2e 02 a1 5b af 84 90 9f 3e 36 84 22 f7 72 18 00 00 00 00 14 a7 9c 43 01 00 00 00 48 94 c8 43 01 00 00 00 30 1d ca 43",
+        "ptr_candidates": [
+          {
+            "at": "0x6a4da38",
+            "target": "0x50aed00",
+            "string": null
+          },
+          {
+            "at": "0x6a4da40",
+            "target": "0x50aed50",
+            "string": null
+          },
+          {
+            "at": "0x6a4da70",
+            "target": "0x39ca714",
+            "string": "Enable"
+          },
+          {
+            "at": "0x6a4da78",
+            "target": "0x3c89448",
+            "string": "Disable"
+          }
+        ]
+      },
+      {
+        "rva": "0x6a4dac4",
+        "context": "01 00 00 00 70 ef 0a 45 01 00 00 00 78 ef 0a 45 01 00 00 00 55 86 d8 cd 69 2e af 4e be 5b 1f b7 88 fe 9c 54 46 1a ec 11 e7 2e 02 a1 5b af 84 90 9f 3e 36 84 22 f7 72 18 00 00 00 00 14 a7 9c 43 01 00 00 00 48 94 c8 43 01 00 00 00 88 ef 0a 45",
+        "ptr_candidates": [
+          {
+            "at": "0x6a4daa8",
+            "target": "0x50aef70",
+            "string": "SetDone"
+          },
+          {
+            "at": "0x6a4dab0",
+            "target": "0x50aef78",
+            "string": "SetIncomplete"
+          },
+          {
+            "at": "0x6a4dae0",
+            "target": "0x39ca714",
+            "string": "Enable"
+          },
+          {
+            "at": "0x6a4dae8",
+            "target": "0x3c89448",
+            "string": "Disable"
+          }
+        ]
+      },
+      {
+        "rva": "0x6af87c8",
+        "context": "e0 00 19 45 01 00 00 00 f8 00 19 45 01 00 00 00 08 01 19 45 01 00 00 00 20 01 19 45 01 00 00 00 88 fe 9c 54 21 ff 49 3e 70 cc 89 43 01 00 00 00 80 fc 18 45 01 00 00 00 40 01 19 45 01 00 00 00 58 01 19 45 01 00 00 00 70 01 19 45 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x6af87a8",
+            "target": "0x51900e0",
+            "string": "CTNS Rooftop Ambush"
+          },
+          {
+            "at": "0x6af87b0",
+            "target": "0x51900f8",
+            "string": "CTNS Car Crash"
+          },
+          {
+            "at": "0x6af87b8",
+            "target": "0x5190108",
+            "string": "CTNS Faction Car Chase"
+          },
+          {
+            "at": "0x6af87c0",
+            "target": "0x5190120",
+            "string": "CTNS Faction Rooftop Shootout"
+          },
+          {
+            "at": "0x6af87d0",
+            "target": "0x389cc70",
+            "string": "Invalid"
+          },
+          {
+            "at": "0x6af87d8",
+            "target": "0x518fc80",
+            "string": "Mission Prefab"
+          },
+          {
+            "at": "0x6af87e0",
+            "target": "0x5190140",
+            "string": "DMN Police Shootout"
+          },
+          {
+            "at": "0x6af87e8",
+            "target": "0x5190158",
+            "string": "THG Purse Snatch"
+          },
+          {
+            "at": "0x6af87f0",
+            "target": "0x5190170",
+            "string": "Purse Snatch Sequence"
+          }
+        ]
+      },
+      {
+        "rva": "0x6af89e8",
+        "context": "e0 00 19 45 01 00 00 00 f8 00 19 45 01 00 00 00 08 01 19 45 01 00 00 00 20 01 19 45 01 00 00 00 88 fe 9c 54 21 ff 49 3e 70 cc 89 43 01 00 00 00 80 fc 18 45 01 00 00 00 40 01 19 45 01 00 00 00 58 01 19 45 01 00 00 00 70 01 19 45 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x6af89c8",
+            "target": "0x51900e0",
+            "string": "CTNS Rooftop Ambush"
+          },
+          {
+            "at": "0x6af89d0",
+            "target": "0x51900f8",
+            "string": "CTNS Car Crash"
+          },
+          {
+            "at": "0x6af89d8",
+            "target": "0x5190108",
+            "string": "CTNS Faction Car Chase"
+          },
+          {
+            "at": "0x6af89e0",
+            "target": "0x5190120",
+            "string": "CTNS Faction Rooftop Shootout"
+          },
+          {
+            "at": "0x6af89f0",
+            "target": "0x389cc70",
+            "string": "Invalid"
+          },
+          {
+            "at": "0x6af89f8",
+            "target": "0x518fc80",
+            "string": "Mission Prefab"
+          },
+          {
+            "at": "0x6af8a00",
+            "target": "0x5190140",
+            "string": "DMN Police Shootout"
+          },
+          {
+            "at": "0x6af8a08",
+            "target": "0x5190158",
+            "string": "THG Purse Snatch"
+          },
+          {
+            "at": "0x6af8a10",
+            "target": "0x5190170",
+            "string": "Purse Snatch Sequence"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "0x79090c64",
+    "hits": 3,
+    "data_hits": [
+      {
+        "rva": "0x6a4ccf8",
+        "context": "b0 e2 0a 45 01 00 00 00 00 e3 0a 45 01 00 00 00 14 43 e0 94 05 4d 52 0a be 5b 1f b7 88 fe 9c 54 64 0c 09 79 9d cb e3 f3 a0 22 9f 43 01 00 00 00 48 e7 89 43 01 00 00 00 30 1d ca 43 01 00 00 00 08 28 ca 43 01 00 00 00 20 e2 0a 45 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x6a4ccd8",
+            "target": "0x50ae2b0",
+            "string": null
+          },
+          {
+            "at": "0x6a4cce0",
+            "target": "0x50ae300",
+            "string": null
+          },
+          {
+            "at": "0x6a4cd00",
+            "target": "0x39f22a0",
+            "string": "Open"
+          },
+          {
+            "at": "0x6a4cd08",
+            "target": "0x389e748",
+            "string": "Close"
+          },
+          {
+            "at": "0x6a4cd10",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          },
+          {
+            "at": "0x6a4cd18",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x6a4cd20",
+            "target": "0x50ae220",
+            "string": "SnapOpen"
+          }
+        ]
+      },
+      {
+        "rva": "0x6a4cdd0",
+        "context": "20 e2 0a 45 01 00 00 00 30 e2 0a 45 01 00 00 00 14 43 e0 94 05 4d 52 0a be 5b 1f b7 88 fe 9c 54 64 0c 09 79 9d cb e3 f3 e1 68 1c 75 bd b7 64 c7 c1 0a e3 cb 17 68 b4 fc 74 15 cd 43 01 00 00 00 c8 ff ca 43 01 00 00 00 50 e3 0a 45 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x6a4cdb0",
+            "target": "0x50ae220",
+            "string": "SnapOpen"
+          },
+          {
+            "at": "0x6a4cdb8",
+            "target": "0x50ae230",
+            "string": "SnapClosed"
+          },
+          {
+            "at": "0x6a4cde8",
+            "target": "0x3cd1574",
+            "string": "OnOpen"
+          },
+          {
+            "at": "0x6a4cdf0",
+            "target": "0x3caffc8",
+            "string": "OnClose"
+          },
+          {
+            "at": "0x6a4cdf8",
+            "target": "0x50ae350",
+            "string": "OnStartOpen"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "0x94e04314",
+    "hits": 13,
+    "data_hits": [
+      {
+        "rva": "0x5e7dc50",
+        "context": "2c aa 8f 43 01 00 00 00 20 aa 8f 43 01 00 00 00 6c 24 66 38 b3 1b 27 ec ce 26 9b f3 f7 d0 96 25 14 43 e0 94 05 4d 52 0a a0 22 9f 43 01 00 00 00 48 e7 89 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x5e7dc30",
+            "target": "0x38faa2c",
+            "string": "Square"
+          },
+          {
+            "at": "0x5e7dc38",
+            "target": "0x38faa20",
+            "string": "Triangle"
+          },
+          {
+            "at": "0x5e7dc58",
+            "target": "0x39f22a0",
+            "string": "Open"
+          },
+          {
+            "at": "0x5e7dc60",
+            "target": "0x389e748",
+            "string": "Close"
+          },
+          {
+            "at": "0x5e7dc68",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5e7dc70",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5e7dc78",
+            "target": "0x382db24",
+            "string": "NONE"
+          }
+        ]
+      },
+      {
+        "rva": "0x5e7dc98",
+        "context": "24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 a0 22 9f 43 01 00 00 00 48 e7 89 43 01 00 00 00 14 43 e0 94 05 4d 52 0a 8d 41 33 5e 1b 71 34 29 a1 20 3d b0 bd 80 83 45 84 71 91 43 01 00 00 00 f0 e7 8c 43 01 00 00 00 70 2c 9f 43 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x5e7dc78",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5e7dc80",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5e7dc88",
+            "target": "0x39f22a0",
+            "string": "Open"
+          },
+          {
+            "at": "0x5e7dc90",
+            "target": "0x389e748",
+            "string": "Close"
+          },
+          {
+            "at": "0x5e7dcb0",
+            "target": "0x3917184",
+            "string": "X"
+          },
+          {
+            "at": "0x5e7dcb8",
+            "target": "0x38ce7f0",
+            "string": "Y"
+          },
+          {
+            "at": "0x5e7dcc0",
+            "target": "0x39f2c70",
+            "string": "Z"
+          }
+        ]
+      },
+      {
+        "rva": "0x6024f08",
+        "context": "88 91 c8 43 01 00 00 00 88 91 c8 43 01 00 00 00 7e 9f c5 0b a9 9b 65 4d a9 9b 65 4d 2a 79 ee 3d 14 43 e0 94 05 4d 52 0a 26 1f 97 d3 5c 9c 3b ed be 5b 1f b7 88 fe 9c 54 9b 0b 09 94 b1 19 9e 02 80 16 cd 43 01 00 00 00 a0 22 9f 43 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x6024ee8",
+            "target": "0x3c89188",
+            "string": "kActor out"
+          },
+          {
+            "at": "0x6024ef0",
+            "target": "0x3c89188",
+            "string": "kActor out"
+          },
+          {
+            "at": "0x6024f28",
+            "target": "0x3cd1680",
+            "string": "GetPart"
+          },
+          {
+            "at": "0x6024f30",
+            "target": "0x39f22a0",
+            "string": "Open"
+          }
+        ]
+      },
+      {
+        "rva": "0x6025030",
+        "context": "30 1d ca 43 01 00 00 00 08 28 ca 43 01 00 00 00 54 55 89 43 01 00 00 00 5c 55 89 43 01 00 00 00 14 43 e0 94 05 4d 52 0a 26 1f 97 d3 5c 9c 3b ed be 5b 1f b7 88 fe 9c 54 9b 0b 09 94 b1 19 9e 02 e1 68 1c 75 bd b7 64 c7 11 9a 49 44 19 dc ee e0",
+        "ptr_candidates": [
+          {
+            "at": "0x6025010",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          },
+          {
+            "at": "0x6025018",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x6025020",
+            "target": "0x3895554",
+            "string": "Hide"
+          },
+          {
+            "at": "0x6025028",
+            "target": "0x389555c",
+            "string": "Show"
+          }
+        ]
+      },
+      {
+        "rva": "0x625994c",
+        "context": "0b 17 08 8d d0 90 ef 44 01 00 00 00 b0 92 ef 44 01 00 00 00 00 93 ef 44 01 00 00 00 93 a3 84 6a 14 43 e0 94 05 4d 52 0a ec e3 92 1b 50 93 ef 44 01 00 00 00 68 77 a8 43 01 00 00 00 a0 22 9f 43 01 00 00 00 48 e7 89 43 01 00 00 00 10 5c ca 43",
+        "ptr_candidates": [
+          {
+            "at": "0x6259930",
+            "target": "0x4ef90d0",
+            "string": null
+          },
+          {
+            "at": "0x6259938",
+            "target": "0x4ef92b0",
+            "string": null
+          },
+          {
+            "at": "0x6259940",
+            "target": "0x4ef9300",
+            "string": null
+          },
+          {
+            "at": "0x6259958",
+            "target": "0x4ef9350",
+            "string": null
+          },
+          {
+            "at": "0x6259960",
+            "target": "0x3a87768",
+            "string": "In"
+          },
+          {
+            "at": "0x6259968",
+            "target": "0x39f22a0",
+            "string": "Open"
+          },
+          {
+            "at": "0x6259970",
+            "target": "0x389e748",
+            "string": "Close"
+          }
+        ]
+      },
+      {
+        "rva": "0x62599e4",
+        "context": "01 00 00 00 a0 22 9f 43 01 00 00 00 48 e7 89 43 01 00 00 00 10 5c ca 43 01 00 00 00 93 a3 84 6a 14 43 e0 94 05 4d 52 0a ec e3 92 1b 50 44 bf 93 50 44 bf 93 70 77 a8 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 70 77 a8 43",
+        "ptr_candidates": [
+          {
+            "at": "0x62599c8",
+            "target": "0x39f22a0",
+            "string": "Open"
+          },
+          {
+            "at": "0x62599d0",
+            "target": "0x389e748",
+            "string": "Close"
+          },
+          {
+            "at": "0x62599d8",
+            "target": "0x3ca5c10",
+            "string": "Toggle"
+          },
+          {
+            "at": "0x62599f8",
+            "target": "0x3a87770",
+            "string": "Out"
+          },
+          {
+            "at": "0x6259a00",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x6259a08",
+            "target": "0x382db24",
+            "string": "NONE"
+          }
+        ]
+      },
+      {
+        "rva": "0x6a4cce8",
+        "context": "80 28 23 46 01 00 00 00 60 e2 0a 45 01 00 00 00 b0 e2 0a 45 01 00 00 00 00 e3 0a 45 01 00 00 00 14 43 e0 94 05 4d 52 0a be 5b 1f b7 88 fe 9c 54 64 0c 09 79 9d cb e3 f3 a0 22 9f 43 01 00 00 00 48 e7 89 43 01 00 00 00 30 1d ca 43 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x6a4ccc8",
+            "target": "0x6232880",
+            "string": null
+          },
+          {
+            "at": "0x6a4ccd0",
+            "target": "0x50ae260",
+            "string": null
+          },
+          {
+            "at": "0x6a4ccd8",
+            "target": "0x50ae2b0",
+            "string": null
+          },
+          {
+            "at": "0x6a4cce0",
+            "target": "0x50ae300",
+            "string": null
+          },
+          {
+            "at": "0x6a4cd00",
+            "target": "0x39f22a0",
+            "string": "Open"
+          },
+          {
+            "at": "0x6a4cd08",
+            "target": "0x389e748",
+            "string": "Close"
+          },
+          {
+            "at": "0x6a4cd10",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          }
+        ]
+      },
+      {
+        "rva": "0x6a4cdc0",
+        "context": "30 1d ca 43 01 00 00 00 08 28 ca 43 01 00 00 00 20 e2 0a 45 01 00 00 00 30 e2 0a 45 01 00 00 00 14 43 e0 94 05 4d 52 0a be 5b 1f b7 88 fe 9c 54 64 0c 09 79 9d cb e3 f3 e1 68 1c 75 bd b7 64 c7 c1 0a e3 cb 17 68 b4 fc 74 15 cd 43 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x6a4cda0",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          },
+          {
+            "at": "0x6a4cda8",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x6a4cdb0",
+            "target": "0x50ae220",
+            "string": "SnapOpen"
+          },
+          {
+            "at": "0x6a4cdb8",
+            "target": "0x50ae230",
+            "string": "SnapClosed"
+          },
+          {
+            "at": "0x6a4cde8",
+            "target": "0x3cd1574",
+            "string": "OnOpen"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "0xb71f5bbe",
+    "hits": 27,
+    "data_hits": [
+      {
+        "rva": "0x5130cf0",
+        "context": "f8 57 f1 44 01 00 00 00 47 72 6f 75 70 44 65 66 00 00 00 00 00 00 00 00 aa 89 78 03 7f 00 5b bf be 5b 1f b7 00 00 00 00 00 43 ea 44 01 00 00 00 c8 41 ea 44 01 00 00 00 30 1d ca 43 01 00 00 00 0d 10 0f 00 00 00 00 00 0e 0e 0e 00 00 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x5130cd0",
+            "target": "0x4f157f8",
+            "string": "AssetPath"
+          },
+          {
+            "at": "0x5130cf8",
+            "target": "0x4ea4300",
+            "string": "VaultMetaData"
+          },
+          {
+            "at": "0x5130d00",
+            "target": "0x4ea41c8",
+            "string": "IconPath"
+          },
+          {
+            "at": "0x5130d08",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          }
+        ]
+      },
+      {
+        "rva": "0x5ff1030",
+        "context": "60 1d ca 43 01 00 00 00 b0 1d ca 43 01 00 00 00 00 1e ca 43 01 00 00 00 04 5e af 70 22 25 15 6b be 5b 1f b7 32 46 ba 5e 37 c5 bb 92 00 00 00 00 78 f8 b7 43 01 00 00 00 c0 a4 c8 43 01 00 00 00 30 1d ca 43 01 00 00 00 38 1d ca 43 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x5ff1010",
+            "target": "0x3ca1d60",
+            "string": null
+          },
+          {
+            "at": "0x5ff1018",
+            "target": "0x3ca1db0",
+            "string": null
+          },
+          {
+            "at": "0x5ff1020",
+            "target": "0x3ca1e00",
+            "string": null
+          },
+          {
+            "at": "0x5ff1040",
+            "target": "0x3b7f878",
+            "string": "TurnOn"
+          },
+          {
+            "at": "0x5ff1048",
+            "target": "0x3c8a4c0",
+            "string": "TurnOff"
+          },
+          {
+            "at": "0x5ff1050",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          },
+          {
+            "at": "0x5ff1058",
+            "target": "0x3ca1d38",
+            "string": "SetStartPosition"
+          }
+        ]
+      },
+      {
+        "rva": "0x5ff10e8",
+        "context": "30 1d ca 43 01 00 00 00 38 1d ca 43 01 00 00 00 50 1d ca 43 01 00 00 00 04 5e af 70 22 25 15 6b be 5b 1f b7 32 46 ba 5e 37 c5 bb 92 00 00 00 00 8a 2f e8 1d 74 cc 78 61 b2 8b dd 11 1a 2e 14 00 32 32 69 69 00 00 00 00 50 1e ca 43 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x5ff10c8",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          },
+          {
+            "at": "0x5ff10d0",
+            "target": "0x3ca1d38",
+            "string": "SetStartPosition"
+          },
+          {
+            "at": "0x5ff10d8",
+            "target": "0x3ca1d50",
+            "string": "SetEndPosition"
+          },
+          {
+            "at": "0x5ff1110",
+            "target": "0x3ca1e50",
+            "string": "OnTurnedOn"
+          }
+        ]
+      },
+      {
+        "rva": "0x5ff1dd0",
+        "context": "20 b8 53 41 01 00 00 00 80 28 23 46 01 00 00 00 00 00 00 00 00 00 00 00 80 28 23 46 01 00 00 00 be 5b 1f b7 88 fe 9c 54 30 1d ca 43 01 00 00 00 08 28 ca 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x5ff1db0",
+            "target": "0x153b820",
+            "string": null
+          },
+          {
+            "at": "0x5ff1db8",
+            "target": "0x6232880",
+            "string": null
+          },
+          {
+            "at": "0x5ff1dc8",
+            "target": "0x6232880",
+            "string": null
+          },
+          {
+            "at": "0x5ff1dd8",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          },
+          {
+            "at": "0x5ff1de0",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x5ff1de8",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5ff1df0",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5ff1df8",
+            "target": "0x382db24",
+            "string": "NONE"
+          }
+        ]
+      },
+      {
+        "rva": "0x5ff1e18",
+        "context": "24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 30 1d ca 43 01 00 00 00 08 28 ca 43 01 00 00 00 be 5b 1f b7 88 fe 9c 54 4b 70 e3 56 cc f3 eb 91 80 2b ca 43 01 00 00 00 88 2b ca 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x5ff1df8",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5ff1e00",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5ff1e08",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          },
+          {
+            "at": "0x5ff1e10",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x5ff1e28",
+            "target": "0x3ca2b80",
+            "string": "OnLock"
+          },
+          {
+            "at": "0x5ff1e30",
+            "target": "0x3ca2b88",
+            "string": "OnUnlock"
+          },
+          {
+            "at": "0x5ff1e38",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5ff1e40",
+            "target": "0x382db24",
+            "string": "NONE"
+          }
+        ]
+      },
+      {
+        "rva": "0x5ff3db0",
+        "context": "b8 77 ba 43 01 00 00 00 24 db 82 43 01 00 00 00 88 91 c8 43 01 00 00 00 88 91 c8 43 01 00 00 00 be 5b 1f b7 88 fe 9c 54 30 1d ca 43 01 00 00 00 08 28 ca 43 01 00 00 00 f0 45 ca 43 01 00 00 00 10 46 ca 43 01 00 00 00 24 db 82 43 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x5ff3d90",
+            "target": "0x3ba77b8",
+            "string": "HeroDoppelganger"
+          },
+          {
+            "at": "0x5ff3d98",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5ff3da0",
+            "target": "0x3c89188",
+            "string": "kActor out"
+          },
+          {
+            "at": "0x5ff3da8",
+            "target": "0x3c89188",
+            "string": "kActor out"
+          },
+          {
+            "at": "0x5ff3db8",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          },
+          {
+            "at": "0x5ff3dc0",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x5ff3dc8",
+            "target": "0x3ca45f0",
+            "string": "Lock this fast travel point."
+          },
+          {
+            "at": "0x5ff3dd0",
+            "target": "0x3ca4610",
+            "string": "Unlock this fast travel point."
+          },
+          {
+            "at": "0x5ff3dd8",
+            "target": "0x382db24",
+            "string": "NONE"
+          }
+        ]
+      },
+      {
+        "rva": "0x5ff3df8",
+        "context": "24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 30 1d ca 43 01 00 00 00 08 28 ca 43 01 00 00 00 be 5b 1f b7 88 fe 9c 54 50 44 bf 93 50 44 bf 93 70 77 a8 43 01 00 00 00 30 46 ca 43 01 00 00 00 24 db 82 43 01 00 00 00 70 77 a8 43 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x5ff3dd8",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5ff3de0",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5ff3de8",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          },
+          {
+            "at": "0x5ff3df0",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x5ff3e08",
+            "target": "0x3a87770",
+            "string": "Out"
+          },
+          {
+            "at": "0x5ff3e10",
+            "target": "0x3ca4630",
+            "string": "Signals when node receives ANY input signals."
+          },
+          {
+            "at": "0x5ff3e18",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5ff3e20",
+            "target": "0x3a87770",
+            "string": "Out"
+          }
+        ]
+      },
+      {
+        "rva": "0x5ff3e50",
+        "context": "50 e9 88 43 01 00 00 00 60 46 ca 43 01 00 00 00 78 91 c8 43 01 00 00 00 78 91 c8 43 01 00 00 00 be 5b 1f b7 88 fe 9c 54 30 1d ca 43 01 00 00 00 08 28 ca 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x5ff3e30",
+            "target": "0x388e950",
+            "string": "FastTravelPoint"
+          },
+          {
+            "at": "0x5ff3e38",
+            "target": "0x3ca4660",
+            "string": "The fast travel point(s) to be locked or unlocked."
+          },
+          {
+            "at": "0x5ff3e40",
+            "target": "0x3c89178",
+            "string": "kActor in"
+          },
+          {
+            "at": "0x5ff3e48",
+            "target": "0x3c89178",
+            "string": "kActor in"
+          },
+          {
+            "at": "0x5ff3e58",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          },
+          {
+            "at": "0x5ff3e60",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x5ff3e68",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5ff3e70",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5ff3e78",
+            "target": "0x382db24",
+            "string": "NONE"
+          }
+        ]
+      },
+      {
+        "rva": "0x5ff3e98",
+        "context": "24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 30 1d ca 43 01 00 00 00 08 28 ca 43 01 00 00 00 be 5b 1f b7 88 fe 9c 54 1b b1 3c b0 61 ba 33 c7 c8 46 ca 43 01 00 00 00 d0 46 ca 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x5ff3e78",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5ff3e80",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5ff3e88",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          },
+          {
+            "at": "0x5ff3e90",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x5ff3ea8",
+            "target": "0x3ca46c8",
+            "string": "OutLock"
+          },
+          {
+            "at": "0x5ff3eb0",
+            "target": "0x3ca46d0",
+            "string": "OutUnlock"
+          },
+          {
+            "at": "0x5ff3eb8",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x5ff3ec0",
+            "target": "0x382db24",
+            "string": "NONE"
+          }
+        ]
+      },
+      {
+        "rva": "0x600ee40",
+        "context": "58 d4 cb 43 01 00 00 00 7e 5a af d6 ff cf 7c fe b8 a7 bb 14 93 a3 84 6a dd b9 67 4c 6a 8d 00 25 be 5b 1f b7 88 fe 9c 54 3d 50 bf 25 50 44 bf 93 80 38 88 43 01 00 00 00 78 66 c9 43 01 00 00 00 30 1d ca 43 01 00 00 00 08 28 ca 43 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x600ee20",
+            "target": "0x3cbd458",
+            "string": "All Towers"
+          },
+          {
+            "at": "0x600ee50",
+            "target": "0x3883880",
+            "string": "Activate"
+          },
+          {
+            "at": "0x600ee58",
+            "target": "0x3c96678",
+            "string": "Deactivate"
+          },
+          {
+            "at": "0x600ee60",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          },
+          {
+            "at": "0x600ee68",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          }
+        ]
+      },
+      {
+        "rva": "0x600eef8",
+        "context": "30 1d ca 43 01 00 00 00 08 28 ca 43 01 00 00 00 68 d4 cb 43 01 00 00 00 dd b9 67 4c 6a 8d 00 25 be 5b 1f b7 88 fe 9c 54 3d 50 bf 25 50 44 bf 93 9a d3 ad be 00 56 b7 5f b2 8b dd 11 ac 90 ae 11 5d 39 f2 ff 93 a3 84 6a 30 93 c9 43 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x600eed8",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          },
+          {
+            "at": "0x600eee0",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x600eee8",
+            "target": "0x3cbd468",
+            "string": "ClearTempChanges"
+          },
+          {
+            "at": "0x600ef20",
+            "target": "0x3c99330",
+            "string": "OnActivated"
+          }
+        ]
+      },
+      {
+        "rva": "0x60145d8",
+        "context": "30 25 cc 43 01 00 00 00 10 27 cc 43 01 00 00 00 60 27 cc 43 01 00 00 00 b0 27 cc 43 01 00 00 00 be 5b 1f b7 88 fe 9c 54 30 1d ca 43 01 00 00 00 08 28 ca 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x60145b8",
+            "target": "0x3cc2530",
+            "string": null
+          },
+          {
+            "at": "0x60145c0",
+            "target": "0x3cc2710",
+            "string": null
+          },
+          {
+            "at": "0x60145c8",
+            "target": "0x3cc2760",
+            "string": null
+          },
+          {
+            "at": "0x60145d0",
+            "target": "0x3cc27b0",
+            "string": null
+          },
+          {
+            "at": "0x60145e0",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          },
+          {
+            "at": "0x60145e8",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x60145f0",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x60145f8",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x6014600",
+            "target": "0x382db24",
+            "string": "NONE"
+          }
+        ]
+      },
+      {
+        "rva": "0x6014620",
+        "context": "24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00 30 1d ca 43 01 00 00 00 08 28 ca 43 01 00 00 00 be 5b 1f b7 88 fe 9c 54 b2 8b dd 11 ac 90 ae 11 70 1e ca 43 01 00 00 00 90 d4 cb 43 01 00 00 00 24 db 82 43 01 00 00 00 24 db 82 43 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x6014600",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x6014608",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x6014610",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          },
+          {
+            "at": "0x6014618",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x6014630",
+            "target": "0x3ca1e70",
+            "string": "OnLocked"
+          },
+          {
+            "at": "0x6014638",
+            "target": "0x3cbd490",
+            "string": "OnUnlocked"
+          },
+          {
+            "at": "0x6014640",
+            "target": "0x382db24",
+            "string": "NONE"
+          },
+          {
+            "at": "0x6014648",
+            "target": "0x382db24",
+            "string": "NONE"
+          }
+        ]
+      },
+      {
+        "rva": "0x6024f18",
+        "context": "7e 9f c5 0b a9 9b 65 4d a9 9b 65 4d 2a 79 ee 3d 14 43 e0 94 05 4d 52 0a 26 1f 97 d3 5c 9c 3b ed be 5b 1f b7 88 fe 9c 54 9b 0b 09 94 b1 19 9e 02 80 16 cd 43 01 00 00 00 a0 22 9f 43 01 00 00 00 48 e7 89 43 01 00 00 00 58 41 9f 43 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x6024f28",
+            "target": "0x3cd1680",
+            "string": "GetPart"
+          },
+          {
+            "at": "0x6024f30",
+            "target": "0x39f22a0",
+            "string": "Open"
+          },
+          {
+            "at": "0x6024f38",
+            "target": "0x389e748",
+            "string": "Close"
+          },
+          {
+            "at": "0x6024f40",
+            "target": "0x39f4158",
+            "string": "Selectable"
+          }
+        ]
+      },
+      {
+        "rva": "0x6025040",
+        "context": "54 55 89 43 01 00 00 00 5c 55 89 43 01 00 00 00 14 43 e0 94 05 4d 52 0a 26 1f 97 d3 5c 9c 3b ed be 5b 1f b7 88 fe 9c 54 9b 0b 09 94 b1 19 9e 02 e1 68 1c 75 bd b7 64 c7 11 9a 49 44 19 dc ee e0 4b 70 e3 56 cc f3 eb 91 6e 20 f5 75 44 32 62 e3",
+        "ptr_candidates": [
+          {
+            "at": "0x6025020",
+            "target": "0x3895554",
+            "string": "Hide"
+          },
+          {
+            "at": "0x6025028",
+            "target": "0x389555c",
+            "string": "Show"
+          }
+        ]
+      },
+      {
+        "rva": "0x6a4ccf0",
+        "context": "60 e2 0a 45 01 00 00 00 b0 e2 0a 45 01 00 00 00 00 e3 0a 45 01 00 00 00 14 43 e0 94 05 4d 52 0a be 5b 1f b7 88 fe 9c 54 64 0c 09 79 9d cb e3 f3 a0 22 9f 43 01 00 00 00 48 e7 89 43 01 00 00 00 30 1d ca 43 01 00 00 00 08 28 ca 43 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x6a4ccd0",
+            "target": "0x50ae260",
+            "string": null
+          },
+          {
+            "at": "0x6a4ccd8",
+            "target": "0x50ae2b0",
+            "string": null
+          },
+          {
+            "at": "0x6a4cce0",
+            "target": "0x50ae300",
+            "string": null
+          },
+          {
+            "at": "0x6a4cd00",
+            "target": "0x39f22a0",
+            "string": "Open"
+          },
+          {
+            "at": "0x6a4cd08",
+            "target": "0x389e748",
+            "string": "Close"
+          },
+          {
+            "at": "0x6a4cd10",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          },
+          {
+            "at": "0x6a4cd18",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          }
+        ]
+      },
+      {
+        "rva": "0x6a4cdc8",
+        "context": "08 28 ca 43 01 00 00 00 20 e2 0a 45 01 00 00 00 30 e2 0a 45 01 00 00 00 14 43 e0 94 05 4d 52 0a be 5b 1f b7 88 fe 9c 54 64 0c 09 79 9d cb e3 f3 e1 68 1c 75 bd b7 64 c7 c1 0a e3 cb 17 68 b4 fc 74 15 cd 43 01 00 00 00 c8 ff ca 43 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x6a4cda8",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x6a4cdb0",
+            "target": "0x50ae220",
+            "string": "SnapOpen"
+          },
+          {
+            "at": "0x6a4cdb8",
+            "target": "0x50ae230",
+            "string": "SnapClosed"
+          },
+          {
+            "at": "0x6a4cde8",
+            "target": "0x3cd1574",
+            "string": "OnOpen"
+          },
+          {
+            "at": "0x6a4cdf0",
+            "target": "0x3caffc8",
+            "string": "OnClose"
+          }
+        ]
+      },
+      {
+        "rva": "0x6a4da50",
+        "context": "b0 ec 0a 45 01 00 00 00 00 ed 0a 45 01 00 00 00 50 ed 0a 45 01 00 00 00 55 86 d8 cd 69 2e af 4e be 5b 1f b7 88 fe 9c 54 46 1a ec 11 e7 2e 02 a1 5b af 84 90 9f 3e 36 84 22 f7 72 18 00 00 00 00 14 a7 9c 43 01 00 00 00 48 94 c8 43 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x6a4da30",
+            "target": "0x50aecb0",
+            "string": null
+          },
+          {
+            "at": "0x6a4da38",
+            "target": "0x50aed00",
+            "string": null
+          },
+          {
+            "at": "0x6a4da40",
+            "target": "0x50aed50",
+            "string": null
+          },
+          {
+            "at": "0x6a4da70",
+            "target": "0x39ca714",
+            "string": "Enable"
+          },
+          {
+            "at": "0x6a4da78",
+            "target": "0x3c89448",
+            "string": "Disable"
+          }
+        ]
+      },
+      {
+        "rva": "0x6a4dac0",
+        "context": "f0 40 cc 43 01 00 00 00 70 ef 0a 45 01 00 00 00 78 ef 0a 45 01 00 00 00 55 86 d8 cd 69 2e af 4e be 5b 1f b7 88 fe 9c 54 46 1a ec 11 e7 2e 02 a1 5b af 84 90 9f 3e 36 84 22 f7 72 18 00 00 00 00 14 a7 9c 43 01 00 00 00 48 94 c8 43 01 00 00 00",
+        "ptr_candidates": [
+          {
+            "at": "0x6a4daa0",
+            "target": "0x3cc40f0",
+            "string": "ForceComplete"
+          },
+          {
+            "at": "0x6a4daa8",
+            "target": "0x50aef70",
+            "string": "SetDone"
+          },
+          {
+            "at": "0x6a4dab0",
+            "target": "0x50aef78",
+            "string": "SetIncomplete"
+          },
+          {
+            "at": "0x6a4dae0",
+            "target": "0x39ca714",
+            "string": "Enable"
+          },
+          {
+            "at": "0x6a4dae8",
+            "target": "0x3c89448",
+            "string": "Disable"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "0xf3e3cb9d",
+    "hits": 3,
+    "data_hits": [
+      {
+        "rva": "0x6a4ccfc",
+        "context": "01 00 00 00 00 e3 0a 45 01 00 00 00 14 43 e0 94 05 4d 52 0a be 5b 1f b7 88 fe 9c 54 64 0c 09 79 9d cb e3 f3 a0 22 9f 43 01 00 00 00 48 e7 89 43 01 00 00 00 30 1d ca 43 01 00 00 00 08 28 ca 43 01 00 00 00 20 e2 0a 45 01 00 00 00 30 e2 0a 45",
+        "ptr_candidates": [
+          {
+            "at": "0x6a4cce0",
+            "target": "0x50ae300",
+            "string": null
+          },
+          {
+            "at": "0x6a4cd00",
+            "target": "0x39f22a0",
+            "string": "Open"
+          },
+          {
+            "at": "0x6a4cd08",
+            "target": "0x389e748",
+            "string": "Close"
+          },
+          {
+            "at": "0x6a4cd10",
+            "target": "0x3ca1d30",
+            "string": "Lock"
+          },
+          {
+            "at": "0x6a4cd18",
+            "target": "0x3ca2808",
+            "string": "Unlock"
+          },
+          {
+            "at": "0x6a4cd20",
+            "target": "0x50ae220",
+            "string": "SnapOpen"
+          }
+        ]
+      },
+      {
+        "rva": "0x6a4cdd4",
+        "context": "01 00 00 00 30 e2 0a 45 01 00 00 00 14 43 e0 94 05 4d 52 0a be 5b 1f b7 88 fe 9c 54 64 0c 09 79 9d cb e3 f3 e1 68 1c 75 bd b7 64 c7 c1 0a e3 cb 17 68 b4 fc 74 15 cd 43 01 00 00 00 c8 ff ca 43 01 00 00 00 50 e3 0a 45 01 00 00 00 60 e3 0a 45",
+        "ptr_candidates": [
+          {
+            "at": "0x6a4cdb8",
+            "target": "0x50ae230",
+            "string": "SnapClosed"
+          },
+          {
+            "at": "0x6a4cde8",
+            "target": "0x3cd1574",
+            "string": "OnOpen"
+          },
+          {
+            "at": "0x6a4cdf0",
+            "target": "0x3caffc8",
+            "string": "OnClose"
+          },
+          {
+            "at": "0x6a4cdf8",
+            "target": "0x50ae350",
+            "string": "OnStartOpen"
+          }
+        ]
+      }
+    ]
+  }
+]

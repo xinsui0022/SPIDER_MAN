@@ -1,0 +1,12 @@
+# Per-machine configuration and credentials are not handoff artifacts.
+.env
+.env.*
+!.env.example
+*.local.json
+*.local.cmd
+*.local.ps1
+credential*
+*.pem
+*.pfx
+# The original development artifacts remain included at this initial handoff.
+# New captures/build outputs should be added intentionally with evidence notes.

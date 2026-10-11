@@ -1,0 +1,117 @@
+[
+  {
+    "instruction_rva": "0x3cead1",
+    "target_rva": "0x3839e98",
+    "labels": [
+      "BotHealth vt"
+    ],
+    "bytes": "48 8d 05 c0 b3 46 03",
+    "status": "raw RIP-relative candidate",
+    "function": {
+      "begin_rva": "0x3cea90",
+      "end_rva": "0x3ceae1",
+      "unwind_rva": "0x57a8ac8",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1f163ea",
+    "target_rva": "0x3839e08",
+    "labels": [
+      "Health vt"
+    ],
+    "bytes": "48 8d 05 17 3a 92 01",
+    "status": "raw RIP-relative candidate",
+    "function": {
+      "begin_rva": "0x1f163c0",
+      "end_rva": "0x1f16411",
+      "unwind_rva": "0x5ad5f5c",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1f3140d",
+    "target_rva": "0x4f67720",
+    "labels": [
+      "Door vt"
+    ],
+    "bytes": "48 8d 05 0c 63 03 03",
+    "status": "raw RIP-relative candidate",
+    "function": {
+      "begin_rva": "0x1f313e0",
+      "end_rva": "0x1f31443",
+      "unwind_rva": "0x5adad14",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1f33fdd",
+    "target_rva": "0x4f67720",
+    "labels": [
+      "Door vt"
+    ],
+    "bytes": "48 8d 05 3c 37 03 03",
+    "status": "raw RIP-relative candidate",
+    "function": {
+      "begin_rva": "0x1f33fb0",
+      "end_rva": "0x1f3401d",
+      "unwind_rva": "0x5adb2dc",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1f34008",
+    "target_rva": "0x4f677c8",
+    "labels": [
+      "DoorAnimated vt"
+    ],
+    "bytes": "48 8d 05 b9 37 03 03",
+    "status": "raw RIP-relative candidate",
+    "function": {
+      "begin_rva": "0x1f33fb0",
+      "end_rva": "0x1f3401d",
+      "unwind_rva": "0x5adb2dc",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1f3654d",
+    "target_rva": "0x4f67720",
+    "labels": [
+      "Door vt"
+    ],
+    "bytes": "48 8d 05 cc 11 03 03",
+    "status": "raw RIP-relative candidate",
+    "function": {
+      "begin_rva": "0x1f36520",
+      "end_rva": "0x1f3658e",
+      "unwind_rva": "0x5adbb88",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x1f36579",
+    "target_rva": "0x4f67bb8",
+    "labels": [
+      "DoorSlide vt"
+    ],
+    "bytes": "48 8d 05 38 16 03 03",
+    "status": "raw RIP-relative candidate",
+    "function": {
+      "begin_rva": "0x1f36520",
+      "end_rva": "0x1f3658e",
+      "unwind_rva": "0x5adbb88",
+      "source": ".pdata"
+    }
+  },
+  {
+    "instruction_rva": "0x2055db0",
+    "target_rva": "0x4f79550",
+    "labels": [
+      "ActorSave description"
+    ],
+    "bytes": "48 8d 05 99 37 f2 02",
+    "status": "raw RIP-relative candidate",
+    "function": null
+  }
+]

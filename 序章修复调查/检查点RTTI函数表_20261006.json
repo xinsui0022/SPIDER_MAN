@@ -1,0 +1,273 @@
+[
+  {
+    "class": ".?AVAutoCheckpoint@@",
+    "descriptor": "0x6bc7878",
+    "col": "0x55b5388",
+    "object_offset": 0,
+    "vtable": "0x38ad3a8",
+    "entries": [
+      {
+        "offset": "0x0",
+        "function": "0x893020",
+        "hook": null
+      },
+      {
+        "offset": "0x8",
+        "function": "0x893000",
+        "hook": null
+      },
+      {
+        "offset": "0x10",
+        "function": "0x893010",
+        "hook": null
+      },
+      {
+        "offset": "0x18",
+        "function": "0x8930f0",
+        "hook": null
+      },
+      {
+        "offset": "0x20",
+        "function": "0x2bf350",
+        "hook": null
+      },
+      {
+        "offset": "0x28",
+        "function": "0x893120",
+        "hook": null
+      },
+      {
+        "offset": "0x30",
+        "function": "0x1675fc0",
+        "hook": null
+      },
+      {
+        "offset": "0x38",
+        "function": "0x1675fd0",
+        "hook": null
+      },
+      {
+        "offset": "0x40",
+        "function": "0x1675fe0",
+        "hook": null
+      },
+      {
+        "offset": "0x48",
+        "function": "0x892ff0",
+        "hook": null
+      }
+    ]
+  },
+  {
+    "class": ".?AVAutoCheckpointAction@@",
+    "descriptor": "0x6bc9b58",
+    "col": "0x55baf90",
+    "object_offset": 0,
+    "vtable": "0x38b7390",
+    "entries": [
+      {
+        "offset": "0x0",
+        "function": "0x9b2f30",
+        "hook": null
+      },
+      {
+        "offset": "0x8",
+        "function": "0x9b2cc0",
+        "hook": null
+      },
+      {
+        "offset": "0x10",
+        "function": "0x9b2d90",
+        "hook": null
+      },
+      {
+        "offset": "0x18",
+        "function": "0x19230f0",
+        "hook": null
+      },
+      {
+        "offset": "0x20",
+        "function": "0x2bf350",
+        "hook": null
+      },
+      {
+        "offset": "0x28",
+        "function": "0x9b3000",
+        "hook": null
+      },
+      {
+        "offset": "0x30",
+        "function": "0x1675fc0",
+        "hook": null
+      },
+      {
+        "offset": "0x38",
+        "function": "0x1675fd0",
+        "hook": null
+      },
+      {
+        "offset": "0x40",
+        "function": "0x1675fe0",
+        "hook": null
+      },
+      {
+        "offset": "0x48",
+        "function": "0x9b2cb0",
+        "hook": null
+      },
+      {
+        "offset": "0x50",
+        "function": "0x9b2f40",
+        "hook": null
+      }
+    ]
+  },
+  {
+    "class": ".?AVCheckpointAction@@",
+    "descriptor": "0x6c42a58",
+    "col": "0x56f2c60",
+    "object_offset": 0,
+    "vtable": "0x4f6b150",
+    "entries": [
+      {
+        "offset": "0x0",
+        "function": "0x1f6a180",
+        "hook": null
+      },
+      {
+        "offset": "0x8",
+        "function": "0x1f6a010",
+        "hook": null
+      },
+      {
+        "offset": "0x10",
+        "function": "0x1f6a100",
+        "hook": null
+      },
+      {
+        "offset": "0x18",
+        "function": "0x1f6a2a0",
+        "hook": null
+      },
+      {
+        "offset": "0x20",
+        "function": "0x2bf350",
+        "hook": null
+      },
+      {
+        "offset": "0x28",
+        "function": "0x1f6a3f0",
+        "hook": null
+      },
+      {
+        "offset": "0x30",
+        "function": "0x1675fc0",
+        "hook": null
+      },
+      {
+        "offset": "0x38",
+        "function": "0x1675fd0",
+        "hook": null
+      },
+      {
+        "offset": "0x40",
+        "function": "0x1675fe0",
+        "hook": null
+      },
+      {
+        "offset": "0x48",
+        "function": "0x1f6a000",
+        "hook": null
+      },
+      {
+        "offset": "0x50",
+        "function": "0x1f6a300",
+        "hook": null
+      },
+      {
+        "offset": "0x58",
+        "function": "0x1f6a2b0",
+        "hook": null
+      },
+      {
+        "offset": "0x60",
+        "function": "0x1f6a2f0",
+        "hook": null
+      },
+      {
+        "offset": "0x68",
+        "function": "0x1f6a3b0",
+        "hook": null
+      },
+      {
+        "offset": "0x70",
+        "function": "0x1f6a3d0",
+        "hook": null
+      }
+    ]
+  },
+  {
+    "class": ".?AVCheckpointQueryAction@@",
+    "descriptor": "0x6c42ab0",
+    "col": "0x56f2d70",
+    "object_offset": 0,
+    "vtable": "0x4f6b270",
+    "entries": [
+      {
+        "offset": "0x0",
+        "function": "0x2c24d0",
+        "hook": null
+      },
+      {
+        "offset": "0x8",
+        "function": "0x1f6a750",
+        "hook": null
+      },
+      {
+        "offset": "0x10",
+        "function": "0x1f6a820",
+        "hook": null
+      },
+      {
+        "offset": "0x18",
+        "function": "0x19230f0",
+        "hook": null
+      },
+      {
+        "offset": "0x20",
+        "function": "0x2bf350",
+        "hook": null
+      },
+      {
+        "offset": "0x28",
+        "function": "0x1f6a8d0",
+        "hook": null
+      },
+      {
+        "offset": "0x30",
+        "function": "0x1675fc0",
+        "hook": null
+      },
+      {
+        "offset": "0x38",
+        "function": "0x1675fd0",
+        "hook": null
+      },
+      {
+        "offset": "0x40",
+        "function": "0x1675fe0",
+        "hook": null
+      },
+      {
+        "offset": "0x48",
+        "function": "0x1f6a740",
+        "hook": null
+      },
+      {
+        "offset": "0x50",
+        "function": "0x1f6a880",
+        "hook": null
+      }
+    ]
+  }
+]
